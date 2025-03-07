@@ -501,9 +501,64 @@
     For some computations, we need an equivalent fraction that is not reduced.
     We can use the other allowable move from <xref ref="fact-equivalentfractions"/> for this.
     The most common place where we'd need this is for addition or subtraction of fractions.
-    When fractions have the same denominator, we simply add or subtract their numerators.
-    Remember, the denominator tells us how many equally sized parts make up a whole
   </p>
+    
+  <p>
+    When fractions have the same denominator, we simply add or subtract their numerators.
+    Remember, the denominator tells us how many equally sized parts make up a whole, and we should think of these equally sized parts as the objects.
+    So, in our first pizza example with 12 slices, the computation <m>\frac{5}{12} + \frac{3}{12} = \frac{8}{12}</m> could represent one person eatin 5 slices and another eating 3 slices meaning altogether they ate 8 slices.
+    We can simply add the number of slices up for a total, because the objects we're counting up are the same.
+  </p>
+  
+  <p>
+    If the denominators are not the same, maybe slices from a large pizza and slices from a medium pizza, <m>\frac{5}{12} + \frac{3}{8} = ?</m>, then a total of 8 objects doesn't tell us what we want to know.
+    It would be equivalent to asking something like <q>If Jack has 5 bananas and Jill has 3 apples, what do they have alltogether?</q> 
+    They have 8 pieces of fruit altogether, but they have neither 8 apples nor 8 bananas nor 8 <q>banapples</q>! 
+  </p>
+
+  <p>
+    In order to make sure we're counting objects that are the same, we make sure the denominators of the fractions are equal before doing any addition or subtraction.
+    We can use both moves in <xref ref="fact-equivalentfractions"/> on any of the fractions to make this happen.
+  </p>
+
+<example>
+  <statement>
+    <p>
+      Complete the fraction addition coming from the example of pizzas with differing numbers of slices:
+      <me>
+        \frac{5}{12} + \frac{3}{8} = 
+      </me>
+    </p>
+  </statement>
+  <hint>
+    <p>
+      In order to be able to simply add the numerators, the denominators of the fractions must be the same.
+      Try applying the moves from <xref ref="fact-equivalentfractions"/> to one or both fractions.
+      Can you do this so that you end up with equivalent fractions with the same denomintors?
+    </p>
+  </hint>
+  <solution>
+    <p>
+      Since both fractions <m>\frac{5}{12}</m> and <m>\frac{3}{8}</m> cannot be further reduced, 
+      we need to make the denominators match by making each of those numbers larger.
+    </p>
+    <p>
+      There are a few typical options for a <em>common denominator</em>, but as long as you've only used <xref ref="fact-equivalentfractions"/> and have denomintors that are equal, any option is fine.
+    </p>
+    <p>
+      A common <em>common denomintor</em> (<q>words are hard</q>) is simply the product of the denominotrs we start with.
+      When we multiply the 12 in the denominator by 8, we must also do the same to the numerator to keep the fraction equivalent.
+      Similarly, multiplying the 8 denominator by 12 will make the denominators match, but we need to again do the same to the numerator to keep the fractions equivalent.
+      In written out steps, this would look like
+      <me>
+        \frac{5}{12} + \frac{3}{8} = \frac{5 \cdot 8}{12 \cdot 8} + \frac{3 \cdot 12}{8 \cdot 12}
+        = \frac{40}{96}+\frac{36}{96} = \frac{40 + 36}{96} = \frac{76}{96}
+      </me>
+      
+    </p>
+  </solution>
+</example>
+
 
 
 

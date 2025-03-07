@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-prop-reasoning" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Proportional Reasoning</title>
+
+  <introduction>
+    <p> 
+      Do you want to know what percent of your time is spent awake, working, studying, sleeping, eating etc? How about where your income stands compared to the rest of your co-workers, your roommate, the national average etc.? Answering these questions requires knowledge of percentage, rates, and proportional reasoning. In this chapter, we will review these basic but powerful algebraic ideas:  percent, rates, and proportions.  We will then explore how to use these ideas to solve problems where we don't have perfect information. 
+    </p>
+
+    <p>
+      A solid understanding of fractions will serve you well in this chapter. It is worth reviewing <xref ref="sec-fractions"/> now.
+    </p>
+
+   </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-percent.ptx" />
+
+</chapter>

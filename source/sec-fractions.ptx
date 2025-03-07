@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Fraction Arithmetic</title>
+
+  <p> 
+  </p>
+
+  <definition xml:id="def-fraction">
+    <title>Fraction</title>
+    <statement>
+      <p>
+        A <term>fraction</term><idx><h>fraction</h></idx> is a number written in the form of one whole number over another, <m>\frac{a}{b}</m>, where <m> b\neq 0</m>.
+        The <term>denominator</term>, <m>b</m>, tells us how many equally sized parts make up a whole.
+        The <term>numerator</term>, <m>a</m>, tells us how many of the parts are present.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Working with fractions can get tricky pretty quick.
+    It is worth getting comfortable with a few <q>real world</q> examples that have <q>nice</q> fractions.
+    This can be useful when you come across complicated and more abstract uses of fractions in the future, you can think back to something that's clear in your brain and even test out ideas with those friendly fractions, their visuals, and the situations they represent.
+  </p>
+
+  <p>
+    Pizza is helpful in many situations. Suppose a large pizza is cut into 12 <alert>equally sized</alert> pieces and that your family finished 8 of them during dinner.
+    Since the pieces are all the same size and 12 of them make up an whole pizza, the denominator we want is 12.
+    The number of pieces of pizza left, 4, is the numerator.
+  </p>
+  
+  <figure xml:id="fig-pizzaslices">
+  <caption>Your family ate 8 slices (unshaded) from a twelve-slice pizza, leaving 4 (shaded).</caption>
+  <image width="35%" xml:id="pizzaslices">
+
+  <latex-image >
+    \begin{tikzpicture}
+    \draw[very thick] (0,0) circle [radius=4];
+    \draw[fill=blue!40] (90:4) -- (0,0) -- (-150:4) arc(-150:-270:4);
+    \draw[thick] (4,0) -- (-4,0);
+    \draw[thick] (30:4) -- (-150: 4);
+    \draw[thick] (60:4) -- (-120: 4);
+    \draw[thick] (90:4) -- (-90: 4);
+    \draw[thick] (120:4) -- (-60: 4);
+    \draw[thick] (150:4) -- (-30: 4);
+    \end{tikzpicture}
+  </latex-image>
+  </image>
+
+  </figure>
+
+  <p>
+    The fraction of the whole pizza left is written as <m>\frac{4}{12}</m> and read as <q>four twelveths</q>.
+    Just in case you are not a fan of pizza, there are many ways to think about and diagram this fraction:
+  
+  </p>
+
+  <figure xml:id="fig-fractionpictures">
+  <caption>A variety of diagrams of the fraction <m>\frac{4}{12}</m> (shaded) and <m>\frac{8}{12}</m> (unshaded).</caption>
+  <image width="85%" xml:id="fractionpictures">
+
+  <latex-image >
+    \begin{tikzpicture}[scale = .25]
+    \draw[very thick] (0,0) circle [radius=4];
+    \draw[fill=blue!40] (90:4) -- (0,0) -- (-150:4) arc(-150:-270:4);
+    \draw[thick] (4,0) -- (-4,0);
+    \draw[thick] (30:4) -- (-150: 4);
+    \draw[thick] (60:4) -- (-120: 4);
+    \draw[thick] (90:4) -- (-90: 4);
+    \draw[thick] (120:4) -- (-60: 4);
+    \draw[thick] (150:4) -- (-30: 4);
+
+    \draw[fill=blue!40] (8,-4) -- (6, -4) -- (6, 4) -- (8,4) -- cycle;
+    \draw[very thick] (6,4) -- (6,-4) -- (12, -4) -- (12, 4) -- cycle;
+    \draw[thick] (8,4) -- (8, -4);
+    \draw[thick] (10, 4) -- (10, -4);
+    \draw[thick] (6,-2) -- (12, -2);
+    \draw[thick] (6,0) -- (12, 0);
+    \draw[thick] (6, 2) -- (12, 2);
+
+    \foreach \x in {14.5, 16.5, 18.5, 20.5, 22.5, 24.5}
+    \foreach \y in {3, 1}
+    {\draw[very thick] (\x,\y) circle (.75);}
+    \foreach \u in {14.5, 16.5}
+    \foreach \v in {3, 1}
+    {\draw[fill=blue!40] (\u,\v) circle (.75);}
+
+    \draw[fill=blue!40] (17.5, -2.25) -- (17.5, -1.75) -- (13.5,-1.75) -- (13.5, -2.25) -- cycle;
+    \draw[very thick] (13.5, -2) -- (25.5,-2);
+    \foreach \i in {13.5,...,25.5}
+    {\draw (\i, -2.5) -- (\i, -1.5);}
+
+    \foreach \s in {1,...,4}
+    {
+    \pgfmathrandominteger{\a}{-20}{20}
+    \pgfmathrandominteger{\b}{-20}{20}
+    \node[star, star points=5, star point ratio=2.25, fill=blue!40, inner sep=1.3pt, draw] (\s) at (32+\a*0.2,\b*0.2) {}; 
+    };
+    \foreach \t in {1,...,8}
+    {
+    \pgfmathrandominteger{\a}{-20}{20}
+    \pgfmathrandominteger{\b}{-20}{20}
+    \node[star, star points=5, star point ratio=2.25, fill=white, inner sep=1.3pt, draw] (\t) at (30+\a*0.2,\b*0.2) {}; 
+    };
+
+    \end{tikzpicture}
+  </latex-image>
+  </image>
+
+  </figure>
+
+  <p>
+    We can think of the rectangle as representing desk in a classroom; the shaded desks have students sitting in them. Four twlefths of the desks have students.
+    Perhaps the circles each represent a space in an egg carton. You've used eight twelfths of your dozen eggs.
+    Suppose that the line segment represents a length of one foot. Since a foot is equal to 12 inches, the length of the shaded region is 4 inches or four twelfths of a foot.
+    The stars could show the positions of players in a certain area of a field of play. Four twelfths of the players in this area are on the blue team and eight twelfths are on the white team.
+  </p>
+
+  <observation>
+    <p>
+      Each <q>whole</q> is split into 12 <alert>equally sized</alert> parts and 4 of those parts are shaded.
+    </p> 
+  </observation>
+  
+  <exercise>
+  <title>Visualizing Fractions</title>
+
+    <webwork source="Library/PCC/BasicMath/FractionsCalculation/WriteFractionByGraph30.pg" />
+
+  </exercise>
+
+  <p>
+    The fractions described above are considered <term>proper fractions</term><idx><h>fraction</h><h>proper</h></idx>; the numerator is less than the denominator, <m>a \lt b</m>.
+    Fractions where the numerator is greater than or equal to the denomintor are called <term>improper fractions</term><idx><h>fraction</h><h>improper</h></idx>.
+    Remember that fractions themselves, even though they have multiple pieces, represent a single value.
+    A proper fraction has a value less than 1 while an improper fraction is greater than or equal to 1.
+  </p>
+
+  <insight>
+    <p>
+    It is worth noting that outside of your math class, most people will use the word fraction in English to mean a proper fraction, and typically a proper fraction with a small value.
+    For example, <q>Only a fraction of the menu options are gluten free.</q>
+    </p>
+  </insight>
+
+  <p>
+    Since an improper fraction represents a value larger than 1, it can also be written as what is called a <term>mixed number</term>, a whole number and a fraction.
+    Mixed numbers represent wholes and parts, so <m>1\frac{3}{4}</m> is 1 whole and 3 of 4 equally sized parts that make a whole.
+    We can represent any fraction, proper or improper, in multiple ways.
+  </p>
+
+  <definition xml:id="def-equivfraction">
+    <title>Equivalent Fractions</title>
+    <statement>
+      <p>
+        Fractions that appear different but have the same value are called <term>equivalent fractions</term><idx><h>fraction</h><h>equivalent</h></idx>.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Before we get into the mechanics of equivalent fractions, let's think more about the pizza example.
+    Even though what we'll actually be quite procedural in all our manipulations, it is important to remember what the fraction actually reprepsents.
+  </p>  
+    
+  <example>
+    <title>Picturing Equivalent Fractions</title>
+    <statement>
+      <p>
+        Use the idea of the pizza to show that the fractions <m>\frac{4}{12}</m> and <m>\frac{2}{6}</m> are equivalent.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        The pizza we considered earlier was cut into 12 equally sized pieces and 8 of those were eaten.
+        If, rather than thinking about individual pieces as the equally sized parts that tell us what the denominator is, let's say that a serving of pizza is two slices.
+        That means this pizza has 6 equally sized servings, the denominator, and if your family ate eight pieces they consumed 4 servings in total, the numerator.
+        So, <m>\frac{4}{6}</m> (<q>four sixths</q>) of the pizza has been eaten.
+        We can see this visually in <xref ref="fig-pizzaservings"/>
+      </p>
+    </solution>
+  </example>  
+  
+
+  <figure xml:id="fig-pizzaservings">
+  <caption>We can view this as 4 out of 12 slices being shaded or as 2 out of 6 servings.</caption>
+  <image width="35%" xml:id="pizzaservings">
+
+  <latex-image >
+    \begin{tikzpicture}
+    \draw[very thick] (0,0) circle [radius=4];
+    \draw[very thick, fill=blue!40] (90:4) -- (0,0) -- (-150:4) arc(-150:-270:4);
+    \draw[dashed] (4,0) -- (-4,0);
+    \draw[very thick] (30:4) -- (-150: 4);
+    \draw[dashed] (60:4) -- (-120: 4);
+    \draw[very thick] (90:4) -- (-90: 4);
+    \draw[dashed] (120:4) -- (-60: 4);
+    \draw[very thick] (150:4) -- (-30: 4);
+    \end{tikzpicture}
+  </latex-image>
+  </image>
+
+  </figure>
+
+  <p>
+    In both pizza diagrams, the same amount of pizza is shaded and the same amount remains unshaded.
+    This is a visual to see that the fractions <m>\frac{8}{12}</m> and <m>\frac{4}{6}</m> are <em>equivalent</em>.
+  </p>
+
+  <insight>
+    <p>
+      Try this same argument with the other diagrams in <xref ref="fig-fractionpictures"/>.
+    </p>
+  </insight>
+
+  <p>
+    Most fraction computations are made simpler by using the equivalent improper fraction to a given mixed number.
+    So, how we do convert a mixed number to an improper fraction? And, why are those equivalent?
+    Of course, we'll start by thinking about pizza!
+  </p>
+  
+  <p>
+    Suppose instead of the single large pizza from before, you order three medium pizzas each with 8 <alert>equally sized</alert> slices.
+    This time, while you're gathering beverages, your dog takes 5 slices from one of the pizzas.
+  </p>
+
+  <figure xml:id="fig-mixednumberpizza">
+  <caption>Three 8-slice pizzas with 5 slices taken.</caption>
+  <image width="75%" xml:id="mixednumberpizza">
+
+  <latex-image >
+    \begin{tikzpicture}[scale=.5]
+  
+    \draw[thick] (0,0) circle [radius=3];
+    \draw[thick, fill=blue!40] (90:3) -- (0,0) -- (-135:3) arc(-135:-270:3);
+    \draw[thick] (3,0) -- (-3,0);
+    \draw[thick] (45:3) -- (-135: 3);
+    \draw[thick] (90:3) -- (-90: 3);
+    \draw[thick] (135:3) -- (-45: 3);
+
+    \coordinate (center) at (-7,0);
+    \draw[thick, fill=blue!40] (center) circle [radius=3];
+    \draw[thick] (center) -- ++(45:3);
+    \draw[thick] (center) -- ++(135:3);
+    \draw[thick] (center) -- ++(-45:3);
+    \draw[thick] (center) -- ++(-135:3);
+    \draw[thick] (-10,0) -- (-4,0);
+    \draw[thick] (-7,-3) -- (-7,3);
+
+    \coordinate (center2) at (7,0);
+    \draw[thick, fill=blue!40] (center2) circle [radius=3];
+    \draw[thick] (center2) -- ++(45:3);
+    \draw[thick] (center2) -- ++(135:3);
+    \draw[thick] (center2) -- ++(-45:3);
+    \draw[thick] (center2) -- ++(-135:3);
+    \draw[thick] (10,0) -- (4,0);
+    \draw[thick] (7,-3) -- (7,3);
+    \end{tikzpicture}
+  </latex-image>
+  </image>
+
+  </figure>
+
+  <p>
+    We determine the improper fraction represented by the diagram in <xref ref="fig-mixednumberpizza"/> in the same way.
+    Because 8 <alert>equally sized</alert> pieces make one whole pizza, this is the denominator of the fraction.
+    The total number of slices is 19; we can see this by counting up to 19 or adding the 8 slices from each whole pizza to the three remaining slices in the partially eaten pizza.
+    So, after the dog sneaks 5 slices, we have <m>\frac{19}{8}</m>, <em>nineteen eigths</em>, of a pizza remaining.
+    As a mixed number, this is 2 whole pizzas and 3 slices, <m>2\frac{3}{8}</m>.
+  </p>
+
+  <p>
+    Drawing diagrams to represent fractions is very useful, but not very practical for handling every fraction you come across.
+    The procedures for converting between a mixed number, like the <m>2\frac{3}{8}</m> above, and an improper fraction are given below.
+  </p>
+
+  <heuristic xml:id="heuristic-mixedtoimproper">
+    <title>Convert a Mixed Number to an Improper Fraction</title>
+    
+    <statement>
+      <p>
+        
+      </p>
+     <p>
+      To convert a mixed number to an improper fraction, 
+     </p>
+          <p>
+            Multiply the whole number by the denominator,
+          </p>
+
+          <p>
+            Add this product to the numerator,
+          </p>
+
+          <p>
+            This sum is the new numerator of the improper fraction, and
+          </p>
+
+          <p>
+            The denominator of the improper fraction is the same as that of the fracitonal component of the mixed number.
+          </p>
+     </statement>
+  </heuristic>
+
+  <example xml:id="example-mixedtoimproper">
+    <title>Convert a Mixed Number to an Improper Fraction</title>
+    <statement>
+      <p>
+        Rewrite the mixed number <m>2\frac{3}{8}</m> as an equivalent improper fraction.
+      </p>
+    </statement>
+
+    <answer>
+        <p>
+        <m>2\frac{3}{8} = \frac{19}{8}</m>
+        </p>
+    </answer>
+    <solution>
+
+          <p>
+            Multiply the whole number by the denominator, <m>2 \cdot 8 = 16</m>,
+          </p>
+
+          <p>
+            Add this product to the numerator, <m>16 + 3 = 19</m>,
+          </p>
+
+          <p>
+            This sum is the new numerator of the improper fraction, and he denominator of the improper fraction is the same as that of the fracitonal component of the mixed number, <m>2\frac{3}{8} = \frac{19}{8}</m>.
+          </p>
+    </solution>
+    
+  </example>
+
+  <exercise>
+  <title>Converting Mixed Numbers</title>
+
+    <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S02/ConvertMixed2Fractionl01.pg" />
+
+  </exercise>
+
+<heuristic xml:id="heuristic-impropertomixed">
+    <title>Convert an Improper Fraction to a Mixed Number</title>
+    
+    <statement>
+      <p>
+        
+      </p>
+      <p>
+        To convert an improper fraction to a mixed number,
+      </p>
+          <p>
+            Divide the numerator by the denomintor, determine how many <q>whole times</q> the denominator <q>goes in to</q> the numerator,
+          </p>
+          <p>
+            Multiply this whole number quotient by the denominator,
+          </p>
+          <p>
+            Subtract this product from the numerator.
+          </p>
+          <p>
+            The quotient is the whole number, the difference is the numerator of the fractional piece, and the denominator remains the same.
+          </p>
+     </statement>
+  </heuristic>
+
+  <example xml:id="example-impropertomixed">
+    <title>Convert a Mixed Number to an Improper Fraction</title>
+    <statement>
+      <p>
+        Rewrite the improper fraction <m>\frac{19}{8}</m> as an equivalent mixed number.
+      </p>
+    </statement>
+
+    <answer>
+        <p>
+        <m>\frac{19}{8} = 2\frac{3}{8}</m>
+        </p>
+    </answer>
+    <solution>
+          <p>
+            Divide the numerator by the denomintor, determine how many <q>whole times</q> the denominator <q>goes in to</q> the numerator, <m>19 \div 8 = 2.375</m>,
+          </p>
+          <p>
+            Multiply this whole number quotient by the denominator, <m>2 \cdot 8 = 16</m>,
+          </p>
+          <p>
+            Subtract this product from the numerator, <m>19-16=3</m>.
+          </p>
+          <p>
+            The quotient is the whole number, the difference is the numerator of the fractional piece, and the denominator remains the same, <m>\frac{19}{8} = 2\frac{3}{8}</m>.
+          </p>
+    </solution>
+    
+  </example>
+
+  <exercise>
+  <title>Converting Improper Fractions</title>
+
+    <webwork source="Library/NewHampshire/unh_schoolib/Fractions/frasrs101.pg" />
+
+  </exercise>
+
+  <p>
+    We can replace any fraction or mixed number with an <em>equivalent</em> fraction at any step of any computation.
+    We know the definition of <term> quivalent fractions</term> and can identify them in diagrams, but how to we change them numerically?
+  </p>
+
+  <fact xml:id="fact-equivalentfractions">
+    <title>Equivalent Fractions</title>
+    <statement>
+      <p>
+        
+      </p>
+      <p>
+        Any fraction, proper or improper or as a fractional piece of a mixed number, can be adjusted to an equivlent fraction by multiplying or dividing both the numerator <em>and</em> the denominator by the <em>same</em> <alert>non-zero</alert> number.
+      </p>
+      <p>
+        This tells us the allowable <q>moves</q> we can do to a fraction without changing its value.
+      </p>
+    </statement>
+  </fact>
+
+  <p>
+    We often hear the term <em>reduced</em> to refer to a particular form of a fraction.
+    Usually, when someone says the fraction is <em>reduced</em> or <em>in reduced form</em> they mean that there is no other equivalent fraction with a smaller numerator or denominator.
+    Often the reduced form a fraction is preferred, but that is <alert>not</alert> universally true.
+  </p>
+
+  <example>
+    <statement>
+      <p>
+        Reduce the fraction <m>\frac{90}{105}</m> as much as possible.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Since we want to make both the numerator and denominator smaller number, <em>and</em> keep the fraction equivalent,
+        we look for numbers that we can divide <em>both</em> the numerator and denominator by.
+      </p>
+    </hint>
+    <answer>
+      <p>
+        <m>\frac{90}{105} = \frac{6}{7}</m>
+      </p>
+    </answer>
+    <solution>
+      <p>
+        There are many different strategies for this process; they all differ slightly but rely on <xref ref="fact-equivalentfractions"/>.
+        What we're looking for when trying to reduce a fraction are <em>common factors</em> of both the numerator and denominator.
+        A <term>common factor</term> of a set of numbers is one that goes into every number of the set evenly with no remainders.
+      </p>
+      <p>
+        In this example, the numerator and denominator have several common factors.
+        The order you notice them in will vary across people.
+        You might notice first that 5 is a common factor. So, we divide both the numerator and denominator by 5:
+        <me>
+          \frac{90}{105} = \frac{90 \div 5}{105 \div 5} = \frac{18}{21}
+        </me>   
+      </p>
+      <p>
+        Next, you might notice that 3 is a common factor of both 18 and 21.
+        So, we divide both the top and bottom of the fraction by 3.
+        <me>
+          \frac{18}{21} = \frac{18 \div 3}{21 \div 3} = \frac{6}{7}
+        </me>
+      </p>
+      <p>
+        All of the equal signs above are used purposely; they tell us that the value of the fraction has not changed.
+        This is true because we used one of the <q>moves</q> allowed by <xref ref="fact-equivalentfractions"/>.
+      </p>  
+      <p>
+        There is nothing special about the order here. If we noticed that both 105 and 90 are divisible by 3 first, we could have used that first, followed by 5, and we'd end up in the same place.
+        It is also possible that one would notice that 15 is a common factor of both 90 and 105; and so we could complete the process in a single step by dividing both the numerator and denominator by 15.
+        It is typically easier to notice smaller common factors and easier to divide by those smaller numbers, but using smaller pieces requires more steps.
+        With practice, you'll find a sweet spot that is good for your brain.
+      </p>  
+      <p>
+        This can be tedious to write out this way when there are a lot of common factors.
+        As long as you're careful with the use of equal signs and remember the allowable moves, some people prefer a sort of cancellation notation that might look like:
+        <me>
+          \frac{90}{105} = \frac{2 \cdot 3^2 \cdot 5}{3 \cdot 5 \cdot 7} = \frac{2 \cdot \cancel{3} \cdot 3 \cdot \cancel{5}}{\cancel{3} \cdot \cancel{5} \cdot 7} = \frac{2 \cdot 3}{7} = \frac{6}{7}
+        </me>
+        
+      </p>
+      <p>
+        We know we cannot reduce this fraction further since 6 and 7 have no common factors; 
+        <m>6 = 1 \cdot 6 = 2 \cdot 3</m> and <m>7 = 1 \cdot 7</m>.
+      </p>
+    </solution>
+
+  </example>
+
+  <exercise>
+    <title>Reducing Fractions</title>
+    
+    <webwork source="Library/NewHampshire/unh_schoolib/Fractions/frasrs102.pg" />
+  </exercise>
+
+  <p>
+    For some computations, we need an equivalent fraction that is not reduced.
+    We can use the other allowable move from <xref ref="fact-equivalentfractions"/> for this.
+    The most common place where we'd need this is for addition or subtraction of fractions.
+    When fractions have the same denominator, we simply add or subtract their numerators.
+    Remember, the denominator tells us how many equally sized parts make up a whole
+  </p>
+
+
+
+</section>

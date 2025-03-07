@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-models" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Modeling</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+
+      <p>
+        Here's another paragraph.
+      </p>
+
+   </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-intro-types.ptx" />
+  <xi:include href="sec-linear.ptx" />
+  <xi:include href="sec-exponential.ptx" />
+  <xi:include href="sec-powers.ptx" />
+  <xi:include href="sec-wrapup.ptx" />
+
+</chapter>

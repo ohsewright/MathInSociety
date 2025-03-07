@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction to Mathematics in Society</title>
+
+  <introduction>
+    <p> What is Mathematics? What is Society? How does this book work? </p>
+
+      <p>
+        Here's another paragraph.
+      </p>
+
+   </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-QR.ptx" />
+  <xi:include href="sec-prob.ptx" />
+  <xi:include href="sec-graphs.ptx" />
+  <xi:include href="sec-desmos.ptx" />
+  <xi:include href="sec-spreadsheets.ptx" />
+
+</chapter>

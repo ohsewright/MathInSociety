@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
+
+  <book xml:id="math-in-society">
+    <title>Mathematics in Society</title>
+    <subtitle>A Quantitative Reasoning Course for Fitchburg State University</subtitle>
+
+    <!-- Include frontmatter -->
+    <xi:include href="./frontmatter.ptx" />
+
+    <!-- Include chapters -->
+    <xi:include href="./ch-intro.ptx" />
+    <xi:include href="./ch-foundations.ptx" />
+    <xi:include href="./ch-prop-reasoning.ptx" />
+    <xi:include href="./ch-models.ptx" />
+    <xi:include href="./ch-stats.ptx" />
+    <xi:include href="./ch-logic.ptx" />
+
+
+    <!-- Include backmatter -->
+    <xi:include href="./backmatter.ptx" />
+
+  </book>
+</pretext>

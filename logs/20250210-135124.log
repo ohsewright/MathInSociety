@@ -1,0 +1,26 @@
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/Users/swright8/Desktop/Math in Society/publication/publication.ptx'}
+INFO    : discovering source file's directory name: /Users/swright8/Desktop/Math in Society/source
+INFO    : verifying and expanding input directory: /Users/swright8/Desktop/Math in Society/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/swright8/Desktop/Math in Society/generated-assets
+INFO    : verifying and expanding input directory: /Users/swright8/Desktop/Math in Society/source/../assets
+INFO    : input directory expanded to absolute path: /Users/swright8/Desktop/Math in Society/assets
+INFO    : XSL conversion of /Users/swright8/Desktop/Math in Society/source/main.ptx by /Users/swright8/.ptx/2.12.0/core/xsl/extract-pg.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
+Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
+INFO    : successful application of /Users/swright8/.ptx/2.12.0/core/xsl/extract-pg.xsl
+INFO    : validating, cleaning server URL: https://webwork.fitchburgstate.edu/webwork2
+ERROR   : Unable to generate webwork.  If you already have a webwork-representations.xml file, this might result in unpredictable behavior.
+WARNING : PTX:ERROR:   There was a problem contacting the WeBWorK server.
+Expecting value: line 1 column 1 (char 0)
+INFO    : Removing temporary directory /var/folders/14/0h82dpl96vb075h3bp9s2dzh0000gq/T/ptx-vg2rox_5
+INFO    : Finished generating assets.
+
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

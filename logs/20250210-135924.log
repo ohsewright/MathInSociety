@@ -1,0 +1,62 @@
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/Users/swright8/Desktop/Math in Society/publication/publication.ptx'}
+INFO    : discovering source file's directory name: /Users/swright8/Desktop/Math in Society/source
+INFO    : verifying and expanding input directory: /Users/swright8/Desktop/Math in Society/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/swright8/Desktop/Math in Society/generated-assets
+INFO    : verifying and expanding input directory: /Users/swright8/Desktop/Math in Society/source/../assets
+INFO    : input directory expanded to absolute path: /Users/swright8/Desktop/Math in Society/assets
+INFO    : XSL conversion of /Users/swright8/Desktop/Math in Society/source/main.ptx by /Users/swright8/.ptx/2.12.0/core/xsl/extract-pg.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
+Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
+INFO    : successful application of /Users/swright8/.ptx/2.12.0/core/xsl/extract-pg.xsl
+INFO    : validating, cleaning server URL: https://webwork.fitchburgstate.edu/webwork2
+ERROR   : Unable to generate webwork.  If you already have a webwork-representations.xml file, this might result in unpredictable behavior.
+WARNING : PTX:ERROR:   There was a problem contacting the WeBWorK server.
+Expecting value: line 1 column 1 (char 0)
+INFO    : Removing temporary directory /var/folders/14/0h82dpl96vb075h3bp9s2dzh0000gq/T/ptx-n_f1pfvn
+INFO    : Preparing to build into /Users/swright8/Desktop/Math in Society/output/web.
+INFO    : XSL conversion of /Users/swright8/Desktop/Math in Society/source/main.ptx by /Users/swright8/.ptx/2.12.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : messages from the log for XSL processing:
+ERROR   : * PTX:ERROR:    The WeBWorK problem with internal id "webwork-1"
+INFO    : *               could not be located in the file of WeBWorK problems from
+INFO    : *               the server, which your publication file indicates should be located
+INFO    : *               at "../generated-assets/webwork/webwork-representations.xml". 
+INFO    : *               If there are many messages like this, then likely your file is missing. 
+INFO    : *               But if this is an isolated error message, then it may indicate a bug,
+INFO    : *               which should be reported.
+INFO    : successful application of /Users/swright8/.ptx/2.12.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : discovering source file's directory name: /Users/swright8/Desktop/Math in Society/source
+INFO    : verifying and expanding input directory: /Users/swright8/Desktop/Math in Society/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/swright8/Desktop/Math in Society/generated-assets
+INFO    : verifying and expanding input directory: /Users/swright8/Desktop/Math in Society/source/../assets
+INFO    : input directory expanded to absolute path: /Users/swright8/Desktop/Math in Society/assets
+INFO    : Runestone Services via online CDN query: version 7.5.6
+INFO    : Downloading Runestone Services, version 7.5.6
+INFO    : Extracting Runestone Services from archive file
+INFO    : converting /Users/swright8/Desktop/Math in Society/source/main.ptx to HTML in /var/folders/14/0h82dpl96vb075h3bp9s2dzh0000gq/T/ptx-r6jtka9w
+INFO    : XSL conversion of /Users/swright8/Desktop/Math in Society/source/main.ptx by /Users/swright8/.ptx/2.12.0/core/xsl/pretext-html.xsl
+INFO    : messages from the log for XSL processing:
+ERROR   : * PTX:ERROR:    The WeBWorK problem with internal id "webwork-1"
+INFO    : *               could not be located in the file of WeBWorK problems from
+INFO    : *               the server, which your publication file indicates should be located
+INFO    : *               at "../generated-assets/webwork/webwork-representations.xml". 
+INFO    : *               If there are many messages like this, then likely your file is missing. 
+INFO    : *               But if this is an isolated error message, then it may indicate a bug,
+INFO    : *               which should be reported.
+INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
+Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
+INFO    : successful application of /Users/swright8/.ptx/2.12.0/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /var/folders/14/0h82dpl96vb075h3bp9s2dzh0000gq/T/ptx-00005gc1
+INFO    : Removing temporary directory /var/folders/14/0h82dpl96vb075h3bp9s2dzh0000gq/T/ptx-r6jtka9w
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

@@ -186,7 +186,8 @@
         reading="static"
         worksheet="static"
         project="dynamic"
-        server="https://webwork.fitchburgstate.edu" course="ms_pretext"
+        server="https://webwork.fitchburgstate.edu"
+        course="ms_pretext"
       />
 
     <!-- Use the tabbed viewer for tasks in exercises. "project" and "reading" can be added to the list of types in the @tabbed-tasks attribute (but not worksheet). -->

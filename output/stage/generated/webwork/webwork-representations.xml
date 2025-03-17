@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-representations>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="19" xml:id="extracted-webwork-1" ww-id="webwork-1">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-1" ww-id="webwork-1">
     <static seed="1" source="Library/PCC/BasicMath/FractionsCalculation/WriteFractionByGraph30.pg">
       <statement><!-- PTX:WARNING: PGML wanted to center align here. -->
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-1-image-1.png" width="66%"/>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" width="66.6666666666667%" pi:generated="webwork/images/webwork-1-image-1.png"/>
 <p>Fill in blanks with fractions. Don<rsq/>t forget to reduce fractions if you can.</p>
-<p><fillin characters="9" name="AnSwEr0001"/> of the figure is shaded.</p>
-<p><fillin characters="9" name="AnSwEr0002"/> of the figure is not shaded.</p>
+<p><fillin name="AnSwEr0001" characters="9"/> of the figure is shaded.</p>
+<p><fillin name="AnSwEr0002" characters="9"/> of the figure is not shaded.</p>
 </statement>
       <answer>
         <p>
@@ -23,15 +23,15 @@
 <p>Since <m>4</m> pieces are not shaded, we can say <m>\frac{4}{6}={{\frac{2}{3}}}</m> of the figure is not shaded.</p>
 </solution>
     </static>
-    <server-data sourceFilePath="Library/PCC/BasicMath/FractionsCalculation/WriteFractionByGraph30.pg" domain="https://webwork.fitchburgstate.edu" course-id="ms_pretext" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <server-data sourceFilePath="Library/PCC/BasicMath/FractionsCalculation/WriteFractionByGraph30.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
     <pg source="Library/PCC/BasicMath/FractionsCalculation/WriteFractionByGraph30.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="19" xml:id="extracted-webwork-2" ww-id="webwork-2">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-2" ww-id="webwork-2">
     <static seed="2" source="Library/MC/PreAlgebra/setPreAlgebraC05S02/ConvertMixed2Fractionl01.pg">
       <statement><p>Convert each mixed fraction to an improper fraction.</p>
-<p><m>1 \frac{2}{8}</m> = <fillin characters="10" name="AnSwEr0001"/></p>
-<p><m>7 \frac{4}{10}</m> = <fillin characters="10" name="AnSwEr0002"/></p>
-<p><m>11 \frac{2}{8}</m> = <fillin characters="10" name="AnSwEr0003"/></p>
+<p><m>1 \frac{2}{8}</m> = <fillin name="AnSwEr0001" characters="10"/></p>
+<p><m>7 \frac{4}{10}</m> = <fillin name="AnSwEr0002" characters="10"/></p>
+<p><m>11 \frac{2}{8}</m> = <fillin name="AnSwEr0003" characters="10"/></p>
 </statement>
       <hint><p>Multiply the whole number term by the denominator of the proper fraction.  Combine with the other numerator.</p>
 </hint>
@@ -51,18 +51,18 @@
         </p>
       </answer>
     </static>
-    <server-data sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S02/ConvertMixed2Fractionl01.pg" domain="https://webwork.fitchburgstate.edu" course-id="ms_pretext" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <server-data sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S02/ConvertMixed2Fractionl01.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
     <pg source="Library/MC/PreAlgebra/setPreAlgebraC05S02/ConvertMixed2Fractionl01.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="19" xml:id="extracted-webwork-3" ww-id="webwork-3">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-3" ww-id="webwork-3">
     <static seed="3" source="Library/NewHampshire/unh_schoolib/Fractions/frasrs101.pg">
       <statement><p>Change to mixed numbers.</p>
 <p>Here is an example of how to put your answer in an answer box.</p>
 <p>If your answer is <m>2 \frac{3}{5}</m> then put 2 3/5 into the answer</p>
 <p>Make sure that you leave a space between the whole number and the fraction.</p>
-<p>1)  <m>\frac{5}{4}</m>=        <fillin characters="2" name="AnSwEr0001"/></p>
-<p>2)  <m>\frac{14}{5}</m>=        <fillin characters="2" name="AnSwEr0002"/></p>
-<p>3)  <m>\frac{39}{9}</m>=        <fillin characters="2" name="AnSwEr0003"/></p>
+<p>1)  <m>\frac{5}{4}</m>=        <fillin name="AnSwEr0001" characters="2"/></p>
+<p>2)  <m>\frac{14}{5}</m>=        <fillin name="AnSwEr0002" characters="2"/></p>
+<p>3)  <m>\frac{39}{9}</m>=        <fillin name="AnSwEr0003" characters="2"/></p>
 </statement>
       <answer>
         <p>
@@ -87,16 +87,16 @@
 <p>we have to reduce it to <m>\frac{1}{3}</m> and our answer is (4 1/3).</p>
 </solution>
     </static>
-    <server-data sourceFilePath="Library/NewHampshire/unh_schoolib/Fractions/frasrs101.pg" domain="https://webwork.fitchburgstate.edu" course-id="ms_pretext" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <server-data sourceFilePath="Library/NewHampshire/unh_schoolib/Fractions/frasrs101.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
     <pg source="Library/NewHampshire/unh_schoolib/Fractions/frasrs101.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="19" xml:id="extracted-webwork-4" ww-id="webwork-4">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-4" ww-id="webwork-4">
     <static seed="4" source="Library/NewHampshire/unh_schoolib/Fractions/frasrs102.pg">
       <statement><p>Put in simplest form.</p>
 <p>For example if <m>\frac{3}{7}</m> were the answer you would put 3/7 in the answer box.</p>
-<p>1) <m>\frac{14}{16}</m>=<fillin characters="2" name="AnSwEr0001"/></p>
-<p>2) <m>\frac{28}{36}</m>=<fillin characters="2" name="AnSwEr0002"/></p>
-<p>2) <m>\frac{35}{5}</m>=<fillin characters="2" name="AnSwEr0003"/></p>
+<p>1) <m>\frac{14}{16}</m>=<fillin name="AnSwEr0001" characters="2"/></p>
+<p>2) <m>\frac{28}{36}</m>=<fillin name="AnSwEr0002" characters="2"/></p>
+<p>2) <m>\frac{35}{5}</m>=<fillin name="AnSwEr0003" characters="2"/></p>
 </statement>
       <answer>
         <p>
@@ -122,7 +122,68 @@
 <m>\frac{7}{9}</m> which we put in the answer box as <m>7/9</m>.</p>
 </solution>
     </static>
-    <server-data sourceFilePath="Library/NewHampshire/unh_schoolib/Fractions/frasrs102.pg" domain="https://webwork.fitchburgstate.edu" course-id="ms_pretext" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <server-data sourceFilePath="Library/NewHampshire/unh_schoolib/Fractions/frasrs102.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
     <pg source="Library/NewHampshire/unh_schoolib/Fractions/frasrs102.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-5" ww-id="webwork-5">
+    <static seed="5" source="Library/ma112DB/set1_2/add_fractions.pg">
+      <statement><p>Add the fractions, and reduce your answer. <me>\frac{10}{8}+\frac{10}{17}</me>
+The reduced answer is <fillin name="AnSwEr0001" characters="10"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1 {\textstyle\frac{57}{68}}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/ma112DB/set1_2/add_fractions.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/ma112DB/set1_2/add_fractions.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-6" ww-id="webwork-6">
+    <static seed="6" source="Library/MC/PreAlgebra/setPreAlgebraC05S04/MultiplyingFractions01.pg">
+      <statement><p>Simplify the following and express your answer as a single fraction.  No decimals or mixed fractions.</p>
+<p><m>\displaystyle\frac{12}{5} \times \frac{10}{6} =</m> <fillin name="AnSwEr0001" characters="25"/></p>
+<p><em>
+Remember, to enter a fraction of the form <m>\frac{a}{b}</m>, type a / b.
+</em></p>
+</statement>
+      <hint><p>Numerators / Denominators</p>
+</hint>
+      <answer>
+        <p>
+          <m>\frac{12\cdot 10}{5\cdot 6}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S04/MultiplyingFractions01.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/MC/PreAlgebra/setPreAlgebraC05S04/MultiplyingFractions01.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-7" ww-id="webwork-7">
+    <static seed="7" source="Library/PCC/BasicAlgebra/FractionArithmetic/DivideFractions20.pg">
+      <statement><p>Divide one fraction into the other: <m>\displaystyle{ \frac{1}{20} \div \left(-\frac{9}{16}\right) }</m></p>
+<p>If needed, use an improper fraction in your answer. Don’t use a mixed number.</p>
+<p><fillin name="AnSwEr0001" characters="9"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-{\frac{4}{45}}</m>
+        </p>
+      </answer>
+      <solution><p>When we do division with fractions, as with</p>
+<p><m>\displaystyle{\frac{1}{20} \div \left(-\frac{9}{16}\right) }</m></p>
+<p>we first change division to multiplication, and at the same time, flip the second fraction. In this case, we have</p>
+<p><m>\displaystyle{\frac{1}{20} \cdot \left(-\frac{16}{9}\right) }</m></p>
+<p>Then we do fraction multiplication as usual. The full process is:</p>
+<p><m>\displaystyle{\begin{aligned}[t]
+    \frac{1}{20} \div \left(-\frac{9}{16}\right)
+        \amp = \frac{1}{20} \cdot \left(-\frac{16}{9}\right) \amp \hbox{We can divide the first denominator and the second numerator by 4.}\\
+        \amp = \frac{1}{5 }\cdot\left(-\frac{4}{9}\right) \\
+        \amp = -\frac{4}{45}
+\end{aligned}
+    }</m></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/PCC/BasicAlgebra/FractionArithmetic/DivideFractions20.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/FractionArithmetic/DivideFractions20.pg"/>
   </webwork-reps>
 </webwork-representations>

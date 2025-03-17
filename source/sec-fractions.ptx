@@ -122,7 +122,7 @@
     </p> 
   </observation>
   
-  <exercise>
+  <exercise xml:id="check-visualfrac">
   <title>Visualizing Fractions</title>
 
     <webwork source="Library/PCC/BasicMath/FractionsCalculation/WriteFractionByGraph30.pg" />
@@ -163,7 +163,7 @@
     Even though what we'll actually be quite procedural in all our manipulations, it is important to remember what the fraction actually reprepsents.
   </p>  
     
-  <example>
+  <example xml:id="example-equivalentfrac">
     <title>Picturing Equivalent Fractions</title>
     <statement>
       <p>
@@ -332,7 +332,7 @@
     
   </example>
 
-  <exercise>
+  <exercise xml:id="check-mixedtoimproper">
   <title>Converting Mixed Numbers</title>
 
     <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S02/ConvertMixed2Fractionl01.pg" />
@@ -394,7 +394,7 @@
     
   </example>
 
-  <exercise>
+  <exercise xml:id="check-impropertomixed">
   <title>Converting Improper Fractions</title>
 
     <webwork source="Library/NewHampshire/unh_schoolib/Fractions/frasrs101.pg" />
@@ -427,7 +427,8 @@
     Often the reduced form a fraction is preferred, but that is <alert>not</alert> universally true.
   </p>
 
-  <example>
+  <example xml:id="example-fractionreduce">
+    <title>Reduce a Fraction</title>
     <statement>
       <p>
         Reduce the fraction <m>\frac{90}{105}</m> as much as possible.
@@ -456,14 +457,14 @@
         You might notice first that 5 is a common factor. So, we divide both the numerator and denominator by 5:
         <me>
           \frac{90}{105} = \frac{90 \div 5}{105 \div 5} = \frac{18}{21}
-        </me>   
+        </me>.   
       </p>
       <p>
         Next, you might notice that 3 is a common factor of both 18 and 21.
-        So, we divide both the top and bottom of the fraction by 3.
+        So, we divide both the top and bottom of the fraction by 3:
         <me>
           \frac{18}{21} = \frac{18 \div 3}{21 \div 3} = \frac{6}{7}
-        </me>
+        </me>.
       </p>
       <p>
         All of the equal signs above are used purposely; they tell us that the value of the fraction has not changed.
@@ -480,7 +481,7 @@
         As long as you're careful with the use of equal signs and remember the allowable moves, some people prefer a sort of cancellation notation that might look like:
         <me>
           \frac{90}{105} = \frac{2 \cdot 3^2 \cdot 5}{3 \cdot 5 \cdot 7} = \frac{2 \cdot \cancel{3} \cdot 3 \cdot \cancel{5}}{\cancel{3} \cdot \cancel{5} \cdot 7} = \frac{2 \cdot 3}{7} = \frac{6}{7}
-        </me>
+        </me>.
         
       </p>
       <p>
@@ -491,9 +492,8 @@
 
   </example>
 
-  <exercise>
+  <exercise xml:id="check-reducefrac">
     <title>Reducing Fractions</title>
-    
     <webwork source="Library/NewHampshire/unh_schoolib/Fractions/frasrs102.pg" />
   </exercise>
 
@@ -521,7 +521,8 @@
     We can use both moves in <xref ref="fact-equivalentfractions"/> on any of the fractions to make this happen.
   </p>
 
-<example>
+<example xml:id="example-addfractions">
+  <title>Add Fractions</title>
   <statement>
     <p>
       Complete the fraction addition coming from the example of pizzas with differing numbers of slices:
@@ -553,11 +554,363 @@
       <me>
         \frac{5}{12} + \frac{3}{8} = \frac{5 \cdot 8}{12 \cdot 8} + \frac{3 \cdot 12}{8 \cdot 12}
         = \frac{40}{96}+\frac{36}{96} = \frac{40 + 36}{96} = \frac{76}{96}
-      </me>
+      </me>.
+    </p>
+
+    <p>
+      Notice that this final answer is not a reduced fraction.
+      This might not be a problem at all! 
+      <ul>
+        <li>
+          <p>
+            Since the denominator is very close to 100, we may be able to get better sense of how large this fraction actually is in this form:
+          <me>
+            \frac{76}{96} \sim \frac{76}{100} = 0.76 \sim 0.75 = \frac{3}{4}
+          </me>.
+          </p>
+        </li>
+        <li>
+          <p>
+            You might also just want to do the division in a calculator to convert this to a decimal number anyway, and in that case, the size of the numerator and denominator matter less.
+            <me>
+              \frac{76}{96} = 76 \div 96 = 0.791\overline{6}
+            </me>.
+          </p>
+        </li>
+        <li>
+          <p>
+            These fractions also might represent a situtation where 96 <em>equally sized</em> make one whole.
+            In that case, the form of this answer tells us that we have exactly 76 of those objects.
+          </p>
+        </li>
+
+      </ul>
+    </p>
+
+    <p>
+      If you do want to reduce this fraction, it works in the same way as <xref ref="example-fractionreduce"/>:
+      <me>
+        \frac{76}{96} = \frac{76 \div 2}{96 \div 2} = \frac{38}{48} = \frac{38 \div 2}{48 \div 2} = \frac{19}{24}
+      </me>.
+      
+    </p>
+
+    <p>
+      Another choice for a common denominator is the <em>least common multiple</em> of the denominators.
+      This approach has the benefit of keeping the denominator as small as possible, but the steps to find the least common multiple may be numerous.
+    </p>
+
+    <p>
+      For this example, the least common multiple of 12 and 8 is 24.
+      With this common denominator, the steps look like:
+      <me>
+        \frac{5}{12} + \frac{3}{8} = \frac{5 \cdot 2}{12 \cdot 2} + \frac{3 \cdot 3}{8 \cdot 3} = \frac{10}{24} + \frac{9}{24} = \frac{10+9}{24} = \frac{19}{24}
+      </me>.
+      This method will more often, but <alert>not always</alert>, end in an answer that is already reduced.
+      We can see from the reduced forms, that both methods produce equvalent fractions as the final answer.
     </p>
   </solution>
 </example>
 
+<p>
+  Both <xref ref="example-fractionreduce"/> and <xref ref="example-addfractions"/> present multiple methods and approaches for acheiving the same goal; the answers (while they might look different) are the same with all methods.
+</p>
+
+<insight>
+  <p>
+  Carefully read different approaches so that you can apply those methods if needed. But the <alert>best</alert> method is always the one that <alert>YOUR BRAIN</alert> is the most comfortable with and makes the most sense to <alert>YOU</alert>.
+  </p>
+</insight>
+
+<exercise xml:id="check-addfrac">
+  <title>Adding Fractions</title>
+  <webwork source="Library/ma112DB/set1_2/add_fractions.pg" />  
+</exercise>
+
+<p>
+  Conceptually, multiplication and division of fractions is trickier, but procedurally, it is easier (for most folks) than addition or subtraction.
+  So, we'll start with the process for each operation.
+</p>
+
+<heuristic xml:id="heuristic-fracmult">
+  <title>Multiplying Fractions</title>
+  <statement>
+    <p>
+      
+    </p>
+    <p>
+      If needed, convert all factors from mixed numbers to improper fractions, <xref ref="heuristic-mixedtoimproper"/>.
+    </p>
+    <p>
+      Multiply the numerators of all the factors to determine the numerator of the product.
+    </p>
+    <p>
+      Multiply the denominators of all the factors to determine the denominator of the product.
+    </p>
+    <p>
+      If desired, reduce the product, <xref ref="example-fractionreduce"/>, or convert from an improper fraction to a mixed number, <xref ref="heuristic-impropertomixed"/>.
+    </p>
+  </statement>
+</heuristic>
+
+<example xml:id="example-fracmult">
+  <title>Multiply Fractions</title>
+  <statement>
+    <p>
+      Multiply <m>\frac{3}{10} \cdot 3\frac{5}{6}</m>.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      We first convert the one mixed number factor, <m>3\frac{5}{6}</m>, into an improper fraction:
+      <me>
+        3\frac{5}{6} = \frac{6\cdot 3 + 5}{6} = \frac{18 + 5}{6} = \frac{23}{6}
+      </me>.
+    </p>
+    <p>
+      Now, we <q>multiply across,</q> numerators with numerators and denominators with denominators:
+      <me>
+        \frac{3}{10} \cdot 3\frac{5}{6} = \frac{3}{10} \cdot \frac{23}{6} = \frac{3 \cdot 23}{10 \cdot 6} = \frac{69}{60}
+      </me>.
+    </p>
+    <p>
+      We can convert this product to a reduce mixed number:
+      <me>
+        \frac{69}{60} = \frac{60 + 9}{60} = 1\frac{9}{60} = 1\frac{9 \div 3}{60 \div 3} = 1\frac{3}{20}
+      </me>,
+      or
+      <me>
+        \frac{69}{60} = \frac{69 \div 3}{60 \div 3} = \frac{23}{20} = \frac{20 + 3}{20} = 1\frac{3}{20}
+      </me>.
+    </p>
+  </solution>
+</example>
+
+<exercise xml:id="check-multiplicationfrac">
+  <title>Multiplying Fractions</title>
+  <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S04/MultiplyingFractions01.pg" />  
+</exercise>
+
+<p>
+  We will divert from our pizza example to help visualize and conceptualize multiplication.
+  Pizza is still great, but things that make us think in rectangles will be better for this concept.
+  Let's first imagine a classroom with 5 rows of 6 desks. How many desks are there total?
+  You might do the computation <m>5 \cdot 6 = 30</m> and correctly give the answer of 30 desks without much thought.
+  Thinking about rectangles and area can help us see why this answer of 30 makes sense, but also why 5 times 6 is the same as 6 times 5,
+  and the visualization with help with fractions in just a bit.
+</p>
+
+<figure xml:id="fig-multiplication">
+  <caption>30 desks arranged in 5 rows with 6 desks in each row.</caption>
+  <image width = "50%" xml:id="desks">
+  <latex-image >
+    \begin{tikzpicture}
+      \foreach \x in {1,2,3,4,5,6}
+      \foreach \y in {1,2,3,4,5}
+        \draw (\x-.4,\y-.4) -- (\x+.4, \y-.4) -- (\x+.4,\y+.4) -- (\x-.4, \y+.4) -- cycle;
+    \end{tikzpicture}
+  </latex-image>
+</image>
+</figure>
+
+<p>
+  This picture helps us visualize the <q>five groups of six objects</q> that the mathematical expression <m>5 \times 6</m> represents.
+  We can also turn the picture or our heads sideways and see that the number of desks don't change.
+  So, <q>five groups of six objects</q> is the same as <q>six groups of five objects</q>; not an obvious truth when it is just the words.
+</p>
+
+<p>
+  The spaces between the squares are to help us see them as desks.
+  We could draw a very similar picture without space to thing about the area of a rug that is 5 feet by 6 feet.
+  Now, for a similar picture to that, but thinking in fractions this time.
+</p>
+
+<figure xml:id="fig-fracmult">
+  <caption>An area diagram to show that <m>\frac{3}{5}\cdot \frac{5}{6} = \frac{15}{30}</m>.</caption>
+  <image width = "70%">
+    <latex-image>
+      \begin{tikzpicture}
+	      \draw[fill opacity = .25, fill=blue] (0,0) -- (0,4.5) -- (7.5,4.5) -- (7.5,0) -- cycle;
+        \draw[fill opacity = .3, fill = red] (0,0) -- (0, 7.5) -- (6.25, 7.5) -- (6.25,0) -- cycle;
+       
+        \draw[pattern={Lines[angle=135,distance=6pt,line width = 1pt]},pattern color=blue] (0,0) -- (0,4.5) -- (7.5,4.5) -- (7.5,0) -- cycle;
+        \draw[pattern={Lines[angle=45,distance=6pt,line width = 1pt]},pattern color=red] (0,0) -- (0, 7.5) -- (6.25, 7.5) -- (6.25,0) -- cycle;
+        
+        \draw[very thick] (0,0) -- (7.5,0) -- (7.5, 7.5) -- (0,7.5) -- cycle;
+        \foreach \x in {1,2,3,4,5}
+          \draw[thick] (1.25*\x, 0) -- (1.25*\x, 7.5);
+        \foreach \y in {1,2,3,4}
+          \draw[thick] (0, 1.5*\y) -- (7.5, 1.5*\y);
+
+        \draw[thick,|-|] (8.25,0) -- node[anchor=west] {1} (8.25,7.5);
+        \draw[thick,|-|] (0,8.25) -- node[anchor=south] {1} (7.5, 8.25);
+
+        \draw[thick, blue, |-|] (-.75,0) -- node[anchor=east] {3/5} (-.75, 4.5);
+        \draw[thick, red, |-|] (0, -.75) -- node[anchor=north] {5/6} (6.25, -.75);
+      \end{tikzpicture}
+    </latex-image>
+    
+  </image>
+</figure>
+
+<p>
+  Remember that the product of two numbers (what we get after multiplying) is the area of a rectangle with those two numbers as its length and width.
+  The area of the entire largest square in <xref ref="fig-fracmult"/> is <m>1 \cdot 1 = 1</m>.
+  (We should note that the units of the product here would be square units, like square feet if the sides were measured in feet. In the real world, this is an important distinction, but we're safe to ignore the units for this discussion of the numbers.)
+  The area of the purple/crosshatched rectangle we can compute via multiplication, length times width.
+  The length measured vertically in blue is <m>\frac{3}{5}</m>. We can tell this because that side of the square is split into 5 <em>equally sized</em> pieces (the denominator) and the length is 3 of those pieces (the numerator).
+  Similary, the width measured horizontally in red is <m>\frac{5}{6}</m>. To compute the area, we multiply these two values:
+  <me>\frac{3}{5} \cdot \frac{5}{6} = \frac{15}{30}</me>. 
+  This product can be reduced, but this is a good example of when doing that reduction is not helpful.
+  This is what the procedure for multiplication, <xref ref="heuristic-fracmult"/>, tells us to do, but why does this answer and process make sense?
+</p>
+
+<p>
+  First, the answer. We see the fraction <m>\frac{15}{30}</m> and know this means there are 30 <em>equally sized</em> pices to make a whole and we are considering 15 of those pieces.
+  We consider the largest square to be the whole, and we can count the 30 smaller rectangles that make up the whole and the 15 that are shaded purple/crosshatched.
+  Hooray! That answer aligns with our picture, but doesn't explain why this is always the procedure.
+</p>
+
+<p>
+  In order to determine how many equally sized smaller rectangles make the whole large square, 
+  we can think about it in the same way as the desks: 5 rows of 6 desks each.
+  Notice that 5 is the denominator of the first fraction, since that side of the square is split into 5 equal segments, and 6 is the denominator of the second fraction.
+  To determine the numerator, we need to think about the area of the purple/crosshatched region.
+  This is 15 rectangles as we said before, in 3 rows (the numerator fo the first fraction) of 5 rectangles (the numerator of the second fraction).
+</p>
+
+<insight>
+  <p>
+    Try to draw a similar diagram for <xref ref="example-fracmult"/>, <xref ref="check-multiplicationfrac"/>, or a fraction multiplication problem that you make up.
+  </p>
+</insight>
+
+<p>
+  Lastly, we need to know how to divide fractions.
+  The most important thing to remember here, is that multiplication and division are inverse processes.
+  Also, a fraction's <term>reciprocal</term>, exchanging the positions of the numerator and denominator, is what is called its <em>multiplicative inverse</em>.
+</p>
+
+<p>
+  So that we can all use the same language, in a division problem, like <m>\star \div \square = \triangle</m>, the first number (fraction or not), <m>\star</m>, is the <term>dividend</term>, the second number, <m>\square</m>, is the <term>divisor</term>, and the answer, <m>\triangle</m> is the <term>quotient</term>.
+  Is is also worth remembering that a fraction itself represents division, <m>\star \div \square = \frac{\star}{\square} = \triangle</m>.
+  The horizontal line in a fraction, called a <em>vinculum</em> tells us to to complete any operations on the top and bottom separately first, and then divide the numerator by tthe denomintor.
+</p>
+
+<heuristic xml:id="heuristic-fracdiv">
+  <title>Dividing Fractions</title>
+  <statement>
+    <p>
+      
+    </p>
+    <p>
+      If needed, convert the dividend and divisor from mixed numbers to improper fractions, <xref ref="heuristic-mixedtoimproper"/>.
+    </p>
+    <p>
+      Replace the divisor with its <em>reciprocal</em> and the division sign with multiplication.
+    </p>
+    <p>
+      Multiply the fractions.
+    </p>
+    <p>
+      If desired, reduce the product, <xref ref="example-fractionreduce"/>, or convert from an improper fraction to a mixed number, <xref ref="heuristic-impropertomixed"/>
+    </p>
+  </statement>
+</heuristic>
+
+<example xml:id="example-fracdiv">
+  <title>Divide Fractions</title>
+  <statement>
+    <p>
+      Divide <m>\frac{3}{10} \div 3\frac{5}{6}</m>.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      We first convert the mixed number divisor, <m>3\frac{5}{6}</m>, into an improper fraction:
+      <me>
+        3\frac{5}{6} = \frac{6\cdot 3 + 5}{6} = \frac{18 + 5}{6} = \frac{23}{6}
+      </me>.
+    </p>
+    <p>
+      Now, we <q>flip</q> the divisor and change the division to multiplication:
+      <me>
+        \frac{3}{10} \div 3\frac{5}{6} = \frac{3}{10} \div \frac{23}{6} = \frac{3}{10} \cdot \frac{6}{23}
+      </me>.
+    </p>
+    <p>
+      Lastly, we <q>mutiply across</q>, just like <xref ref="heuristic-fracmult"/>:
+      <me>
+        \frac{3}{10} \div \frac{23}{6} = \frac{3}{10} \cdot \frac{6}{23} = \frac{3 \cdot 6}{10 \cdot 23}
+      </me>
+    </p>
+    <p>
+      We can reduce in the process of multiplying by <q>canceling</q> common factors:
+      <me>
+        \frac{3 \cdot 6}{10 \cdot 23} = \frac{3 \cdot 3 \cdot \cancel{2}}{5 \cdot \cancel{2} \cdot 23} = \frac{9}{115}
+      </me>.
+    </p>
+  </solution>
+</example>
+
+<exercise xml:id="check-divisionfrac">
+  <title>Dividing Fractions</title>
+  <webwork source="Library/PCC/BasicAlgebra/FractionArithmetic/DivideFractions20.pg" />  
+</exercise>
+
+<p>
+  Rather than using diagram to make sense of why fraction division works this way, we are going to try another good mathly brain habit:
+</p>
+
+<insight>
+  <p>
+    Check the correctness of a procedure using nice, easy, known examples.
+  </p>
+</insight>
+
+<p>
+  In this case, that means we want to use facts that we know about know about division and check if a precedure gives us the correct result.
+  First, we should know that any non-zero number divided by itself is equal to 1. As long as I don't choose 0, I can be as whacky as I want to be with these numbers:
+  <me>
+    \frac{34}{47} \div \frac{34}{47} = \frac{34}{47} \cdot \frac{47}{34} = \frac{34 \cdot 47}{47 \cdot 34} = \frac{1598}{1598} = 1 \checkmark
+  </me>
+  This should give you the feeling that <q>flipping and multiplying</q> is at least on the right track<ellipsis/>
+  But, how do we know which fraction to flip? You can try whole numbers that you're comfortable with:
+  <me>
+    4 \div 2 = \frac{4}{1} \div \frac{2}{1} = \frac{4}{1} \cdot \frac{1}{2} = \frac{4 \cdot 1}{1 \cdot 2} = \frac{4}{2} = 2 \checkmark
+  </me>
+  Remember that a fraction is also division, so we can write whole numbers as fractions by giving them a denominator of 1.
+  If we had erroneously <q>flipped</q> the first fraction above, we would end up with an incorrect answer of <m>\frac{1}{2}</m>.
+</p>  
+  
+<p>
+  Another option is to relate this back to words. Words can be both tricky, helpful, or both, so this approach is not going to work well for every brain.
+  Again, sticking with nice easy number is a good plan.
+  One can read <m>\frac{1}{2} \div 2</m> as the question, <q>If I <em>split</em> <m>\frac{1}{2}</m> into 2 equally sized pieces, how large are those pieces?</q>
+  Hopefully, we're comfortable enough thinking about what fractions are that we can see that this answer is <m>\frac{1}{4}</m>, and that agrees with the answer we'd get following the procedure.
+  Possibly less familiar is using the word <q>\<em>of</em></q> when we use multiplication.
+  This makes sense with whole numbers; <q>Five groups <em>of</em> six apples is <m>5 \cdot 6 = 30</m> apples.</q>
+  And, it makes sense with fractions too. "One half <em>of</em> 30 apples is 15."
+  Figuring out one half of something is the same as dividing that something by two. So, <m>\star \div 2 = \star \div \frac{2}{1} = \star \cdot \frac{1}{2}</m>.
+</p>
+
+<p>
+  When we divide fractions with the same denominator, we're comparing <q>the same objects,</q> so it works similarly to addition or subtraction once we've found a common denominator.
+  Consider <m>\frac{9}{14} \div {3}{14}</m>. We can think of <q>fourteenths</q> as the objects. Since they are the same, they could be anything!
+  <q>Nine widgets divided by three widgets</q> is the same as the fraction question, and we can think about dividing 9 widgets up into groups of 3 widgets each<ellipsis/> We get 3 groups!
+  This can help us check if we should <q>flip</q> the first or second fraction.
+</p>
+
+<p>
+  For anything involving fractions, it is worth figuring out a scenario that you're comfortable with to test out ideas in.
+  Some people who cook or bake frequently, work really well with halves and thirds and quarters, and are comfortable halving or tripling a recipe; that's division and multiplication of fractions.
+  If you have experience in construction or carpentry, you're likely to be comfortable with halves, quarters, eigths, sixteenths, and even thirtyseconds. You are probably very comfortable knowing which drill bit is larger.
+  Fabric for sewing is sold by the yard, and you often need to add up the different pieces to know how much total yardage you need. You can always round up to be safe, but you can also buy in quarters of a yard and not spend as much.
+</p>
+
+<p>
+  Fractions don't have to be scary, and the above examples are all instances where time and practice has led to being more comfortable and confident.
+</p>
 
 
 

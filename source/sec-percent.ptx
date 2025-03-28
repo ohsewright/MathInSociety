@@ -3,6 +3,44 @@
 <section xml:id="sec-percent" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Percentages</title>
 
-  <p> Text of section. </p>
+  <p> 
+    In the 2004 vice-presidential debates, Edwards's claimed that US forces have suffered <q>90% of the coalition casualties</q> in Iraq.
+    Cheney disputed this, saying that in fact Iraqi security forces and coalition allies <q>have taken almost 50 percent</q> of the casualties.<fn><url href="http://www.factcheck.org/cheney_edwards_mangle_facts.html">http://www.factcheck.org/cheney_edwards_mangle_facts.html</url></fn>
+    Who is correct?  How can we make sense of these numbers?
+  </p>
+
+  <definition xml:id="def-percent">
+    <title>Percent</title>
+    
+    
+    <statement>
+      <p>
+        <term>Percent</term> literally means <q>per 100,</q> or <q>parts per hundred.</q>
+        When we write 40%, this is equivalent to the fraction <m>\frac{40}{100}</m> or the decimal 0.40.
+        Notice that 80 out of 200 and 10 out of 25 are also 40%, since <m>\frac{80}{200} = \frac{10}{25} = \frac{40}{100}</m>.
+        See <xref ref="fact-equivalentfractions"/>.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    To work with information given as percentages, it is critical to be able to write it in decimal or fraction form. 
+  </p>
+
+  <example xml:id="example-percent">
+    <statement>
+      <p>
+        243 people out of 400 state that they like dogs. What percent is this?
+      </p>
+    </statement>  
+    <solution>
+      <p>
+        <m>\frac{243}{400} = 0.6075 = \frac{60.75}{100}</m>. This is 60.75%.
+      </p>
+      <p>
+        Notice that the percent can be found form the equivalent decimal by moving the decimal point two places to the right.
+      </p>
+    </solution>  
+  </example>
 
 </section>

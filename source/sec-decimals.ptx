@@ -3,6 +3,24 @@
 <section xml:id="sec-decimals" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Decimal Arithmetic</title>
 
-  <p> Text of section. </p>
+  <p> 
+    Recall that we can also view fractions as division problems and those quotients (the <q>answer</q>) in a division problem) are written as decimals.
+    We convert a fraction to a decimal representation by simply doing the division.
+    To convert a decimal number to its equivalent fraction representation, we need to remember place value.
+  </p>
+
+  <p>
+    Consider the number 123.456.
+    Each or 1, 2, 3, 4, 5, and 6 are the digits of the number.
+    The location (place) of the digit tells us what it represents (its value).
+    The digit immediately to the left of the decimal point is the <em>ones place</em> so the digit and the numerical value are the same.
+    Moving to the left increases the value of a digit by a factor of 10.
+    So, the 2 above represents 2 tens, or 20, and the 1 represents 1 hundred, 100.
+    Digits to the right of the decimal point represent values less than one.
+    The first digit is in the <q>tenths place,</q> and tells us how many <m>frac{1}{10}</m>s we have.
+    Therefore, the 4 in 123.456 represents 4 tenths, or <m>\frac{4}{10}</m>.
+    Moving to the right decreases the value by a factor of 10, which increases the denominator of the fraction by a factor of 10.
+    So, the 5 represents 5 onehundredths, <m>\frac{5}{100}</m>, and the 6 in the thousandths place is <m>\frac{6}{1000}</m>.
+  </p>
 
 </section>

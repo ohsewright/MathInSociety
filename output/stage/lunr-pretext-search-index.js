@@ -412,7 +412,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Decimal Arithmetic",
-  "body": " Decimal Arithmetic  Text of section.  "
+  "body": " Decimal Arithmetic  Recall that we can also view fractions as division problems and those quotients (the answer ) in a division problem) are written as decimals. We convert a fraction to a decimal representation by simply doing the division. To convert a decimal number to its equivalent fraction representation, we need to remember place value.  Consider the number 123.456. Each or 1, 2, 3, 4, 5, and 6 are the digits of the number. The location (place) of the digit tells us what it represents (its value). The digit immediately to the left of the decimal point is the ones place so the digit and the numerical value are the same. Moving to the left increases the value of a digit by a factor of 10. So, the 2 above represents 2 tens, or 20, and the 1 represents 1 hundred, 100. Digits to the right of the decimal point represent values less than one. The first digit is in the tenths place, and tells us how many s we have. Therefore, the 4 in 123.456 represents 4 tenths, or . Moving to the right decreases the value by a factor of 10, which increases the denominator of the fraction by a factor of 10. So, the 5 represents 5 onehundredths, , and the 6 in the thousandths place is .  "
 },
 {
   "id": "sec-exponents",
@@ -457,7 +457,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Percentages",
-  "body": " Percentages  Text of section.  "
+  "body": " Percentages  In the 2004 vice-presidential debates, Edwards's claimed that US forces have suffered 90% of the coalition casualties in Iraq. Cheney disputed this, saying that in fact Iraqi security forces and coalition allies have taken almost 50 percent of the casualties. http:\/\/www.factcheck.org\/cheney_edwards_mangle_facts.html Who is correct? How can we make sense of these numbers?   Percent    Percent literally means per 100, or parts per hundred. When we write 40%, this is equivalent to the fraction or the decimal 0.40. Notice that 80 out of 200 and 10 out of 25 are also 40%, since . See .    To work with information given as percentages, it is critical to be able to write it in decimal or fraction form.    243 people out of 400 state that they like dogs. What percent is this?     . This is 60.75%.  Notice that the percent can be found form the equivalent decimal by moving the decimal point two places to the right.    "
+},
+{
+  "id": "def-percent",
+  "level": "2",
+  "url": "sec-percent.html#def-percent",
+  "type": "Definition",
+  "number": "3.1.1",
+  "title": "Percent.",
+  "body": " Percent    Percent literally means per 100, or parts per hundred. When we write 40%, this is equivalent to the fraction or the decimal 0.40. Notice that 80 out of 200 and 10 out of 25 are also 40%, since . See .   "
+},
+{
+  "id": "example-percent",
+  "level": "2",
+  "url": "sec-percent.html#example-percent",
+  "type": "Example",
+  "number": "3.1.2",
+  "title": "",
+  "body": "  243 people out of 400 state that they like dogs. What percent is this?     . This is 60.75%.  Notice that the percent can be found form the equivalent decimal by moving the decimal point two places to the right.   "
 },
 {
   "id": "sec-intro-types",

@@ -11,8 +11,6 @@
 
   <definition xml:id="def-percent">
     <title>Percent</title>
-    
-    
     <statement>
       <p>
         <term>Percent</term> literally means <q>per 100,</q> or <q>parts per hundred.</q>
@@ -38,9 +36,187 @@
         <m>\frac{243}{400} = 0.6075 = \frac{60.75}{100}</m>. This is 60.75%.
       </p>
       <p>
-        Notice that the percent can be found form the equivalent decimal by moving the decimal point two places to the right.
+        Notice that the percent can be found from the equivalent decimal by moving the decimal point two places to the right.
       </p>
     </solution>  
   </example>
+
+  <example xml:id="example-perc-dec-frac">
+    <statement>
+      <p>
+        Write each as a percent:
+        <ol marker="(a)">
+          <li>
+            <p>
+              <m>\frac{1}{4}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>0.02</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>2.35</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <ol marker="(a)">
+          <li>
+            <p>
+              <m>\frac{1}{4} = 1 \div 4 = 0.25 = 25\%</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>0.02 = 2\%</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>2.35 = 235\%</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <exercise xml:id="check-perc-dec-frac">
+    <title>Decimals as Percents</title>
+    <webwork source="Library/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion60.pg" />  
+  </exercise>
+
+  <fact xml:id="fact-Percentages">
+    <title>Percentages</title>
+    
+    
+    <statement>
+      <p>
+        
+      </p>
+      <p>
+        If we have a <term>part</term> that is some <term>percent</term> of a <term>whole</term>,
+        then, <m>{\text{PERCENT}} = \frac{\text{PART}}{\text{WHOLE}}</m> or equivalently, <m>\text{PART} = \text{PERCENT} \cdot \text{WHOLE}</m>.
+      </p>  
+      <p>
+        To do the calculations, we write the percent as a decimal.
+      </p>
+    </statement>
+  </fact>
+
+  <exercise xml:id="check-percent-formula">
+    <title>Percent Formula</title>
+    <webwork source="Library/PCC/BasicAlgebra/NumberBasics/PercentOfNumber70.pg" />
+  </exercise>
+
+  <p>
+    In most problems that involve percents, the main step is converting from the words into this formula.
+  </p>
+
+  <example xml:id="example-salestax">
+  <title>Sales Tax</title>
+  <statement>
+    <p>
+      The sales tax in Massachusetts is 6.25%.
+      How much tax will you pay on a $140 purchase?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Here, $140 is the <em>whole</em>, 6.25% is the <em>percent</em>, and the amount of tax paid (what we want to find) is the <em>part</em>.
+      We start by writing the percent as a decimal by moving the decimal point two places to the left (which is equivalent to dividing by 100).
+      So, <m>6.25\% = 0.0625</m>.
+      We can then compute put all the pieces into the formula:
+      <md>
+        <mrow>\text{PART} \amp = \text{PERCENT} \cdot \text{WHOLE}</mrow>
+        <mrow>\text{TAX} \amp = 0.0625 \cdot \$140</mrow>
+        <mrow> \amp = \$8.75</mrow>
+      </md>
+      So, you will need to pay $8.75 in tax for a $140 purchase.
+    </p>
+  </solution>
+  </example>
+
+  <insight xml:id="insight-units">
+  <title>Unit Check</title>
+    <p>
+      Notice that we've kept the units, dollars, with the <em>whole</em> and that the <em>percentage</em> is <q>unitless</q>.
+      That gives us a final answer with the units of dollars, which makes sense in the scenario of the problem.
+      This is a fairly straightforward example; it is even more important to do this type of analysis and check in more complicated situations.
+    </p>
+  </insight>
+
+  <insight xml:id="insight-gut">
+  <title>Gut Check</title>
+    <p>
+      It is always a good idea to ask yourself if an answer makes sense.
+      In the example above, somethign that might trigger an <q>ummmm not so good</q>, might be an answer that is far too large.
+      If you forgot the step of converting the 6.25% into its equivalent decimal representation, your final answer would be $875.00.
+      That's more than the pre-tax purchase! Something has gone awry and it is time to check your steps.
+    </p> 
+  </insight>
+
+  <exercise xml:id="check-percentwordproblem">
+  <title>From Words to Formulas</title>
+  <webwork source="Library/NewHampshire/unh_schoolib/Percent/pctsrs201.pg" />
+  </exercise>
+
+  <example xml:id="example-percentincrease">
+  <title>Percentage Increase</title>
+  <statement>
+    <p>
+      In the news, you hear <q>tuition is expected to increase by 7% next year.</q>
+      If tuition this year was $970 per year, what will it be next year?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      In this situation, the current tuition, $970, is the <em>whole</em>, the <em>percent</em> is 7%, and what we want to know (almost) is again the <em>part</em>.
+      Converting 7% to the decimal 0.07 and using the same formula as above gives:
+      <md>
+        <mrow>\text{PART} \amp \text{PERCENT} \cdot \text{WHOLE}</mrow>
+        <mrow> \amp 0.07 \cdot $970</mrow>
+        <mrow> \amp $67.90</mrow>
+      </md>
+    </p>
+    <p>
+      In <xref ref="example-salestax"/>, we were done at this point.
+      However, this question does not how much is added on to the current tuition, it asks for us to compute the new tuition.
+      So, we need to add this increase to the current amount:
+      <me>
+        \text{New Tuituion} = $970.00 + $67.90 = $1037.90
+      </me>.      
+    </p>
+    <p>
+      Notice again that the final answer seems reasonable (is higher than the previous year) and that the units make sense.
+    </p>
+    <p>
+      Alternatively, if you don't like the two step approach (or if it just makes more sense this way), you can reconsider the value we use for the percent.
+      Since 7% is the amount increased, that is in addition to the 100% of the tuition from the previous year.
+      So, we can still use $970 for the <em>whole</em>, but change the <em>percent</em> to 107% = 1.07, and the <em>part</em> will now be the next year's tuition.
+      <md>
+        <mrow>\text{PART} \amp \text{PERCENT} \cdot \text{WHOLE}</mrow>
+        <mrow> \amp 1.07 \cdot $970</mrow>
+        <mrow> \amp $1037.90</mrow>
+      </md>
+    </p>
+  </solution>
+  </example>
+
+  <p>
+    Both approaches above yield the same answer, because they both correct ways of thinking about the problem.
+    One may be more natural for your brain all the time, or you may change your preference depending on the situation.
+    Also, it is worth mentioning that if in either <xref ref="example-salestax"/> or <xref ref="example-percentincrease"/>, we had a final answer with more than two digits to the reight of the decimal point, we would round to the nearest cent.
+    Similarly, while the extra zeros at the end aren't necessary, it does make it look more like a dollar amount, and it shows that you've rounded to the nearest cent.
+  </p>
+
+
+
 
 </section>

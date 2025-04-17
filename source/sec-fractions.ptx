@@ -178,6 +178,10 @@
         So, <m>\frac{4}{6}</m> (<q>four sixths</q>) of the pizza has been eaten.
         We can see this visually in <xref ref="fig-pizzaservings"/>
       </p>
+      <p>
+        Similarly, we could consider a serving to be 4 slices so the whole pizza serves 3.
+        The 8 slices eat are 2 servings, or <m>\frac{2}{3}</m> of the pizza, and the 4 slices remaining are 1 serving, <m>\frac{1}{3}</m> of the pizza.
+      </p>
     </solution>
   </example>  
   
@@ -454,13 +458,15 @@
       <p>
         In this example, the numerator and denominator have several common factors.
         The order you notice them in will vary across people.
-        You might notice first that 5 is a common factor. So, we divide both the numerator and denominator by 5:
+        You might notice first that 5 is a common factor. (Numbers that are divisible by five end with a 0 or a 5.)
+        So, we divide both the numerator and denominator by 5:
         <me>
           \frac{90}{105} = \frac{90 \div 5}{105 \div 5} = \frac{18}{21}
         </me>.   
       </p>
       <p>
         Next, you might notice that 3 is a common factor of both 18 and 21.
+        (If a number is divisible by three, then the sum of its digits is also divisible by 3. For these numbers, <m>1 + 8 = 9</m> and <m>2 + 1 = 3</m>.)
         So, we divide both the top and bottom of the fraction by 3:
         <me>
           \frac{18}{21} = \frac{18 \div 3}{21 \div 3} = \frac{6}{7}
@@ -482,11 +488,16 @@
         <me>
           \frac{90}{105} = \frac{2 \cdot 3^2 \cdot 5}{3 \cdot 5 \cdot 7} = \frac{2 \cdot \cancel{3} \cdot 3 \cdot \cancel{5}}{\cancel{3} \cdot \cancel{5} \cdot 7} = \frac{2 \cdot 3}{7} = \frac{6}{7}
         </me>.
-        
       </p>
       <p>
         We know we cannot reduce this fraction further since 6 and 7 have no common factors; 
         <m>6 = 1 \cdot 6 = 2 \cdot 3</m> and <m>7 = 1 \cdot 7</m>.
+      </p>
+      <p>
+        Writing <m>90 = 2 \cdot 3^2 \cdot 5</m> and <m>105 = 3 \cdot 5 \cdot 7</m> above is called the <em>prime factorization</em> of the numerator and denominator.
+        This simply means that we have found all the factors and nothing can be broken down into smaller pieces.
+        Lots of folks like to use a sort of tree diagram to find this factorization.
+        That tiny 2 that is up a little higher is an exponent. If you need a refresher, check out <xref ref="sec-exponents"/>.
       </p>
     </solution>
 
@@ -888,7 +899,7 @@
   Again, sticking with nice easy number is a good plan.
   One can read <m>\frac{1}{2} \div 2</m> as the question, <q>If I <em>split</em> <m>\frac{1}{2}</m> into 2 equally sized pieces, how large are those pieces?</q>
   Hopefully, we're comfortable enough thinking about what fractions are that we can see that this answer is <m>\frac{1}{4}</m>, and that agrees with the answer we'd get following the procedure.
-  Possibly less familiar is using the word <q>\<em>of</em></q> when we use multiplication.
+  Possibly less familiar is using the word <q><em>of</em></q> when we use multiplication.
   This makes sense with whole numbers; <q>Five groups <em>of</em> six apples is <m>5 \cdot 6 = 30</m> apples.</q>
   And, it makes sense with fractions too. "One half <em>of</em> 30 apples is 15."
   Figuring out one half of something is the same as dividing that something by two. So, <m>\star \div 2 = \star \div \frac{2}{1} = \star \cdot \frac{1}{2}</m>.
@@ -896,7 +907,7 @@
 
 <p>
   When we divide fractions with the same denominator, we're comparing <q>the same objects,</q> so it works similarly to addition or subtraction once we've found a common denominator.
-  Consider <m>\frac{9}{14} \div {3}{14}</m>. We can think of <q>fourteenths</q> as the objects. Since they are the same, they could be anything!
+  Consider <m>\frac{9}{14} \div \frac{3}{14}</m>. We can think of <q>fourteenths</q> as the objects. Since they are the same, they could be anything!
   <q>Nine widgets divided by three widgets</q> is the same as the fraction question, and we can think about dividing 9 widgets up into groups of 3 widgets each<ellipsis/> We get 3 groups!
   This can help us check if we should <q>flip</q> the first or second fraction.
 </p>

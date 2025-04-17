@@ -117,16 +117,28 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.5.11';
+eBookConfig.runestone_version = '7.5.16';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.ee5a0b116b7d0991.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.e0c6d4592e23c667.css">
+<script src="_static/prefix-runtime.a0c870bab402ccbf.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.97de40e034b535c5.css">
 <style>
+#example-perc-dec-frac-1-1-1 { counter-set: example-perc-dec-frac-1-1-1 0; }
+#example-perc-dec-frac-1-1-1 > li::marker { content: "("counter(example-perc-dec-frac-1-1-1,lower-alpha)")"; }
+#example-perc-dec-frac-1-1-1 > li { counter-increment: example-perc-dec-frac-1-1-1; }
+#example-perc-dec-frac-2-1-1 { counter-set: example-perc-dec-frac-2-1-1 0; }
+#example-perc-dec-frac-2-1-1 > li::marker { content: "("counter(example-perc-dec-frac-2-1-1,lower-alpha)")"; }
+#example-perc-dec-frac-2-1-1 > li { counter-increment: example-perc-dec-frac-2-1-1; }
+#extracted-webwork-9-1-1-2-1 { counter-set: extracted-webwork-9-1-1-2-1 0; }
+#extracted-webwork-9-1-1-2-1 > li::marker { content: ""counter(extracted-webwork-9-1-1-2-1,lower-alpha)"."; }
+#extracted-webwork-9-1-1-2-1 > li { counter-increment: extracted-webwork-9-1-1-2-1; }
+#extracted-webwork-9-1-5-3-1 { counter-set: extracted-webwork-9-1-5-3-1 0; }
+#extracted-webwork-9-1-5-3-1 > li::marker { content: ""counter(extracted-webwork-9-1-5-3-1,lower-alpha)"."; }
+#extracted-webwork-9-1-5-3-1 > li { counter-increment: extracted-webwork-9-1-5-3-1; }
 </style>
 </head>
 <body class="pretext book ignore-math">
@@ -355,7 +367,7 @@ eBookConfig.enable_chatcodes =  false;
 <details id="example-fractionreduce-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="example-fractionreduce-3-1">Since we want to make both the numerator and denominator smaller number, <em class="emphasis">and</em> keep the fraction equivalent, we look for numbers that we can divide <em class="emphasis">both</em> the numerator and denominator by.</div></div></details><details id="example-fractionreduce-4" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="example-fractionreduce-4-1"><span class="process-math">\(\frac{90}{105} = \frac{6}{7}\)</span></div></div></details><details id="example-fractionreduce-5" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para" id="example-fractionreduce-5-1">There are many different strategies for this process; they all differ slightly but rely on <a href="sec-fractions.html#fact-equivalentfractions" class="xref" data-knowl="./knowl/xref/fact-equivalentfractions.html" data-reveal-label="Reveal" data-close-label="Close" title="Fact 2.1.18: Equivalent Fractions">Fact 2.1.18</a>. What we’re looking for when trying to reduce a fraction are <em class="emphasis">common factors</em> of both the numerator and denominator. A <dfn class="terminology">common factor</dfn> of a set of numbers is one that goes into every number of the set evenly with no remainders.</div>
 <div class="para logical" id="example-fractionreduce-5-2">
-<div class="para">In this example, the numerator and denominator have several common factors. The order you notice them in will vary across people. You might notice first that 5 is a common factor. So, we divide both the numerator and denominator by 5:</div>
+<div class="para">In this example, the numerator and denominator have several common factors. The order you notice them in will vary across people. You might notice first that 5 is a common factor. (Numbers that are divisible by five end with a 0 or a 5.) So, we divide both the numerator and denominator by 5:</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \frac{90}{105} = \frac{90 \div 5}{105 \div 5} = \frac{18}{21}\text{.}
@@ -363,7 +375,7 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 </div>
 <div class="para logical" id="example-fractionreduce-5-3">
-<div class="para">Next, you might notice that 3 is a common factor of both 18 and 21. So, we divide both the top and bottom of the fraction by 3:</div>
+<div class="para">Next, you might notice that 3 is a common factor of both 18 and 21. (If a number is divisible by three, then the sum of its digits is also divisible by 3. For these numbers, <span class="process-math">\(1 + 8 = 9\)</span> and <span class="process-math">\(2 + 1 = 3\text{.}\)</span>) So, we divide both the top and bottom of the fraction by 3:</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \frac{18}{21} = \frac{18 \div 3}{21 \div 3} = \frac{6}{7}\text{.}
@@ -382,6 +394,7 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="para" id="example-fractionreduce-5-7">We know we cannot reduce this fraction further since 6 and 7 have no common factors; <span class="process-math">\(6 = 1 \cdot 6 = 2 \cdot 3\)</span> and <span class="process-math">\(7 = 1 \cdot 7\text{.}\)</span>
 </div>
+<div class="para" id="example-fractionreduce-5-8">Writing <span class="process-math">\(90 = 2 \cdot 3^2 \cdot 5\)</span> and <span class="process-math">\(105 = 3 \cdot 5 \cdot 7\)</span> above is called the <em class="emphasis">prime factorization</em> of the numerator and denominator. This simply means that we have found all the factors and nothing can be broken down into smaller pieces. Lots of folks like to use a sort of tree diagram to find this factorization. That tiny 2 that is up a little higher is an exponent. If you need a refresher, check out <a href="sec-exponents.html" class="internal" title="Section 2.3: Exponent Rules">Section 2.3</a>.</div>
 </div></details>
 </div></article><article class="exercise exercise-like" id="check-reducefrac"><h3 class="heading">
 <span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">2.1.20</span><span class="period">.</span><span class="space"> </span><span class="title">Reducing Fractions.</span>
@@ -657,9 +670,9 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para">Remember that a fraction is also division, so we can write whole numbers as fractions by giving them a denominator of 1. If we had erroneously “flipped” the first fraction above, we would end up with an incorrect answer of <span class="process-math">\(\frac{1}{2}\text{.}\)</span>
 </div>
 </div>
-<div class="para" id="sec-fractions-66">Another option is to relate this back to words. Words can be both tricky, helpful, or both, so this approach is not going to work well for every brain. Again, sticking with nice easy number is a good plan. One can read <span class="process-math">\(\frac{1}{2} \div 2\)</span> as the question, “If I <em class="emphasis">split</em> <span class="process-math">\(\frac{1}{2}\)</span> into 2 equally sized pieces, how large are those pieces?” Hopefully, we’re comfortable enough thinking about what fractions are that we can see that this answer is <span class="process-math">\(\frac{1}{4}\text{,}\)</span> and that agrees with the answer we’d get following the procedure. Possibly less familiar is using the word “\<em class="emphasis">of</em>” when we use multiplication. This makes sense with whole numbers; “Five groups <em class="emphasis">of</em> six apples is <span class="process-math">\(5 \cdot 6 = 30\)</span> apples.” And, it makes sense with fractions too. "One half <em class="emphasis">of</em> 30 apples is 15." Figuring out one half of something is the same as dividing that something by two. So, <span class="process-math">\(\star \div 2 = \star \div \frac{2}{1} = \star \cdot \frac{1}{2}\text{.}\)</span>
+<div class="para" id="sec-fractions-66">Another option is to relate this back to words. Words can be both tricky, helpful, or both, so this approach is not going to work well for every brain. Again, sticking with nice easy number is a good plan. One can read <span class="process-math">\(\frac{1}{2} \div 2\)</span> as the question, “If I <em class="emphasis">split</em> <span class="process-math">\(\frac{1}{2}\)</span> into 2 equally sized pieces, how large are those pieces?” Hopefully, we’re comfortable enough thinking about what fractions are that we can see that this answer is <span class="process-math">\(\frac{1}{4}\text{,}\)</span> and that agrees with the answer we’d get following the procedure. Possibly less familiar is using the word “<em class="emphasis">of</em>” when we use multiplication. This makes sense with whole numbers; “Five groups <em class="emphasis">of</em> six apples is <span class="process-math">\(5 \cdot 6 = 30\)</span> apples.” And, it makes sense with fractions too. "One half <em class="emphasis">of</em> 30 apples is 15." Figuring out one half of something is the same as dividing that something by two. So, <span class="process-math">\(\star \div 2 = \star \div \frac{2}{1} = \star \cdot \frac{1}{2}\text{.}\)</span>
 </div>
-<div class="para" id="sec-fractions-67">When we divide fractions with the same denominator, we’re comparing “the same objects,” so it works similarly to addition or subtraction once we’ve found a common denominator. Consider <span class="process-math">\(\frac{9}{14} \div {3}{14}\text{.}\)</span> We can think of “fourteenths” as the objects. Since they are the same, they could be anything! “Nine widgets divided by three widgets” is the same as the fraction question, and we can think about dividing 9 widgets up into groups of 3 widgets each… We get 3 groups! This can help us check if we should “flip” the first or second fraction.</div>
+<div class="para" id="sec-fractions-67">When we divide fractions with the same denominator, we’re comparing “the same objects,” so it works similarly to addition or subtraction once we’ve found a common denominator. Consider <span class="process-math">\(\frac{9}{14} \div \frac{3}{14}\text{.}\)</span> We can think of “fourteenths” as the objects. Since they are the same, they could be anything! “Nine widgets divided by three widgets” is the same as the fraction question, and we can think about dividing 9 widgets up into groups of 3 widgets each… We get 3 groups! This can help us check if we should “flip” the first or second fraction.</div>
 <div class="para" id="sec-fractions-68">For anything involving fractions, it is worth figuring out a scenario that you’re comfortable with to test out ideas in. Some people who cook or bake frequently, work really well with halves and thirds and quarters, and are comfortable halving or tripling a recipe; that’s division and multiplication of fractions. If you have experience in construction or carpentry, you’re likely to be comfortable with halves, quarters, eigths, sixteenths, and even thirtyseconds. You are probably very comfortable knowing which drill bit is larger. Fabric for sewing is sold by the yard, and you often need to add up the different pieces to know how much total yardage you need. You can always round up to be safe, but you can also buy in quarters of a yard and not spend as much.</div>
 <div class="para" id="sec-fractions-69">Fractions don’t have to be scary, and the above examples are all instances where time and practice has led to being more comfortable and confident.</div></section></div>
 <div class="ptx-content-footer">

@@ -186,4 +186,158 @@ Remember, to enter a fraction of the form <m>\frac{a}{b}</m>, type a / b.
     <server-data sourceFilePath="Library/PCC/BasicAlgebra/FractionArithmetic/DivideFractions20.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
     <pg source="Library/PCC/BasicAlgebra/FractionArithmetic/DivideFractions20.pg"/>
   </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-8" ww-id="webwork-8">
+    <static seed="8" source="Library/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion60.pg">
+      <statement><p>Convert the following decimals into percentages:</p>
+<p><m>\displaystyle{ 0.09 = }</m> <fillin name="AnSwEr0001" characters="5"/></p>
+<p><m>\displaystyle{ 0.009 = }</m> <fillin name="AnSwEr0002" characters="5"/></p>
+<p><m>\displaystyle{ 0.0009 = }</m> <fillin name="AnSwEr0003" characters="5"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>9.00\%</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.90\%</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.09\%</m>
+        </p>
+      </answer>
+      <solution><p>To change a decimal to a percentage, we move the decimal point to the right twice.</p>
+<p><m>\displaystyle{ 0.09 = 9\% }</m></p>
+<p><m>\displaystyle{ 0.009 = 0.9\% }</m></p>
+<p><m>\displaystyle{ 0.0009 = 0.09\% }</m></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion60.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion60.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-9" ww-id="webwork-9">
+    <static seed="9" source="Library/PCC/BasicAlgebra/NumberBasics/PercentOfNumber70.pg">
+      <statement><p>Fill in the blanks:</p>
+<p><ol label="a.">
+<li>
+<p><fillin name="AnSwEr0001" characters="7"/> is <m>98\%</m> of <m>300</m>?</p>
+</li>
+<li>
+<p><m>228.8</m> is <fillin name="AnSwEr0002" characters="6"/> <m>\%</m> of <m>440</m>?</p>
+</li>
+<li>
+<p><m>2960</m> is  <m>37\%</m> of <fillin name="AnSwEr0003" characters="6"/>?</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>294</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>52</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>8000</m>
+        </p>
+      </answer>
+      <solution><p>This translation from English to math may help you remember the percentage formula.</p>
+<p><m>2 \text{ is } 50\% \text{ of } 4 \iff 2 = 0.5 \cdot 4</m></p>
+<p><ol label="a.">
+<li>
+<p>What is <m>98\%</m> of <m>300</m>?</p>
+<p><m>\displaystyle{ \begin{aligned}
+      x \amp = 0.98 \cdot 300\\
+        \amp = {294} 
+      \end{aligned}}</m></p>
+<p>So <m>{294}</m> is <m>98\%</m> of <m>300</m>.</p>
+<!-- PTX:WARNING: PGML wanted to place a horizontal rule here. -->
+</li>
+<li>
+<p><m>228.8</m> is what <m>\%</m> of <m>440</m>?</p>
+<p><m>\begin{aligned}
+  228.8 \amp =\frac{x}{100} \cdot 440 \\
+  100(228.8) \amp =100\cdot\frac{x}{100} \cdot 440 \\
+  22880 \amp =x \cdot 440 \\
+  \frac{22880}{440} \amp = \frac{x \cdot 440}{440} \\
+  {52} \amp = x\\
+  x \amp ={52}
+\end{aligned}</m></p>
+<p>So <m>228.8</m> is <m>{52}\%</m> of <m>440</m>.</p>
+<!-- PTX:WARNING: PGML wanted to place a horizontal rule here. -->
+</li>
+<li>
+<p><m>2960</m> is  <m>37\%</m> of what?</p>
+<p><m>\begin{aligned}
+  2960 \amp = 0.37 \cdot x \\
+  \frac{2960}{0.37} \amp = \frac{0.37 \cdot x}{0.37} \\
+  {8000} \amp = x\\
+  x \amp  = {8000}
+\end{aligned}</m></p>
+<p>So <m>2960</m> is <m>37\%</m> of <m>{8000}</m>.</p>
+</li>
+</ol></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/PCC/BasicAlgebra/NumberBasics/PercentOfNumber70.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/NumberBasics/PercentOfNumber70.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-10" ww-id="webwork-10">
+    <static seed="10" source="Library/NewHampshire/unh_schoolib/Percent/pctsrs201.pg">
+      <statement><p>Baseball batting averages are somewhat similar to percentages except that they
+are usually rounded to three decimal places and include the decimal point.  That is, if a player got 3 hits in 10 at bats then she had a hit <m>\frac {3}{10} = .300</m> of the times she was at bat. Her batting average is listed as .300 in the newspapers.</p>
+<p>a) If Fred got 12 hits in 50 times at bat, his batting average is <fillin name="AnSwEr0001" characters="3"/>.</p>
+<p>b) If Mary got 139 hits in 501 times at bat, her batting average is <fillin name="AnSwEr0002" characters="3"/>.</p>
+<p>If Mary got 139 hits in 501 times at bat, then she got</p>
+<p>hits <fillin name="AnSwEr0003" characters="3"/>% of the times she was at bat.</p>
+<p>Answer should be correct to 1 decimal place.</p>
+<p>Jack's batting average is 0.27.  He was at bat 148 times.  That means he
+got <fillin name="AnSwEr0004" characters="3"/> hits.</p>
+</statement>
+      <answer>
+        <p>
+          <m>0.24</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.277445</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>27.7</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>40</m>
+        </p>
+      </answer>
+      <solution><p>SOLUTIONS
+In a) just divide  by 50 and round to three decimal places.</p>
+<p>Answer is 0.24.</p>
+<p>In b) divide  by 501 and round to three decimal places.</p>
+<p>Answer is 0.277445109780439.</p>
+<p>In c) Your answer should be a percentage.  So multiply the decimal
+batting average in b) by 100.</p>
+<p>Answer is 27.7445109780439.</p>
+<p>In d) since batting average is hits/(at bats), hits must be batting
+average times at bats,</p>
+<p>so multiply 0.27 by at bats and round the
+answer to be an integer.</p>
+<p>You must round because the batting average
+is approximate since it is only calculated to 3 decimal places.</p>
+<p>Ans = 40.</p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/NewHampshire/unh_schoolib/Percent/pctsrs201.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/NewHampshire/unh_schoolib/Percent/pctsrs201.pg"/>
+  </webwork-reps>
 </webwork-representations>

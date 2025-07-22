@@ -16,5 +16,6 @@
 
   <!-- include sections -->
   <xi:include href="sec-percent.ptx" />
+  <xi:include href="sec-proportions.ptx" />
 
 </chapter>

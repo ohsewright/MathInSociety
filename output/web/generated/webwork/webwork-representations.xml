@@ -340,4 +340,50 @@ is approximate since it is only calculated to 3 decimal places.</p>
     <server-data sourceFilePath="Library/NewHampshire/unh_schoolib/Percent/pctsrs201.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
     <pg source="Library/NewHampshire/unh_schoolib/Percent/pctsrs201.pg"/>
   </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-11" ww-id="webwork-11">
+    <static seed="11" source="Library/NewHampshire/NECAP/grade7/gr7-2009/n7-2009-3s.pg">
+      <statement><p>Andrew spent $16 on gasoline last week.</p>
+<p>He will spend 25% more on gasoline this week than he did last week.</p>
+<p>How much will Andrew spend on gasoline this week? 
+<var form="buttons">
+<li>
+<p>$41</p>
+</li>
+<li>
+<p>$24</p>
+</li>
+<li>
+<p>$64</p>
+</li>
+<li>
+<p>$20</p>
+</li>
+</var></p>
+</statement>
+      <solution><p>Solution</p>
+<p>25% of 16 is <m>\frac{1}{4}\times 16=4</m>, so he will spend $16+$4=$20.</p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/NewHampshire/NECAP/grade7/gr7-2009/n7-2009-3s.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/NewHampshire/NECAP/grade7/gr7-2009/n7-2009-3s.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-12" ww-id="webwork-12">
+    <static seed="12" source="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg">
+      <statement><p>Find an equivalent fraction to <m>\frac{3}{4}</m>:</p>
+<p><m>\displaystyle{ \frac{3}{4} = \frac{15}{?} }</m></p>
+<p>The question mark should be the number <fillin name="AnSwEr0001" characters="8"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>20</m>
+        </p>
+      </answer>
+      <solution><p>From <m>3</m> to <m>15</m>, we multiplied by <m>15\div3=5</m>.</p>
+<p>For a fraction, when we multiply the same number in both the numerator and denominator, the fraction<rsq/>s value doesn<rsq/>t change. We have:</p>
+<p><m>\displaystyle{ \frac{3}{4}=\frac{3\cdot5}{4\cdot5} = \frac{15}{20} }</m></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg"/>
+  </webwork-reps>
 </webwork-representations>

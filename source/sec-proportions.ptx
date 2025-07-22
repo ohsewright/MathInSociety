@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-proportions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Proportions and Rates</title>
+
+  <p> 
+    If you wanted to power the city of Boston using wind power, how many windmills would you need to install?
+    Questions like these can be answered using rates and proportions. 
+  </p>
+
+  <definition xml:id="def-rate">
+    <title>Rate</title>
+    
+    
+    <statement>
+        <p>
+            A <term>rate</term> is the ratio (fraction) of two quantities.
+            A <term>unit rate</term> is a rate with a denominator of one.
+        </p>
+    </statement>
+  </definition>
+
+  <example xml:id="example-rate">
+    <title>A Rate You Know</title>
+    <statement>
+        <p>
+            A car can drive 300 miles on a tank of 15 gallons. Express this as a rate.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            Both <m>\frac{300 \text{ miles}}{15 \text{ gallons}}</m> and <m>\frac{15 \text{ gallons}}{300 \text{ miles}}</m> are rates that represent this situation.
+            The first is more common, which we will probably recognize if we write it as an equivalent unit rate.
+            We can divide each quantity by 15 (see <xref ref="fact-equivalentfractions"/>) to give the unit rate <m>\frac{20 \text{ miles}}{1 \text{ gallon}}</m>, 
+            which we could write as <q>20 <m>\frac{\text{miles}}{\text{gallon}}</m></q> or <q>20 miles per gallon.</q>
+        </p>
+    </solution>
+  </example>
+
+  <definition xml:id="def-proportionequation">
+    <title>Proportion Equation</title>
+    <statement>
+        <p>
+            A <term>proportion equation</term> is an equation showing the equivalence of two rates or ratios.
+        </p>
+    </statement>
+  </definition>
+
+  <p>
+    Before we dive in to using propotion equations as a tool and needing to set them up ourselves, we'll see and practice how to solve them.
+  </p>
+
+  <example xml:id="example-propeqsolve">
+    <title>Solving a Proportion Equation</title>
+    <statement>
+        <p>
+            Solve the proportion equation <m>\frac{5}{3} = \frac{x}{6}</m> for the unknown <m>x</m>.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            One way to solve proportion equations is to multiply or divide both sides by the same quantity in an effort to get the variable alone on one side.
+            Here, that would look like multiplying both sides by 6:
+            <md>
+                <mrow>\frac{5}{3} \amp = \frac{x}{6}</mrow>
+                <mrow>6 \cdot \frac{5}{3} \amp = \frac{x}{6} \cdot 6</mrow>
+                <mrow>\frac{6 \cdot 5}{3} \amp = x</mrow>
+                <mrow>10 \amp = x</mrow>
+            </md>
+        </p>
+        <p>
+            Some folks are equally or more comfortable considering the process for producing equivalent fractions, <xref ref="fact-equivalentfractions"/>.
+            That might look like seeing the proportion equation <m>\frac{5}{3} = \frac{x}{6}</m>, and thinking,
+        </p>
+            <blockquote>
+                <p>
+                To get from <m>\frac{5}{3}</m> to <m>\frac{x}{6}</m> I would have multiplied the denominator by 2,
+                so I also need to multiply the numerator by 2 to keep the fractions equal.
+                Five times two is ten, so <m>x=10</m>.
+                </p>
+            </blockquote>
+        
+    </solution>
+  </example>
+
+  <exercise xml:id="check-propeq">
+    <title>Solve a Proportion Equation</title>
+    <webwork source="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg" />
+  </exercise>
+
+  
+
+</section>

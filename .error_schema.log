@@ -1,5 +1,5 @@
 /Users/swright8/Desktop/MathInSociety/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element idx, got introduction
 /Users/swright8/Desktop/MathInSociety/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element introduction there
-/Users/swright8/Desktop/MathInSociety/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got introduction
 /Users/swright8/Desktop/MathInSociety/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element blockquote, got p
 /Users/swright8/Desktop/MathInSociety/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element p there
+/Users/swright8/Desktop/MathInSociety/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got p

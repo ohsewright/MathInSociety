@@ -117,15 +117,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.5.16';
+eBookConfig.runestone_version = '7.9.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.a0c870bab402ccbf.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.97de40e034b535c5.css">
+<script src="_static/prefix-runtime.787a04695534ef1e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.014cb392a13bd045.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
 <style>
 #example-perc-dec-frac-1-1-1 { counter-set: example-perc-dec-frac-1-1-1 0; }
 #example-perc-dec-frac-1-1-1 > li::marker { content: "("counter(example-perc-dec-frac-1-1-1,lower-alpha)")"; }
@@ -159,7 +159,7 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span></span>
+<span class="nav-other-controls"></span><span class="treebuttons"><span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="next-button button" href="sec-proportions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -193,7 +193,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-prop-reasoning.html" class="internal"><span class="codenumber">3</span> <span class="title">Proportional Reasoning</span></a></div>
-<ul class="structural toc-item-list contains-active"><li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-percent.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Percentages</span></a></div></li></ul>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-percent.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Percentages</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-proportions.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Proportions and Rates</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-models.html" class="internal"><span class="codenumber">4</span> <span class="title">Modeling</span></a></div>
@@ -227,7 +230,7 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-percent"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">3.1</span><span class="space"> </span><span class="title">Percentages</span>
 </h2>
-<div class="para" id="sec-percent-2">In the 2004 vice-presidential debates, Edwards’s claimed that US forces have suffered “90% of the coalition casualties” in Iraq. Cheney disputed this, saying that in fact Iraqi security forces and coalition allies “have taken almost 50 percent” of the casualties.<details class="ptx-footnote" aria-live="polite" id="sec-percent-2-3"><summary class="ptx-footnote__number" title="Footnote 3.1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-2-3"><a class="external" href="http://www.factcheck.org/cheney_edwards_mangle_facts.html" target="_blank">http://www.factcheck.org/cheney_edwards_mangle_facts.html</a></div></details> Who is correct?  How can we make sense of these numbers?</div>
+<div class="para" id="sec-percent-2">In the 2004 vice-presidential debates, Edwards’s claimed that US forces have suffered “90% of the coalition casualties” in Iraq. Cheney disputed this, saying that in fact Iraqi security forces and coalition allies “have taken almost 50 percent” of the casualties.<details class="ptx-footnote" aria-live="polite" id="sec-percent-2-3"><summary class="ptx-footnote__number" title="Footnote 3.1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-percent-2-3"><a class="external" href="https://www.factcheck.org/2004/10/cheney-edwards-mangle-facts/" target="_blank">https://www.factcheck.org/2004/10/cheney-edwards-mangle-facts/</a></div></details> Who is correct?  How can we make sense of these numbers?</div>
 <article class="definition definition-like" id="def-percent"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Percent.</span>
 </h3>
@@ -365,7 +368,7 @@ x \amp  = {8000}
 <div class="para" id="insight-units-2">Notice that we’ve kept the units, dollars, with the <em class="emphasis">whole</em> and that the <em class="emphasis">percentage</em> is “unitless”. That gives us a final answer with the units of dollars, which makes sense in the scenario of the problem. This is a fairly straightforward example; it is even more important to do this type of analysis and check in more complicated situations.</div></article><article class="insight remark-like" id="insight-gut"><h3 class="heading">
 <span class="type">Good Brain Habit</span><span class="space"> </span><span class="codenumber">3.1.9</span><span class="period">.</span><span class="space"> </span><span class="title">Gut Check.</span>
 </h3>
-<div class="para" id="insight-gut-2">It is always a good idea to ask yourself if an answer makes sense. In the example above, somethign that might trigger an “ummmm not so good”, might be an answer that is far too large. If you forgot the step of converting the 6.25% into its equivalent decimal representation, your final answer would be $875.00. That’s more than the pre-tax purchase! Something has gone awry and it is time to check your steps.</div></article><article class="exercise exercise-like" id="check-percentwordproblem"><h3 class="heading">
+<div class="para" id="insight-gut-2">It is always a good idea to ask yourself if an answer makes sense. In the example above, something that might trigger an “ummmm not so good”, might be an answer that is far too large. If you forgot the step of converting the 6.25% into its equivalent decimal representation, your final answer would be $875.00. That’s more than the pre-tax purchase! Something has gone awry and it is time to check your steps.</div></article><article class="exercise exercise-like" id="check-percentwordproblem"><h3 class="heading">
 <span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">3.1.10</span><span class="period">.</span><span class="space"> </span><span class="title">From Words to Formulas.</span>
 </h3>
 <div id="webwork-10" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="10" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/NewHampshire/unh_schoolib/Percent/pctsrs201.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
@@ -396,14 +399,14 @@ x \amp  = {8000}
 <div class="para">In this situation, the current tuition, $970, is the <em class="emphasis">whole</em>, the <em class="emphasis">percent</em> is 7%, and what we want to know (almost) is again the <em class="emphasis">part</em>. Converting 7% to the decimal 0.07 and using the same formula as above gives:</div>
 <div class="displaymath process-math" id="example-percentincrease-3-1-4">
 \begin{align*}
-\text{PART} \amp \text{PERCENT} \cdot \text{WHOLE}\\
-\amp 0.07 \cdot $970\\
-\amp $67.90
+\text{PART} \amp = \text{PERCENT} \cdot \text{WHOLE}\\
+\amp = 0.07 \cdot $970\\
+\amp = $67.90
 \end{align*}
 </div>
 </div>
 <div class="para logical" id="example-percentincrease-3-2">
-<div class="para">In <a href="sec-percent.html#example-salestax" class="xref" data-knowl="./knowl/xref/example-salestax.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.7: Sales Tax">Example 3.1.7</a>, we were done at this point. However, this question does not how much is added on to the current tuition, it asks for us to compute the new tuition. So, we need to add this increase to the current amount:</div>
+<div class="para">In <a href="sec-percent.html#example-salestax" class="xref" data-knowl="./knowl/xref/example-salestax.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.7: Sales Tax">Example 3.1.7</a>, we were done at this point. However, this question does not ask how much is added on to the current tuition, it asks for us to compute the new tuition. So, we need to add this increase to the current amount:</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-salestax.html">
 \begin{equation*}
 \text{New Tuituion} = $970.00 + $67.90 = $1037.90\text{.}
@@ -415,15 +418,252 @@ x \amp  = {8000}
 <div class="para">Alternatively, if you don’t like the two step approach (or if it just makes more sense this way), you can reconsider the value we use for the percent. Since 7% is the amount increased, that is in addition to the 100% of the tuition from the previous year. So, we can still use $970 for the <em class="emphasis">whole</em>, but change the <em class="emphasis">percent</em> to 107% = 1.07, and the <em class="emphasis">part</em> will now be the next year’s tuition.</div>
 <div class="displaymath process-math" id="example-percentincrease-3-4-4">
 \begin{align*}
-\text{PART} \amp \text{PERCENT} \cdot \text{WHOLE}\\
-\amp 1.07 \cdot $970\\
-\amp $1037.90
+\text{PART} \amp = \text{PERCENT} \cdot \text{WHOLE}\\
+\amp = 1.07 \cdot $970\\
+\amp = $1037.90
 \end{align*}
 </div>
 </div>
-</div></details></div></article><div class="para" id="sec-percent-16">Both approaches above yield the same answer, because they both correct ways of thinking about the problem. One may be more natural for your brain all the time, or you may change your preference depending on the situation. Also, it is worth mentioning that if in either <a href="sec-percent.html#example-salestax" class="xref" data-knowl="./knowl/xref/example-salestax.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.7: Sales Tax">Example 3.1.7</a> or <a href="sec-percent.html#example-percentincrease" class="xref" data-knowl="./knowl/xref/example-percentincrease.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.11: Percentage Increase">Example 3.1.11</a>, we had a final answer with more than two digits to the reight of the decimal point, we would round to the nearest cent. Similarly, while the extra zeros at the end aren’t necessary, it does make it look more like a dollar amount, and it shows that you’ve rounded to the nearest cent.</div></section></div>
+</div></details></div></article><div class="para" id="sec-percent-16">Both approaches above yield the same answer, because they both correct ways of thinking about the problem. One may be more natural for your brain all the time, or you may change your preference depending on the situation. Also, it is worth mentioning that if in either <a href="sec-percent.html#example-salestax" class="xref" data-knowl="./knowl/xref/example-salestax.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.7: Sales Tax">Example 3.1.7</a> or <a href="sec-percent.html#example-percentincrease" class="xref" data-knowl="./knowl/xref/example-percentincrease.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.11: Percentage Increase">Example 3.1.11</a>, we had a final answer with more than two digits to the right of the decimal point, we would round to the nearest cent. Similarly, while the extra zeros at the end aren’t necessary, it does make it look more like a dollar amount, and it shows that you’ve rounded to the nearest cent.</div>
+<article class="exercise exercise-like" id="check-percentincrease"><h3 class="heading">
+<span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">3.1.12</span><span class="period">.</span><span class="space"> </span><span class="title">Percentage Change.</span>
+</h3>
+<div id="webwork-11" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="11" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/NewHampshire/NECAP/grade7/gr7-2009/n7-2009-3s.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-11')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-11-1-1-1">Andrew spent $16 on gasoline last week.</div> <div class="para" id="extracted-webwork-11-1-1-2">He will spend 25% more on gasoline this week than he did last week.</div> <div class="para logical" id="extracted-webwork-11-1-1-3">
+<div class="para">How much will Andrew spend on gasoline this week?</div>
+<ul class="circle" id="extracted-webwork-11-1-1-3-1">
+<li id="extracted-webwork-11-1-1-3-1-1"><div class="para" id="extracted-webwork-11-1-1-3-1-1-1">$41</div></li>
+<li id="extracted-webwork-11-1-1-3-1-2"><div class="para" id="extracted-webwork-11-1-1-3-1-2-1">$24</div></li>
+<li id="extracted-webwork-11-1-1-3-1-3"><div class="para" id="extracted-webwork-11-1-1-3-1-3-1">$64</div></li>
+<li id="extracted-webwork-11-1-1-3-1-4"><div class="para" id="extracted-webwork-11-1-1-3-1-4-1">$20</div></li>
+</ul>
+</div>
+<div class="solutions"><details id="extracted-webwork-11-1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="extracted-webwork-11-1-2-1">Solution</div>
+<div class="para" id="extracted-webwork-11-1-2-2">25% of 16 is <span class="process-math">\(\frac{1}{4}\times 16=4\text{,}\)</span> so he will spend $16+$4=$20.</div>
+</div></details></div>
+</div>
+</div></article><article class="example example-like" id="example-absoluterelativechange-intro"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.13</span><span class="period">.</span><span class="space"> </span><span class="title">Percentage Change.</span>
+</h3>
+<div class="para" id="example-absoluterelativechange-intro-2-1">The value of a car dropped from $7400 to $6800 over the last year.  What percent decrease is this?</div>
+<div class="solutions"><details id="example-absoluterelativechange-intro-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-absoluterelativechange-intro-3-1">Here, the piece we’re looking for is the <em class="emphasis">percent</em>. The <em class="emphasis">part</em> is the amount the quantity has changed, <span class="process-math">\(\$7400-\$6800=$600\text{,}\)</span> and the <em class="emphasis">whole</em> is the <em class="alert">starting amount</em>, $7800.</div>
+<div class="para logical" id="example-absoluterelativechange-intro-3-2">
+<div class="displaymath process-math" id="example-absoluterelativechange-intro-3-2-1">
+\begin{align*}
+\text{PERCENT} \amp = \frac{\text{PART}}{\text{WHOLE}}\\
+\amp = \frac{\$600}{\$7400}\\
+\amp = 0.081081\dots = 0.\overline{081}\\
+\amp \approx 8.1\%
+\end{align*}
+</div>
+<div class="para">The price has <em class="alert">dropped</em> by 8.1%.</div>
+</div>
+</div></details></div></article><div class="para" id="sec-percent-19">In <a href="sec-percent.html#example-absoluterelativechange-intro" class="xref" data-knowl="./knowl/xref/example-absoluterelativechange-intro.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.13: Percentage Change">Example 3.1.13</a>, the <em class="emphasis">part</em> we computed is what we call the <em class="emphasis">absolute change</em>, and the <em class="emphasis">percent</em> is called the <em class="emphasis">relative change</em>.</div>
+<article class="definition definition-like" id="def-absoluterelativechange"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.14</span><span class="period">.</span><span class="space"> </span><span class="title">Absolute and Relative Change.</span>
+</h3>
+<div class="para logical" id="def-absoluterelativechange-2-1">
+<div class="para">Given two quantities, a starting and ending quantity, we can think about the change in two different ways: <dfn class="terminology">Absolute change</dfn> is the difference between the two quantities</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{absolute change} = \left| \text{ending quantity} - \text{starting quantity} \right|\text{,}
+\end{equation*}
+</div>
+<div class="para">and <dfn class="terminology">relative change</dfn> is the percentage that the change is compared to the starting quantity,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{relative change} = \frac{\text{absolute change}}{\text{starting quantity}}\text{.}
+\end{equation*}
+</div>
+<div class="para">Absolute change has the same units as the original quantity and is always a positive number; we indicate if the quantity has increased or descreased with words. Relative change gives a percent change. The starting quantity is called the <dfn class="terminology">base</dfn> of the percent change.</div>
+</div></article><div class="para" id="sec-percent-21">The base of a percent is very important. For example, while Nixon was president, it was argued that marijuana was a “gateway” drug, claiming that 80% of marijuana smokers went on to use harder drugs like cocaine. The problem is, this isn’t true. The true claim is that 80% of harder drug users first smoked marijuana. The difference is one of base: 80% of marijuana smokers using hard drugs, vs. 80% of hard drug users having smoked marijuana. These numbers are not equivalent.</div>
+<article class="example example-like" id="example-mountida"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.15</span><span class="period">.</span><span class="space"> </span><span class="title">Absolute, Relative, and the Importance of the Base.</span>
+</h3>
+<div class="para" id="example-mountida-2-1">Mount Ida College ceased all its operations and arranged for its students to transfer into various local public and private colleges. The yearly tuition (including fees) at Mount Ida was $33,500. The average tuition at the time (including fees) for Massachusetts state colleges was about $10,000. Compare the tuition costs of the Mount Ida with state colleges in Massachusetts for those students who will transfer into a public college.</div>
+<div class="solutions"><details id="example-mountida-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-mountida-3-1">There are many way to compare these two values. Different comparisons are more or less useful depending on the goal.</div>
+<div class="para logical" id="example-mountida-3-2">
+<div class="para">The easiest comparison to make is the absolute comparison:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+|\$10000 - \$33500| = |-\$23500| = \$23500
+\end{equation*}
+</div>
+<div class="para">Since the tuition after the transfer is less, the result of the subtraction inside the absolute value is negative; the absolute value then makes the final answer positive. We indicate that we had a negative value with the word “less” in our final answer:</div>
+</div>
+<blockquote class="blockquote" id="example-mountida-3-3"><div class="para" id="example-mountida-3-3-1">A student who transfers from Mount Ida to a state school will spend $23,500 <em class="alert">less</em> on tuition.</div></blockquote>
+<div class="para" id="example-mountida-3-4">This is likely the most useful comparison for the student; they need to know the actual amount of money they will save or how much to adjust their loan.</div>
+<div class="para" id="example-mountida-3-5">However, if you wrote this in an article or paper, that number does not mean much to those less familiar with the costs. The relative difference may be more meaningful. There are two different relative changes we could calculate, depending on which college’s tuition we use as the base:</div>
+<div class="para" id="example-mountida-3-6">Using Mount Ida’s tuition as the base results in <span class="process-math">\(\frac{\$23500}{\$33500} = 0.7\text{.}\)</span> This tells us,</div>
+<blockquote class="blockquote" id="example-mountida-3-7"><div class="para" id="example-mountida-3-7-1">The average Massachusetts state college is 70% less expensive than Mount Ida.</div></blockquote>
+<div class="para" id="example-mountida-3-8">Using the average Massachusetts state college tuition as the base results in <span class="process-math">\(\frac{\$23500}{\$10000} = 2.35\text{.}\)</span> This tells us,</div>
+<blockquote class="blockquote" id="example-mountida-3-9"><div class="para" id="example-mountida-3-9-1">The tuition at Mount Ida is 235% more expensive than the average state college tuition.</div></blockquote>
+<div class="para" id="example-mountida-3-10">Notice that the quantity that comes after the phrase “more than” or “less than” is the base of the comparison. Of course, because words are hard, it won’t always be this clear when folks use different phrasing, but you can usually crack the code by remembering that the base is the quantity you’re <em class="alert">comparing to</em>... even if that isn’t clearly a “starting quantity” in terms of time. Both of these relative changes are <em class="alert">percent differences</em>.</div>
+<div class="para" id="example-mountida-3-11">We could also calculate the tuition cost of Mount Ida relative to state colleges in Massachusetts: <span class="process-math">\(\frac{\$33500}{\$10000} = 3.35\)</span> which tells us,</div>
+<blockquote class="blockquote" id="example-mountida-3-12"><div class="para" id="example-mountida-3-12-1">Mount Ida was 3.35 times more expensive than an average state college in Massachusetts.</div></blockquote>
+<div class="para" id="example-mountida-3-13">Likewise, we could calculate the tuition cost of the average state colleges in Massachusetts relative to Mount Ida: <span class="process-math">\(\frac{\$10000}{\$33500} \approx .3 = 30\%\text{,}\)</span> which tells us,</div>
+<blockquote class="blockquote" id="example-mountida-3-14"><div class="para" id="example-mountida-3-14-1">State colleges’ tuition cost is approximately 30% of the tuition cost of Mount Ida.</div></blockquote>
+</div></details></div></article><article class="exercise exercise-like" id="check-absolutevsrelative"><h3 class="heading">
+<span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">3.1.16</span><span class="period">.</span><span class="space"> </span><span class="title">Which is larger?</span>
+</h3>
+<div class="para" id="check-absolutevsrelative-2-1">The US federal debt at the end of 2006 was $8.68 trillion, and grew to $9.15 trillion by the end of 2007. At the end of 2016 it was $19.97 trillion, and grew to $20.49 trillion by the end of 2017. Which year saw a larger increase in federal debt?</div>
+<div class="solutions"><details id="check-absolutevsrelative-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="check-absolutevsrelative-3-1">From 2006 to 2007, the absolute change was <span class="process-math">\(9.15 - 8.68 = 0.47\text{,}\)</span> or 470 billion dollars. The relative increase for that year, <span class="process-math">\(\frac{0.47}{8.68} \approx 0.0541\text{,}\)</span> was 5.41%.</div>
+<div class="para" id="check-absolutevsrelative-3-2">From 2016 to 2017, the absolute change was <span class="process-math">\(20.49 - 19.97 = 0.52\text{,}\)</span> or 520 billion dollars. The relative increase for that year, <span class="process-math">\(\frac{0.52}{19.97} \approx 0.026\text{,}\)</span> was 2.6%.</div>
+<div class="para" id="check-absolutevsrelative-3-3">2006-2007 saw a larger relative increase, but a smaller absolute increase.</div>
+</div></details></div></article><div class="para" id="sec-percent-24">The purpose of <a href="sec-percent.html#check-absolutevsrelative" class="xref" data-knowl="./knowl/xref/check-absolutevsrelative.html" data-reveal-label="Reveal" data-close-label="Close" title="Check for Understanding 3.1.16: Which is larger?">Check for Understanding 3.1.16</a> was to highlight the importance of the differences between absolute and relative change, in addition to carefully considering the base of a relative change. It is of course important to know which formula to use so that you can compute and produce the correct value. But it is possibly even more important to know to be a careful consumer of this type of information. The next few examples get at this a little more. Consider the situation and think for yourself first before looking at the solution. Also, remember that these “solutions” are quite different from final answers that are quantitative, but are rather more like interpretations of the situation. Your interpretations of what is more important or more illustrative may differ from the author’s and that is fine, so long as you’re making correct use of the terms and formulas.</div>
+<article class="example example-like" id="example-dropout"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.17</span><span class="period">.</span><span class="space"> </span><span class="title">Dropout Factories.</span>
+</h3>
+<div class="para" id="example-dropout-2-1">A Seattle Times article on high school graduation rates reported “The number of schools graduating 60 percent or fewer students in four years – sometimes referred to as ‘dropout factories’ – decreased by 17 during that time period. The number of kids attending schools with such low graduation rates was cut in half.” If the “decrease by 17” number a useful comparison? Considering the last sentence, can we conclude that the number of dropout factories was originally 34?</div>
+<div class="solutions"><details id="example-dropout-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-dropout-3-1">This number is hard to evaluate since we have no basis for judging whether this is a large or small change. If the number of dropout factories dropped from 20 to 3, that would be a very significant change, but if the number dropped from 217 to 200, it would be less of an improvement.</div>
+<div class="para" id="example-dropout-3-2">The last sentence provides relative change which helps put the first sentence in perspective. We can estimate that the number of dropout factories was probably previously around 34. However, it’s possible that students simply moved schools rather than the school improving, so that estimate might not be fully accurate.</div>
+</div></details></div></article><article class="example example-like" id="example-VPdebate"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.18</span><span class="period">.</span><span class="space"> </span><span class="title">2004 VP Debate.</span>
+</h3>
+<div class="para" id="example-VPdebate-2-1">In the 2004 vice-presidential debates, Edwards’s claimed that US forces have suffered “90% of the coalition casualties” in Iraq. Cheney disputed this, saying that in fact Iraqi security forces and coalition allies “have taken almost 50 percent” of the casualties. Who is correct?</div>
+<div class="solutions"><details id="example-VPdebate-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-VPdebate-3-1">Without more information, it is hard for us to judge who is correct. However, we should consider each of their words more carefully. We conclude that these two percentages are talking about different things, so one does not necessarily contradict the other. Edward’s claim was a percent with casualties of coalition forces as the <em class="alert">base</em> of the percent, while Cheney’s claim was a percent with all casualties (including Iraqi security forces) as the base of the percent. It turns out both statistics are in fact fairly accurate and we likely want more information to decide which is more important.</div></div></details></div></article><article class="example example-like" id="example-medicare"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.19</span><span class="period">.</span><span class="space"> </span><span class="title">2012 Presidential Election.</span>
+</h3>
+<div class="para" id="example-medicare-2-1">In the 2012 presidential elections, one candidate argued that “the president’s plan will cut $716 billion from Medicare, leading to fewer services for seniors,” while the other candidate rebuts that “our plan does not cut current spending and actually expands benefits for seniors, while implementing cost saving measures.” Are these claims in conflict, in agreement, or not comparable because they’re talking about different things?</div>
+<div class="solutions"><details id="example-medicare-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-medicare-3-1">Without more information, it is hard to judge these arguments. This is compounded by the complexity of Medicare. As it turns out, the $716 billion is not a cut in current spending, but a cut in future increases in spending, largely reducing future growth in health care payments. The rebuttal statement does not specifically mention Medicare; the cost saving measures for seniors could come in many other forms. In this case, at least the numerical claims in both statements could be considered at least partially true. Here is one source of more information if you’re interested: <a class="external" href="https://www.factcheck.org/2012/08/a-campaign-full-of-mediscare/" target="_blank"><code class="code-inline tex2jax_ignore">https://www.factcheck.org/2012/08/a-campaign-full-of-mediscare/</code></a>.</div></div></details></div></article><div class="para" id="sec-percent-28">The next few examples should serve as cautions for situations in which multiple percentages are given.</div>
+<article class="example example-like" id="example-decreasethenincrease"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.20</span><span class="period">.</span><span class="space"> </span><span class="title">Stock Waves.</span>
+</h3>
+<div class="para" id="example-decreasethenincrease-2-1">Suppose a stock drops in value by 60% one week, then increases in value by 75% the next week. Is the value higher or lower than where it started?</div>
+<div class="solutions">
+<details id="example-decreasethenincrease-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="example-decreasethenincrease-3-1">Are the base of those percentages the same?</div></div></details><details id="example-decreasethenincrease-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-decreasethenincrease-4-1">Your instinct might be to think, down by 60% and then up by 75% should be total increase of 15%, right? Unfortunately, it is not that simple, but this is one <em class="alert">very common</em> mistake to make when considering percents. A fancy way to say this is that in this situation, the percentages are multiplicative rather than summative.</div>
+<div class="para" id="example-decreasethenincrease-4-2">When you’re unsure, it is a great idea to try out some easy numbers and take as many steps as you need. For ease of calculations, let’s pretend the starting value of the stock is $100. We can determine the price after the first week be computing a decrease of 60%:</div>
+<div class="para logical" id="example-decreasethenincrease-4-3"><ul class="disc" id="example-decreasethenincrease-4-3-1">
+<li id="example-decreasethenincrease-4-3-1-1"><div class="para" id="example-decreasethenincrease-4-3-1-1-1">60% of $100 is <span class="process-math">\(0.6 \cdot $100 = $60\)</span>
+</div></li>
+<li id="example-decreasethenincrease-4-3-1-2"><div class="para" id="example-decreasethenincrease-4-3-1-2-1">Subtracting this gives <span class="process-math">\($100 - $60 = $40\)</span> for the price at the end of the first week.</div></li>
+</ul></div>
+<div class="para" id="example-decreasethenincrease-4-4">Now, we can compute the 75% increase similarly:</div>
+<div class="para logical" id="example-decreasethenincrease-4-5"><ul class="disc" id="example-decreasethenincrease-4-5-1">
+<li id="example-decreasethenincrease-4-5-1-1"><div class="para" id="example-decreasethenincrease-4-5-1-1-1">75% of $40 is <span class="process-math">\(0.75 \cdot $40 = $30\)</span>
+</div></li>
+<li id="example-decreasethenincrease-4-5-1-2"><div class="para" id="example-decreasethenincrease-4-5-1-2-1">Adding this gives <span class="process-math">\($40 + $30 = $70\)</span> for the price at the end of the second week.</div></li>
+</ul></div>
+<div class="para" id="example-decreasethenincrease-4-6">Since $70 is lower than $100, the stock price went down over the two week time period. The absolute change is <span class="process-math">\(|$70 - $100| = |-$30| = 30$\text{,}\)</span> a decrease of $30, and the relative change is <span class="process-math">\(\frac{30}{100} = 0.3\text{,}\)</span> a 30% decrease.</div>
+<div class="para" id="example-decreasethenincrease-4-7">You can come to the same conclusion algebraically by following the same steps, but using a variable, say <span class="process-math">\(x\text{,}\)</span> for the starting value rather than $100. It does not matter the starting price, it will always go down by 30% byt the end of the second week.</div>
+<div class="para" id="example-decreasethenincrease-4-8">To see how the idea of percentages being “multiplicative” applies, we combine steps like we did in the second approach in <a href="sec-percent.html#example-percentincrease" class="xref" data-knowl="./knowl/xref/example-percentincrease.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.11: Percentage Increase">Example 3.1.11</a>. We’ll do that here and use an algebraic approach. Let’s use <span class="process-math">\(x\)</span> to represent the starting value of the stock. Computing a 60% drop from an initial value is equivalent to calculating 40% of the original value. We can do <span class="process-math">\(100% - 60% = 40%\)</span> here because the base of all three of those percentages is <span class="process-math">\(x\text{,}\)</span> the starting value of the stock. So after the first week, the value of the stock is <span class="process-math">\(0.4 \cdot x = 0.4x\text{.}\)</span> Similarly, the result of a 75% increase to a value is equal to 175% of that value. So, after the second week the value of the stock is <span class="process-math">\(1.75 \cdot 0.4x = 0.7x\text{.}\)</span>
+</div>
+<div class="para" id="example-decreasethenincrease-4-9">The absolute decrease is <span class="process-math">\(|0.7x - x| = |-0.3x| = 0.3x\)</span> depends on the starting value of the stock, but the relative decrease is always <span class="process-math">\(\frac{0.3x}{x} = 0.3 = 30\%\text{.}\)</span>
+</div>
+</div></details>
+</div></article><article class="observation remark-like" id="obs-multiplicative-exponential"><h3 class="heading">
+<span class="type">Observation</span><span class="space"> </span><span class="codenumber">3.1.21</span><span class="period">.</span>
+</h3>
+<div class="para" id="obs-multiplicative-exponential-1">It is not extremely important that you use the word “multiplicative” when discussing or thinking about percentages. However, it is good to make note of here and be sure that you understand what’s happening. This will help you make stronger connections to past knowledge when we study exponential models in <a href="sec-exponential.html" class="internal" title="Section 4.3: Exponential Models">Section 4.3</a>.</div></article><div class="para" id="sec-percent-31">To add to the confusion... it is not the case that we can never add or subtract percentages, as we see in teh next example.</div>
+<article class="example example-like" id="example-politicalsupport"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.22</span><span class="period">.</span><span class="space"> </span><span class="title">Percentage Points.</span>
+</h3>
+<div class="para" id="example-politicalsupport-2-1">A politician’s support increases from 40% of voters to 50% of voters. Describe the change.</div>
+<div class="solutions"><details id="example-politicalsupport-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-politicalsupport-3-1">We could describe this using absolute change: <span class="process-math">\(|50\% - 40\%| = 10\%\text{.}\)</span> We can subtract these percetages since they have <em class="alert">the same base</em>, all voters, and the result has the same units, percent of all voters. To distinguish this answer from a relative change is it best to describe this as</div>
+<blockquote class="blockquote" id="example-politicalsupport-3-2"><div class="para" id="example-politicalsupport-3-2-1">The politician’s support increased by 10 <em class="alert">percentage points</em>.</div></blockquote>
+<div class="para" id="example-politicalsupport-3-3">Alternatively, we could compute the percent change: <span class="process-math">\(\frac{10\%}{40\%} = 0.25 = 25\%\text{.}\)</span> This is the relative change, and we’d say,</div>
+<blockquote class="blockquote" id="example-politicalsupport-3-4"><div class="para" id="example-politicalsupport-3-4-1">The politician’s support has increased by 25%.</div></blockquote>
+</div></details></div></article><div class="para" id="sec-percent-33">Another way that adding or subtracting percentages might come up is when thinking about averages.</div>
+<article class="example example-like" id="example-fieldgoalpercentage"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.23</span><span class="period">.</span><span class="space"> </span><span class="title">Field Goal Percentage.</span>
+</h3>
+<div class="para" id="example-fieldgoalpercentage-2-1">A basketball player scores on 40% of their 2-point field goal attempts, and on 30% of their 3-point of field goal attempts. Find the player’s overall field goal percentage.</div>
+<div class="solutions"><details id="example-fieldgoalpercentage-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-fieldgoalpercentage-3-1">It is very tempting to average these values, and claim the overall average is 35%, but this is likely not correct, since most players make many more 2-point attempts than 3-point attempts. We don’t actually have enough information to answer the question.</div>
+<div class="para" id="example-fieldgoalpercentage-3-2">Suppose the player attempted 200 2-point field goals and 100 3-point field goals. Then they made <span class="process-math">\(0.4 \cdot 200 = 80\)</span> 2-point shots and <span class="process-math">\(0.3 \cdot 100 = 30\)</span> 3-point shots. Thus, overall they made 110 shots out of 300, for a <span class="process-math">\(\frac{110}{300} \approx 0.3667 = 36.67\%\)</span> overall field goal percentage.</div>
+<div class="para logical" id="example-fieldgoalpercentage-3-3">
+<div class="para">We could also think about this as a “weighted average.” Of the 300 total field goal attempts, 200 of them were 2-point shots. That is two thirds or 66.7% of the total shots. Of the 300 total field goal attempts, 100 of them were 3-point shots. That is one third or 33.3% of the total shots. We can use these percentages as the <dfn class="terminology">weights</dfn> in a weighted average of the two different field goal percentages:</div>
+<div class="displaymath process-math" id="example-fieldgoalpercentage-3-3-3">
+\begin{align*}
+(0.667 \cdot 40\%) + (0.333 \cdot 30\%) \amp = 26.68\% + 9.99\% = 36.67\%.
+\end{align*}
+</div>
+</div>
+</div></details></div></article><article class="activity project-like" id="activity-congress"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">A Representative Government?</span>
+</h3>
+<div class="introduction" id="activity-congress-2">
+<div class="para logical" id="activity-congress-2-1">
+<div class="para">According to the 2020 US Census, the population of the US was 331,449,281. The racial makeup of the population is:</div>
+<ul class="disc" id="activity-congress-2-1-1">
+<li id="activity-congress-2-1-1-1"><div class="para" id="activity-congress-2-1-1-1-1">61.36% White American;</div></li>
+<li id="activity-congress-2-1-1-2"><div class="para" id="activity-congress-2-1-1-2-1">12.4% Black American;</div></li>
+<li id="activity-congress-2-1-1-3"><div class="para" id="activity-congress-2-1-1-3-1">10.21% Multiracial;</div></li>
+<li id="activity-congress-2-1-1-4"><div class="para" id="activity-congress-2-1-1-4-1">6% Asian American;</div></li>
+<li id="activity-congress-2-1-1-5"><div class="para" id="activity-congress-2-1-1-5-1">1.12% Indigenous Americans; and</div></li>
+<li id="activity-congress-2-1-1-6"><div class="para" id="activity-congress-2-1-1-6-1">0.21% Pacific Islander.</div></li>
+</ul>
+<div class="para">Additionally, 8.42% of Americans classified themselves as another race not part of the above six recognized racial categories. <details class="ptx-footnote" aria-live="polite" id="activity-congress-2-1-2"><summary class="ptx-footnote__number" title="Footnote 3.1.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="activity-congress-2-1-2"><a class="external" href="https://en.wikipedia.org/wiki/Race_and_ethnicity_in_the_United_States_census" target="_blank"><code class="code-inline tex2jax_ignore">https://en.wikipedia.org/wiki/Race_and_ethnicity_in_the_United_States_census</code></a></div></details> The gender divide is: 50.9% women and 49.1% men.</div>
+</div>
+<div class="para" id="activity-congress-2-2">The US Congress has 535 members of which 100 are Senators and 435 are in the House of Representatives.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b0 r3 l0 t0 lines"></th>
+<th scope="col" class="c m b0 r1 l0 t0 lines">House of</th>
+<th scope="col" class="c m b0 r0 l0 t0 lines"></th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b3 r3 l0 t0 lines"></th>
+<th scope="col" class="c m b3 r1 l0 t0 lines">Representatives</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">Senate</th>
+</tr>
+<tr>
+<td class="c m b1 r3 l0 t0 lines">Women</td>
+<td class="c m b1 r1 l0 t0 lines">122</td>
+<td class="c m b1 r0 l0 t0 lines">24</td>
+</tr>
+<tr>
+<td class="c m b2 r3 l0 t0 lines">Men</td>
+<td class="c m b2 r1 l0 t0 lines"></td>
+<td class="c m b2 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r3 l0 t0 lines">White American</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r3 l0 t0 lines">Black American</td>
+<td class="c m b1 r1 l0 t0 lines">54</td>
+<td class="c m b1 r0 l0 t0 lines">4</td>
+</tr>
+<tr>
+<td class="c m b1 r3 l0 t0 lines">Multiracial</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r3 l0 t0 lines">Asian American</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines">3</td>
+</tr>
+<tr>
+<td class="c m b1 r3 l0 t0 lines">Indigenous American</td>
+<td class="c m b1 r1 l0 t0 lines">6</td>
+<td class="c m b1 r0 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="c m b0 r3 l0 t0 lines">Pacific Islander</td>
+<td class="c m b0 r1 l0 t0 lines"></td>
+<td class="c m b0 r0 l0 t0 lines"></td>
+</tr>
+</table></div>
+</div>
+<article class="task exercise-like" id="activity-congress-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="activity-congress-3-1-1">If the Senate accurately represented the racial makeup of the US, how many senators from each of the racial groups would there be in 2020?</div></article><article class="task exercise-like" id="activity-congress-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="activity-congress-4-1-1">If the House of Representatives accurately represented the racial makeup of the US, how many representatives from each of the racial groups would there be in 2020?</div></article><article class="task exercise-like" id="activity-congress-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="activity-congress-5-1-1">If Congress had the same gender breakdown as the whole population, how many members of 2020 Congress should be women?</div></article></article></section></div>
 <div class="ptx-content-footer">
-<span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
+<span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-proportions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

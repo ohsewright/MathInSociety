@@ -10,8 +10,6 @@
 
   <definition xml:id="def-rate">
     <title>Rate</title>
-    
-    
     <statement>
         <p>
             A <term>rate</term> is the ratio (fraction) of two quantities.
@@ -88,6 +86,284 @@
     <webwork source="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg" />
   </exercise>
 
-  
+  <p>
+    More important than solving a proportion equation (since a computer/calculator can likely do that for you) is knowing how to set them up to answer a question or solve a problem.
+  </p>
+
+  <example xml:id="example-propeqsetup">
+    <title>Setting Up a Proportion Equation</title>
+    <statement>
+        <p>
+            A map scale indicates that <m>\frac{1}{2}</m> inch on the map corresponds with 3 real miles.
+            How many miles apart are two cities that are <m>2 \frac{1}{4}</m> inches apart on the map?
+        </p>
+    </statement>
+    <solution>
+        <p>
+            We set up our proportion equation by setting equal two rates of the same form and introducing a variable, <m>x</m>, to represent the unknown quantity <mdash/> the mile distance between the two cities.
+            We can use either form for the rate, but both sides must match:
+            <md>
+                <mrow> \frac{\frac{1}{2} \text{ map inch}}{3 \text{ miles}} = \frac{2 \frac{1}{4} \text{ map inches}}{x \text{ miles}}\amp 
+                    \text{ OR } \frac{3 \text{ miles}}{\frac{1}{2} \text{ map inch}} = \frac{x \text{ miles}}{2 \frac{1}{4} \text{ map inches}}</mrow>
+            </md>
+            Making sure the units match is an important part of the set-up, but keeping the units around for the solving just makes things messy.
+            <md>
+                <mrow> \frac{\frac{1}{2}}{3} \amp = \frac{2 \frac{1}{4} }{x}</mrow>
+                <mrow> 3 \cdot \frac{\frac{1}{2}}{3} \amp = \frac{\frac{9}{4}}{x} \cdot 3</mrow>
+                <mrow> \frac{1}{2} \amp = \frac{\frac{9}{4} \cdot 3}{x}</mrow>
+                <mrow> x \cdot \frac{1}{2} \amp = \frac{\frac{27}{4}}{x} \cdot x</mrow>
+                <mrow> \frac{x}{2} \amp = \frac{27}{4}</mrow>
+                <mrow> 2 \cdot \frac{x}{2} \amp = \frac{27}{4} \cdot 2</mrow>
+                <mrow> x \amp = \frac{27}{2} = 13\frac{1}{2}</mrow>
+            </md>
+            The cities are <m>13\frac{1}{2}</m> miles apart.
+        </p>
+
+    </solution>
+  </example>
+
+  <p>
+    It is worth noting again that we should think of proportion equations as tools for solving problems, rather than the problems themselves.
+    We read a problem/situation described in words and we write down an equation to express that same information.
+    Then, solving the equation produces the answer to the problem.
+  </p>
+
+  <p>
+    Another useful tool for solving problems that involve proportionally related quantities is called <term>dimensional analysis</term>.
+    Rather than setting up an equation to solve, we determine rates that are equivalent to 1 and use the fact that any number can be multiplied by 1 without changing its value.
+    The key here is to recognize that if two quantities look different but are in fact equal, than the ratio (fraction) of the two quantities is equal to 1.
+    Some folks refer to these ratios as <q><em>fancy ones</em></q> since they are all dressed up with units.
+    <fn>It is worth noting that the term <em>dimensional analysis</em> can also refer to tracking the units and dimensions through computations and formulas, <url href="https://en.wikipedia.org/wiki/Dimensional_analysis" /></fn>
+  </p>
+
+  <example xml:id="example-simpledimanalysis">
+    <title>Using Dimensional Analysis</title>
+    <statement>
+        <p>
+            A map scale indicates that <m>\frac{1}{2}</m> inch on the map corresponds with 3 real miles.
+            How many miles apart are two cities that are <m>2 \frac{1}{4}</m> inches apart on the map?
+        </p>
+    </statement>
+    <solution>
+        <p>
+            We need to figure out the <em>fancy one</em> that is useful to us here.
+            Any fancy one can start out as an equality.
+            For this situation, we know <m>\frac{1}{2} \text{ map inches } = 3 \text{ real world miles}</m>.
+            This gives us two fancy ones:
+            <md>
+                <mrow> \frac{\frac{1}{2} \text{ map inches }}{3 \text{ real world miles}} \amp = \mathbf{1}  = \frac{3 \text{ real world miles}}{\frac{1}{2} \text{ map inches }}</mrow>
+            </md>
+        </p>
+        <p>
+            We want to take the given quantity, <m>2 \frac{1}{4}</m> map inches, and multiply it by one of these fancy ones to have a result in real world inches.
+            We always want to use a fancy one that has the quantity with the units we know in the denominator, so that those units will cancel with the original.
+            Thus, we choose the second option:
+            <md>
+                <mrow> 2 \frac{1}{4} \text{ map inches}\cdot \frac{3 \text{ real world miles}}{\frac{1}{2} \text{ map inches }} </mrow>
+            </md>
+            The units of <q>map inches</q> in the numerator (remember that numbers that do not appear as fractions can be though of as being in the numerator of a fraction with a denominator of 1) cancel with the same units in the denominator of the fancy one,
+            leaving the units of <q>real world miles</q> for the resulting product.
+            Similarly to the proportion equation approach, the units themselves can help us verify that we're proceeding correctly, but can get in the way once we actually need to do some computations.
+            <md>
+                <mrow> 2 \frac{1}{4} \cdot \frac{3}{\frac{1}{2}} \amp = \frac{9}{4} \cdot \frac{3}{1} \cdot \frac{2}{1}</mrow>
+                <mrow> \amp = \frac{9 \cdot 3 \cdot 2}{4} = \frac{27}{2} = 13 \frac{1}{2}</mrow>
+            </md>
+        </p>
+        <p>
+            The cities are <m>13\frac{1}{2}</m> miles apart.
+        </p>
+    </solution>
+  </example>
+
+  <p>
+    Visit <xref ref="sec-fractions"/> if any of the steps in the above computation were tricky for you.
+    The situation in <xref ref="example-propeqsetup"/> and <xref ref="example-simpledimanalysis"/> was pretty straightforward, and so both approaches look very similar.
+    While you should always use the method that makes the most sense you <alert>your brain</alert>, the dimensional analyais approach is often more streamlined with more complicated examples.
+  </p>
+
+  <example xml:id="example-compdimanalysis">
+    <title>So Many Fancy Ones</title>
+    <statement>
+        <p>
+            A bicycle is traveling at 15 miles per hour.  How many feet will it cover in 20 seconds?
+        </p>
+    </statement>
+    <hint>
+        <p>
+            Our known quantity is 20 seconds, so that's what we start with.
+            The speed of 15 miles per hour gives us one of the <em>fancy ones</em> that we'll use.
+            The goal will be to end up with a quantity with the units of feet.
+        </p>
+    </hint>
+    <solution>
+        <p>
+            Our known quantity is 20 seconds, so the first fancy one that we're looking for will have the units of seconds in the denominator.
+            The only other given information that represents this specific situation is the speed of the bicycle, 15 miles per hour.
+            That will give us a fancy one that involves the units of hours, so we need to work on getting our seconds converted into hours.
+            You are likely aware that each hour is equivalent to 60 minutes and each minute is equal to 60 seconds. Using two different fancy ones:
+            <md>
+                <mrow> 20 \text{ seconds} \cdot \frac{1 \text{ minute }}{60 \text{ seconds }} \cdot \frac{1 \text{ hour}}{60  \text{ minutes}} \amp = \frac{20}{60 \cdot 60} \text{ hours}</mrow>
+                <mrow> \amp = \frac{1}{180} \text{ hours}</mrow>
+            </md>
+            Now, we'll use the fancy one given by the speed of the bicycle to get an equivlent distance qunatity.
+            <md>
+                <mrow> \frac{1}{180} \text{ hours} \cdot \frac{15 \text{ miles}}{1 \text{ hour}} \amp = \frac{1}{180} \cdot \frac{15}{1} \text{ miles}</mrow>
+                <mrow> \amp = \frac{1}{12} \text{ miles}</mrow>
+            </md>
+            Finally, we need this distance in feet rather than miles. One mile is equal to 5,280 feet, which gives us our last fancy one.
+            <md>
+                <mrow> \frac{1}{12} \text{ miles} \cdot \frac{5280 \text{ feet}}{1 \text{ mile}} \amp = \frac{5280}{12} \text{ feet}</mrow>
+                <mrow> \amp = 440 \text{ feet}</mrow>
+            </md>
+        </p>
+        <p>
+            It may not be obvious from teh above why this approach is in anyway streamlined.
+            We would need at least this many steps/proportion equations to make each of these unit convertions.
+            However, with dimensional analysis, we can just keep multiplying all the fancy ones in a single computation:
+            <md>
+                <mrow>20 \text{s} \cdot \frac{1 \text{min}}{60 \text{s}} \cdot \frac{1 \text{hr}}{60 \text{min}} \cdot \frac{15 \text{mi}}{1 \text{hr}} \cdot \frac{5280 \text{ft}}{1 \text{hr}}
+                     \amp = \frac{20 \cdot 15 \cdot 5280}{60 \cdot 60} \text{ft}</mrow>
+                <mrow> \amp = \frac{1 \cdot 1 \cdot 5280}{3 \cdot 4} \text{ft}</mrow>
+                <mrow> \amp = \frac{5280}{12} \text{ft} = 440 \text{ft}</mrow>
+            </md>
+            We've used abbreviations for the units here to further streamline the notation.
+            It is good practice to write out each rate (fancy one) that you multiply by,
+            but completing more steps by hand or in your head isn't required.
+            Sometimes a few easy mental math computations are easier than typing out more numbers into a calculator/computer.
+        </p>
+    </solution>
+  </example>
+
+  <insight xml:id="GBH-steps">
+    <p>
+        Streamlining a process is <alert>NOT</alert> always great for understanding.
+        More steps that you understand is always a better solution than fewer steps that are confusing.
+    </p>
+  </insight>
+
+  <p>
+    There are likely some unit equivalences you already know.
+    If you don't already know the conversion, it is not worth devoting time to commit it to memory;
+    you can look these up easily and if you use them often enough, you'll naturally memorize them without really trying.
+    You can also use Google to do a lot of unit conversions for you, but while it will do a great job of figuring out how many ounces your 1.25 liter water bottle is,
+    it will need more help from you if the question involves multiple different types of units (like <xref ref="example-compdimanalysis"/>) or non-standard units (like <xref ref="check-unit_conversion"/>).
+    That's where you'll need your own brain and these methods for setting up a solution, then have a machine actually do the computations.
+  </p>
+
+  <fact xml:id="fact-units">
+    <title>Unit Conversions</title>
+    <statement>
+        <p>
+            
+        </p>
+        <tabular halign="left">
+            <row header="yes">
+              <cell>Length</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>1 foot (ft) = 12 inches (in)</cell>
+              <cell></cell>
+              <cell>1 meter (m) = 1000 millimeters (mm)</cell>
+            </row>
+            <row>
+                <cell>1 yard (yd) = 3 feet (ft)</cell>
+                <cell></cell>
+                <cell>1 meter (m) = 100 centimeters (cm)</cell>
+            </row>
+            <row>
+                <cell>1 mile (mi) = 5,280 feet (ft)</cell>
+                <cell></cell>
+                <cell>1 kilometer (km) = 1000 meters (m)</cell>
+            </row>
+            <row>
+                <cell></cell>
+                <cell>1 in = 2.54 cm</cell>
+                <cell></cell>
+            </row>
+        </tabular>
+        <tabular>
+            <row header="yes">
+                <cell>Weight</cell>
+                <cell></cell>
+                <cell>Mass</cell>
+              </row>
+              <row>
+                <cell>1 pound (lb) = 16 ounces (oz)</cell>
+                <cell></cell>
+                <cell>1 gram (g) = 1000 milligrams (mg)</cell>
+              </row>
+              <row>
+                  <cell>1 ton = 2000 pounds (lb)</cell>
+                  <cell></cell>
+                  <cell>1 kilogram (kg) = 1000 grapms(g)</cell>
+              </row>
+              <row>
+                  <cell></cell>
+                  <cell>2.2 lb = 1 kg</cell>
+                  <cell></cell>
+              </row>
+            </tabular>
+        <tabular>
+              <row header="yes">
+                <cell>Volume</cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>1 cup = 8 fluid ounces (fl oz) </cell>
+                <cell></cell>
+                <cell>1 liter (L) = 1000 milliliters (mL)</cell>
+              </row>
+              <row>
+                  <cell>1 pint (pt) = 2 cups</cell>
+                  <cell></cell>
+                  <cell>1 cubic centimeter (cc or cm<m>^3</m>) = 1 milliliter (mL)</cell>
+              </row>
+              <row>
+                  <cell>1 quart (qt) = 2 pints (pt)</cell>
+                  <cell></cell>
+                  <cell></cell>
+              </row>
+              <row>
+                <cell>1 gallon (gal) = 4 quarts (qt)</cell>
+                <cell></cell>
+                <cell>1 fl oz = 29.5735 mL</cell>
+              </row>
+          </tabular>
+          <p>
+            <fn>This conversion between weight and mass is correct on planet Earth.</fn>
+            <fn>Fluid ounces are a volume measurement for liquid. One fluid ounce is equal to 1 ounce by weight if the liquid is water.</fn>
+          </p>
+    </statement>
+  </fact>
+
+  <exercise xml:id="check-unit_conversion">
+    <webwork source="Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg" />
+  </exercise>
+
+  <p>
+    As we said in the Introduction to <xref ref="ch-prop-reasoning"/>, it is important to use these tools only when quantities are proportional.
+    After many examples, it may seem like all quantities are proportional.
+  </p>
+
+  <example xml:id="example-NOTprop">
+    <title>Quantities are NOT Always Proportional</title>
+    <statement>
+        <p>
+            Suppose a small company spends $1000 on an advertising campaign, and gains 100 new customers from it.
+            How many new customers should they expect if they spend $3,000?
+        </p>
+    </statement>
+    <solution>
+        <p>
+            It is tempting to say that they will gain 300 new customers; if they triple their advertising spending, then they should triple their customers.
+            But, it is likely that additional advertising will be less effective than the initial advertising.
+            For example, if the company is a hot tub store, there are likely only a fixed number of people interested in buying a hot tub, so there might not even be 300 people in the town who would be potential customers.
+            The ratio of new customers to advertising spending is not always the same; it goes down with more and more spending.
+        </p>
+    </solution>
+  </example>
 
 </section>

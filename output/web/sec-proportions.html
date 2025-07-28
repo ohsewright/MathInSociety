@@ -117,14 +117,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.1';
+eBookConfig.runestone_version = '7.9.3';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.787a04695534ef1e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.014cb392a13bd045.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.47a5fea5694fc0ae.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.014cb392a13bd045.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
 <style>
 #example-perc-dec-frac-1-1-1 { counter-set: example-perc-dec-frac-1-1-1 0; }
@@ -159,7 +159,7 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-percent.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span></span>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-percent.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="next-button button" href="sec-huge-tiny.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -196,6 +196,7 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-percent.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Percentages</span></a></div></li>
 <li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-proportions.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Proportions and Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-huge-tiny.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Huge and Tiny Numbers</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -279,9 +280,213 @@ eBookConfig.enable_chatcodes =  false;
 </div></details>
 </div>
 </div>
-</div></article></section></div>
+</div></article><div class="para" id="sec-proportions-9">More important than solving a proportion equation (since a computer/calculator can likely do that for you) is knowing how to set them up to answer a question or solve a problem.</div>
+<article class="example example-like" id="example-propeqsetup"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.6</span><span class="period">.</span><span class="space"> </span><span class="title">Setting Up a Proportion Equation.</span>
+</h3>
+<div class="para" id="example-propeqsetup-2-1">A map scale indicates that <span class="process-math">\(\frac{1}{2}\)</span> inch on the map corresponds with 3 real miles. How many miles apart are two cities that are <span class="process-math">\(2 \frac{1}{4}\)</span> inches apart on the map?</div>
+<div class="solutions"><details id="example-propeqsetup-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-propeqsetup-3-1">
+<div class="para">We set up our proportion equation by setting equal two rates of the same form and introducing a variable, <span class="process-math">\(x\text{,}\)</span> to represent the unknown quantity — the mile distance between the two cities. We can use either form for the rate, but both sides must match:</div>
+<div class="displaymath process-math" id="example-propeqsetup-3-1-3">
+\begin{align*}
+\frac{\frac{1}{2} \text{ map inch}}{3 \text{ miles}} = \frac{2 \frac{1}{4} \text{ map inches}}{x \text{ miles}}\amp 
+\text{ OR } \frac{3 \text{ miles}}{\frac{1}{2} \text{ map inch}} = \frac{x \text{ miles}}{2 \frac{1}{4} \text{ map inches}}
+\end{align*}
+</div>
+<div class="para">Making sure the units match is an important part of the set-up, but keeping the units around for the solving just makes things messy.</div>
+<div class="displaymath process-math" id="example-propeqsetup-3-1-4">
+\begin{align*}
+\frac{\frac{1}{2}}{3} \amp = \frac{2 \frac{1}{4} }{x}\\
+3 \cdot \frac{\frac{1}{2}}{3} \amp = \frac{\frac{9}{4}}{x} \cdot 3\\
+\frac{1}{2} \amp = \frac{\frac{9}{4} \cdot 3}{x}\\
+x \cdot \frac{1}{2} \amp = \frac{\frac{27}{4}}{x} \cdot x\\
+\frac{x}{2} \amp = \frac{27}{4}\\
+2 \cdot \frac{x}{2} \amp = \frac{27}{4} \cdot 2\\
+x \amp = \frac{27}{2} = 13\frac{1}{2}
+\end{align*}
+</div>
+<div class="para">The cities are <span class="process-math">\(13\frac{1}{2}\)</span> miles apart.</div>
+</div></div></details></div></article><div class="para" id="sec-proportions-11">It is worth noting again that we should think of proportion equations as tools for solving problems, rather than the problems themselves. We read a problem/situation described in words and we write down an equation to express that same information. Then, solving the equation produces the answer to the problem.</div>
+<div class="para" id="sec-proportions-12">Another useful tool for solving problems that involve proportionally related quantities is called <dfn class="terminology">dimensional analysis</dfn>. Rather than setting up an equation to solve, we determine rates that are equivalent to 1 and use the fact that any number can be multiplied by 1 without changing its value. The key here is to recognize that if two quantities look different but are in fact equal, than the ratio (fraction) of the two quantities is equal to 1. Some folks refer to these ratios as “<em class="emphasis">fancy ones</em>” since they are all dressed up with units. <details class="ptx-footnote" aria-live="polite" id="sec-proportions-12-3"><summary class="ptx-footnote__number" title="Footnote 3.2.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-proportions-12-3">It is worth noting that the term <em class="emphasis">dimensional analysis</em> can also refer to tracking the units and dimensions through computations and formulas, <a class="external" href="https://en.wikipedia.org/wiki/Dimensional_analysis" target="_blank"><code class="code-inline tex2jax_ignore">https://en.wikipedia.org/wiki/Dimensional_analysis</code></a>
+</div></details>
+</div>
+<article class="example example-like" id="example-simpledimanalysis"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.7</span><span class="period">.</span><span class="space"> </span><span class="title">Using Dimensional Analysis.</span>
+</h3>
+<div class="para" id="example-simpledimanalysis-2-1">A map scale indicates that <span class="process-math">\(\frac{1}{2}\)</span> inch on the map corresponds with 3 real miles. How many miles apart are two cities that are <span class="process-math">\(2 \frac{1}{4}\)</span> inches apart on the map?</div>
+<div class="solutions"><details id="example-simpledimanalysis-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="example-simpledimanalysis-3-1">
+<div class="para">We need to figure out the <em class="emphasis">fancy one</em> that is useful to us here. Any fancy one can start out as an equality. For this situation, we know <span class="process-math">\(\frac{1}{2} \text{ map inches } = 3 \text{ real world miles}\text{.}\)</span> This gives us two fancy ones:</div>
+<div class="displaymath process-math" id="example-simpledimanalysis-3-1-3">
+\begin{align*}
+\frac{\frac{1}{2} \text{ map inches }}{3 \text{ real world miles}} \amp = \mathbf{1}  = \frac{3 \text{ real world miles}}{\frac{1}{2} \text{ map inches }}
+\end{align*}
+</div>
+</div>
+<div class="para logical" id="example-simpledimanalysis-3-2">
+<div class="para">We want to take the given quantity, <span class="process-math">\(2 \frac{1}{4}\)</span> map inches, and multiply it by one of these fancy ones to have a result in real world inches. We always want to use a fancy one that has the quantity with the units we know in the denominator, so that those units will cancel with the original. Thus, we choose the second option:</div>
+<div class="displaymath process-math" id="example-simpledimanalysis-3-2-2">
+\begin{gather*}
+2 \frac{1}{4} \text{ map inches}\cdot \frac{3 \text{ real world miles}}{\frac{1}{2} \text{ map inches }} 
+\end{gather*}
+</div>
+<div class="para">The units of “map inches” in the numerator (remember that numbers that do not appear as fractions can be though of as being in the numerator of a fraction with a denominator of 1) cancel with the same units in the denominator of the fancy one, leaving the units of “real world miles” for the resulting product. Similarly to the proportion equation approach, the units themselves can help us verify that we’re proceeding correctly, but can get in the way once we actually need to do some computations.</div>
+<div class="displaymath process-math" id="example-simpledimanalysis-3-2-5">
+\begin{align*}
+2 \frac{1}{4} \cdot \frac{3}{\frac{1}{2}} \amp = \frac{9}{4} \cdot \frac{3}{1} \cdot \frac{2}{1}\\
+\amp = \frac{9 \cdot 3 \cdot 2}{4} = \frac{27}{2} = 13 \frac{1}{2}
+\end{align*}
+</div>
+</div>
+<div class="para" id="example-simpledimanalysis-3-3">The cities are <span class="process-math">\(13\frac{1}{2}\)</span> miles apart.</div>
+</div></details></div></article><div class="para" id="sec-proportions-14">Visit <a href="sec-fractions.html" class="internal" title="Section 2.1: Fraction Arithmetic">Section 2.1</a> if any of the steps in the above computation were tricky for you. The situation in <a href="sec-proportions.html#example-propeqsetup" class="xref" data-knowl="./knowl/xref/example-propeqsetup.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.2.6: Setting Up a Proportion Equation">Example 3.2.6</a> and <a href="sec-proportions.html#example-simpledimanalysis" class="xref" data-knowl="./knowl/xref/example-simpledimanalysis.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.2.7: Using Dimensional Analysis">Example 3.2.7</a> was pretty straightforward, and so both approaches look very similar. While you should always use the method that makes the most sense you <em class="alert">your brain</em>, the dimensional analyais approach is often more streamlined with more complicated examples.</div>
+<article class="example example-like" id="example-compdimanalysis"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.8</span><span class="period">.</span><span class="space"> </span><span class="title">So Many Fancy Ones.</span>
+</h3>
+<div class="para" id="example-compdimanalysis-2-1">A bicycle is traveling at 15 miles per hour.  How many feet will it cover in 20 seconds?</div>
+<div class="solutions">
+<details id="example-compdimanalysis-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="example-compdimanalysis-3-1">Our known quantity is 20 seconds, so that’s what we start with. The speed of 15 miles per hour gives us one of the <em class="emphasis">fancy ones</em> that we’ll use. The goal will be to end up with a quantity with the units of feet.</div></div></details><details id="example-compdimanalysis-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="example-compdimanalysis-4-1">
+<div class="para">Our known quantity is 20 seconds, so the first fancy one that we’re looking for will have the units of seconds in the denominator. The only other given information that represents this specific situation is the speed of the bicycle, 15 miles per hour. That will give us a fancy one that involves the units of hours, so we need to work on getting our seconds converted into hours. You are likely aware that each hour is equivalent to 60 minutes and each minute is equal to 60 seconds. Using two different fancy ones:</div>
+<div class="displaymath process-math" id="example-compdimanalysis-4-1-1">
+\begin{align*}
+20 \text{ seconds} \cdot \frac{1 \text{ minute }}{60 \text{ seconds }} \cdot \frac{1 \text{ hour}}{60  \text{ minutes}} \amp = \frac{20}{60 \cdot 60} \text{ hours}\\
+\amp = \frac{1}{180} \text{ hours}
+\end{align*}
+</div>
+<div class="para">Now, we’ll use the fancy one given by the speed of the bicycle to get an equivlent distance qunatity.</div>
+<div class="displaymath process-math" id="example-compdimanalysis-4-1-2">
+\begin{align*}
+\frac{1}{180} \text{ hours} \cdot \frac{15 \text{ miles}}{1 \text{ hour}} \amp = \frac{1}{180} \cdot \frac{15}{1} \text{ miles}\\
+\amp = \frac{1}{12} \text{ miles}
+\end{align*}
+</div>
+<div class="para">Finally, we need this distance in feet rather than miles. One mile is equal to 5,280 feet, which gives us our last fancy one.</div>
+<div class="displaymath process-math" id="example-compdimanalysis-4-1-3">
+\begin{align*}
+\frac{1}{12} \text{ miles} \cdot \frac{5280 \text{ feet}}{1 \text{ mile}} \amp = \frac{5280}{12} \text{ feet}\\
+\amp = 440 \text{ feet}
+\end{align*}
+</div>
+</div>
+<div class="para logical" id="example-compdimanalysis-4-2">
+<div class="para">It may not be obvious from teh above why this approach is in anyway streamlined. We would need at least this many steps/proportion equations to make each of these unit convertions. However, with dimensional analysis, we can just keep multiplying all the fancy ones in a single computation:</div>
+<div class="displaymath process-math" id="example-compdimanalysis-4-2-1">
+\begin{align*}
+20 \text{s} \cdot \frac{1 \text{min}}{60 \text{s}} \cdot \frac{1 \text{hr}}{60 \text{min}} \cdot \frac{15 \text{mi}}{1 \text{hr}} \cdot \frac{5280 \text{ft}}{1 \text{hr}}
+\amp = \frac{20 \cdot 15 \cdot 5280}{60 \cdot 60} \text{ft}\\
+\amp = \frac{1 \cdot 1 \cdot 5280}{3 \cdot 4} \text{ft}\\
+\amp = \frac{5280}{12} \text{ft} = 440 \text{ft}
+\end{align*}
+</div>
+<div class="para">We’ve used abbreviations for the units here to further streamline the notation. It is good practice to write out each rate (fancy one) that you multiply by, but completing more steps by hand or in your head isn’t required. Sometimes a few easy mental math computations are easier than typing out more numbers into a calculator/computer.</div>
+</div>
+</div></details>
+</div></article><article class="insight remark-like" id="GBH-steps"><h3 class="heading">
+<span class="type">Good Brain Habit</span><span class="space"> </span><span class="codenumber">3.2.9</span><span class="period">.</span>
+</h3>
+<div class="para" id="GBH-steps-1">Streamlining a process is <em class="alert">NOT</em> always great for understanding. More steps that you understand is always a better solution than fewer steps that are confusing.</div></article><div class="para" id="sec-proportions-17">There are likely some unit equivalences you already know. If you don’t already know the conversion, it is not worth devoting time to commit it to memory; you can look these up easily and if you use them often enough, you’ll naturally memorize them without really trying. You can also use Google to do a lot of unit conversions for you, but while it will do a great job of figuring out how many ounces your 1.25 liter water bottle is, it will need more help from you if the question involves multiple different types of units (like <a href="sec-proportions.html#example-compdimanalysis" class="xref" data-knowl="./knowl/xref/example-compdimanalysis.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.2.8: So Many Fancy Ones">Example 3.2.8</a>) or non-standard units (like <a href="sec-proportions.html#check-unit_conversion" class="xref" data-knowl="./knowl/xref/check-unit_conversion.html" data-reveal-label="Reveal" data-close-label="Close" title="Check for Understanding 3.2.11">Check for Understanding 3.2.11</a>). That’s where you’ll need your own brain and these methods for setting up a solution, then have a machine actually do the computations.</div>
+<article class="fact theorem-like" id="fact-units"><h3 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">3.2.10</span><span class="period">.</span><span class="space"> </span><span class="title">Unit Conversions.</span>
+</h3>
+<div class="para" id="fact-units-2-1"></div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r0 l0 t0 lines">Length</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines"></th>
+<th scope="col" class="l m b0 r0 l0 t0 lines"></th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1 foot (ft) = 12 inches (in)</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">1 meter (m) = 1000 millimeters (mm)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1 yard (yd) = 3 feet (ft)</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">1 meter (m) = 100 centimeters (cm)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1 mile (mi) = 5,280 feet (ft)</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">1 kilometer (km) = 1000 meters (m)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">1 in = 2.54 cm</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+</table></div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r0 l0 t0 lines">Weight</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines"></th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Mass</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1 pound (lb) = 16 ounces (oz)</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">1 gram (g) = 1000 milligrams (mg)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1 ton = 2000 pounds (lb)</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">1 kilogram (kg) = 1000 grapms(g)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">2.2 lb = 1 kg</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+</table></div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r0 l0 t0 lines">Volume</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines"></th>
+<th scope="col" class="l m b0 r0 l0 t0 lines"></th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1 cup = 8 fluid ounces (fl oz)</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">1 liter (L) = 1000 milliliters (mL)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1 pint (pt) = 2 cups</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">1 cubic centimeter (cc or cm<span class="process-math">\(^3\)</span>) = 1 milliliter (mL)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1 quart (qt) = 2 pints (pt)</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1 gallon (gal) = 4 quarts (qt)</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">1 fl oz = 29.5735 mL</td>
+</tr>
+</table></div> <div class="para" id="fact-units-2-5">
+<details class="ptx-footnote" aria-live="polite" id="fact-units-2-5-1"><summary class="ptx-footnote__number" title="Footnote 3.2.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="fact-units-2-5-1">This conversion between weight and mass is correct on planet Earth.</div></details> <details class="ptx-footnote" aria-live="polite" id="fact-units-2-5-2"><summary class="ptx-footnote__number" title="Footnote 3.2.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="fact-units-2-5-2">Fluid ounces are a volume measurement for liquid. One fluid ounce is equal to 1 ounce by weight if the liquid is water.</div></details>
+</div></article><article class="exercise exercise-like" id="check-unit_conversion"><h3 class="heading">
+<span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">3.2.11</span><span class="period">.</span>
+</h3>
+<div id="webwork-13" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="13" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-13')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-13-1-1-1">Jeff bought 6 quarts of juice for a party.  One glass holds 8 fluid ounces of juice.</div> <div class="para" id="extracted-webwork-13-1-1-2">The total number of glasses that Jeff can fill is <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span>. [1 quart = 32  fluid ounces]</div>
+<div class="solutions">
+<details id="extracted-webwork-13-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-13-1-2-1"><span class="process-math">\(24\)</span></div></div></details><details id="extracted-webwork-13-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="extracted-webwork-13-1-3-1">Solution</div>
+<div class="para" id="extracted-webwork-13-1-3-2">Since each quart is 32 fluid ounces, it will fill four 8 ounce glasses.</div>
+<div class="para" id="extracted-webwork-13-1-3-3">That means that 6 quarts will fill 24 glasses.</div>
+</div></details>
+</div>
+</div>
+</div></article><div class="para" id="sec-proportions-20">As we said in the Introduction to <a href="ch-prop-reasoning.html" class="internal" title="Chapter 3: Proportional Reasoning">Chapter 3</a>, it is important to use these tools only when quantities are proportional. After many examples, it may seem like all quantities are proportional.</div>
+<article class="example example-like" id="example-NOTprop"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.12</span><span class="period">.</span><span class="space"> </span><span class="title">Quantities are NOT Always Proportional.</span>
+</h3>
+<div class="para" id="example-NOTprop-2-1">Suppose a small company spends $1000 on an advertising campaign, and gains 100 new customers from it. How many new customers should they expect if they spend $3,000?</div>
+<div class="solutions"><details id="example-NOTprop-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-NOTprop-3-1">It is tempting to say that they will gain 300 new customers; if they triple their advertising spending, then they should triple their customers. But, it is likely that additional advertising will be less effective than the initial advertising. For example, if the company is a hot tub store, there are likely only a fixed number of people interested in buying a hot tub, so there might not even be 300 people in the town who would be potential customers. The ratio of new customers to advertising spending is not always the same; it goes down with more and more spending.</div></div></details></div></article></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="sec-percent.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
+<a class="previous-button button" href="sec-percent.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-huge-tiny.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

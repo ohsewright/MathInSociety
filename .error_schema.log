@@ -1,5 +1,5 @@
-/Users/swright8/Desktop/MathInSociety/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element idx, got introduction
-/Users/swright8/Desktop/MathInSociety/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element introduction there
-/Users/swright8/Desktop/MathInSociety/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element blockquote, got p
-/Users/swright8/Desktop/MathInSociety/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element p there
-/Users/swright8/Desktop/MathInSociety/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got p
+/Users/swright8/Desktop/MathInSociety/source/main.ptx:299:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element cell has extra content: fn
+/Users/swright8/Desktop/MathInSociety/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element chapter has extra content: section
+/Users/swright8/Desktop/MathInSociety/source/main.ptx:9:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element subtitle there
+/Users/swright8/Desktop/MathInSociety/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element book has extra content: chapter
+/Users/swright8/Desktop/MathInSociety/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext

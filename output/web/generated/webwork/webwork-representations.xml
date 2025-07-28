@@ -386,4 +386,22 @@ is approximate since it is only calculated to 3 decimal places.</p>
     <server-data sourceFilePath="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
     <pg source="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg"/>
   </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-13" ww-id="webwork-13">
+    <static seed="13" source="Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg">
+      <statement><p>Jeff bought 6 quarts of juice for a party.  One glass holds 8 fluid ounces of juice.</p>
+<p>The total number of glasses that Jeff can fill is <fillin name="AnSwEr0001" characters="3"/>. [1 quart = 32  fluid ounces]</p>
+</statement>
+      <answer>
+        <p>
+          <m>24</m>
+        </p>
+      </answer>
+      <solution><p>Solution</p>
+<p>Since each quart is 32 fluid ounces, it will fill four 8 ounce glasses.</p>
+<p>That means that 6 quarts will fill 24 glasses.</p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg"/>
+  </webwork-reps>
 </webwork-representations>

@@ -5,7 +5,21 @@
 
   <introduction>
     <p> 
-      Do you want to know what percent of your time is spent awake, working, studying, sleeping, eating etc? How about where your income stands compared to the rest of your co-workers, your roommate, the national average etc.? Answering these questions requires knowledge of percentage, rates, and proportional reasoning. In this chapter, we will review these basic but powerful algebraic ideas:  percent, rates, and proportions.  We will then explore how to use these ideas to solve problems where we don't have perfect information. 
+      Do you want to know what percent of your time is spent awake, working, studying, sleeping, eating etc?
+      How many tiles should you purchase to finish your basement?
+      Answering these questions requires knowledge of percentage, rates, and proportional reasoning.
+      In this chapter, we will review these basic but powerful algebraic ideas:  percent, rates, and proportions.
+    </p>
+
+    <p>
+      These concepts are indeed powerful tools, but we need to make sure we apply them in appropriate situations.
+      That appropriate situation is when the quantities involved are <term>proportional</term>, they always maintain the same ratio.
+      An easy example to help you remember is the relationship between inches and feet.
+      One foot is <alert>always</alert> equal to twelve inches.
+      Another common example are ingredients in a recipe.
+      Suppose your famous cookie recipe calls for 1 egg and 2 cups of sugar (among other things of course).
+      If you triple the number of eggs (and use 3) then you need to also triple the amount of sugar and use 6 cups.
+      The ratio (fraction) of number of eggs to cups of sugar is always the same.
     </p>
 
     <p>
@@ -17,5 +31,6 @@
   <!-- include sections -->
   <xi:include href="sec-percent.ptx" />
   <xi:include href="sec-proportions.ptx" />
+  <xi:include href="sec-huge-tiny.ptx" />
 
 </chapter>

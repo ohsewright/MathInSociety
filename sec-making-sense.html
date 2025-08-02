@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_green">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Making Sense</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Mathematics in Society">
+<meta property="book:author" content="Sarah Wright">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="_static/pretext/js/pretext-webwork/2.17/pretext-webwork.js"></script><script src="https://webwork-ptx.aimath.org/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.9.4';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.879b99e54406967d.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<style>
+#example-perc-dec-frac-1-1-1 { counter-set: example-perc-dec-frac-1-1-1 0; }
+#example-perc-dec-frac-1-1-1 > li::marker { content: "("counter(example-perc-dec-frac-1-1-1,lower-alpha)")"; }
+#example-perc-dec-frac-1-1-1 > li { counter-increment: example-perc-dec-frac-1-1-1; }
+#example-perc-dec-frac-2-1-1 { counter-set: example-perc-dec-frac-2-1-1 0; }
+#example-perc-dec-frac-2-1-1 > li::marker { content: "("counter(example-perc-dec-frac-2-1-1,lower-alpha)")"; }
+#example-perc-dec-frac-2-1-1 > li { counter-increment: example-perc-dec-frac-2-1-1; }
+#extracted-webwork-9-1-1-2-1 { counter-set: extracted-webwork-9-1-1-2-1 0; }
+#extracted-webwork-9-1-1-2-1 > li::marker { content: ""counter(extracted-webwork-9-1-1-2-1,lower-alpha)"."; }
+#extracted-webwork-9-1-1-2-1 > li { counter-increment: extracted-webwork-9-1-1-2-1; }
+#extracted-webwork-9-1-5-3-1 { counter-set: extracted-webwork-9-1-5-3-1 0; }
+#extracted-webwork-9-1-5-3-1 > li::marker { content: ""counter(extracted-webwork-9-1-5-3-1,lower-alpha)"."; }
+#extracted-webwork-9-1-5-3-1 > li { counter-increment: extracted-webwork-9-1-5-3-1; }
+#exercises-taxplan-6-5-1-1-1 { counter-set: exercises-taxplan-6-5-1-1-1 0; }
+#exercises-taxplan-6-5-1-1-1 > li::marker { content: "("counter(exercises-taxplan-6-5-1-1-1,lower-alpha)")"; }
+#exercises-taxplan-6-5-1-1-1 > li { counter-increment: exercises-taxplan-6-5-1-1-1; }
+#exercises-taxplan-6-6-1-1-1 { counter-set: exercises-taxplan-6-6-1-1-1 0; }
+#exercises-taxplan-6-6-1-1-1 > li::marker { content: "("counter(exercises-taxplan-6-6-1-1-1,lower-alpha)")"; }
+#exercises-taxplan-6-6-1-1-1 > li { counter-increment: exercises-taxplan-6-6-1-1-1; }
+#exercises-taxplan-6-7-1-1-1 { counter-set: exercises-taxplan-6-7-1-1-1 0; }
+#exercises-taxplan-6-7-1-1-1 > li::marker { content: "("counter(exercises-taxplan-6-7-1-1-1,lower-alpha)")"; }
+#exercises-taxplan-6-7-1-1-1 > li { counter-increment: exercises-taxplan-6-7-1-1-1; }
+</style>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="math-in-society.html"><span class="title">Mathematics in Society:</span> <span class="subtitle">A Quantitative Reasoning Course for Fitchburg State University</span></a></h1>
+<p class="byline">Sarah Wright</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-2.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-proportions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="next-button button" href="exercises-prop-reasoning.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction to Mathematics in Society</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-QR.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is Quantitative Reasoning?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-prob.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Problem Solving Strategies</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-graphs.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Intepreting Graphs</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-desmos.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Using Desmos</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-spreadsheets.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Spreadsheets are your Friends</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-foundations.html" class="internal"><span class="codenumber">2</span> <span class="title">Foundations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-fractions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Fraction Arithmetic</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-decimals.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Decimal Arithmetic</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponents.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exponent Rules</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-roots.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Roots and Solving for the Base</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-logs.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Logarithms and Solving for the Power</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-lines.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Graphing and Solving Linear Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-prop-reasoning.html" class="internal"><span class="codenumber">3</span> <span class="title">Proportional Reasoning</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-percent.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Percentages</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-proportions.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Proportions and Rates</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-making-sense.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Making Sense</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-prop-reasoning.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Proportional Reasoning Practice Exercises</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-prop-reasoning-proj.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Proportional Reasoning Projects</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-prop-reasoning-proj.html#subsec-tax-basics" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Taxes</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-prop-reasoning-proj.html#proj-taxplans" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Flat Tax, Modified Flat Tax, and Progressive Tax Project</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-prop-reasoning-proj.html#exercises-taxplan" class="internal"><span class="codenumber">3.5.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-prop-reasoning-proj.html#proj-incometypes" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Income Types and Deductions</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-models.html" class="internal"><span class="codenumber">4</span> <span class="title">Modeling</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-intro-types.html" class="internal"><span class="codenumber">4.1</span> <span class="title">What is a Model?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Linear Models</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Exponential Models</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-powers.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Power Models</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-wrapup.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Modeling Wrap-Up</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-financial.html" class="internal"><span class="codenumber">5</span> <span class="title">Financial Mathematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-savings.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Savings Accounts</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-loans.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Loans</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-stats.html" class="internal"><span class="codenumber">6</span> <span class="title">Statistical Thinking</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-stat-intro.html" class="internal"><span class="codenumber">6.1</span> <span class="title">What is Statistics?</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-logic.html" class="internal"><span class="codenumber">7</span> <span class="title">Logic</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formal.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Formal Logic</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-verbal.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Verbal Logic</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-making-sense"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">3.3</span><span class="space"> </span><span class="title">Making Sense</span>
+</h2>
+<div class="para" id="sec-making-sense-2">Part of having excellent <em class="alert">quantitative reasoning</em> skills is being able to make sense of numbers. Sometimes, numbers are just difficult to comprehend. This could be because the number is huge or because the units are not something you’re familiar with or just because there are lots of numbers to consider. We also want to make sure that if we’re comparing or combining multiple quantities, we’re doing it in a way that is reasonable and informative.</div>
+<article class="example example-like" id="example-military"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">A BIG Number.</span>
+</h3>
+<div class="para" id="example-military-2-1">Make sense of the United States total military spending of $916,014,700,000 for 2023<details class="ptx-footnote" aria-live="polite" id="example-military-2-1-1"><summary class="ptx-footnote__number" title="Footnote 3.3.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="example-military-2-1-1"><a class="external" href="https://data.worldbank.org/indicator/MS.MIL.XPND.CD?locations=US&amp;most_recent_value_desc=true&amp;view=map" target="_blank"><code class="code-inline tex2jax_ignore">https://data.worldbank.org/indicator/MS.MIL.XPND.CD?locations=US&amp;most_recent_value_desc=true&amp;view=map</code></a></div></details>.</div>
+<div class="solutions"><details id="example-military-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-military-3-1">Unless you’re in the very very very tiny class of very very very wealthy people, $916,014,700,000 is hard to get your head around. Naming the number can sometimes help; this is more than 916 billion dollars, nearly one trillion dollars.</div>
+<div class="para logical" id="example-military-3-2">
+<div class="para">Even if your quantitative reasoning skills get you a good idea of how big that number is, what is a USD really mean by itself? Most of us are the most familar with thinking about the USD to purchase everyday goods, but it is going to take a lot of boxes of cereal to reach into the hundreds of billions. So, let’s think about things that cost more, but are still part of our normal lives. Unless you own a home, likely the largest number of dollars you consider is your annual salary or wages. In 2023, the average annual salary for an Assistant Professor<details class="ptx-footnote" aria-live="polite" id="example-military-3-2-1"><summary class="ptx-footnote__number" title="Footnote 3.3.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="example-military-3-2-1">Faculty typically start at a rank of Assistant and can move up in rank to Associate Professor or Full Professor. A promotion comes with an increased salary, so on average this is the lowest paid of those three groups.</div></details> in the Massachusetts State College System was about $58,700<details class="ptx-footnote" aria-live="polite" id="example-military-3-2-2"><summary class="ptx-footnote__number" title="Footnote 3.3.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="example-military-3-2-2"><a class="external" href="https://cthrupayroll.mass.gov/#!/year/2023/full_time_employees,others/pay1/explore/0-0-0-0-0/bargaining_group_title/Mass.+State+College+Assoc./0-barChart-0-0-0/position_title/Assistant+Professor/0-barChart-0/trans_no" target="_blank"><code class="code-inline tex2jax_ignore">https://cthrupayroll.mass.gov/#!/year/2023/full_time_employees,others/pay1/explore/0-0-0-0-0/bargaining_group_title/Mass.+State+College+Assoc./0-barChart-0-0-0/position_title/Assistant+Professor/0-barChart-0/trans_no</code></a></div></details>. Using some dimensional analysis,</div>
+<div class="displaymath process-math" id="example-military-3-2-3">
+\begin{align*}
+$916,014,700,000 \cdot \frac{1 \text{ assistant prof}}{$58,700} \amp = 15,605,020.4
+\end{align*}
+</div>
+<div class="para">That means that with the DOD’s budget, Massachusetts could employ more than 15 million new full time assistant professors. That’s a big number still; more than twice the population of Massachusetts.</div>
+</div>
+<div class="para" id="example-military-3-3">We could do a similar calculation with any other annual cost replacing the faculty salary. A smaller cost, like average public college or university tuition, would give a final number that was even larger. The DoD could cover a year of tuition for nearly 80.5 million students at public four-year schools. A larger cost, like the average salary of a player for the Boston Red Sox, would give a final number that was smaller. The DoD could pay the salaries of over 200,000 major league baseball players, or around 5,000 teams. When we’re doing this type of ananlysis, we want to consider and try to balance out the sizes of all the numbers; a mix of art and science.</div>
+<div class="para" id="example-military-3-4">Even though we’re being clear about our computations above, it is reasonable to say that this is an “unfair” method of comparison. We shouldn’t really be comparing the spending of a whole nation to individuals. So, let’s consider other countries’ military spending as well as other US departments budgets.</div>
+<div class="para" id="example-military-3-5">The US spends much more than any other country, but it is also a “large” country by many measures. In 2023, the US ranked 4th<details class="ptx-footnote" aria-live="polite" id="example-military-3-5-2"><summary class="ptx-footnote__number" title="Footnote 3.3.4"><sup> 4 </sup></summary><div class="ptx-footnote__contents" id="example-military-3-5-2">The United Nations Statistics Division, the CIA World Factbook, and the Encyclopædia Britannica all rank the United States ahead of China in total area. However, the figures used by each source include coastal and territorial waters for the United States but exclude coastal and territorial waters for China. China’s coastal and territorial water figures are unknown (no official publication) and thus cannot be added into China’s total area figure. But Encyclopædia Britannica specifies the United States’ area excluding coastal and territorial waters as 9,525,067 km2,[7] less than the figure given for China’s area by any of the three sources. Therefore, while it can be determined that China has a larger area excluding coastal and territorial waters, it is unclear which country has a larger area including coastal and territorial waters.<a class="external" href="https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area#cite_note-12" target="_blank"><code class="code-inline tex2jax_ignore">https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area#cite_note-12</code></a>
+</div></details> in area, 3rd in population, and first in GDP (gross domestic product).</div>
+<div class="para logical" id="example-military-3-6">
+<div class="para">Indonesia was 4th in population<details class="ptx-footnote" aria-live="polite" id="example-military-3-6-1"><summary class="ptx-footnote__number" title="Footnote 3.3.5"><sup> 5 </sup></summary><div class="ptx-footnote__contents" id="example-military-3-6-1"><a class="external" href="https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_(United_Nations)" target="_blank"><code class="code-inline tex2jax_ignore">https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_(United_Nations)</code></a></div></details>. and much closer to the US and than second ranked China. We can compute military spending per capita for each country by dividing the spending by the population.</div>
+<div class="displaymath process-math" id="example-military-3-6-2">
+\begin{align*}
+\text{United States: } \amp \frac{$916,014,700,000}{343,477,335 \text{ people}} = $2,666.89 \text{ per person}\\
+\text{Indonesia: } \amp \frac{$9,480,833,557.9}{281,190,067 \text{ people}} = $33.71 \text{ per person}
+\end{align*}
+</div>
+</div>
+<div class="para logical" id="example-military-3-7">
+<div class="para">But Indonesia is a much smaller country in terms of area; about 20% of the US: <span class="process-math">\(\frac{1,811,569\text{km}^2}{9,147,593\text{km}^2} \approx 0.198\text{.}\)</span> China is ranked second in military spending, and almost exaclty the same size as the US in terms of area. We can compute a ratio of military spending to area for all three countries:</div>
+<div class="displaymath process-math" id="example-military-3-7-2">
+\begin{align*}
+\text{United States: } \amp \frac{$916,014,700,000}{9,147,593\text{km}^2} = $100,137.24 \text{ per square kilometer}\\
+\text{China: } \amp \frac{$296,438,564,342.8}{9,326,410 \text{km}^2} = $31,748.85 \text{ per square kilometer}\\
+\text{Indonesia: } \amp \frac{$9,480,833,557.9}{1,811,569 \text{km}^2} = $5,233.49 \text{ per square kilometer}
+\end{align*}
+</div>
+</div>
+<div class="para logical" id="example-military-3-8">
+<div class="para">What about other factors, not only people and land? After the US, China has the next highest GDP followed by Germany, and Russia has the third highest military spending, so let’s look at all of these:</div>
+<div class="displaymath process-math" id="example-military-3-8-1">
+\begin{align*}
+\text{Russia: } \amp \frac{$109,454,387,532.1}{$2,008,419,000,000} = 0.0545 = 5.45\%\\
+\text{United States: } \amp \frac{$916,014,700,000}{$27,720,700,000,000} = 0.033 = 3.3\%\\
+\text{China: } \amp \frac{$296,438,564,342.8}{$17,794,782,000,000} = 0.0167 = 1.67\%\\
+\text{Germany: } \amp \frac{$66,826,634,284.2}{$4,525,704,000,000} = 0.0148 = 1.48\%\\
+\text{Indonesia: } \amp \frac{$9,480,833,557.9}{$1,371,171,000,000} = 0.00691 = 0.691\%
+\end{align*}
+</div>
+</div>
+<div class="para" id="example-military-3-9">A country’s GDP gives us some information about the strength and size of the nation’s economy. But, this doesn’t necessarily correlate with how much the government spends. You can see in <a class="external" href="https://www.imf.org/external/datamapper/exp@FPP/USA/FRA/JPN/GBR/SWE/ESP/ITA/ZAF/IND" target="_blank"><code class="code-inline tex2jax_ignore">this map and chart</code></a> from the International Monetary Fund that government spending as a percentage of GDP varies widely around the world and from year to year.</div>
+<div class="para" id="example-military-3-10">The chart below includes the percentage of the government’s total budget that is spent on the three areas. The data is as close to 2023 as was available. The computations have been done for us, but it is still important to recognize that it is simply the <span class="process-math">\(\text{PERCENT} = \frac{\text{PART}}{\text{WHOLE}}\)</span> formula that we’ve used many times. The WHOLE is each government’s total budget and the PART is the amount of money the government spends on a particular area.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r2 l0 t0 lines">Country</th>
+<th scope="col" class="l m b2 r1 l0 t0 lines">Military</th>
+<th scope="col" class="l m b2 r1 l0 t0 lines">Education</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Health</th>
+</tr>
+<tr>
+<td class="l m b1 r2 l0 t0 lines">Brazil</td>
+<td class="l m b1 r1 l0 t0 lines">2.2</td>
+<td class="l m b1 r1 l0 t0 lines">13</td>
+<td class="l m b1 r0 l0 t0 lines">9</td>
+</tr>
+<tr>
+<td class="l m b1 r2 l0 t0 lines">China</td>
+<td class="l m b1 r1 l0 t0 lines">8.8</td>
+<td class="l m b1 r1 l0 t0 lines">11</td>
+<td class="l m b1 r0 l0 t0 lines">5</td>
+</tr>
+<tr>
+<td class="l m b1 r2 l0 t0 lines">Germany</td>
+<td class="l m b1 r1 l0 t0 lines">3.1</td>
+<td class="l m b1 r1 l0 t0 lines">9.2</td>
+<td class="l m b1 r0 l0 t0 lines">20.5</td>
+</tr>
+<tr>
+<td class="l m b1 r2 l0 t0 lines">Indonesia</td>
+<td class="l m b1 r1 l0 t0 lines">4.9</td>
+<td class="l m b1 r1 l0 t0 lines">14</td>
+<td class="l m b1 r0 l0 t0 lines">8</td>
+</tr>
+<tr>
+<td class="l m b1 r2 l0 t0 lines">Isreal</td>
+<td class="l m b1 r1 l0 t0 lines">13.8</td>
+<td class="l m b1 r1 l0 t0 lines">18</td>
+<td class="l m b1 r0 l0 t0 lines">13</td>
+</tr>
+<tr>
+<td class="l m b1 r2 l0 t0 lines">Kenya</td>
+<td class="l m b1 r1 l0 t0 lines">4.3</td>
+<td class="l m b1 r1 l0 t0 lines">18</td>
+<td class="l m b1 r0 l0 t0 lines">8.7</td>
+</tr>
+<tr>
+<td class="l m b1 r2 l0 t0 lines">Russia</td>
+<td class="l m b1 r1 l0 t0 lines">14.8</td>
+<td class="l m b1 r1 l0 t0 lines">8.9</td>
+<td class="l m b1 r0 l0 t0 lines">13.8</td>
+</tr>
+<tr>
+<td class="l m b1 r2 l0 t0 lines">Ukraine</td>
+<td class="l m b1 r1 l0 t0 lines">49.1</td>
+<td class="l m b1 r1 l0 t0 lines">8.5</td>
+<td class="l m b1 r0 l0 t0 lines">10.6</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">United States</td>
+<td class="l m b0 r1 l0 t0 lines">9.1</td>
+<td class="l m b0 r1 l0 t0 lines">13</td>
+<td class="l m b0 r0 l0 t0 lines">24.7</td>
+</tr>
+</table></div>
+<div class="para" id="example-military-3-12">You can and should look at this data: <a class="external" href="https://ourworldindata.org/grapher/military-expenditure-as-a-share-of-government-spending?country=UKR~BLR~QAT~SAU~ARM~OMN~DZA~SOM~SGP~MMR~AZE~PAK~IRN~JOR~MLI~RUS~BFA~GIN~ISR~CAF~NER~BHR~BDI~TCD~TGO~TWN~KOR~UZB~MAR~MRT~AFG~BRN~UGA~COG~KWT~KGZ~SDN~USA" target="_blank"><code class="code-inline tex2jax_ignore">Military</code></a>, <a class="external" href="https://ourworldindata.org/grapher/share-of-education-in-government-expenditure?time=latest" target="_blank"><code class="code-inline tex2jax_ignore">Education</code></a>, and <a class="external" href="https://ourworldindata.org/grapher/health-expenditure-government-expenditure?time=latest" target="_blank"><code class="code-inline tex2jax_ignore">Health</code></a>. You can see the data for all nations and where the US ranks overall. You can also get a better idea of how these percentages change over time and it is worth thinking about what may have caused those changes. Something else you should notice is that both education and health spending are considered part of the <em class="emphasis">general goverment</em>, which means it is not only at the federal level, but also state or local governments as well. This gives a more accurate picture of spending, but still important to note that it is different from the military calculations. Also, since the base of a percentage is very importnat, we should take note that considering the “general goverment” rather than just federal spending changed both the PART and the WHOLE.</div>
+<div class="para" id="example-military-3-13">This is in no way a complete analysis. The short answer to the question, “Does the US government spend too much on defense?” is “It’s complicated,” but each of these approaches and comparisons shines a little more light onto what a US Department of Defense budget of $916,014,700,000 means.</div>
+</div></details></div></article><div class="para" id="sec-making-sense-4">We want to be able to not just make sense of quantities, but also to use them together to answer questions and evaluate situations in our lives.</div>
+<article class="example example-like" id="example-car-purchase"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">Choosing a Vehicle.</span>
+</h3>
+<div class="para" id="example-car-purchase-2-1">You’re ready to buy a new car and like the Kia Sportage seems like a reasonable choice. Is it worth it to buy the hybrid or plug-in hybrid versions, or just stick to gas powered?</div>
+<div class="solutions"><details id="example-car-purchase-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-car-purchase-3-1">To make this decision, we must first decide what our basis for comparison will be. For the purposes of this example, we’ll focus on fuel and purchase costs, but environmental impacts and maintenance costs are other factors a buyer might consider.</div>
+<div class="para" id="example-car-purchase-3-2">For the gas and hybrid models, we will compare the cost of gas to run both cars for a year. To determine this, we will need to know the miles per gallon both cars get, as well as the number of miles we expect to drive in a year. From that information, we can find the number of gallons required for a year. Using the price of gas per gallon, we can then find the yearly fuel cost.</div>
+<div class="para" id="example-car-purchase-3-3">According to Kia, the 2026 Sportage will get 25 miles per gallon (mpg) in the city and 33 mpg on the highway. The 2026 Sportage Hybrid makes 41 mpg in the city and 44mpg on the highway.</div>
+<div class="para logical" id="example-car-purchase-3-4">
+<div class="para">We’ll use the estimates from our pretend person below, seperated into city miles and highway miles. That ends up being 12,480 miles of highway driving and 7,020 miles of city driving.</div>
+<div class="displaymath process-math" id="example-car-purchase-3-4-1">
+\begin{align*}
+\text{Sonata:  } \amp 7,020\text{ city miles} \cdot \frac{1 \text{ gal}}{25 \text{ city miles}} \\
+\amp + 12,480\text{ hwy miles}\cdot \frac{1 \text{ gal}}{33 \text{ hwy miles}} = 659 \text{ gal}\\
+\text{Hybrid:  } \amp 7,020\text{ city miles} \cdot \frac{1 \text{ gal}}{41 \text{ city miles}} \\
+\amp + 12,480\text{ hwy miles}\cdot \frac{1 \text{ gal}}{44 \text{ hwy miles}} = 454.9 \text{ gal}
+\end{align*}
+</div>
+</div>
+<div class="para logical" id="example-car-purchase-3-5">
+<div class="para">Currently (July 2025) the average price of gas in Massachusetts is $3.05 per gallon, according to AAA. We can use this to determine yearly fuel costs:</div>
+<div class="displaymath process-math" id="example-car-purchase-3-5-1">
+\begin{align*}
+\text{Sonata:  } \amp 659 \text{ gal} \cdot \frac{\$3.05}{1 \text{gal}} = \$2,009.95\\
+\text{Hybrid:  } \amp 454.9 \text{ gal} \cdot \frac{\$3.05}{1 \text{gal}} = \$1,387.45
+\end{align*}
+</div>
+</div>
+<div class="para logical" id="example-car-purchase-3-6">
+<div class="para">By choosing the hybrid option, you’d save</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-absoluterelativechange.html" id="example-car-purchase-3-6-1">
+\begin{gather*}
+\$2,009.95 - \$1,387.45 = \$622.50
+\end{gather*}
+</div>
+<div class="para">each year on fuel costs. Note that this is an absolute difference. The fuel costs for a hybrid are</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-absoluterelativechange.html" id="example-car-purchase-3-6-2">
+\begin{gather*}
+\frac{\$622.50}{\$2,009.95} = 0.31 = 31\%
+\end{gather*}
+</div>
+<div class="para">lower than those for the gas powered model. <details class="ptx-footnote" aria-live="polite" id="example-car-purchase-3-6-3"><summary class="ptx-footnote__number" title="Footnote 3.3.6"><sup> 6 </sup></summary><div class="ptx-footnote__contents" id="example-car-purchase-3-6-3">Notice that the absolute difference in the numerator and the quantity we’re comparing to (the words that come after “than”) is in the denominator. Check back with <a href="sec-percent.html#def-absoluterelativechange" class="xref" data-knowl="./knowl/xref/def-absoluterelativechange.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.14: Absolute and Relative Change">Definition 3.1.14</a> if you need a refresher.</div></details>
+</div>
+</div>
+<div class="para logical" id="example-car-purchase-3-7">
+<div class="para">While both the absolute and relative comparisons are useful here, they still make it hard to answer the original question, since “Is it worth it?” implies there is some tradeoff for the gas savings. Indeed, the Sonata Hybrid costs about $30,290, compared to the base model for the regular Sonata, at $28,690. To better answer the “Is it worth it?” question, we might explore how long it will take the gas savings to make up for the additional initial cost. The hybrid costs $1600 more (another absolute difference). With gas savings of $497.45 a year, it will take about</div>
+<div class="displaymath process-math" id="example-car-purchase-3-7-3">
+\begin{align*}
+\frac{\$1600}{\$622.50 \text{ per yr}} \amp = 2.57 \text{ years}
+\end{align*}
+</div>
+<div class="para">for the gas savings to make up for the higher initial costs of the hybrid option.</div>
+</div>
+<div class="para" id="example-car-purchase-3-8">Considering the fuel costs for plug-in hybrid is a bit more complicated. Rather than city vs highway miles per gallon, we need to consider how much of the driving will be on the electric battery and how much on regular gasoline. The related numbers for the 2026 Sportage Plug-in Hybrid are 35 mpg on gasoline and 34 mile range while running on full electric power.</div>
+<div class="para logical" id="example-car-purchase-3-9">
+<div class="para">Let’s say you drive to work four days a week, 30 miles each way, and can charge your car in the parking garage while at work. Since 30 miles is within but close to the range, we’ll assume these drives are all electric and require a full charge of the battery. Kia reports that the hybrid battery energy is 13.8kWh and we need 4 charges off-peak at home ($0.18004 per kWh) and 4 charges at the mid-peak rate at the office ($0.29235 per kWh). The total cost of these charges is</div>
+<div class="displaymath process-math" id="example-car-purchase-3-9-1">
+\begin{gather*}
+4\cdot 13.8\text{ kWh} \cdot \frac{\$0.18004}{1\text{ kWh}} + 4\cdot 13.8\text{ kWh} \cdot \frac{\$0.29235}{1\text{ kWh}} = \$26.08.
+\end{gather*}
+</div>
+</div>
+<div class="para logical" id="example-car-purchase-3-10">
+<div class="para">Let’s say on the one work from home day during the week and on weekends, you drive an average of 45 miles per day without a reliable charging place. You’ll need gasoline for the 11 miles outside the battery’s range. For three days, that’s three charges (at off-peak rate) and 33 miles. At a rate of 13.8 kWh per charge and 35 mpg, that’s</div>
+<div class="displaymath process-math" id="example-car-purchase-3-10-1">
+\begin{align*}
+3\text{ charges} \cdot \frac{13.8\text{ kWh}}{1\text{ charge}} \cdot \amp \frac{\$0.18004}{1\text{ kWh}}\\
+\amp + 33\text{ miles} \cdot \frac{1\text{ gal}}{35\text{ miles}} \cdot \frac{$3.05}{1\text{ gal}} = \$10.33.
+\end{align*}
+</div>
+</div>
+<div class="para" id="example-car-purchase-3-11">For a typical week, both commuting and non-commuting days, you would spend <span class="process-math">\(\$26.08 + \$10.33 = \$36.41\)</span> on electric and gasoline fuel.</div>
+<div class="para" id="example-car-purchase-3-12">For simplicity, we’ll say these typical weeks happen 48 weeks out of the 52 in a year, and assume you don’t drive at all for the other 4 weeks. But, to balance that out a little bit, we’ll throw in a weekend trip every other month. These trips average 100 miles each way and 50 miles of driving around at the destination. We’ll assume you don’t want to stop on the drive to charge, so you’ll run for 34 miles on electricity and then 66 miles on gasoline. Also, let’s assume that the 50 miles of driving is spread out enough with an option to charge at the place you stay (weekends are off-peak), so it will all be electric too. That’s 118 miles on electric power and 132 miles on gasoline.</div>
+<div class="para logical" id="example-car-purchase-3-13">
+<div class="para">We’ll do this conversion to cost in a streamlined way:</div>
+<div class="displaymath process-math" id="example-car-purchase-3-13-1">
+\begin{align*}
+118\text{ elec mi} \cdot \amp \frac{1\text{ charge}}{34\text{ elec mi}} \cdot \frac{13.8\text{ kWh}}{1\text{ charge}} \cdot \frac{\$0.18004}{1\text{ kWh}}\\
+\amp + 132\text{ gas mi} \cdot \frac{1\text{ gal}}{35\text{ gas mi}} \cdot \frac{\$3.05}{1\text{ gal}} = \$20.13
+\end{align*}
+</div>
+</div>
+<div class="para logical" id="example-car-purchase-3-14">
+<div class="para">All together, 48 typical weeks costing $55.25 each and 6 weekend driving trips costing $28.03 each, means</div>
+<div class="displaymath process-math" id="example-car-purchase-3-14-1">
+\begin{gather*}
+48 \cdot \$36.41 + 6 \cdot \$20.13 = \$1868.46
+\end{gather*}
+</div>
+<div class="para">to fuel your car for one year. That is less than the cost of the standard gasoline model, but more than the hybrid. THe purchase price of the plug-in hybrid is $39,890, $11,200 more than the standard gas model. The yearly fuel savings we estimated to be $141.49… that would take 80 years to make up the difference.</div>
+</div>
+<div class="para logical" id="example-car-purchase-3-15">
+<div class="para">From a purely financial point of view, it makes sense to buy the hybrid vehicle if you’ll own it for at least 3 years. If your values make a plug-in hybrid vehicle appealing, then it may be worth the extra cost. But, you may be better off financially purchasing an all electric vehicle. The Kia EV9 is the closest to the Sportage with a price of $54,900. Quick calculations using the range (230 miles), battery size (76.1 kWh), and the total miles from the above examples (19,500 miles), the cost (at off-peak) for this would be</div>
+<div class="displaymath process-math" id="example-car-purchase-3-15-1">
+\begin{gather*}
+19,500\text{ mi} \cdot \frac{76.1\text{ kWh}}{230\text{ mi}} \cdot \frac{\$0.18004}{1\text{ kWh}} = \$1,161.61.
+\end{gather*}
+</div>
+<div class="para">That is a yearly savings of $225.84 over the hybrid, which would take over a hundred years.</div>
+</div>
+<div class="para logical" id="example-car-purchase-3-16">
+<div class="para">In addition to your own values and the details of your driving, there are at least three other financial things we did not include in our analysis:</div>
+<ul class="disc" id="example-car-purchase-3-16-1">
+<li id="example-car-purchase-3-16-1-1"><div class="para" id="example-car-purchase-3-16-1-1-1">The prices of gasoline and electricity are not constant, nor is their relationship, and it varies by location. Kansas’s prices for both electricity and gasoline are on the lower end, while Nevada’s are both high. Utah (right next door to Nevada) has high gas prices, but the electricity costs are among the lowest in the nation. Louisana’s prices are reversed; expensive electricity and cheap gas.</div></li>
+<li id="example-car-purchase-3-16-1-2"><div class="para" id="example-car-purchase-3-16-1-2-1">Additionally, many state and local governments have tax credits, special rates, or incentive programs for purchasing an electric or hybrid vehicle, installing a charging stations at your home, etc. For the all electric Kia we looked at, we considered the pre-tax-credit price. That credit is $7,500, but will go away at the end of September 2025. It is likely the starting price of EVs will lower when the tax credit disappears.</div></li>
+<li id="example-car-purchase-3-16-1-3"><div class="para" id="example-car-purchase-3-16-1-3-1">Lastly, very few people buy a car all at once; it is a big purchase! Usually one pays a down payment and then has a loan to cover the rest. We will discuss how the length and interest rate of the loan affect the over all amount one pays in <a href="sec-loans.html" class="internal" title="Section 5.2: Loans">Section 5.2</a>.</div></li>
+</ul>
+</div>
+<div class="para" id="example-car-purchase-3-17">This is a case where math can help guide your decision, but it can’t make it for you.</div>
+</div></details></div></article><div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;">
+<img src="external/images/hybridcartoon.jpg" class="contained" alt="described in detail following the image" aria-describedby="sec-making-sense-6-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="sec-making-sense-6-description">
+<div class="para" id="sec-making-sense-6-2-1">In a car dealer show room, a sales person and a customer stand looking at a car. The caption reads,</div> <div class="para" id="sec-making-sense-6-2-2">“<em class="emphasis">It runs on its conventional gasoline-powered engine until it senses guilt, at which point it switches over to battery power.</em>”</div>
+</div></details>
+</div>
+<div class="para" id="sec-making-sense-7">Both of the above examples are quite long, and we still did not consider every aspect that we could have. Similar to finding a sweet spot of the size of the quantities and units that make sense and you understand, knowing how deeply to analyze a situation is a bit of an art and the optimal amount will be different for each of us. Keep that in mind when you practice with the next situation.</div>
+<article class="exercise exercise-like" id="check-travel"><h3 class="heading">
+<span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">3.3.3</span><span class="period">.</span><span class="space"> </span><span class="title">Travel.</span>
+</h3>
+<div class="para" id="check-travel-2-1">If you are traveling from Boston, MA to New York, NY for a three-day trip, does it make more sense to drive, fly, or take a train?</div>
+<div class="solutions"><details id="check-travel-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para logical" id="check-travel-3-1">
+<div class="para">Things you might include in your analysis:</div>
+<ul class="disc" id="check-travel-3-1-1">
+<li id="check-travel-3-1-1-1"><div class="para" id="check-travel-3-1-1-1-1">Ticket costs (flight and train)</div></li>
+<li id="check-travel-3-1-1-2"><div class="para" id="check-travel-3-1-1-2-1">Gas/Charging costs</div></li>
+<li id="check-travel-3-1-1-3"><div class="para" id="check-travel-3-1-1-3-1">Miles traveled</div></li>
+<li id="check-travel-3-1-1-4"><div class="para" id="check-travel-3-1-1-4-1">Taxi/Uber/Public Transit fares</div></li>
+<li id="check-travel-3-1-1-5"><div class="para" id="check-travel-3-1-1-5-1">Parking costs</div></li>
+<li id="check-travel-3-1-1-6"><div class="para" id="check-travel-3-1-1-6-1">The value of your time</div></li>
+</ul>
+</div></div></details></div></article><article class="activity project-like" id="activity-minwage"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Minimum Wage.</span>
+</h3>
+<div class="introduction" id="activity-minwage-2"><div class="para" id="activity-minwage-2-1">In the U.S. the minimum wage is $7.25 per hour where the federal Fair Labor Standards Act applies. The minimum wage in Massachusetts is $15 per hour and is $8.75 in West Virginia. The median personal income was $48,060 in the US, $60,690 in Massachusetts, and $39.770 in West Virginia.<details class="ptx-footnote" aria-live="polite" id="activity-minwage-2-1-1"><summary class="ptx-footnote__number" title="Footnote 3.3.7"><sup> 7 </sup></summary><div class="ptx-footnote__contents" id="activity-minwage-2-1-1"><a class="external" href="https://www.cnbc.com/2024/04/14/median-annual-income-in-every-us-state.html" target="_blank"><code class="code-inline tex2jax_ignore">https://www.cnbc.com/2024/04/14/median-annual-income-in-every-us-state.html</code></a></div></details> Considering this information, answer the following questions. Pay attention to the methods you’re using and try to use techniques from dimensional analysis as well as proportion equations.</div></div>
+<article class="task exercise-like" id="activity-minwage-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="activity-minwage-3-1-1">In Massachusetts, how many hours on minimum wage do you need to work in a year to make the US median income? What about in West Virginia?</div></article><article class="task exercise-like" id="activity-minwage-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="activity-minwage-4-1-1">Referring to the answer from the previous question, find the number of hours on Massachusetts minimum wage you need to work to make the Massachusetts median income. How many hours at West Virginia’s minimum wage do you need to work to make the median in come there?</div></article><article class="task exercise-like" id="activity-minwage-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="activity-minwage-5-1-1">The CEO of Amazon, Jeff Bezos, made $70 billion in 2023. What is his hourly wage?</div></article><article class="task exercise-like" id="activity-minwage-6"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="activity-minwage-6-1-1">How long would someone making minimum wage (use any of the three figures you’d like) have to work to make as much as Jeff Bezos makes in an hour?</div></article><article class="task exercise-like" id="activity-minwage-7"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="activity-minwage-7-1-1">How many Massachusetts residents on minimum wage need to work simultaneously to make Jeff Bezos’s hourly wage?</div></article><article class="task exercise-like" id="activity-minwage-8"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="activity-minwage-8-1-1">Using your answer from the previous question, calculate the number of West Virginian minimum wage workers needed to make Jess Bezos’s hourly wage?</div></article><article class="task exercise-like" id="activity-minwage-9"><h4 class="heading"><span class="codenumber">(g)</span></h4>
+<div class="para" id="activity-minwage-9-1-1">If Jeff Bezos were working in Massachusetts, how long would he need to work to make the median annual income?</div></article><article class="task exercise-like" id="activity-minwage-10"><h4 class="heading"><span class="codenumber">(h)</span></h4>
+<div class="para" id="activity-minwage-10-1-1">Which of the results from your above work helps <em class="alert">you</em> to make sense of Jeff Bezos’s immense income? Can you come up with a new comparison that works better for your brain?</div></article></article><article class="activity project-like" id="activity-violentcrimes"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">Safest City.</span>
+</h3>
+<div class="introduction" id="activity-violentcrimes-2">
+<div class="para" id="activity-violentcrimes-2-1">Dr. Math has worked in three different US cities during her time in the US: Tallahassee, FL; Atlanta, GA and Fitchburg, MA. Following is the table for the population and number of violent crimes reported in 2017 in each city along with the national data. Using the table below answer the following questions.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b3 r3 l0 t0 lines"></th>
+<th scope="col" class="l m b3 r1 l0 t0 lines">Population</th>
+<th scope="col" class="l m b3 r0 l0 t0 lines">Violent Crimes Reported in 2023</th>
+</tr>
+<tr>
+<td class="l m b1 r3 l0 t0 lines">Fitchburg, MA</td>
+<td class="l m b1 r1 l0 t0 lines">41,840</td>
+<td class="l m b1 r0 l0 t0 lines">194</td>
+</tr>
+<tr>
+<td class="l m b1 r3 l0 t0 lines">Atlanta, GA</td>
+<td class="l m b1 r1 l0 t0 lines">513,184</td>
+<td class="l m b1 r0 l0 t0 lines">3,554</td>
+</tr>
+<tr>
+<td class="l m b0 r3 l0 t0 lines">Tallahassee, FL</td>
+<td class="l m b0 r1 l0 t0 lines">203,665</td>
+<td class="l m b0 r0 l0 t0 lines">1,753</td>
+</tr>
+</table></div>
+</div>
+<article class="task exercise-like" id="activity-violentcrimes-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="activity-violentcrimes-3-1-1">If number of violent crimes were the only criteria, which one of the three cities could be considered the safest, and which one as the most dangerous to live in? How would you decide? Try to find multiple ways to make this comparison.</div></article><article class="task exercise-like" id="activity-violentcrimes-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="activity-violentcrimes-4-1-1">Using the national data as the benchmark and/or average, what should have been the number of violent crimes in each city for them to be considered as at the national average safety level?</div></article><article class="task exercise-like" id="activity-violentcrimes-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="activity-violentcrimes-5-1-1">Find the violent crime rate per 1000 for each city and compare it to the national rate?</div></article></article></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-proportions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="exercises-prop-reasoning.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

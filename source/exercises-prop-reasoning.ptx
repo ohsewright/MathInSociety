@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="exercises-prop-reasoning" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Proportional Reasoning Practice Exercises</title>
+    
+    <exercisegroup>
+    <title>Percentage Problems</title>
+    
+    
+        <introduction>
+            <p>
+                For the following percentage problems, 
+                identify each given quantity as the PART, the WHOLE, or the PERCENT as defined in <xref ref="fact-Percentages"/>, 
+                and determine if you are asked to find the PART, the WHOLE, or the PERCENT.
+            </p>
+        </introduction>
+    
+         <exercise>
+            <statement>
+            <p>
+                Out of 230 racers who started the marathon, 212 completed the race, 14 gave up, and 4 were disqualified.
+                What percentage did not complete the marathon? 
+            </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+            <p>
+                Patrick left an $8 tip on a $50 restaurant bill.
+                What percent tip is that?
+            </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Ireland has a 23% VAT (value-added tax, similar to a sales tax).
+                    How much will the VAT be on a purchase of a €250 item?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Employees in 2017 paid 6.2% of their gross wages towards social security (FICA tax), while employers paid another 6.2%.
+                    How much will someone earning $45,000 a year pay towards social security out of their gross wages?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    A project on Kickstarter was aiming to raise $15,000 for a precision coffee press.
+                    They ended up with 714 supporters, raising 557% of their goal.
+                    How much did they raise?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Another project on Kickstarter for an iPad stylus raised 1,253% of their goal, raising a total of $313,490 from 7,511 supporters.
+                    What was their original goal?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    A laptop originally priced at $899 is on sale for 30% off.
+                    There is then a 6.25 % sales tax.
+                    Find the price after including the discount and sales tax.
+                </p>
+            </statement>
+        </exercise>
+    
+    </exercisegroup>
+
+    <exercisegroup>
+    <title>Comparison</title>
+        <introduction>
+            <p>
+                For each of the following problems, again carefully identify the given quantities as PART, WHOLE, PERCENT, ending quantity, starting quantity, absolute change, or relative change.
+                Note that a quantity may play multiples roles as you work through a problem.
+            </p>
+        </introduction>
+    
+        <exercise>
+            <statement>
+                <p>
+                    The population of a town increased from 3,250 in 2008 to 4,300 in 2010.
+                    Find the absolute and relative (percent) increase.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    The number of CDs sold in 2010 was 114 million, down from 147 million the previous year<fn><url href="http://www.cnn.com/2010/SHOWBIZ/Music/07/19/cd.digital.sales/index.html" /></fn>.
+                    Find the absolute and relative (percent) decrease.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    A company wants to decrease their energy use by 15%.
+                    If their electric bill is currently $2,200 a month, what will their bill be if they're successful?
+                    If their next bill is $1,700 a month, were they successful?  Why or why not?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    A store is hoping an advertising campaign will increase their number of customers by 30%.
+                    They currently have about 80 customers a day.
+                    How many customers will they have if their campaign is successful?
+                    If they increase to 120 customers a day, were they successful?  Why or why not?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    An article reports <q>attendance dropped 6% this year, to 300.</q>
+                    What was the attendance before the drop?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Carefully consider what role the quantity 300 is playing.
+                </p>
+            </hint>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    An article reports <q>sales have grown by 30% this year, to $200 million.</q>
+                    What were sales before the growth?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Carefully consider what role the quantity $200 million is playing.
+                </p>
+            </hint>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    The Walden University had 47,456 students in 2010, while Kaplan University had 77,966 students.
+                    Complete the following statements:
+                </p>
+                <p>
+                    Kaplan's enrollment was <fillin characters="5" />% larger than Walden's.
+                </p>
+                <p>
+                    Walden's enrollment was <fillin characters="5" />% smaller than Kaplan's.
+                </p>
+                <p>
+                    Walden's enrollment was <fillin characters="5" />% of Kaplan's.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    In the 2016 Olympics, Usain Bolt ran the 100m dash in 9.63 seconds.
+                    Jim Hines won the 1968 Olympic gold with a time of 9.95 seconds.
+                    Complete the following statements:
+                </p>
+                <p>
+                    Bolt's time was <fillin characters="5" />% faster than Hines's.
+                </p>
+                <p>
+                    Hines's time was <fillin characters="5" />% slower than Bolt's.
+                </p>
+                <p>
+                    Hines's time was <fillin characters="5" />% of Bolt's.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    A store has clearance items that have been marked down by 60%.
+                    They are having a sale, advertising an additional 30% off clearance items.
+                    What percent of the original price do you end up paying?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Which is better:  Having a stock that goes up 30% on Monday than drops 30% on Tuesday,
+                    or a stock that drops 30% on Monday and goes up 30% on Tuesday?
+                    In each case, what is the net percent gain or loss?
+                </p>
+            </statement>
+        </exercise>
+    
+    </exercisegroup>
+
+    <exercisegroup>
+    <title>Equivalent, Conflict, or ¯\_(ツ)_/¯</title>
+
+        <introduction>
+            <p>
+                Are these two claims equivalent, in conflict, or not comparable because they're talking about different things?
+                Note that you are not asked to verify the truth of the claim.
+            </p>
+        </introduction>
+    
+        <exercise>
+            <statement>
+                <p>
+                    <ul marker="">
+                        <li>
+                            <p>
+                                <q>16.3% of Americans are without health insurance.</q><fn>http://www.cnn.com/2012/06/27/politics/btn-health-care/index.html</fn>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <q>Only 55.9% of adults receive employer provided health insurance.</q><fn><url href="http://www.politico.com/news/stories/0712/78134.html" /></fn>
+                            </p>
+                        </li>
+                    </ul>
+                </p>                    
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    <ul marker="">
+                        <li>
+                            <p>
+                                <q>We mark up the wholesale price by 33% to come up with the retail price.</q>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <q>The store has a 25% profit margin.</q>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    <ul marker="">
+                        <li>
+                            <p>
+                                <q>Every year since 1950, the number of American children gunned down has doubled.</q>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <q>The number of child gunshot deaths has doubled from 1950 to 1994.</q>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    <ul marker="">
+                        <li>
+                            <p>
+                                <q>75 percent of the federal health care law's taxes would be paid by those earning less than $120,000 a year.</q>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <q>76 percent of those who would pay the penalty [health care law's taxes] for not having insurance in 2016 would earn under $120,000.</q><fn><url href="https://www.factcheck.org/2012/07/twisting-health-care-taxes/" /></fn>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    <ul marker="">
+                        <li>
+                            <p>
+                                <q>The school levy is only a 0.1% increase of the property tax rate.</q>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <q>This new levy is a 12% tax hike, raising our total rate to $9.33 per $1000 of value.</q>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    <q>Guns have murdered more Americans here at home in recent years than have died on the battlefields of Iraq and Afghanistan.</q>
+                    <ul marker="">
+                        <li>
+                            <p>
+                                <q>In support of the two wars, more than 6,500 American soldiers have lost their lives.</q>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <q>During the same period, however, guns have been used to murder about 100,000 people on American soil.</q><fn><url href="https://www.politifact.com/factchecks/2012/aug/06/frank-lautenberg/frank-lautenberg-says-gun-violence-claimed-more-am/" /></fn>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </exercise>
+    
+    </exercisegroup>
+
+    <exercise>
+        <statement>
+            <p>
+                A high school currently has a 30% dropout rate.
+                They've been tasked to decrease that rate by 20%.
+                Find the equivalent percentage point drop.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                A politician's support grew from 42% by 3 percentage points to 45%.
+                What percent (relative) change is this?
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Marcy has a 70% average in her class going into the final exam.
+                She says "I need to get a 100% on this final so I can raise my score to 85%."
+                Is she correct?
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Suppose you have one quart of water/juice mix that is 50% juice, and you add 2 quarts of juice.
+                What percent juice is the final mix?
+            </p>
+        </statement>
+    </exercise>
+
+    <exercisegroup>
+    <title>Unit Rates</title>
+    
+        <introduction>
+            <p>
+                Find the unit rate:
+            </p>
+        </introduction>
+    
+        <exercise>
+            <statement>
+                <p>
+                    You bought 10 pounds of potatoes for $4.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Joel ran 1500 meters in 4 minutes, 45 seconds.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Sam uses 45 tiles to cover the floor in a room that is 20ft<times/>18ft.
+                </p>
+            </statement>
+        </exercise>
+    
+    </exercisegroup>
+
+    <exercisegroup>
+    <title>Proportion Equations</title>
+    
+    
+        <introduction>
+            <p>
+                Solve each proportion equation for the unknown variable.
+            </p>
+        </introduction>
+    
+        <exercise>
+            <statement>
+                <p>
+                    <m>\frac{2}{5} = \frac{6}{x}</m>.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    <m>\frac{n}{5} = \frac{16}{20}</m>.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    <m>\frac{3}{t} = \frac{18}{42}</m>.
+                </p>
+            </statement>
+        </exercise>
+    
+    </exercisegroup>
+
+    <exercisegroup>
+    <title>Unit Conversions</title>
+    
+        <introduction>
+            <p>
+                Use proportion equations, dimensional analysis, diagrams, or any other strategies or combinations to solve the following problems.
+                There are many valid methods here. Be clear about your process; especially if the answer seems simple.
+            </p>
+        </introduction>
+        
+        <exercise>
+            <statement>
+                <p>
+                    A crepe recipe calls for 2 eggs, 1 cup of flour, and 1 cup of milk.
+                    How much flour would you need if you use 5 eggs?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    An 8ft length of 4 inch wide crown molding costs $14.
+                    How much will it cost to buy 40ft of crown molding?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Four 3-megawatt wind turbines can supply enough electricity to power 3000 homes.
+                    How many turbines would be required to power 55,000 homes?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    A highway had a landslide, where 3,000 cubic yards of material fell on the road, requiring 200 dump truck loads to clear.
+                    On another highway, a slide left 40,000 cubic yards on the road.
+                    How many dump truck loads would be needed to clear this slide?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    A wire costs $2 per meter.
+                    How much will 3 kilometers of wire cost?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Sugar contains 15 calories per teaspoon.
+                    How many calories are in 1 cup of sugar?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    A car is driving at 100 kilometers per hour.
+                    How far does it travel in 2 seconds?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    A chain weighs 10 pounds per foot.
+                    How many ounces will 4 inches weigh?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    The store is selling lemons at 2 for $1
+                    Each yields about 2 tablespoons of juice.
+                    How much will it cost to buy enough lemons to make a 9-inch lemon pie requiring <m>\frac{1}{2}</m> cup of lemon juice?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    You read online that a 15ft<times/>20ft brick patio would cost about $2,275 to have professionally installed.
+                    Estimate the cost of having a 18ft<times/>22ft brick patio installed.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    The Deepwater Horizon oil spill resulted in 4.9 million barrels of oil spilling into the Gulf of Mexico.
+                    Each barrel of oil can be processed into about 19 gallons of gasoline.
+                    How many cars could this have fueled for a year?
+                    Assume an average car gets 20 miles to the gallon, and drives about 12,000 miles in a year.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    During the landing of the Mars Science Laboratory Curiosity, it was reported that the signal from the rover would take 14 minutes to reach earth.
+                    Radio signals travel at the speed of light, about 186,000 miles per second.
+                    How far was Mars from Earth when Curiosity landed?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    It is estimated that a driver takes, on average, 1.5 seconds from seeing an obstacle to reacting by applying the brake or swerving.
+                    How far will a car traveling at 60 miles per hour travel (in feet) before the driver reacts to an obstacle?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <sidebyside>
+                    <p>
+                        Sound travels about 750 miles per hour.
+                        If you stand in a parking lot near a building and sound a horn, you will hear an echo.
+                        Suppose it takes about <m>\frac{1}{2}</m> a second to hear the echo.
+                        How far away is the building?
+                    </p>
+                    <video vimeo="40377128"/>
+                </sidebyside>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <sidebyside widths="60% 40%" margins="auto" valign="middle">
+                    <p>
+                        The grocery store has bulk pecans on sale, which is great since you're planning on making 10 pecan pies for a wedding.
+                        Your recipe calls for <m>1\frac{3}{4}</m> cups pecans per pie.
+                        However, in the bulk section there's only a scale available, not a measuring cup.
+                        You run over to the baking aisle and find a bag of pecans, and look at the nutrition label to gather some info.
+                        How many pounds of pecans should you buy?
+                    </p>
+                    <image source="images/pecans.jpg">
+                        <shortdescription>Nutrition label for a package of pecans.</shortdescription>
+                        <description><p>
+                            A nutrition label for a package of pecans.
+                            Serving Size:  1 cup, halves (99 g)
+                            Servings per Container:  about 2
+                        </p></description>
+                    </image>
+                </sidebyside>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <sidebyside widths="60% 40%" margins="auto" valign="middle">
+                    <p>
+                        Soda is often sold in 20 ounce bottles.
+                        The nutrition label for one of these bottles is shown to the right.
+                        A packet of sugar (the kind they have at restaurants for your coffee or tea) typically contain 4 grams of sugar in the U.S.
+                        Drinking a 20oz soda is equivalent to eating how many packets of sugar?
+                    </p>
+                    <image source="images/soda.png">
+                        <shortdescription>Nutrition label for a soda.</shortdescription>
+                        <description><p>
+                            A nutrition label for a a soda. The serving size is 8 fl oz.
+                            The Servings per Container are about 2.5.
+                            Under the heading <q>Amount Per Serving</q>, the Calories are 110, Total Fat is 0g, Sodium is 70mg, Total Carbohydrate is 31g, Sugars 30g, and Protein 0g.
+                        </p></description>
+                    </image>
+                </sidebyside>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    The flash of lightning travels at the speed of light, which is about 186,000 miles per second.
+                    The sound of lightning (thunder) travels at the speed of sound, which is about 750 miles per hour.
+                    If you see a flash of lightning, then hear the thunder 4 seconds later, how far away is the lightning?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Generalize your work from the problem above.
+                    If you count <m>n</m> seconds between seeing a flash of lightning and hearing the associated thunder,
+                    how far away is the storm?
+                    Your answer should have the variable <m>n</m> in it.
+                </p>
+            </statement>
+        </exercise>
+    
+    </exercisegroup>
+
+    <exercise>
+        <statement>
+            <p>
+                A recipe for sabayon calls for 2 egg yolks, 3 tablespoons of sugar, and ¼ cup of white wine.
+                After cracking the eggs, you start measuring the sugar, but accidentally put in 4 tablespoons of sugar.
+                How can you compensate?
+            </p>
+        </statement>
+    </exercise>
+    
+    <exercise>
+        <statement>
+            <p>
+                Your chocolate milk mix says to use 4 scoops of mix for 2 cups of milk.
+                After pouring in the milk, you start adding the mix, but get distracted and accidentally put in 5 scoops of mix.
+                How can you adjust the mix if there is still room in the cup?
+                What if the cup is already full?
+            </p>
+        </statement>
+    </exercise>
+
+    <exercisegroup>
+    <title>Comparisons</title>
+    
+        <introduction>
+            <p>
+                Each of the problems below presents a situation for comparing quantities.
+                Make the indicated comparison and comment on if it is helpful for understanding the situation.
+                In these situations, there are often multiple correct answers; so long as you are clear about what your quantities represent.
+            </p>
+        </introduction>
+    
+        <exercise>
+            <statement>
+                <p>
+                    The table below gives data on three movies.
+                    Gross earnings is the amount of money the movie brings in.
+                    Compare the net earnings (money made after expenses) for the three movies.
+                </p>
+                <tabular>
+                    <col right="major"> </col>
+                    <col right="minor"> </col>
+                    <col right="minor"> </col>
+                    <col> </col>
+                    <row header="yes" >
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell>World Wide Box Office</cell>
+                    </row>
+                    <row header="yes" bottom="medium">
+                        <cell>Movie</cell>
+                        <cell>Release Date</cell>
+                        <cell>Budget</cell>
+                        <cell>and Home Market Performance</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Avengers: Endgame</cell>
+                        <cell>April 2019</cell>
+                        <cell>$400,000,000</cell>
+                        <cell>$2,825,413,435</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Clerks</cell>
+                        <cell>October 1994</cell>
+                        <cell>$27,000</cell>
+                        <cell>$4,400,000</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>High School Musical</cell>
+                        <cell>May 2006</cell>
+                        <cell>$4,200,000</cell>
+                        <cell>$131,765,000</cell>
+                    </row>
+                </tabular>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    For the movies in the previous problem, which provided the best return on investment?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    The GDP (Gross Domestic Product) of China was $4,525,704 million in 2023, and the GDP of Sweden was $584,960 million.<fn><url href="https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)" /></fn>
+                    The population of China in July 2023 was 1,422,584,933, while the population of Sweden was about 10,551,494.<fn><url href="https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_(United_Nations)" /></fn>
+                    Compare the GDP per capita of the two countries.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    In June 2018, Twitter was reporting 500 million tweets per day.
+                    Each tweet can consist of up to 140 characters (letter, numbers, etc.).
+                    Create a comparison to help understand the amount of tweets in a year by imagining each character was a drop of water and comparing to filling something up.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    In it's own environmental report, Microsoft disclosed that its global water consumption increased 34% from 2021 to 2022 to nearly 1.7 billion gallons.<fn><url href="https://apnews.com/article/chatgpt-gpt4-iowa-ai-water-consumption-microsoft-f551fde98083d17a7e8d904f8be822c4"/></fn>
+                    This is generally thought to be from their partnership with OpenAI and the development and use of ChatGPT.
+                    Create a comparison to help understand that amount of water.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Use the data<fn><url href="https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area" />, July 2025</fn><fn><url href="https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population" />, July 2025</fn>in the table below to compare the size of the countries.
+                </p>
+                <tabular>
+                    <col right="major"> </col>
+                    <col right="minor"> </col>
+                    <col right="minor"> </col>
+                    <col> </col>
+                    <row header="yes" bottom="medium">
+                        <cell>Country</cell>
+                        <cell>Land Area (km<m>^2</m>)</cell>
+                        <cell>Water Area (km<m>^2</m>)</cell>
+                        <cell>Population</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Brazil</cell>
+                        <cell>8,460,415</cell>
+                        <cell>55,352</cell>
+                        <cell>212,583,750</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Finland</cell>
+                        <cell>303,815</cell>
+                        <cell>34,330</cell>
+                        <cell>5,644,772</cell>
+                    </row>
+                    <row bottom ="minor">
+                        <cell>India</cell>
+                        <cell>2,973,190</cell>
+                        <cell>314,070</cell>
+                        <cell>1,417,492,000</cell>
+                    </row>
+                    <row bottom ="minor">
+                        <cell>Indonesia</cell>
+                        <cell>1,811,569</cell>
+                        <cell>93,000</cell>
+                        <cell>281,190,067</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Japan</cell>
+                        <cell>364,485</cell>
+                        <cell>13,430</cell>
+                        <cell>123,360,000</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Russia</cell>
+                        <cell>16,376,870</cell>
+                        <cell>721,380</cell>
+                        <cell>146,028,325</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Singapore</cell>
+                        <cell>726</cell>
+                        <cell>10</cell>
+                        <cell>6,036,900</cell>
+                    </row>
+                    <row>
+                        <cell>United States</cell>
+                        <cell>9,147,593</cell>
+                        <cell>377,424</cell>
+                        <cell>340,110,988</cell>
+                    </row>
+                </tabular>
+            </statement>
+        </exercise>
+    
+    </exercisegroup>
+
+    <exercise>
+        <statement>
+            <p>
+                How thick is a single sheet of paper?  How much does it weigh?
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                You need to replace the boards on your deck.
+                About how much will the materials cost?
+            </p>
+        </statement>
+    </exercise>
+
+</exercises>

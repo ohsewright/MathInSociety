@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-prop-reasoning-proj" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Proportional Reasoning Projects</title>
+
+  <subsection xml:id="subsec-tax-basics">
+    <title>Taxes</title>
+
+    <p>
+        Governments collect taxes to pay for the services they provide.
+        In the United States, federal income taxes help fund the military, the environmental protection agency, and thousands of other programs.
+        Property taxes help fund schools.
+        Gasoline taxes help pay for road improvements.
+        While very few people enjoy paying taxes, they are necessary to pay for the services we all depend upon.
+    </p>
+
+    <p>
+        Taxes can be computed in a variety of ways, but are typically computed as a percentage of a sale, of one's income, or of one's assets.
+        Below are some important definitions:
+    </p>
+
+    <definition xml:id="def-effective-rate">
+    <title>Effective Rate</title>
+        <statement>
+            <p>
+                The <term>effective tax rate</term><idx><h>taxes</h><h>effective rate</h></idx> is the equivalent percent rate of the tax paid out of the dollar amount the tax is based on.
+            </p>
+        </statement>
+    </definition>
+
+    <example xml:id="example-taxrate">
+        <statement>
+            <p>
+                Joan paid $3,200 in property taxes on her house valued at $215,000 last year.
+                What is the effective tax rate?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                We can compute the equivalent percentage; the PART is the amount paid in taxes and the WHOLE is the value of the house.
+                <md>
+                    <mrow>\frac{\$3,200}{\$215,000} \approx 0.0149 = 1.49\%</mrow>
+                </md>
+                The effective (property) tax rate where Joan lives is 1.49%.
+            </p>
+        </solution>
+    </example>
+
+    <p>
+        Tax plans are often referred to as progressive, regressive, or flat.
+    </p>
+
+    <definition xml:id="def-taxplans">
+    <title>Tax Categories</title>
+        <statement>
+            <p>
+                A <term>flat tax</term><idx><h>taxes</h><h>flat tax</h></idx>, or proportional tax, charges the same rate for all bases.
+            </p>
+            <p>
+                A <term>progressive tax</term><idx><h>taxes</h><h>progressive tax</h></idx> increases the tax rate as the base ammount increases.
+            </p>
+            <p>
+                A <term>regressive tax</term><idx><h>taxes</h><h>regressive tax</h></idx> decreases the tax rate as the base ammount increases.
+            </p>
+        </statement>
+    </definition>
+
+    <p>
+        The adjectives above are often used to describe the tax structure and the outcomes; and these may not match.
+        For example, property taxes are typically a flat tax; every household in a particular jurisdiction has the same property tax rate.
+        The property tax rate in Fitchburg is 1.338% for everyone.
+        However, since lower income households tend to spend a higher percentage of their income on housing than higher income households,
+        this effect is regressive; lower-income households pay a larger portion of their overall income in property taxes when compared to high-income households.
+    </p>
+    <p>
+        Income tax uses a progressive tax rate.
+        If a household has a higher income, they fall into a higher bracket and pay a higher percentage of their income in federal income taxes.
+        This seems like the outcome would also be progressive, but there are a variety of types of income that are all taxed differently.
+        Higher-income earners tend to have more variety of types of income that typically have lower rates.
+    </p>
+    <p>
+        Many people have proposed various revisions to the income tax collection in the United States.
+        Some, for example, have claimed that a flat tax would be fairer.
+        Others call for revisions to how different types of income are taxed, since currently investment income is taxed at a different rate than wage income.
+        The following two projects will allow you to explore some of these ideas and draw your own conclusions.
+    </p>
+    
+  </subsection>  
+
+  <subsection xml:id="proj-taxplans">
+    <title>Flat Tax, Modified Flat Tax, and Progressive Tax Project</title>  
+    
+    <p>
+        
+    </p>
+
+    <p>
+        You are strongly encouraged to make use of spreadsheets for this project.
+        Minimally, this helps you to organize the information you're calculating.
+        If you make use of more of the functionality (see <xref ref="sec-spreadsheets"/>), it can actually help clarify the process and let you focus more on which computation to do and to make sense of the outcome,
+        rather than focussing on repeating the same computation over and over without making a mistake.
+        You do the human things of choosing and evaluating, let a computer do the computing.
+    </p>
+
+    <p>
+        Imagine the country is made up of 100 households and that the federal government needs to collect $1,400,000 in income taxes to be able to function.
+        The population consists of 6 groups:
+        <dl>
+            <li>
+                <title>Group A:</title>
+                <p>
+                    20 households that earn $17,650 each
+                </p>
+            </li>
+            <li>
+                <title>Group B:</title>
+                <p>
+                    20 households that earn $47,590 each
+                </p>
+            </li>
+            <li>
+                <title>Group C:</title>
+                <p>
+                    20 households that earn $80,730 each
+                </p>
+            </li>
+            <li>
+                <title>Group D:</title>
+                <p>
+                    20 households that earn $129,400 each
+                </p>
+            </li>
+            <li>
+                <title>Group E:</title>
+                <p>
+                    15 households that earn $221,000 each
+                </p>
+            </li>
+            <li>
+                <title>Group F:</title>
+                <p>
+                    5 households that earn $526,200 each
+                </p>
+            </li>
+        </dl>
+    </p>
+    <p>    
+        This scenario is roughly proportional to the actual United States population and tax needs in 2023.
+        We are going to determine appropriate income tax rates.
+    </p>
+
+    <exercises xml:id="exercises-taxplan">
+    <title></title>
+    
+        
+        <exercisegroup>
+        <title>Flat Tax</title>
+        
+        
+            <introduction>
+                <p>
+                    The first proposal we'll consider is a flat tax <mdash/> one where every income group is taxed at the same percentage tax rate.  
+                </p>
+            </introduction>
+        
+            <exercise>
+                <statement>
+                    <p>
+                        Determine the total income for the population (all 100 households together).
+                    </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        Determine what flat tax rate would be necessary to collect enough money. 
+                    </p>
+                </statement>
+            </exercise>
+        
+        </exercisegroup>
+
+        <exercisegroup>
+        <title>Modified Flat Tax</title>
+        
+        
+        
+            <introduction>
+                <p>
+                    The second proposal we'll consider is a modified flat-tax plan, where everyone only pays taxes on any income over $30,000.
+                    So, everyone in group A will pay no taxes.
+                    Everyone in group B will pay taxes only on $17,590.  
+                </p>
+            </introduction>
+        
+            <exercise>
+                <statement>
+                    <p>
+                        Determine the total <alert>taxable income</alert> for the whole population.
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise>
+                <statement>
+                    <p>
+                        Determine what flat tax rate would be necessary to collect enough money in this modified system.
+                    </p>
+                </statement>
+            </exercise>
+        
+        </exercisegroup>
+
+        <exercise>
+            <statement>
+                <p>
+                    Complete the following table for both tax plans:
+                </p>
+                <tabular>
+                    <col></col>
+                    <col right="medium"></col>
+                    <col top="medium"></col>
+                    <col top="medium" right="medium"></col>
+                    <col top="medium"></col>
+                    <col top="medium" right="medium"></col>
+                    <row header="yes" bottom="minor">
+                        <cell colspan="2"></cell>
+                        <cell colspan="2"> Flat Tax Plan </cell>
+                        <cell colspan="2"> Modified Flat Tax Plan </cell>
+                    </row>
+                    <row left="medium" header="yes" bottom="medium">
+                        <cell right="medium">Group</cell>
+                        <cell>Income per Household</cell>
+                        <cell right="medium">Income Tax per Household</cell>
+                        <cell>Income After Taxes</cell>
+                        <cell right="medium">Income Tax per Household</cell>
+                        <cell>Income After Taxes</cell>
+                    </row>
+                    <row left="medium" bottom="minor">
+                        <cell right="medium">A</cell>
+                        <cell>$17,650</cell>
+                        <cell right="medium"></cell>
+                        <cell></cell>
+                        <cell right="medium"></cell>
+                        <cell></cell>
+                    </row>
+                    <row left="medium" bottom="minor">
+                        <cell right="medium">B</cell>
+                        <cell>$47,590</cell>
+                        <cell right="medium"></cell>
+                        <cell></cell>
+                        <cell right="medium"></cell>
+                        <cell></cell>
+                    </row>
+                    <row left="medium" bottom="minor">
+                        <cell right="medium">C</cell>
+                        <cell>$80,730</cell>
+                        <cell right="medium"></cell>
+                        <cell></cell>
+                        <cell right="medium"></cell>
+                        <cell></cell>
+                    </row>
+                    <row left="medium" bottom="minor">
+                        <cell right="medium">D</cell>
+                        <cell>$129,400</cell>
+                        <cell right="medium"></cell>
+                        <cell></cell>
+                        <cell right="medium"></cell>
+                        <cell></cell>
+                    </row>
+                    <row left="medium" bottom="minor">
+                        <cell right="medium">E</cell>
+                        <cell>$221,000</cell>
+                        <cell right="medium"></cell>
+                        <cell></cell>
+                        <cell right="medium"></cell>
+                        <cell></cell>
+                    </row>
+                    <row left="medium" bottom="medium">
+                        <cell right="medium">F</cell>
+                        <cell>$526,200</cell>
+                        <cell right="medium"></cell>
+                        <cell></cell>
+                        <cell right="medium"></cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+            </statement>
+        </exercise>
+
+        <exercisegroup>
+        <title>Progressive Tax</title>
+        
+        
+            <introduction>
+                <p>
+                    The third proposal we'll consider is a progressive tax, where lower income groups are taxed at a lower percent rate, and higher income groups are taxed at a higher percent rate.
+                </p>
+                <p>    
+                    For simplicity, you may assume that a household is taxed at the same rate on all their income.
+                    In actuality, income is taxed by the bracket it falls into.
+                    For example, a household in group C would pay the Group A rate on $17,650 of their income, the B rate on the next $29,940, and the C rate on the last $33,140.
+                    If you'd like an extra challenge, feel free to follow that procedure. Just be clear that you're doing that.
+                </p>
+            </introduction>
+        
+            <exercise>
+                <statement>
+                    <p>
+                        Set progressive tax rates for each income group at levels that bring in enough money (the column on the right should total at least $1,400,000).
+                        There is no one right answer here <mdash/> just make sure you bring in enough money!
+                        You should have a different rate for each group, and a 0% tax rate is an option. 
+                    </p>
+                    <tabular>
+                        <col top="medium" right="minor"></col>
+                        <col top="medium" right="medium"></col>
+                        <col top="medium" right="minor"></col>
+                        <col top="medium" right="minor"></col>
+                        <col top="medium" right="medium"></col>
+                        <col top="medium" right="medium"></col>
+                        <row left="medium" header="yes" bottom="medium">
+                            <cell>Group</cell>
+                            <cell>Income per Household</cell>
+                            <cell>Tax Rate</cell>
+                            <cell>Income Tax per Household</cell>
+                            <cell>Income After Tax</cell>
+                            <cell>Total Tax for All Households</cell>
+                        </row>
+                        <row left="medium" bottom="minor">
+                            <cell>A</cell>
+                            <cell>$17,650</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row left="medium" bottom="minor">
+                            <cell>B</cell>
+                            <cell>$47,590</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row left="medium" bottom="minor">
+                            <cell>C</cell>
+                            <cell>$80,730</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row left="medium" bottom="minor">
+                            <cell>D</cell>
+                            <cell>$129,400</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row left="medium" bottom="minor">
+                            <cell>E</cell>
+                            <cell>$221,000</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row left="medium" bottom = "medium">
+                            <cell>F</cell>
+                            <cell>$526,200</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell colspan="5" right="medium" halign="right"><line>Total for All</line><line>100 Households:</line></cell>
+                            <cell right="medium" bottom="medium"></cell>
+                        </row>
+                    </tabular>
+                </statement>
+            </exercise>
+        
+        </exercisegroup>
+
+        <exercisegroup>
+        <title>Discretionary Income</title>
+        
+        
+            <introduction>
+                <p>
+                    Discretionary income is the income people have left over after paying for necessities like rent, food, transportation, etc.
+                    The cost of basic expenses does usually increase with income, since housing and car costs also increase with income.
+                    However, the increase in expenses is usually not proportional to the increase in income. 
+                </p>
+            </introduction>
+        
+            <exercise>
+                <statement>
+                    <p>
+                        Explain what is meant by <q>the increase in expenses is usually not proportional to the increase in income,</q> in your own words.
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise>
+                <statement>
+                    <p>
+                        The table below has a column for each of four different categories of essential expenses: housing, transportation, food, and medical.
+                        For each group, estimate their essential expenses in each category.
+                        Remember that most of us deal with these costs on a monthly basis, but we need annual totals in the table.
+                    </p>
+                    <p>
+                        Housing should include utilities like water, electricity, heat, etc.
+                        Transportation could be a car payment, or bus tickets, or cab/Uber rides, etc. 
+                        Lower income groups may receive government assistance in any of the categories, which will change the ammount they pay.
+                    </p>
+                    <p>
+                        These are just estimates, but you should gather some information rather than just making things up.
+                        For consistency, consider a one-income earner family of four as your household for each group and look for your data in the same region.
+                        You may use whatever region you'd like. You may be most familiar with the state you're from, and that is worth something.
+                        Also, keep in mind that these numbers are national averages and medians, so lower than the corresponding numbers would be in a high-earner states.
+                        That means, it is even harder to live in groups A and B in a state like Massachusetts.
+                        Arizona's median income is very close the national median, which may make the whole process <q>work out</q> a bit easier.
+                    </p>
+                    <p>
+                        Describe your process and complete the table.
+                        You do not need to carefully every category for every group.
+                        Do that for a few, and you can extrapolate/interpolate (fancy words to mean fill in the other stuff following the trends) the rest,
+                        <alert>but remember that it should NOT be proportional</alert>.
+                        The Essential Expenses Column should be the total of the other four, and Discretionary Income (the final column) is the Income minus the Essential Expenses.
+                    </p>
+                    <tabular>
+                        <col top="medium" right="minor"></col>
+                        <col top="medium" right="medium"></col>
+                        <col top="medium" right="minor"></col>
+                        <col top="medium" right="minor"></col>
+                        <col top="medium" right="minor"></col>
+                        <col top="medium" right="medium"></col>
+                        <col top="medium" right="medium"></col>
+                        <col top="medium" right="medium"></col>
+                        <row left="medium" header="yes" bottom="medium">
+                            <cell>Group</cell>
+                            <cell>Income per Household</cell>
+                            <cell>Housing</cell>
+                            <cell>Transportation</cell>
+                            <cell>Food</cell>
+                            <cell>Medical</cell>
+                            <cell>Essential Expenses</cell>
+                            <cell>Discretionary Income</cell>
+                        </row>
+                        <row left="medium" bottom="minor">
+                            <cell>A</cell>
+                            <cell>$17,650</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row left="medium" bottom="minor">
+                            <cell>B</cell>
+                            <cell>$47,590</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row left="medium" bottom="minor">
+                            <cell>C</cell>
+                            <cell>$80,730</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row left="medium" bottom="minor">
+                            <cell>D</cell>
+                            <cell>$129,400</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row left="medium" bottom="minor">
+                            <cell>E</cell>
+                            <cell>$221,000</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row left="medium" bottom="medium">
+                            <cell>F</cell>
+                            <cell>$526,200</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </statement>
+            </exercise>
+
+            <exercise>
+                <statement>
+                    <p>
+                        Complete the table to reflect a Flat Tax Plan based on discretionary income.
+                        <ol>
+                            <li>
+                                <p>
+                                    In the appropriate place in the table, enter the discretionary income for each group that you determined above.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Just as in problems #1 and #2, determine the total discretionary income for all 100 households and use this to determine an effective flat tax rate.
+                                    Enter the total and rate you decide into the appropriate spaces.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    As in #5, fill in the remaining two columns with how much each household pays in income tax and the total discretionary income left after paying that tax.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <tabular>
+                        <col right="minor"></col>
+                        <col right="medium"></col>
+                        <col top="medium" right="minor"></col>
+                        <col top="medium" right="minor"></col>
+                        <col top="medium" right="medium"></col>
+                        <row header="yes">
+                            <cell bottom="medium" right="none"></cell>
+                            <cell bottom="medium" right="medium"></cell>
+                            <cell bottom="medium" colspan="3" right="medium">Flat Tax Plan Rate = <fillin characters="5" /></cell>
+                        </row>
+                        <row header="yes" bottom="medium" left="medium">
+                            <cell>Group</cell>
+                            <cell>Income per Household</cell>
+                            <cell>Discretionary Income per Household</cell>
+                            <cell>Income Tax per Household</cell>
+                            <cell>Income After Taxes</cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>A</cell>
+                            <cell>$17,650</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>B</cell>
+                            <cell>$47,590</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>C</cell>
+                            <cell>$80,730</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>D</cell>
+                            <cell>$129,400</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>E</cell>
+                            <cell>$221,000</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row left="medium" bottom="medium">
+                            <cell>F</cell>
+                            <cell>$526,200</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell colspan="3" halign="right" right="medium"><line>Total for All</line><line>100 Households:</line></cell>
+                            <cell right="medium" bottom="medium"></cell>
+                        </row>
+                    </tabular>
+                </statement>
+            </exercise>
+
+            <exercise>
+                <statement>
+                    <p>
+                        Complete the table to reflect a Modified Flat Tax Plan based on discretionary income.
+                        <ol>
+                            <li>
+                                <p>
+                                    In the appropriate place in the table, enter the discretionary income for each group.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Determine an amount of discretionary income to not be taxed.
+                                    You can use the same $30,000 as we did above, or lower amount to reflect that discretionary income is already lower than total income.
+                                    Enter this amount in the appropriate place in the chart.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Just as in problems #3 and #4, determine the total taxable discretionary income for all 100 households and use this to determine an effective modified flat tax rate.
+                                    Enter the total and rate you decide into the appropriate spaces.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    As in #5, fill in the remaining two columns with how much each household pays in income tax and the total discretionary income left after paying that tax.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <tabular>
+                        <col right="minor"></col>
+                        <col right="minor"></col>
+                        <col right="medium"></col>
+                        <col top="medium" right="minor"></col>
+                        <col top="medium" right="minor"></col>
+                        <col top="medium" right="medium"></col>
+                        <row header="yes">
+                            <cell colspan="3" right="medium"></cell>
+                            <cell colspan="3" right="medium">Taxable Disc. Income Cutoff: <fillin characters="5" /></cell>
+                        </row>
+                        <row header="yes">
+                            <cell bottom="medium" colspan="3" right="medium"></cell>
+                            <cell bottom="medium" colspan="3" right="medium">Modified Flat Tax Plan Rate = <fillin characters="5" /></cell>
+                        </row>
+                        <row header="yes" bottom="medium" left="medium">
+                            <cell>Group</cell>
+                            <cell>Income per Household</cell>
+                            <cell>Discretionary Income per Household</cell>
+                            <cell>Taxable Discretionary Income per Household</cell>
+                            <cell>Income Tax per Household</cell>
+                            <cell>Income After Taxes</cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>A</cell>
+                            <cell>$17,650</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>B</cell>
+                            <cell>$47,590</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>C</cell>
+                            <cell>$80,730</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>D</cell>
+                            <cell>$129,400</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>E</cell>
+                            <cell>$221,000</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row left="medium" bottom="medium">
+                            <cell>F</cell>
+                            <cell>$526,200</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row left="none">
+                            <cell halign="right" colspan="3" right="medium"><line>Total for All</line><line>100 Households:</line></cell>
+                            <cell right="minor" bottom="medium"></cell>
+                            <cell bottom="medium" right="medium"></cell>
+                        </row>
+                    </tabular>
+                </statement>    
+            </exercise>
+
+            <exercise>
+                <statement>
+                    <p>
+                        Complete the table to reflect a progressive tax plan based on discretionary income.
+                        <ol>
+                            <li>
+                                <p>
+                                    In the appropriate place in the table enter the discretionary income for each group.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    As in #6, choose a tax rate for each group and include that in the appropriate column.
+                                    Compute and enter the income tax paid per household in each group and the total for all households in the group.
+                                    This may take a few tries to get right; you need to make sure you're collecting at least $1,400,000.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Fill in the final column with the amount of discretionary income remaining after taxes.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <tabular>
+                        <col top="medium" right="minor"></col>
+                        <col top="medium" right="minor"></col>
+                        <col top="medium" right="medium"></col>
+                        <col top="medium" right="minor"></col>
+                        <col top="medium" right="medium"></col>
+                        <col top="medium" right="medium"></col>
+                        <col top="medium" right="medium"></col>
+                        <row header="yes" bottom="medium" left="medium">
+                            <cell>Group</cell>
+                            <cell>Income per Household</cell>
+                            <cell>Discretionary Income</cell>
+                            <cell>Progressive Tax Rate</cell>
+                            <cell>Income Tax per Household</cell>
+                            <cell>Total Tax Collected for All Households</cell>
+                            <cell>Discretionary Income After Tax per Household</cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>A</cell>
+                            <cell>$17,650</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>B</cell>
+                            <cell>$47,590</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>C</cell>
+                            <cell>$80,730</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>D</cell>
+                            <cell>$129,400</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row bottom="minor" left="medium">
+                            <cell>E</cell>
+                            <cell>$221,000</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row left="medium" bottom="medium">
+                            <cell>F</cell>
+                            <cell>$526,200</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell colspan="5" right="medium" halign="right"> <line>Total for All</line><line>100 Households:</line></cell>
+                            <cell bottom="medium" right="medium"></cell>
+                        </row>
+                    </tabular>
+                </statement>
+            </exercise>
+        
+        </exercisegroup>
+
+        <exercise>
+            <statement>
+                <p>
+                    Which plan seems the most fair to you?
+                    Which plan seems the least fair to you? Why?
+                </p>
+                <p>
+                    We're going to encounter a number of questions like this.
+                    There is not necessarily always a clear answer.
+                    Your job is to consider the quantitative information, your individual or community values, and make a choice.
+                    <alert>You should use the numbers as a part of your justification; this is quantitative reasoning</alert>.
+                </p>
+            </statement>
+        </exercise>
+    </exercises>
+
+</subsection>
+
+<subsection xml:id="proj-incometypes">
+    <title>Income Types and Deductions</title>  
+    
+    <p>
+        
+    </p>
+
+    <p>
+        In the previous project, we were treating all income the same; as wage income.
+        In reality, different types of income are taxed differently and households can take deductions based on a variety of things.
+    </p>
+    <p>
+        Visit <url href="https://www.irs.gov" visual="irs.gov"/> and locate and download the most recent version of a 1040 form.
+        The instructions for the 1040 form can also be viewed from the same site and are helpful in determining which additional forms or schedules are needed.
+    </p>
+
+    
+
+</subsection>
+
+</section>

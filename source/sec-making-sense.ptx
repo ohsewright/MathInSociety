@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-making-sense" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Making Sense</title>
+
+    <p>
+        Part of having excellent <alert>quantitative reasoning</alert> skills is being able to make sense of numbers.
+        Sometimes, numbers are just difficult to comprehend.
+        This could be because the number is huge or because the units are not something you're familiar with or just because there are lots of numbers to consider.
+        We also want to make sure that if we're comparing or combining multiple quantities, we're doing it in a way that is reasonable and informative.
+    </p>
+
+    <example xml:id="example-military">
+        <title>A BIG Number</title>
+        
+        <statement>
+            <p>
+                Make sense of the United States total military spending of $916,014,700,000 for 2023<fn><url href="https://data.worldbank.org/indicator/MS.MIL.XPND.CD?locations=US&amp;most_recent_value_desc=true&amp;view=map" /></fn>.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Unless you're in the very very very tiny class of very very very wealthy people, $916,014,700,000 is hard to get your head around.
+                Naming the number can sometimes help; this is more than 916 billion dollars, nearly one trillion dollars.
+            </p>
+            <p>
+                Even if your quantitative reasoning skills get you a good idea of how big that number is, what is a USD really mean by itself?
+                Most of us are the most familar with thinking about the USD to purchase everyday goods, but it is going to take a lot of boxes of cereal to reach into the hundreds of billions.
+                So, let's think about things that cost more, but are still part of our normal lives.
+                Unless you own a home, likely the largest number of dollars you consider is your annual salary or wages.
+                In 2023, the average annual salary for an Assistant Professor<fn>Faculty typically start at a rank of Assistant and can move up in rank to Associate Professor or Full Professor. A promotion comes with an increased salary, so on average this is the lowest paid of those three groups.</fn>
+                in the Massachusetts State College System was about $58,700<fn><url href="https://cthrupayroll.mass.gov/#!/year/2023/full_time_employees,others/pay1/explore/0-0-0-0-0/bargaining_group_title/Mass.+State+College+Assoc./0-barChart-0-0-0/position_title/Assistant+Professor/0-barChart-0/trans_no" /></fn>.
+                Using some dimensional analysis,
+                <md>
+                    <mrow> $916,014,700,000 \cdot \frac{1 \text{ assistant prof}}{$58,700} \amp = 15,605,020.4</mrow>
+                </md>
+                That means that with the DOD's budget, Massachusetts could employ more than 15 million new full time assistant professors.
+                That's a big number still; more than twice the population of Massachusetts.
+            </p>
+            <p>
+                We could do a similar calculation with any other annual cost replacing the faculty salary.
+                A smaller cost, like average public college or university tuition, would give a final number that was even larger.
+                The DoD could cover a year of tuition for nearly 80.5 million students at public four-year schools.
+                A larger cost, like the average salary of a player for the Boston Red Sox, would give a final number that was smaller.
+                The DoD could pay the salaries of over 200,000 major league baseball players, or around 5,000 teams.
+                When we're doing this type of ananlysis, we want to consider and try to balance out the sizes of all the numbers; a mix of art and science.
+            </p>
+            <p>
+                Even though we're being clear about our computations above, it is reasonable to say that this is an <q>unfair</q> method of comparison.
+                We shouldn't really be comparing the spending of a whole nation to individuals.
+                So, let's consider other countries' military spending as well as other US departments budgets.
+            </p>
+            <p>
+                The US spends much more than any other country, but it is also a <q>large</q> country by many measures.
+                In 2023, the US ranked 4th<fn>The United Nations Statistics Division, the CIA World Factbook, and the Encyclopædia Britannica all rank the United States ahead of China in total area. However, the figures used by each source include coastal and territorial waters for the United States but exclude coastal and territorial waters for China. China's coastal and territorial water figures are unknown (no official publication) and thus cannot be added into China's total area figure. But Encyclopædia Britannica specifies the United States' area excluding coastal and territorial waters as 9,525,067 km2,[7] less than the figure given for China's area by any of the three sources. Therefore, while it can be determined that China has a larger area excluding coastal and territorial waters, it is unclear which country has a larger area including coastal and territorial waters.<url href="https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area#cite_note-12" /></fn>
+                in area, 3rd in population, and first in GDP (gross domestic product).
+            </p>
+            <p>
+                Indonesia was 4th in population<fn><url href="https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_(United_Nations)" /></fn>.
+                and much closer to the US and than second ranked China. We can compute military spending per capita for each country by dividing the spending by the population.
+                <md>
+                    <mrow>\text{United States: } \amp \frac{$916,014,700,000}{343,477,335 \text{ people}} = $2,666.89 \text{ per person}</mrow>
+                    <mrow>\text{Indonesia: } \amp \frac{$9,480,833,557.9}{281,190,067 \text{ people}} = $33.71 \text{ per person}</mrow>
+                </md>
+            </p>
+            <p>
+                But Indonesia is a much smaller country in terms of area; about 20% of the US: <m>\frac{1,811,569\text{km}^2}{9,147,593\text{km}^2} \approx 0.198</m>.
+                China is ranked second in military spending, and almost exaclty the same size as the US in terms of area.
+                We can compute a ratio of military spending to area for all three countries:
+                <md>
+                    <mrow>\text{United States: } \amp \frac{$916,014,700,000}{9,147,593\text{km}^2} = $100,137.24 \text{ per square kilometer}</mrow>
+                    <mrow>\text{China: } \amp \frac{$296,438,564,342.8}{9,326,410 \text{km}^2} = $31,748.85 \text{ per square kilometer}</mrow>
+                    <mrow>\text{Indonesia: } \amp \frac{$9,480,833,557.9}{1,811,569 \text{km}^2} = $5,233.49 \text{ per square kilometer}</mrow>
+                </md>
+            </p>
+            <p>
+                What about other factors, not only people and land?
+                After the US, China has the next highest GDP followed by Germany, and Russia has the third highest military spending, so let's look at all of these:
+                <md>
+                    <mrow>\text{Russia: } \amp \frac{$109,454,387,532.1}{$2,008,419,000,000} = 0.0545 = 5.45\%</mrow>
+                    <mrow>\text{United States: } \amp \frac{$916,014,700,000}{$27,720,700,000,000} = 0.033 = 3.3\%</mrow>
+                    <mrow>\text{China: } \amp \frac{$296,438,564,342.8}{$17,794,782,000,000} = 0.0167 = 1.67\%</mrow>
+                    <mrow>\text{Germany: } \amp \frac{$66,826,634,284.2}{$4,525,704,000,000} = 0.0148 = 1.48\%</mrow>
+                    <mrow>\text{Indonesia: } \amp \frac{$9,480,833,557.9}{$1,371,171,000,000} = 0.00691 = 0.691\%</mrow>
+                </md>
+            </p>
+            <p>
+                A country's GDP gives us some information about the strength and size of the nation's economy.
+                But, this doesn't necessarily correlate with how much the government spends.
+                You can see in <url href="https://www.imf.org/external/datamapper/exp@FPP/USA/FRA/JPN/GBR/SWE/ESP/ITA/ZAF/IND" visual="this map and chart"/>
+                from the International Monetary Fund that government spending as a percentage of GDP varies widely around the world and from year to year.
+            </p>
+            <p>
+                The chart below includes the percentage of the government's total budget that is spent on the three areas.
+                The data is as close to 2023 as was available.
+                The computations have been done for us, but it is still important to recognize that it is simply the <m>\text{PERCENT} = \frac{\text{PART}}{\text{WHOLE}}</m> formula that we've used many times.
+                The WHOLE is each government's total budget and the PART is the amount of money the government spends on a particular area.
+            </p>
+            <tabular>
+                <col right="medium"></col>
+                <col right="minor"></col>
+                <col right="minor"></col>
+                <col></col>
+                <row header="yes" bottom="medium">
+                    <cell>Country</cell>
+                    <cell>Military</cell>
+                    <cell>Education</cell>
+                    <cell>Health</cell>
+                </row>
+                <row bottom="minor">
+                    <cell>Brazil</cell>
+                    <cell>2.2</cell>
+                    <cell>13</cell>
+                    <cell>9</cell>
+                </row>
+                <row bottom="minor">
+                    <cell>China</cell>
+                    <cell>8.8</cell>
+                    <cell>11</cell>
+                    <cell>5</cell>
+                </row>
+                <row bottom="minor">
+                    <cell>Germany</cell>
+                    <cell>3.1</cell>
+                    <cell>9.2</cell>
+                    <cell>20.5</cell>
+                </row>
+                <row bottom="minor">
+                    <cell>Indonesia</cell>
+                    <cell>4.9</cell>
+                    <cell>14</cell>
+                    <cell>8</cell>
+                </row>
+                <row bottom="minor">
+                    <cell>Isreal</cell>
+                    <cell>13.8</cell>
+                    <cell>18</cell>
+                    <cell>13</cell>
+                </row>
+                <row bottom="minor">
+                    <cell>Kenya</cell>
+                    <cell>4.3</cell>
+                    <cell>18</cell>
+                    <cell>8.7</cell>
+                </row>
+                <row bottom="minor">
+                    <cell>Russia</cell>
+                    <cell>14.8</cell>
+                    <cell>8.9</cell>
+                    <cell>13.8</cell>
+                </row>
+                <row bottom="minor">
+                    <cell>Ukraine</cell>
+                    <cell>49.1</cell>
+                    <cell>8.5</cell>
+                    <cell>10.6</cell>
+                </row>
+                <row>
+                    <cell>United States</cell>
+                    <cell>9.1</cell>
+                    <cell>13</cell>
+                    <cell>24.7</cell>
+                </row>
+            </tabular>
+            <p>
+                You can and should look at this data: <url href="https://ourworldindata.org/grapher/military-expenditure-as-a-share-of-government-spending?country=UKR~BLR~QAT~SAU~ARM~OMN~DZA~SOM~SGP~MMR~AZE~PAK~IRN~JOR~MLI~RUS~BFA~GIN~ISR~CAF~NER~BHR~BDI~TCD~TGO~TWN~KOR~UZB~MAR~MRT~AFG~BRN~UGA~COG~KWT~KGZ~SDN~USA" visual="Military"/>,
+                <url href="https://ourworldindata.org/grapher/share-of-education-in-government-expenditure?time=latest" visual="Education"/>,
+                and <url href="https://ourworldindata.org/grapher/health-expenditure-government-expenditure?time=latest" visual="Health"/>.
+                You can see the data for all nations and where the US ranks overall. You can also get a better idea of how these percentages change over time and it is worth thinking about what may have caused those changes.
+                Something else you should notice is that both education and health spending are considered part of the <em>general goverment</em>, which means it is not only at the federal level, but also state or local governments as well.
+                This gives a more accurate picture of spending, but still important to note that it is different from the military calculations.
+                Also, since the base of a percentage is very importnat, we should take note that considering the <q>general goverment</q> rather than just federal spending changed both the PART and the WHOLE.
+            </p>
+            <p>
+                This is in no way a complete analysis. 
+                The short answer to the question, <q>Does the US government spend too much on defense?</q> is <q>It's complicated, </q>
+                but each of these approaches and comparisons shines a little more light onto what a US Department of Defense budget of $916,014,700,000 means.
+            </p>
+        </solution>
+    </example>
+
+    <p>
+        We want to be able to not just make sense of quantities, but also to use them together to answer questions and evaluate situations in our lives.
+    </p>
+
+    <example xml:id="example-car-purchase">
+    <title>Choosing a Vehicle</title>
+        <statement>
+            <p>
+                You're ready to buy a new car and like the Kia Sportage seems like a reasonable choice.
+                Is it worth it to buy the hybrid or plug-in hybrid versions, or just stick to gas powered?
+            </p>
+        </statement> 
+        <solution>
+            <p>
+                To make this decision, we must first decide what our basis for comparison will be.
+                For the purposes of this example, we'll focus on fuel and purchase costs, but environmental impacts and maintenance costs are other factors a buyer might consider.
+            </p>
+            <p>
+                For the gas and hybrid models, we will compare the cost of gas to run both cars for a year.
+                To determine this, we will need to know the miles per gallon both cars get, as well as the number of miles we expect to drive in a year.
+                From that information, we can find the number of gallons required for a year.
+                Using the price of gas per gallon, we can then find the yearly fuel cost.
+            </p>
+            <p>
+                According to Kia, the 2026 Sportage will get 25 miles per gallon (mpg) in the city and 33 mpg on the highway.
+                The 2026 Sportage Hybrid makes 41 mpg in the city and 44mpg on the highway.
+            </p>
+            <p>
+                We'll use the estimates from our pretend person below, seperated into city miles and highway miles.
+                That ends up being 12,480 miles of highway driving and 7,020 miles of city driving.
+                <md>
+                    <mrow>\text{Sonata:  } \amp 7,020\text{ city miles} \cdot \frac{1 \text{ gal}}{25 \text{ city miles}} </mrow>
+                    <mrow> \amp + 12,480\text{ hwy miles}\cdot \frac{1 \text{ gal}}{33 \text{ hwy miles}} = 659 \text{ gal}</mrow>
+                    <mrow>\text{Hybrid:  } \amp 7,020\text{ city miles} \cdot \frac{1 \text{ gal}}{41 \text{ city miles}} </mrow>
+                    <mrow> \amp + 12,480\text{ hwy miles}\cdot \frac{1 \text{ gal}}{44 \text{ hwy miles}} = 454.9 \text{ gal}</mrow>
+                </md>
+            </p>
+            <p>
+                Currently (July 2025) the average price of gas in Massachusetts is $3.05 per gallon, according to AAA.
+                We can use this to determine yearly fuel costs:
+                <md>
+                    <mrow>\text{Sonata:  } \amp 659 \text{ gal} \cdot \frac{\$3.05}{1 \text{gal}} = \$2,009.95</mrow>
+                    <mrow>\text{Hybrid:  } \amp 454.9 \text{ gal} \cdot \frac{\$3.05}{1 \text{gal}} = \$1,387.45</mrow>
+                </md>
+            </p>
+            <p>
+                By choosing the hybrid option, you'd save
+                <md><mrow>\$2,009.95 - \$1,387.45 = \$622.50</mrow></md>
+                each year on fuel costs.
+                Note that this is an absolute difference.
+                The fuel costs for a hybrid are
+                <md><mrow>\frac{\$622.50}{\$2,009.95} = 0.31 = 31\%</mrow></md>
+                lower than those for the gas powered model.
+                <fn>Notice that the absolute difference in the numerator and the quantity we're comparing to (the words that come after <q>than</q>) is in the denominator.
+                Check back with <xref ref="def-absoluterelativechange"/> if you need a refresher.</fn>
+            </p>
+            <p>
+                While both the absolute and relative comparisons are useful here, they still make it hard to answer the original question, since <q>Is it worth it?</q> implies there is some tradeoff for the gas savings.
+                Indeed, the Sonata Hybrid costs about $30,290, compared to the base model for the regular Sonata, at $28,690.
+                To better answer the <q>Is it worth it?</q> question, we might explore how long it will take the gas savings to make up for the additional initial cost.
+                The hybrid costs $1600 more (another absolute difference).
+                With gas savings of $497.45 a year, it will take about 
+                <md>
+                    <mrow> \frac{\$1600}{\$622.50 \text{ per yr}} \amp = 2.57 \text{ years}</mrow>
+                </md>
+                for the gas savings to make up for the higher initial costs of the hybrid option.  
+            </p>
+            <p>
+                Considering the fuel costs for plug-in hybrid is a bit more complicated.
+                Rather than city vs highway miles per gallon, we need to consider how much of the driving will be on the electric battery and how much on regular gasoline.
+                The related numbers for the 2026 Sportage Plug-in Hybrid are 35 mpg on gasoline and 34 mile range while running on full electric power.
+            </p>
+            <p>
+                Let's say you drive to work four days a week, 30 miles each way, and can charge your car in the parking garage while at work.
+                Since 30 miles is within but close to the range, we'll assume these drives are all electric and require a full charge of the battery.
+                Kia reports that the hybrid battery energy is 13.8kWh and we need 4 charges off-peak at home ($0.18004 per kWh) and 4 charges at the mid-peak rate at the office ($0.29235 per kWh).
+                The total cost of these charges is 
+                <md>
+                    <mrow> 4\cdot 13.8\text{ kWh} \cdot \frac{\$0.18004}{1\text{ kWh}} + 4\cdot 13.8\text{ kWh} \cdot \frac{\$0.29235}{1\text{ kWh}} = \$26.08.</mrow>
+                </md>
+            </p>
+            <p>
+                Let's say on the one work from home day during the week and on weekends, you drive an average of 45 miles per day without a reliable charging place.
+                You'll need gasoline for the 11 miles outside the battery's range. For three days, that's three charges (at off-peak rate) and 33 miles.
+                At a rate of 13.8 kWh per charge and 35 mpg, that's
+                <md>
+                    <mrow>3\text{ charges} \cdot \frac{13.8\text{ kWh}}{1\text{ charge}} \cdot \amp \frac{\$0.18004}{1\text{ kWh}}</mrow> 
+                    <mrow> \amp + 33\text{ miles} \cdot \frac{1\text{ gal}}{35\text{ miles}} \cdot \frac{$3.05}{1\text{ gal}} = \$10.33.</mrow>
+                </md>
+            </p>
+            <p>
+                For a typical week, both commuting and non-commuting days, you would spend <m>\$26.08 + \$10.33 = \$36.41</m> on electric and gasoline fuel.
+            </p>
+            <p>
+                For simplicity, we'll say these typical weeks happen 48 weeks out of the 52 in a year, and assume you don't drive at all for the other 4 weeks.
+                But, to balance that out a little bit, we'll throw in a weekend trip every other month.
+                These trips average 100 miles each way and 50 miles of driving around at the destination.
+                We'll assume you don't want to stop on the drive to charge, so you'll run for 34 miles on electricity and then 66 miles on gasoline.
+                Also, let's assume that the 50 miles of driving is spread out enough with an option to charge at the place you stay (weekends are off-peak), so it will all be electric too.
+                That's 118 miles on electric power and 132 miles on gasoline.
+            </p>
+            <p>
+                We'll do this conversion to cost in a streamlined way:
+                <md>
+                    <mrow>118\text{ elec mi} \cdot \amp \frac{1\text{ charge}}{34\text{ elec mi}} \cdot \frac{13.8\text{ kWh}}{1\text{ charge}} \cdot \frac{\$0.18004}{1\text{ kWh}}</mrow>
+                    <mrow> \amp + 132\text{ gas mi} \cdot \frac{1\text{ gal}}{35\text{ gas mi}} \cdot \frac{\$3.05}{1\text{ gal}} = \$20.13</mrow>
+                </md>
+            </p>
+            <p>
+                All together, 48 typical weeks costing $55.25 each and 6 weekend driving trips costing $28.03 each, means
+                <md>
+                    <mrow> 48 \cdot \$36.41 + 6 \cdot \$20.13 = \$1868.46</mrow>
+                </md>
+                to fuel your car for one year.
+                That is less than the cost of the standard gasoline model, but more than the hybrid.
+                THe purchase price of the plug-in hybrid is $39,890, $11,200 more than the standard gas model.
+                The yearly fuel savings we estimated to be $141.49<ellipsis/> that would take 80 years to make up the difference.
+            </p>
+            <p>
+                From a purely financial point of view, it makes sense to buy the hybrid vehicle if you'll own it for at least 3 years.
+                If your values make a plug-in hybrid vehicle appealing, then it may be worth the extra cost.
+                But, you may be better off financially purchasing an all electric vehicle.
+                The Kia EV9 is the closest to the Sportage with a price of $54,900.
+                Quick calculations using the range (230 miles), battery size (76.1 kWh), and the total miles from the above examples (19,500 miles),
+                the cost (at off-peak) for this would be
+                <md>
+                    <mrow> 19,500\text{ mi} \cdot \frac{76.1\text{ kWh}}{230\text{ mi}} \cdot \frac{\$0.18004}{1\text{ kWh}} = \$1,161.61.</mrow>
+                </md>
+                That is a yearly savings of $225.84 over the hybrid, which would take over a hundred years.
+            </p>
+            <p>
+                In addition to your own values and the details of your driving, there are at least three other financial things we did not include in our analysis:
+                <ul>
+                    <li>
+                        <p>
+                            The prices of gasoline and electricity are not constant, nor is their relationship, and it varies by location.
+                            Kansas's prices for both electricity and gasoline are on the lower end, while Nevada's are both high.
+                            Utah (right next door to Nevada) has high gas prices, but the electricity costs are among the lowest in the nation.
+                            Louisana's prices are reversed; expensive electricity and cheap gas.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Additionally, many state and local governments have tax credits, special rates, or incentive programs for purchasing an electric or hybrid vehicle, installing a charging stations at your home, etc.
+                            For the all electric Kia we looked at, we considered the pre-tax-credit price. That credit is $7,500, but will go away at the end of September 2025.
+                            It is likely the starting price of EVs will lower when the tax credit disappears.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Lastly, very few people buy a car all at once; it is a big purchase!
+                            Usually one pays a down payment and then has a loan to cover the rest.
+                            We will discuss how the length and interest rate of the loan affect the over all amount one pays in <xref ref="sec-loans"/>.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                This is a case where math can help guide your decision, but it can't make it for you.
+            </p>
+        </solution>   
+    </example>
+
+    <image source="images/hybridcartoon.jpg" width="65%">
+        <shortdescription></shortdescription>
+        <description><p>
+            In a car dealer show room, a sales person and a customer stand looking at a car.
+            The caption reads, </p>
+            <p>
+                <q><em>It runs on its conventional gasoline-powered engine until it senses guilt, at which point it switches over to battery power.</em></q>
+            </p>
+        </description>
+    </image>
+
+    <p>
+        Both of the above examples are quite long, and we still did not consider every aspect that we could have.
+        Similar to finding a sweet spot of the size of the quantities and units that make sense and you understand, knowing how deeply to analyze a situation is a bit of an art and the optimal amount will be different for each of us.
+        Keep that in mind when you practice with the next situation.
+    </p>
+
+    <exercise xml:id="check-travel">
+        <title>Travel</title>
+        
+        <statement>
+            <p>
+                If you are traveling from Boston, MA to New York, NY for a three-day trip, does it make more sense to drive, fly, or take a train?
+            </p>
+        </statement>
+        <hint>
+            <p>
+                Things you might include in your analysis:
+                <ul>
+                    <li>
+                        <p>
+                            Ticket costs (flight and train)
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Gas/Charging costs
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Miles traveled
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Taxi/Uber/Public Transit fares
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Parking costs
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The value of your time
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </hint>
+    </exercise>
+
+    <activity xml:id="activity-minwage">
+    <title>Minimum Wage</title>
+    
+        <introduction>
+            <p>
+                In the U.S. the minimum wage is $7.25 per hour where the federal Fair Labor Standards Act applies.
+                The minimum wage in Massachusetts is $15 per hour and is $8.75 in West Virginia.
+                The median personal income was $48,060 in the US, $60,690 in Massachusetts, and $39.770 in West Virginia.<fn><url href="https://www.cnbc.com/2024/04/14/median-annual-income-in-every-us-state.html" /></fn>
+                Considering this information, answer the following questions.
+                Pay attention to the methods you're using and try to use techniques from dimensional analysis as well as proportion equations.
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    In Massachusetts, how many hours on minimum wage do you need to work in a year to make the US median income? What about in West Virginia?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Referring to the answer from the previous question, find the number of hours on Massachusetts minimum wage you need to work to make the Massachusetts median income.
+                    How many hours at West Virginia's minimum wage do you need to work to make the median in come there?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    The CEO of Amazon, Jeff Bezos, made $70 billion in 2023. What is his hourly wage?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    How long would someone making minimum wage (use any of the three figures you'd like) have to work to make as much as Jeff Bezos makes in an hour?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    How many Massachusetts residents on minimum wage need to work simultaneously to make Jeff Bezos's hourly wage?
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Using your answer from the previous question, calculate the number of West Virginian minimum wage workers needed to make Jess Bezos's hourly wage? 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    If Jeff Bezos were working in Massachusetts, how long would he need to work to make the median annual income?  
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Which of the results from your above work helps <alert>you</alert> to make sense of Jeff Bezos's immense income?
+                    Can you come up with a new comparison that works better for your brain?
+                </p>
+            </statement>
+        </task>
+    
+       
+    </activity>
+
+    <activity xml:id="activity-violentcrimes">
+    <title>Safest City</title>
+        
+        <introduction>
+            <p>
+                Dr. Math has worked in three different US cities during her time in the US: Tallahassee, FL; Atlanta, GA and Fitchburg, MA.
+                Following is the table for the population and number of violent crimes reported in 2017 in each city along with the national data.
+                Using the table below answer the following questions.
+            </p>
+            <tabular>
+                <col right="major"></col>
+                <col right="minor"></col>
+                <row header="yes" bottom="major">
+                    <cell></cell>
+                    <cell>Population</cell>
+                    <cell>Violent Crimes Reported in 2023</cell>
+                </row>
+                <row bottom="minor">
+                    <cell>Fitchburg, MA</cell>
+                    <cell>41,840</cell>
+                    <cell>194</cell>
+                </row>
+                <row bottom="minor">
+                    <cell>Atlanta, GA</cell>
+                    <cell>513,184</cell>
+                    <cell>3,554</cell>
+                </row>
+                <row>
+                    <cell>Tallahassee, FL</cell>
+                    <cell>203,665</cell>
+                    <cell>1,753</cell>
+                </row>
+            </tabular>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    If number of violent crimes were the only criteria, which one of the three cities could be considered the safest, and which one as the most dangerous to live in?
+                    How would you decide?
+                    Try to find multiple ways to make this comparison.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Using the national data as the benchmark and/or average, what should have been the number of violent crimes in each city for them to be considered as at the national average safety level?  
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Find the violent crime rate per 1000 for each city and compare it to the national rate?
+                </p>
+            </statement>
+        </task>
+    
+        
+    </activity>
+
+</section>
+    
+    

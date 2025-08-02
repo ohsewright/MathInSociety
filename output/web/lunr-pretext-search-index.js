@@ -802,22 +802,760 @@ var ptx_lunr_docs = [
   "body": " Quantities are NOT Always Proportional   Suppose a small company spends $1000 on an advertising campaign, and gains 100 new customers from it. How many new customers should they expect if they spend $3,000?    It is tempting to say that they will gain 300 new customers; if they triple their advertising spending, then they should triple their customers. But, it is likely that additional advertising will be less effective than the initial advertising. For example, if the company is a hot tub store, there are likely only a fixed number of people interested in buying a hot tub, so there might not even be 300 people in the town who would be potential customers. The ratio of new customers to advertising spending is not always the same; it goes down with more and more spending.   "
 },
 {
-  "id": "sec-huge-tiny",
+  "id": "sec-making-sense",
   "level": "1",
-  "url": "sec-huge-tiny.html",
+  "url": "sec-making-sense.html",
   "type": "Section",
   "number": "3.3",
-  "title": "Huge and Tiny Numbers",
-  "body": " Huge and Tiny Numbers  Part of having excellent quantitative reasoning skills is being able to make sense numbers. Sometimes, numbers are just difficult to comprehend. This could be because the number is huge or because the units are not something you're familiar with. We also want to make sure that if we're comparing multiple quantities, we're doing it in a way that is reasonable and informative.   A BIG Number   Make sense of the United States Department of Defense Fiscal Year 2025 budget of $980.88 billion.    Unless you're in the very very very tiny class of very very very wealthy people, $980.88 billion is hard to get your head around. Writing out all the digits of a number is a reasonable place to start. One billion is a single 1 with 9 zeros, so $980.88 billion is $980,880,000,000.  Even if your quantitative reasoning skills get you a good idea of how big that number is, what is a USD really mean by itself? Most of us are the most familar with thinking about the USD to purchase everyday goods, but it is going to take a lot of boxes of cereal to reach into the hundreds of billions. So, let's think about things that cost more, but are still part of our normal lives. Unless you own a home, likely the largest number of dollars you consider is your annual salary or wages. In the Massachusetts State College System, the average annual salary for an Assistant Professor Faculty typically start at a rank of Assistant and can move up in rank to Associate Professor or Full Professor. A promotion comes with an increased salary, so on average this is the lowest paid of those three groups. is about $56,600 . Using some dimensional analysis, That means that with the DOD's budget, Massachusetts could employ more than 17 million new full time assistant professors.  You need some familiarity with other US goverment budget numbers or the military spending of other nations in order to put this 980.88 billion dollars into context.    "
+  "title": "Making Sense",
+  "body": " Making Sense  Part of having excellent quantitative reasoning skills is being able to make sense of numbers. Sometimes, numbers are just difficult to comprehend. This could be because the number is huge or because the units are not something you're familiar with or just because there are lots of numbers to consider. We also want to make sure that if we're comparing or combining multiple quantities, we're doing it in a way that is reasonable and informative.   A BIG Number   Make sense of the United States total military spending of $916,014,700,000 for 2023 .    Unless you're in the very very very tiny class of very very very wealthy people, $916,014,700,000 is hard to get your head around. Naming the number can sometimes help; this is more than 916 billion dollars, nearly one trillion dollars.  Even if your quantitative reasoning skills get you a good idea of how big that number is, what is a USD really mean by itself? Most of us are the most familar with thinking about the USD to purchase everyday goods, but it is going to take a lot of boxes of cereal to reach into the hundreds of billions. So, let's think about things that cost more, but are still part of our normal lives. Unless you own a home, likely the largest number of dollars you consider is your annual salary or wages. In 2023, the average annual salary for an Assistant Professor Faculty typically start at a rank of Assistant and can move up in rank to Associate Professor or Full Professor. A promotion comes with an increased salary, so on average this is the lowest paid of those three groups. in the Massachusetts State College System was about $58,700 . Using some dimensional analysis, That means that with the DOD's budget, Massachusetts could employ more than 15 million new full time assistant professors. That's a big number still; more than twice the population of Massachusetts.  We could do a similar calculation with any other annual cost replacing the faculty salary. A smaller cost, like average public college or university tuition, would give a final number that was even larger. The DoD could cover a year of tuition for nearly 80.5 million students at public four-year schools. A larger cost, like the average salary of a player for the Boston Red Sox, would give a final number that was smaller. The DoD could pay the salaries of over 200,000 major league baseball players, or around 5,000 teams. When we're doing this type of ananlysis, we want to consider and try to balance out the sizes of all the numbers; a mix of art and science.  Even though we're being clear about our computations above, it is reasonable to say that this is an unfair method of comparison. We shouldn't really be comparing the spending of a whole nation to individuals. So, let's consider other countries' military spending as well as other US departments budgets.  The US spends much more than any other country, but it is also a large country by many measures. In 2023, the US ranked 4th The United Nations Statistics Division, the CIA World Factbook, and the Encyclopædia Britannica all rank the United States ahead of China in total area. However, the figures used by each source include coastal and territorial waters for the United States but exclude coastal and territorial waters for China. China's coastal and territorial water figures are unknown (no official publication) and thus cannot be added into China's total area figure. But Encyclopædia Britannica specifies the United States' area excluding coastal and territorial waters as 9,525,067 km2,[7] less than the figure given for China's area by any of the three sources. Therefore, while it can be determined that China has a larger area excluding coastal and territorial waters, it is unclear which country has a larger area including coastal and territorial waters. in area, 3rd in population, and first in GDP (gross domestic product).  Indonesia was 4th in population . and much closer to the US and than second ranked China. We can compute military spending per capita for each country by dividing the spending by the population.   But Indonesia is a much smaller country in terms of area; about 20% of the US: . China is ranked second in military spending, and almost exaclty the same size as the US in terms of area. We can compute a ratio of military spending to area for all three countries:   What about other factors, not only people and land? After the US, China has the next highest GDP followed by Germany, and Russia has the third highest military spending, so let's look at all of these:   A country's GDP gives us some information about the strength and size of the nation's economy. But, this doesn't necessarily correlate with how much the government spends. You can see in from the International Monetary Fund that government spending as a percentage of GDP varies widely around the world and from year to year.  The chart below includes the percentage of the government's total budget that is spent on the three areas. The data is as close to 2023 as was available. The computations have been done for us, but it is still important to recognize that it is simply the formula that we've used many times. The WHOLE is each government's total budget and the PART is the amount of money the government spends on a particular area.        Country  Military  Education  Health    Brazil  2.2  13  9    China  8.8  11  5    Germany  3.1  9.2  20.5    Indonesia  4.9  14  8    Isreal  13.8  18  13    Kenya  4.3  18  8.7    Russia  14.8  8.9  13.8    Ukraine  49.1  8.5  10.6    United States  9.1  13  24.7    You can and should look at this data: , , and . You can see the data for all nations and where the US ranks overall. You can also get a better idea of how these percentages change over time and it is worth thinking about what may have caused those changes. Something else you should notice is that both education and health spending are considered part of the general goverment , which means it is not only at the federal level, but also state or local governments as well. This gives a more accurate picture of spending, but still important to note that it is different from the military calculations. Also, since the base of a percentage is very importnat, we should take note that considering the general goverment rather than just federal spending changed both the PART and the WHOLE.  This is in no way a complete analysis. The short answer to the question, Does the US government spend too much on defense? is It's complicated, but each of these approaches and comparisons shines a little more light onto what a US Department of Defense budget of $916,014,700,000 means.    We want to be able to not just make sense of quantities, but also to use them together to answer questions and evaluate situations in our lives.   Choosing a Vehicle   You're ready to buy a new car and like the Kia Sportage seems like a reasonable choice. Is it worth it to buy the hybrid or plug-in hybrid versions, or just stick to gas powered?    To make this decision, we must first decide what our basis for comparison will be. For the purposes of this example, we'll focus on fuel and purchase costs, but environmental impacts and maintenance costs are other factors a buyer might consider.  For the gas and hybrid models, we will compare the cost of gas to run both cars for a year. To determine this, we will need to know the miles per gallon both cars get, as well as the number of miles we expect to drive in a year. From that information, we can find the number of gallons required for a year. Using the price of gas per gallon, we can then find the yearly fuel cost.  According to Kia, the 2026 Sportage will get 25 miles per gallon (mpg) in the city and 33 mpg on the highway. The 2026 Sportage Hybrid makes 41 mpg in the city and 44mpg on the highway.  We'll use the estimates from our pretend person below, seperated into city miles and highway miles. That ends up being 12,480 miles of highway driving and 7,020 miles of city driving.   Currently (July 2025) the average price of gas in Massachusetts is $3.05 per gallon, according to AAA. We can use this to determine yearly fuel costs:   By choosing the hybrid option, you'd save each year on fuel costs. Note that this is an absolute difference. The fuel costs for a hybrid are lower than those for the gas powered model. Notice that the absolute difference in the numerator and the quantity we're comparing to (the words that come after than ) is in the denominator. Check back with if you need a refresher.   While both the absolute and relative comparisons are useful here, they still make it hard to answer the original question, since Is it worth it? implies there is some tradeoff for the gas savings. Indeed, the Sonata Hybrid costs about $30,290, compared to the base model for the regular Sonata, at $28,690. To better answer the Is it worth it? question, we might explore how long it will take the gas savings to make up for the additional initial cost. The hybrid costs $1600 more (another absolute difference). With gas savings of $497.45 a year, it will take about for the gas savings to make up for the higher initial costs of the hybrid option.  Considering the fuel costs for plug-in hybrid is a bit more complicated. Rather than city vs highway miles per gallon, we need to consider how much of the driving will be on the electric battery and how much on regular gasoline. The related numbers for the 2026 Sportage Plug-in Hybrid are 35 mpg on gasoline and 34 mile range while running on full electric power.  Let's say you drive to work four days a week, 30 miles each way, and can charge your car in the parking garage while at work. Since 30 miles is within but close to the range, we'll assume these drives are all electric and require a full charge of the battery. Kia reports that the hybrid battery energy is 13.8kWh and we need 4 charges off-peak at home ($0.18004 per kWh) and 4 charges at the mid-peak rate at the office ($0.29235 per kWh). The total cost of these charges is   Let's say on the one work from home day during the week and on weekends, you drive an average of 45 miles per day without a reliable charging place. You'll need gasoline for the 11 miles outside the battery's range. For three days, that's three charges (at off-peak rate) and 33 miles. At a rate of 13.8 kWh per charge and 35 mpg, that's   For a typical week, both commuting and non-commuting days, you would spend on electric and gasoline fuel.  For simplicity, we'll say these typical weeks happen 48 weeks out of the 52 in a year, and assume you don't drive at all for the other 4 weeks. But, to balance that out a little bit, we'll throw in a weekend trip every other month. These trips average 100 miles each way and 50 miles of driving around at the destination. We'll assume you don't want to stop on the drive to charge, so you'll run for 34 miles on electricity and then 66 miles on gasoline. Also, let's assume that the 50 miles of driving is spread out enough with an option to charge at the place you stay (weekends are off-peak), so it will all be electric too. That's 118 miles on electric power and 132 miles on gasoline.  We'll do this conversion to cost in a streamlined way:   All together, 48 typical weeks costing $55.25 each and 6 weekend driving trips costing $28.03 each, means to fuel your car for one year. That is less than the cost of the standard gasoline model, but more than the hybrid. THe purchase price of the plug-in hybrid is $39,890, $11,200 more than the standard gas model. The yearly fuel savings we estimated to be $141.49 that would take 80 years to make up the difference.  From a purely financial point of view, it makes sense to buy the hybrid vehicle if you'll own it for at least 3 years. If your values make a plug-in hybrid vehicle appealing, then it may be worth the extra cost. But, you may be better off financially purchasing an all electric vehicle. The Kia EV9 is the closest to the Sportage with a price of $54,900. Quick calculations using the range (230 miles), battery size (76.1 kWh), and the total miles from the above examples (19,500 miles), the cost (at off-peak) for this would be That is a yearly savings of $225.84 over the hybrid, which would take over a hundred years.  In addition to your own values and the details of your driving, there are at least three other financial things we did not include in our analysis:   The prices of gasoline and electricity are not constant, nor is their relationship, and it varies by location. Kansas's prices for both electricity and gasoline are on the lower end, while Nevada's are both high. Utah (right next door to Nevada) has high gas prices, but the electricity costs are among the lowest in the nation. Louisana's prices are reversed; expensive electricity and cheap gas.    Additionally, many state and local governments have tax credits, special rates, or incentive programs for purchasing an electric or hybrid vehicle, installing a charging stations at your home, etc. For the all electric Kia we looked at, we considered the pre-tax-credit price. That credit is $7,500, but will go away at the end of September 2025. It is likely the starting price of EVs will lower when the tax credit disappears.    Lastly, very few people buy a car all at once; it is a big purchase! Usually one pays a down payment and then has a loan to cover the rest. We will discuss how the length and interest rate of the loan affect the over all amount one pays in .     This is a case where math can help guide your decision, but it can't make it for you.      In a car dealer show room, a sales person and a customer stand looking at a car. The caption reads,   It runs on its conventional gasoline-powered engine until it senses guilt, at which point it switches over to battery power.     Both of the above examples are quite long, and we still did not consider every aspect that we could have. Similar to finding a sweet spot of the size of the quantities and units that make sense and you understand, knowing how deeply to analyze a situation is a bit of an art and the optimal amount will be different for each of us. Keep that in mind when you practice with the next situation.  Travel  If you are traveling from Boston, MA to New York, NY for a three-day trip, does it make more sense to drive, fly, or take a train?   Things you might include in your analysis:   Ticket costs (flight and train)    Gas\/Charging costs    Miles traveled    Taxi\/Uber\/Public Transit fares    Parking costs    The value of your time       Minimum Wage   In the U.S. the minimum wage is $7.25 per hour where the federal Fair Labor Standards Act applies. The minimum wage in Massachusetts is $15 per hour and is $8.75 in West Virginia. The median personal income was $48,060 in the US, $60,690 in Massachusetts, and $39.770 in West Virginia. Considering this information, answer the following questions. Pay attention to the methods you're using and try to use techniques from dimensional analysis as well as proportion equations.    In Massachusetts, how many hours on minimum wage do you need to work in a year to make the US median income? What about in West Virginia?    Referring to the answer from the previous question, find the number of hours on Massachusetts minimum wage you need to work to make the Massachusetts median income. How many hours at West Virginia's minimum wage do you need to work to make the median in come there?    The CEO of Amazon, Jeff Bezos, made $70 billion in 2023. What is his hourly wage?    How long would someone making minimum wage (use any of the three figures you'd like) have to work to make as much as Jeff Bezos makes in an hour?    How many Massachusetts residents on minimum wage need to work simultaneously to make Jeff Bezos's hourly wage?    Using your answer from the previous question, calculate the number of West Virginian minimum wage workers needed to make Jess Bezos's hourly wage?    If Jeff Bezos were working in Massachusetts, how long would he need to work to make the median annual income?    Which of the results from your above work helps you to make sense of Jeff Bezos's immense income? Can you come up with a new comparison that works better for your brain?     Safest City   Dr. Math has worked in three different US cities during her time in the US: Tallahassee, FL; Atlanta, GA and Fitchburg, MA. Following is the table for the population and number of violent crimes reported in 2017 in each city along with the national data. Using the table below answer the following questions.       Population  Violent Crimes Reported in 2023    Fitchburg, MA  41,840  194    Atlanta, GA  513,184  3,554    Tallahassee, FL  203,665  1,753      If number of violent crimes were the only criteria, which one of the three cities could be considered the safest, and which one as the most dangerous to live in? How would you decide? Try to find multiple ways to make this comparison.    Using the national data as the benchmark and\/or average, what should have been the number of violent crimes in each city for them to be considered as at the national average safety level?    Find the violent crime rate per 1000 for each city and compare it to the national rate?    "
 },
 {
   "id": "example-military",
   "level": "2",
-  "url": "sec-huge-tiny.html#example-military",
+  "url": "sec-making-sense.html#example-military",
   "type": "Example",
   "number": "3.3.1",
   "title": "A BIG Number.",
-  "body": " A BIG Number   Make sense of the United States Department of Defense Fiscal Year 2025 budget of $980.88 billion.    Unless you're in the very very very tiny class of very very very wealthy people, $980.88 billion is hard to get your head around. Writing out all the digits of a number is a reasonable place to start. One billion is a single 1 with 9 zeros, so $980.88 billion is $980,880,000,000.  Even if your quantitative reasoning skills get you a good idea of how big that number is, what is a USD really mean by itself? Most of us are the most familar with thinking about the USD to purchase everyday goods, but it is going to take a lot of boxes of cereal to reach into the hundreds of billions. So, let's think about things that cost more, but are still part of our normal lives. Unless you own a home, likely the largest number of dollars you consider is your annual salary or wages. In the Massachusetts State College System, the average annual salary for an Assistant Professor Faculty typically start at a rank of Assistant and can move up in rank to Associate Professor or Full Professor. A promotion comes with an increased salary, so on average this is the lowest paid of those three groups. is about $56,600 . Using some dimensional analysis, That means that with the DOD's budget, Massachusetts could employ more than 17 million new full time assistant professors.  You need some familiarity with other US goverment budget numbers or the military spending of other nations in order to put this 980.88 billion dollars into context.   "
+  "body": " A BIG Number   Make sense of the United States total military spending of $916,014,700,000 for 2023 .    Unless you're in the very very very tiny class of very very very wealthy people, $916,014,700,000 is hard to get your head around. Naming the number can sometimes help; this is more than 916 billion dollars, nearly one trillion dollars.  Even if your quantitative reasoning skills get you a good idea of how big that number is, what is a USD really mean by itself? Most of us are the most familar with thinking about the USD to purchase everyday goods, but it is going to take a lot of boxes of cereal to reach into the hundreds of billions. So, let's think about things that cost more, but are still part of our normal lives. Unless you own a home, likely the largest number of dollars you consider is your annual salary or wages. In 2023, the average annual salary for an Assistant Professor Faculty typically start at a rank of Assistant and can move up in rank to Associate Professor or Full Professor. A promotion comes with an increased salary, so on average this is the lowest paid of those three groups. in the Massachusetts State College System was about $58,700 . Using some dimensional analysis, That means that with the DOD's budget, Massachusetts could employ more than 15 million new full time assistant professors. That's a big number still; more than twice the population of Massachusetts.  We could do a similar calculation with any other annual cost replacing the faculty salary. A smaller cost, like average public college or university tuition, would give a final number that was even larger. The DoD could cover a year of tuition for nearly 80.5 million students at public four-year schools. A larger cost, like the average salary of a player for the Boston Red Sox, would give a final number that was smaller. The DoD could pay the salaries of over 200,000 major league baseball players, or around 5,000 teams. When we're doing this type of ananlysis, we want to consider and try to balance out the sizes of all the numbers; a mix of art and science.  Even though we're being clear about our computations above, it is reasonable to say that this is an unfair method of comparison. We shouldn't really be comparing the spending of a whole nation to individuals. So, let's consider other countries' military spending as well as other US departments budgets.  The US spends much more than any other country, but it is also a large country by many measures. In 2023, the US ranked 4th The United Nations Statistics Division, the CIA World Factbook, and the Encyclopædia Britannica all rank the United States ahead of China in total area. However, the figures used by each source include coastal and territorial waters for the United States but exclude coastal and territorial waters for China. China's coastal and territorial water figures are unknown (no official publication) and thus cannot be added into China's total area figure. But Encyclopædia Britannica specifies the United States' area excluding coastal and territorial waters as 9,525,067 km2,[7] less than the figure given for China's area by any of the three sources. Therefore, while it can be determined that China has a larger area excluding coastal and territorial waters, it is unclear which country has a larger area including coastal and territorial waters. in area, 3rd in population, and first in GDP (gross domestic product).  Indonesia was 4th in population . and much closer to the US and than second ranked China. We can compute military spending per capita for each country by dividing the spending by the population.   But Indonesia is a much smaller country in terms of area; about 20% of the US: . China is ranked second in military spending, and almost exaclty the same size as the US in terms of area. We can compute a ratio of military spending to area for all three countries:   What about other factors, not only people and land? After the US, China has the next highest GDP followed by Germany, and Russia has the third highest military spending, so let's look at all of these:   A country's GDP gives us some information about the strength and size of the nation's economy. But, this doesn't necessarily correlate with how much the government spends. You can see in from the International Monetary Fund that government spending as a percentage of GDP varies widely around the world and from year to year.  The chart below includes the percentage of the government's total budget that is spent on the three areas. The data is as close to 2023 as was available. The computations have been done for us, but it is still important to recognize that it is simply the formula that we've used many times. The WHOLE is each government's total budget and the PART is the amount of money the government spends on a particular area.        Country  Military  Education  Health    Brazil  2.2  13  9    China  8.8  11  5    Germany  3.1  9.2  20.5    Indonesia  4.9  14  8    Isreal  13.8  18  13    Kenya  4.3  18  8.7    Russia  14.8  8.9  13.8    Ukraine  49.1  8.5  10.6    United States  9.1  13  24.7    You can and should look at this data: , , and . You can see the data for all nations and where the US ranks overall. You can also get a better idea of how these percentages change over time and it is worth thinking about what may have caused those changes. Something else you should notice is that both education and health spending are considered part of the general goverment , which means it is not only at the federal level, but also state or local governments as well. This gives a more accurate picture of spending, but still important to note that it is different from the military calculations. Also, since the base of a percentage is very importnat, we should take note that considering the general goverment rather than just federal spending changed both the PART and the WHOLE.  This is in no way a complete analysis. The short answer to the question, Does the US government spend too much on defense? is It's complicated, but each of these approaches and comparisons shines a little more light onto what a US Department of Defense budget of $916,014,700,000 means.   "
+},
+{
+  "id": "example-car-purchase",
+  "level": "2",
+  "url": "sec-making-sense.html#example-car-purchase",
+  "type": "Example",
+  "number": "3.3.2",
+  "title": "Choosing a Vehicle.",
+  "body": " Choosing a Vehicle   You're ready to buy a new car and like the Kia Sportage seems like a reasonable choice. Is it worth it to buy the hybrid or plug-in hybrid versions, or just stick to gas powered?    To make this decision, we must first decide what our basis for comparison will be. For the purposes of this example, we'll focus on fuel and purchase costs, but environmental impacts and maintenance costs are other factors a buyer might consider.  For the gas and hybrid models, we will compare the cost of gas to run both cars for a year. To determine this, we will need to know the miles per gallon both cars get, as well as the number of miles we expect to drive in a year. From that information, we can find the number of gallons required for a year. Using the price of gas per gallon, we can then find the yearly fuel cost.  According to Kia, the 2026 Sportage will get 25 miles per gallon (mpg) in the city and 33 mpg on the highway. The 2026 Sportage Hybrid makes 41 mpg in the city and 44mpg on the highway.  We'll use the estimates from our pretend person below, seperated into city miles and highway miles. That ends up being 12,480 miles of highway driving and 7,020 miles of city driving.   Currently (July 2025) the average price of gas in Massachusetts is $3.05 per gallon, according to AAA. We can use this to determine yearly fuel costs:   By choosing the hybrid option, you'd save each year on fuel costs. Note that this is an absolute difference. The fuel costs for a hybrid are lower than those for the gas powered model. Notice that the absolute difference in the numerator and the quantity we're comparing to (the words that come after than ) is in the denominator. Check back with if you need a refresher.   While both the absolute and relative comparisons are useful here, they still make it hard to answer the original question, since Is it worth it? implies there is some tradeoff for the gas savings. Indeed, the Sonata Hybrid costs about $30,290, compared to the base model for the regular Sonata, at $28,690. To better answer the Is it worth it? question, we might explore how long it will take the gas savings to make up for the additional initial cost. The hybrid costs $1600 more (another absolute difference). With gas savings of $497.45 a year, it will take about for the gas savings to make up for the higher initial costs of the hybrid option.  Considering the fuel costs for plug-in hybrid is a bit more complicated. Rather than city vs highway miles per gallon, we need to consider how much of the driving will be on the electric battery and how much on regular gasoline. The related numbers for the 2026 Sportage Plug-in Hybrid are 35 mpg on gasoline and 34 mile range while running on full electric power.  Let's say you drive to work four days a week, 30 miles each way, and can charge your car in the parking garage while at work. Since 30 miles is within but close to the range, we'll assume these drives are all electric and require a full charge of the battery. Kia reports that the hybrid battery energy is 13.8kWh and we need 4 charges off-peak at home ($0.18004 per kWh) and 4 charges at the mid-peak rate at the office ($0.29235 per kWh). The total cost of these charges is   Let's say on the one work from home day during the week and on weekends, you drive an average of 45 miles per day without a reliable charging place. You'll need gasoline for the 11 miles outside the battery's range. For three days, that's three charges (at off-peak rate) and 33 miles. At a rate of 13.8 kWh per charge and 35 mpg, that's   For a typical week, both commuting and non-commuting days, you would spend on electric and gasoline fuel.  For simplicity, we'll say these typical weeks happen 48 weeks out of the 52 in a year, and assume you don't drive at all for the other 4 weeks. But, to balance that out a little bit, we'll throw in a weekend trip every other month. These trips average 100 miles each way and 50 miles of driving around at the destination. We'll assume you don't want to stop on the drive to charge, so you'll run for 34 miles on electricity and then 66 miles on gasoline. Also, let's assume that the 50 miles of driving is spread out enough with an option to charge at the place you stay (weekends are off-peak), so it will all be electric too. That's 118 miles on electric power and 132 miles on gasoline.  We'll do this conversion to cost in a streamlined way:   All together, 48 typical weeks costing $55.25 each and 6 weekend driving trips costing $28.03 each, means to fuel your car for one year. That is less than the cost of the standard gasoline model, but more than the hybrid. THe purchase price of the plug-in hybrid is $39,890, $11,200 more than the standard gas model. The yearly fuel savings we estimated to be $141.49 that would take 80 years to make up the difference.  From a purely financial point of view, it makes sense to buy the hybrid vehicle if you'll own it for at least 3 years. If your values make a plug-in hybrid vehicle appealing, then it may be worth the extra cost. But, you may be better off financially purchasing an all electric vehicle. The Kia EV9 is the closest to the Sportage with a price of $54,900. Quick calculations using the range (230 miles), battery size (76.1 kWh), and the total miles from the above examples (19,500 miles), the cost (at off-peak) for this would be That is a yearly savings of $225.84 over the hybrid, which would take over a hundred years.  In addition to your own values and the details of your driving, there are at least three other financial things we did not include in our analysis:   The prices of gasoline and electricity are not constant, nor is their relationship, and it varies by location. Kansas's prices for both electricity and gasoline are on the lower end, while Nevada's are both high. Utah (right next door to Nevada) has high gas prices, but the electricity costs are among the lowest in the nation. Louisana's prices are reversed; expensive electricity and cheap gas.    Additionally, many state and local governments have tax credits, special rates, or incentive programs for purchasing an electric or hybrid vehicle, installing a charging stations at your home, etc. For the all electric Kia we looked at, we considered the pre-tax-credit price. That credit is $7,500, but will go away at the end of September 2025. It is likely the starting price of EVs will lower when the tax credit disappears.    Lastly, very few people buy a car all at once; it is a big purchase! Usually one pays a down payment and then has a loan to cover the rest. We will discuss how the length and interest rate of the loan affect the over all amount one pays in .     This is a case where math can help guide your decision, but it can't make it for you.   "
+},
+{
+  "id": "check-travel",
+  "level": "2",
+  "url": "sec-making-sense.html#check-travel",
+  "type": "Check for Understanding",
+  "number": "3.3.3",
+  "title": "Travel.",
+  "body": "Travel  If you are traveling from Boston, MA to New York, NY for a three-day trip, does it make more sense to drive, fly, or take a train?   Things you might include in your analysis:   Ticket costs (flight and train)    Gas\/Charging costs    Miles traveled    Taxi\/Uber\/Public Transit fares    Parking costs    The value of your time     "
+},
+{
+  "id": "activity-minwage",
+  "level": "2",
+  "url": "sec-making-sense.html#activity-minwage",
+  "type": "Activity",
+  "number": "3.3.1",
+  "title": "Minimum Wage.",
+  "body": " Minimum Wage   In the U.S. the minimum wage is $7.25 per hour where the federal Fair Labor Standards Act applies. The minimum wage in Massachusetts is $15 per hour and is $8.75 in West Virginia. The median personal income was $48,060 in the US, $60,690 in Massachusetts, and $39.770 in West Virginia. Considering this information, answer the following questions. Pay attention to the methods you're using and try to use techniques from dimensional analysis as well as proportion equations.    In Massachusetts, how many hours on minimum wage do you need to work in a year to make the US median income? What about in West Virginia?    Referring to the answer from the previous question, find the number of hours on Massachusetts minimum wage you need to work to make the Massachusetts median income. How many hours at West Virginia's minimum wage do you need to work to make the median in come there?    The CEO of Amazon, Jeff Bezos, made $70 billion in 2023. What is his hourly wage?    How long would someone making minimum wage (use any of the three figures you'd like) have to work to make as much as Jeff Bezos makes in an hour?    How many Massachusetts residents on minimum wage need to work simultaneously to make Jeff Bezos's hourly wage?    Using your answer from the previous question, calculate the number of West Virginian minimum wage workers needed to make Jess Bezos's hourly wage?    If Jeff Bezos were working in Massachusetts, how long would he need to work to make the median annual income?    Which of the results from your above work helps you to make sense of Jeff Bezos's immense income? Can you come up with a new comparison that works better for your brain?   "
+},
+{
+  "id": "activity-violentcrimes",
+  "level": "2",
+  "url": "sec-making-sense.html#activity-violentcrimes",
+  "type": "Activity",
+  "number": "3.3.2",
+  "title": "Safest City.",
+  "body": " Safest City   Dr. Math has worked in three different US cities during her time in the US: Tallahassee, FL; Atlanta, GA and Fitchburg, MA. Following is the table for the population and number of violent crimes reported in 2017 in each city along with the national data. Using the table below answer the following questions.       Population  Violent Crimes Reported in 2023    Fitchburg, MA  41,840  194    Atlanta, GA  513,184  3,554    Tallahassee, FL  203,665  1,753      If number of violent crimes were the only criteria, which one of the three cities could be considered the safest, and which one as the most dangerous to live in? How would you decide? Try to find multiple ways to make this comparison.    Using the national data as the benchmark and\/or average, what should have been the number of violent crimes in each city for them to be considered as at the national average safety level?    Find the violent crime rate per 1000 for each city and compare it to the national rate?   "
+},
+{
+  "id": "exercises-prop-reasoning",
+  "level": "1",
+  "url": "exercises-prop-reasoning.html",
+  "type": "Exercises",
+  "number": "3.4",
+  "title": "Proportional Reasoning Practice Exercises",
+  "body": " Proportional Reasoning Practice Exercises   Percentage Problems   For the following percentage problems, identify each given quantity as the PART, the WHOLE, or the PERCENT as defined in , and determine if you are asked to find the PART, the WHOLE, or the PERCENT.    Out of 230 racers who started the marathon, 212 completed the race, 14 gave up, and 4 were disqualified. What percentage did not complete the marathon?    Patrick left an $8 tip on a $50 restaurant bill. What percent tip is that?    Ireland has a 23% VAT (value-added tax, similar to a sales tax). How much will the VAT be on a purchase of a €250 item?    Employees in 2017 paid 6.2% of their gross wages towards social security (FICA tax), while employers paid another 6.2%. How much will someone earning $45,000 a year pay towards social security out of their gross wages?    A project on Kickstarter was aiming to raise $15,000 for a precision coffee press. They ended up with 714 supporters, raising 557% of their goal. How much did they raise?    Another project on Kickstarter for an iPad stylus raised 1,253% of their goal, raising a total of $313,490 from 7,511 supporters. What was their original goal?    A laptop originally priced at $899 is on sale for 30% off. There is then a 6.25 % sales tax. Find the price after including the discount and sales tax.     Comparison   For each of the following problems, again carefully identify the given quantities as PART, WHOLE, PERCENT, ending quantity, starting quantity, absolute change, or relative change. Note that a quantity may play multiples roles as you work through a problem.    The population of a town increased from 3,250 in 2008 to 4,300 in 2010. Find the absolute and relative (percent) increase.    The number of CDs sold in 2010 was 114 million, down from 147 million the previous year . Find the absolute and relative (percent) decrease.    A company wants to decrease their energy use by 15%. If their electric bill is currently $2,200 a month, what will their bill be if they're successful? If their next bill is $1,700 a month, were they successful? Why or why not?    A store is hoping an advertising campaign will increase their number of customers by 30%. They currently have about 80 customers a day. How many customers will they have if their campaign is successful? If they increase to 120 customers a day, were they successful? Why or why not?    An article reports attendance dropped 6% this year, to 300. What was the attendance before the drop?   Carefully consider what role the quantity 300 is playing.    An article reports sales have grown by 30% this year, to $200 million. What were sales before the growth?   Carefully consider what role the quantity $200 million is playing.    The Walden University had 47,456 students in 2010, while Kaplan University had 77,966 students. Complete the following statements:  Kaplan's enrollment was % larger than Walden's.  Walden's enrollment was % smaller than Kaplan's.  Walden's enrollment was % of Kaplan's.    In the 2016 Olympics, Usain Bolt ran the 100m dash in 9.63 seconds. Jim Hines won the 1968 Olympic gold with a time of 9.95 seconds. Complete the following statements:  Bolt's time was % faster than Hines's.  Hines's time was % slower than Bolt's.  Hines's time was % of Bolt's.    A store has clearance items that have been marked down by 60%. They are having a sale, advertising an additional 30% off clearance items. What percent of the original price do you end up paying?    Which is better: Having a stock that goes up 30% on Monday than drops 30% on Tuesday, or a stock that drops 30% on Monday and goes up 30% on Tuesday? In each case, what is the net percent gain or loss?     Equivalent, Conflict, or ¯\\_(ツ)_\/¯   Are these two claims equivalent, in conflict, or not comparable because they're talking about different things? Note that you are not asked to verify the truth of the claim.        16.3% of Americans are without health insurance. http:\/\/www.cnn.com\/2012\/06\/27\/politics\/btn-health-care\/index.html      Only 55.9% of adults receive employer provided health insurance.            We mark up the wholesale price by 33% to come up with the retail price.      The store has a 25% profit margin.            Every year since 1950, the number of American children gunned down has doubled.      The number of child gunshot deaths has doubled from 1950 to 1994.            75 percent of the federal health care law's taxes would be paid by those earning less than $120,000 a year.      76 percent of those who would pay the penalty [health care law's taxes] for not having insurance in 2016 would earn under $120,000.            The school levy is only a 0.1% increase of the property tax rate.      This new levy is a 12% tax hike, raising our total rate to $9.33 per $1000 of value.         Guns have murdered more Americans here at home in recent years than have died on the battlefields of Iraq and Afghanistan.     In support of the two wars, more than 6,500 American soldiers have lost their lives.      During the same period, however, guns have been used to murder about 100,000 people on American soil.         A high school currently has a 30% dropout rate. They've been tasked to decrease that rate by 20%. Find the equivalent percentage point drop.    A politician's support grew from 42% by 3 percentage points to 45%. What percent (relative) change is this?    Marcy has a 70% average in her class going into the final exam. She says \"I need to get a 100% on this final so I can raise my score to 85%.\" Is she correct?    Suppose you have one quart of water\/juice mix that is 50% juice, and you add 2 quarts of juice. What percent juice is the final mix?    Unit Rates   Find the unit rate:    You bought 10 pounds of potatoes for $4.    Joel ran 1500 meters in 4 minutes, 45 seconds.    Sam uses 45 tiles to cover the floor in a room that is 20ft 18ft.     Proportion Equations   Solve each proportion equation for the unknown variable.     .     .     .     Unit Conversions   Use proportion equations, dimensional analysis, diagrams, or any other strategies or combinations to solve the following problems. There are many valid methods here. Be clear about your process; especially if the answer seems simple.    A crepe recipe calls for 2 eggs, 1 cup of flour, and 1 cup of milk. How much flour would you need if you use 5 eggs?    An 8ft length of 4 inch wide crown molding costs $14. How much will it cost to buy 40ft of crown molding?    Four 3-megawatt wind turbines can supply enough electricity to power 3000 homes. How many turbines would be required to power 55,000 homes?    A highway had a landslide, where 3,000 cubic yards of material fell on the road, requiring 200 dump truck loads to clear. On another highway, a slide left 40,000 cubic yards on the road. How many dump truck loads would be needed to clear this slide?    A wire costs $2 per meter. How much will 3 kilometers of wire cost?    Sugar contains 15 calories per teaspoon. How many calories are in 1 cup of sugar?    A car is driving at 100 kilometers per hour. How far does it travel in 2 seconds?    A chain weighs 10 pounds per foot. How many ounces will 4 inches weigh?    The store is selling lemons at 2 for $1 Each yields about 2 tablespoons of juice. How much will it cost to buy enough lemons to make a 9-inch lemon pie requiring cup of lemon juice?    You read online that a 15ft 20ft brick patio would cost about $2,275 to have professionally installed. Estimate the cost of having a 18ft 22ft brick patio installed.    The Deepwater Horizon oil spill resulted in 4.9 million barrels of oil spilling into the Gulf of Mexico. Each barrel of oil can be processed into about 19 gallons of gasoline. How many cars could this have fueled for a year? Assume an average car gets 20 miles to the gallon, and drives about 12,000 miles in a year.    During the landing of the Mars Science Laboratory Curiosity, it was reported that the signal from the rover would take 14 minutes to reach earth. Radio signals travel at the speed of light, about 186,000 miles per second. How far was Mars from Earth when Curiosity landed?    It is estimated that a driver takes, on average, 1.5 seconds from seeing an obstacle to reacting by applying the brake or swerving. How far will a car traveling at 60 miles per hour travel (in feet) before the driver reacts to an obstacle?     Sound travels about 750 miles per hour. If you stand in a parking lot near a building and sound a horn, you will hear an echo. Suppose it takes about a second to hear the echo. How far away is the building?       The grocery store has bulk pecans on sale, which is great since you're planning on making 10 pecan pies for a wedding. Your recipe calls for cups pecans per pie. However, in the bulk section there's only a scale available, not a measuring cup. You run over to the baking aisle and find a bag of pecans, and look at the nutrition label to gather some info. How many pounds of pecans should you buy?   Nutrition label for a package of pecans.  A nutrition label for a package of pecans. Serving Size: 1 cup, halves (99 g) Servings per Container: about 2       Soda is often sold in 20 ounce bottles. The nutrition label for one of these bottles is shown to the right. A packet of sugar (the kind they have at restaurants for your coffee or tea) typically contain 4 grams of sugar in the U.S. Drinking a 20oz soda is equivalent to eating how many packets of sugar?   Nutrition label for a soda.  A nutrition label for a a soda. The serving size is 8 fl oz. The Servings per Container are about 2.5. Under the heading Amount Per Serving , the Calories are 110, Total Fat is 0g, Sodium is 70mg, Total Carbohydrate is 31g, Sugars 30g, and Protein 0g.      The flash of lightning travels at the speed of light, which is about 186,000 miles per second. The sound of lightning (thunder) travels at the speed of sound, which is about 750 miles per hour. If you see a flash of lightning, then hear the thunder 4 seconds later, how far away is the lightning?    Generalize your work from the problem above. If you count seconds between seeing a flash of lightning and hearing the associated thunder, how far away is the storm? Your answer should have the variable in it.     A recipe for sabayon calls for 2 egg yolks, 3 tablespoons of sugar, and ¼ cup of white wine. After cracking the eggs, you start measuring the sugar, but accidentally put in 4 tablespoons of sugar. How can you compensate?    Your chocolate milk mix says to use 4 scoops of mix for 2 cups of milk. After pouring in the milk, you start adding the mix, but get distracted and accidentally put in 5 scoops of mix. How can you adjust the mix if there is still room in the cup? What if the cup is already full?    Comparisons   Each of the problems below presents a situation for comparing quantities. Make the indicated comparison and comment on if it is helpful for understanding the situation. In these situations, there are often multiple correct answers; so long as you are clear about what your quantities represent.    The table below gives data on three movies. Gross earnings is the amount of money the movie brings in. Compare the net earnings (money made after expenses) for the three movies.               World Wide Box Office    Movie  Release Date  Budget  and Home Market Performance    Avengers: Endgame  April 2019  $400,000,000  $2,825,413,435    Clerks  October 1994  $27,000  $4,400,000    High School Musical  May 2006  $4,200,000  $131,765,000      For the movies in the previous problem, which provided the best return on investment?    The GDP (Gross Domestic Product) of China was $4,525,704 million in 2023, and the GDP of Sweden was $584,960 million. The population of China in July 2023 was 1,422,584,933, while the population of Sweden was about 10,551,494. Compare the GDP per capita of the two countries.    In June 2018, Twitter was reporting 500 million tweets per day. Each tweet can consist of up to 140 characters (letter, numbers, etc.). Create a comparison to help understand the amount of tweets in a year by imagining each character was a drop of water and comparing to filling something up.    In it's own environmental report, Microsoft disclosed that its global water consumption increased 34% from 2021 to 2022 to nearly 1.7 billion gallons. This is generally thought to be from their partnership with OpenAI and the development and use of ChatGPT. Create a comparison to help understand that amount of water.    Use the data , July 2025 , July 2025 in the table below to compare the size of the countries.            Country  Land Area (km )  Water Area (km )  Population    Brazil  8,460,415  55,352  212,583,750    Finland  303,815  34,330  5,644,772    India  2,973,190  314,070  1,417,492,000    Indonesia  1,811,569  93,000  281,190,067    Japan  364,485  13,430  123,360,000    Russia  16,376,870  721,380  146,028,325    Singapore  726  10  6,036,900    United States  9,147,593  377,424  340,110,988       How thick is a single sheet of paper? How much does it weigh?    You need to replace the boards on your deck. About how much will the materials cost?   "
+},
+{
+  "id": "exercises-prop-reasoning-2-3",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-2-3",
+  "type": "Exercise",
+  "number": "3.4.1",
+  "title": "",
+  "body": " Out of 230 racers who started the marathon, 212 completed the race, 14 gave up, and 4 were disqualified. What percentage did not complete the marathon?  "
+},
+{
+  "id": "exercises-prop-reasoning-2-4",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-2-4",
+  "type": "Exercise",
+  "number": "3.4.2",
+  "title": "",
+  "body": " Patrick left an $8 tip on a $50 restaurant bill. What percent tip is that?  "
+},
+{
+  "id": "exercises-prop-reasoning-2-5",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-2-5",
+  "type": "Exercise",
+  "number": "3.4.3",
+  "title": "",
+  "body": " Ireland has a 23% VAT (value-added tax, similar to a sales tax). How much will the VAT be on a purchase of a €250 item?  "
+},
+{
+  "id": "exercises-prop-reasoning-2-6",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-2-6",
+  "type": "Exercise",
+  "number": "3.4.4",
+  "title": "",
+  "body": " Employees in 2017 paid 6.2% of their gross wages towards social security (FICA tax), while employers paid another 6.2%. How much will someone earning $45,000 a year pay towards social security out of their gross wages?  "
+},
+{
+  "id": "exercises-prop-reasoning-2-7",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-2-7",
+  "type": "Exercise",
+  "number": "3.4.5",
+  "title": "",
+  "body": " A project on Kickstarter was aiming to raise $15,000 for a precision coffee press. They ended up with 714 supporters, raising 557% of their goal. How much did they raise?  "
+},
+{
+  "id": "exercises-prop-reasoning-2-8",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-2-8",
+  "type": "Exercise",
+  "number": "3.4.6",
+  "title": "",
+  "body": " Another project on Kickstarter for an iPad stylus raised 1,253% of their goal, raising a total of $313,490 from 7,511 supporters. What was their original goal?  "
+},
+{
+  "id": "exercises-prop-reasoning-2-9",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-2-9",
+  "type": "Exercise",
+  "number": "3.4.7",
+  "title": "",
+  "body": " A laptop originally priced at $899 is on sale for 30% off. There is then a 6.25 % sales tax. Find the price after including the discount and sales tax.  "
+},
+{
+  "id": "exercises-prop-reasoning-3-3",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-3-3",
+  "type": "Exercise",
+  "number": "3.4.8",
+  "title": "",
+  "body": " The population of a town increased from 3,250 in 2008 to 4,300 in 2010. Find the absolute and relative (percent) increase.  "
+},
+{
+  "id": "exercises-prop-reasoning-3-4",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-3-4",
+  "type": "Exercise",
+  "number": "3.4.9",
+  "title": "",
+  "body": " The number of CDs sold in 2010 was 114 million, down from 147 million the previous year . Find the absolute and relative (percent) decrease.  "
+},
+{
+  "id": "exercises-prop-reasoning-3-5",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-3-5",
+  "type": "Exercise",
+  "number": "3.4.10",
+  "title": "",
+  "body": " A company wants to decrease their energy use by 15%. If their electric bill is currently $2,200 a month, what will their bill be if they're successful? If their next bill is $1,700 a month, were they successful? Why or why not?  "
+},
+{
+  "id": "exercises-prop-reasoning-3-6",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-3-6",
+  "type": "Exercise",
+  "number": "3.4.11",
+  "title": "",
+  "body": " A store is hoping an advertising campaign will increase their number of customers by 30%. They currently have about 80 customers a day. How many customers will they have if their campaign is successful? If they increase to 120 customers a day, were they successful? Why or why not?  "
+},
+{
+  "id": "exercises-prop-reasoning-3-7",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-3-7",
+  "type": "Exercise",
+  "number": "3.4.12",
+  "title": "",
+  "body": " An article reports attendance dropped 6% this year, to 300. What was the attendance before the drop?   Carefully consider what role the quantity 300 is playing.  "
+},
+{
+  "id": "exercises-prop-reasoning-3-8",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-3-8",
+  "type": "Exercise",
+  "number": "3.4.13",
+  "title": "",
+  "body": " An article reports sales have grown by 30% this year, to $200 million. What were sales before the growth?   Carefully consider what role the quantity $200 million is playing.  "
+},
+{
+  "id": "exercises-prop-reasoning-3-9",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-3-9",
+  "type": "Exercise",
+  "number": "3.4.14",
+  "title": "",
+  "body": " The Walden University had 47,456 students in 2010, while Kaplan University had 77,966 students. Complete the following statements:  Kaplan's enrollment was % larger than Walden's.  Walden's enrollment was % smaller than Kaplan's.  Walden's enrollment was % of Kaplan's.  "
+},
+{
+  "id": "exercises-prop-reasoning-3-10",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-3-10",
+  "type": "Exercise",
+  "number": "3.4.15",
+  "title": "",
+  "body": " In the 2016 Olympics, Usain Bolt ran the 100m dash in 9.63 seconds. Jim Hines won the 1968 Olympic gold with a time of 9.95 seconds. Complete the following statements:  Bolt's time was % faster than Hines's.  Hines's time was % slower than Bolt's.  Hines's time was % of Bolt's.  "
+},
+{
+  "id": "exercises-prop-reasoning-3-11",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-3-11",
+  "type": "Exercise",
+  "number": "3.4.16",
+  "title": "",
+  "body": " A store has clearance items that have been marked down by 60%. They are having a sale, advertising an additional 30% off clearance items. What percent of the original price do you end up paying?  "
+},
+{
+  "id": "exercises-prop-reasoning-3-12",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-3-12",
+  "type": "Exercise",
+  "number": "3.4.17",
+  "title": "",
+  "body": " Which is better: Having a stock that goes up 30% on Monday than drops 30% on Tuesday, or a stock that drops 30% on Monday and goes up 30% on Tuesday? In each case, what is the net percent gain or loss?  "
+},
+{
+  "id": "exercises-prop-reasoning-4-3",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-4-3",
+  "type": "Exercise",
+  "number": "3.4.18",
+  "title": "",
+  "body": "     16.3% of Americans are without health insurance. http:\/\/www.cnn.com\/2012\/06\/27\/politics\/btn-health-care\/index.html      Only 55.9% of adults receive employer provided health insurance.      "
+},
+{
+  "id": "exercises-prop-reasoning-4-4",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-4-4",
+  "type": "Exercise",
+  "number": "3.4.19",
+  "title": "",
+  "body": "     We mark up the wholesale price by 33% to come up with the retail price.      The store has a 25% profit margin.      "
+},
+{
+  "id": "exercises-prop-reasoning-4-5",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-4-5",
+  "type": "Exercise",
+  "number": "3.4.20",
+  "title": "",
+  "body": "     Every year since 1950, the number of American children gunned down has doubled.      The number of child gunshot deaths has doubled from 1950 to 1994.      "
+},
+{
+  "id": "exercises-prop-reasoning-4-6",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-4-6",
+  "type": "Exercise",
+  "number": "3.4.21",
+  "title": "",
+  "body": "     75 percent of the federal health care law's taxes would be paid by those earning less than $120,000 a year.      76 percent of those who would pay the penalty [health care law's taxes] for not having insurance in 2016 would earn under $120,000.      "
+},
+{
+  "id": "exercises-prop-reasoning-4-7",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-4-7",
+  "type": "Exercise",
+  "number": "3.4.22",
+  "title": "",
+  "body": "     The school levy is only a 0.1% increase of the property tax rate.      This new levy is a 12% tax hike, raising our total rate to $9.33 per $1000 of value.      "
+},
+{
+  "id": "exercises-prop-reasoning-4-8",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-4-8",
+  "type": "Exercise",
+  "number": "3.4.23",
+  "title": "",
+  "body": "  Guns have murdered more Americans here at home in recent years than have died on the battlefields of Iraq and Afghanistan.     In support of the two wars, more than 6,500 American soldiers have lost their lives.      During the same period, however, guns have been used to murder about 100,000 people on American soil.      "
+},
+{
+  "id": "exercises-prop-reasoning-5",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-5",
+  "type": "Exercise",
+  "number": "3.4.24",
+  "title": "",
+  "body": " A high school currently has a 30% dropout rate. They've been tasked to decrease that rate by 20%. Find the equivalent percentage point drop.  "
+},
+{
+  "id": "exercises-prop-reasoning-6",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-6",
+  "type": "Exercise",
+  "number": "3.4.25",
+  "title": "",
+  "body": " A politician's support grew from 42% by 3 percentage points to 45%. What percent (relative) change is this?  "
+},
+{
+  "id": "exercises-prop-reasoning-7",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-7",
+  "type": "Exercise",
+  "number": "3.4.26",
+  "title": "",
+  "body": " Marcy has a 70% average in her class going into the final exam. She says \"I need to get a 100% on this final so I can raise my score to 85%.\" Is she correct?  "
+},
+{
+  "id": "exercises-prop-reasoning-8",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-8",
+  "type": "Exercise",
+  "number": "3.4.27",
+  "title": "",
+  "body": " Suppose you have one quart of water\/juice mix that is 50% juice, and you add 2 quarts of juice. What percent juice is the final mix?  "
+},
+{
+  "id": "exercises-prop-reasoning-9-3",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-9-3",
+  "type": "Exercise",
+  "number": "3.4.28",
+  "title": "",
+  "body": " You bought 10 pounds of potatoes for $4.  "
+},
+{
+  "id": "exercises-prop-reasoning-9-4",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-9-4",
+  "type": "Exercise",
+  "number": "3.4.29",
+  "title": "",
+  "body": " Joel ran 1500 meters in 4 minutes, 45 seconds.  "
+},
+{
+  "id": "exercises-prop-reasoning-9-5",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-9-5",
+  "type": "Exercise",
+  "number": "3.4.30",
+  "title": "",
+  "body": " Sam uses 45 tiles to cover the floor in a room that is 20ft 18ft.  "
+},
+{
+  "id": "exercises-prop-reasoning-10-3",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-10-3",
+  "type": "Exercise",
+  "number": "3.4.31",
+  "title": "",
+  "body": "  .  "
+},
+{
+  "id": "exercises-prop-reasoning-10-4",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-10-4",
+  "type": "Exercise",
+  "number": "3.4.32",
+  "title": "",
+  "body": "  .  "
+},
+{
+  "id": "exercises-prop-reasoning-10-5",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-10-5",
+  "type": "Exercise",
+  "number": "3.4.33",
+  "title": "",
+  "body": "  .  "
+},
+{
+  "id": "exercises-prop-reasoning-11-3",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-3",
+  "type": "Exercise",
+  "number": "3.4.34",
+  "title": "",
+  "body": " A crepe recipe calls for 2 eggs, 1 cup of flour, and 1 cup of milk. How much flour would you need if you use 5 eggs?  "
+},
+{
+  "id": "exercises-prop-reasoning-11-4",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-4",
+  "type": "Exercise",
+  "number": "3.4.35",
+  "title": "",
+  "body": " An 8ft length of 4 inch wide crown molding costs $14. How much will it cost to buy 40ft of crown molding?  "
+},
+{
+  "id": "exercises-prop-reasoning-11-5",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-5",
+  "type": "Exercise",
+  "number": "3.4.36",
+  "title": "",
+  "body": " Four 3-megawatt wind turbines can supply enough electricity to power 3000 homes. How many turbines would be required to power 55,000 homes?  "
+},
+{
+  "id": "exercises-prop-reasoning-11-6",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-6",
+  "type": "Exercise",
+  "number": "3.4.37",
+  "title": "",
+  "body": " A highway had a landslide, where 3,000 cubic yards of material fell on the road, requiring 200 dump truck loads to clear. On another highway, a slide left 40,000 cubic yards on the road. How many dump truck loads would be needed to clear this slide?  "
+},
+{
+  "id": "exercises-prop-reasoning-11-7",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-7",
+  "type": "Exercise",
+  "number": "3.4.38",
+  "title": "",
+  "body": " A wire costs $2 per meter. How much will 3 kilometers of wire cost?  "
+},
+{
+  "id": "exercises-prop-reasoning-11-8",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-8",
+  "type": "Exercise",
+  "number": "3.4.39",
+  "title": "",
+  "body": " Sugar contains 15 calories per teaspoon. How many calories are in 1 cup of sugar?  "
+},
+{
+  "id": "exercises-prop-reasoning-11-9",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-9",
+  "type": "Exercise",
+  "number": "3.4.40",
+  "title": "",
+  "body": " A car is driving at 100 kilometers per hour. How far does it travel in 2 seconds?  "
+},
+{
+  "id": "exercises-prop-reasoning-11-10",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-10",
+  "type": "Exercise",
+  "number": "3.4.41",
+  "title": "",
+  "body": " A chain weighs 10 pounds per foot. How many ounces will 4 inches weigh?  "
+},
+{
+  "id": "exercises-prop-reasoning-11-11",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-11",
+  "type": "Exercise",
+  "number": "3.4.42",
+  "title": "",
+  "body": " The store is selling lemons at 2 for $1 Each yields about 2 tablespoons of juice. How much will it cost to buy enough lemons to make a 9-inch lemon pie requiring cup of lemon juice?  "
+},
+{
+  "id": "exercises-prop-reasoning-11-12",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-12",
+  "type": "Exercise",
+  "number": "3.4.43",
+  "title": "",
+  "body": " You read online that a 15ft 20ft brick patio would cost about $2,275 to have professionally installed. Estimate the cost of having a 18ft 22ft brick patio installed.  "
+},
+{
+  "id": "exercises-prop-reasoning-11-13",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-13",
+  "type": "Exercise",
+  "number": "3.4.44",
+  "title": "",
+  "body": " The Deepwater Horizon oil spill resulted in 4.9 million barrels of oil spilling into the Gulf of Mexico. Each barrel of oil can be processed into about 19 gallons of gasoline. How many cars could this have fueled for a year? Assume an average car gets 20 miles to the gallon, and drives about 12,000 miles in a year.  "
+},
+{
+  "id": "exercises-prop-reasoning-11-14",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-14",
+  "type": "Exercise",
+  "number": "3.4.45",
+  "title": "",
+  "body": " During the landing of the Mars Science Laboratory Curiosity, it was reported that the signal from the rover would take 14 minutes to reach earth. Radio signals travel at the speed of light, about 186,000 miles per second. How far was Mars from Earth when Curiosity landed?  "
+},
+{
+  "id": "exercises-prop-reasoning-11-15",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-15",
+  "type": "Exercise",
+  "number": "3.4.46",
+  "title": "",
+  "body": " It is estimated that a driver takes, on average, 1.5 seconds from seeing an obstacle to reacting by applying the brake or swerving. How far will a car traveling at 60 miles per hour travel (in feet) before the driver reacts to an obstacle?  "
+},
+{
+  "id": "exercises-prop-reasoning-11-16",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-16",
+  "type": "Exercise",
+  "number": "3.4.47",
+  "title": "",
+  "body": "  Sound travels about 750 miles per hour. If you stand in a parking lot near a building and sound a horn, you will hear an echo. Suppose it takes about a second to hear the echo. How far away is the building?    "
+},
+{
+  "id": "exercises-prop-reasoning-11-17",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-17",
+  "type": "Exercise",
+  "number": "3.4.48",
+  "title": "",
+  "body": "  The grocery store has bulk pecans on sale, which is great since you're planning on making 10 pecan pies for a wedding. Your recipe calls for cups pecans per pie. However, in the bulk section there's only a scale available, not a measuring cup. You run over to the baking aisle and find a bag of pecans, and look at the nutrition label to gather some info. How many pounds of pecans should you buy?   Nutrition label for a package of pecans.  A nutrition label for a package of pecans. Serving Size: 1 cup, halves (99 g) Servings per Container: about 2    "
+},
+{
+  "id": "exercises-prop-reasoning-11-18",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-18",
+  "type": "Exercise",
+  "number": "3.4.49",
+  "title": "",
+  "body": "  Soda is often sold in 20 ounce bottles. The nutrition label for one of these bottles is shown to the right. A packet of sugar (the kind they have at restaurants for your coffee or tea) typically contain 4 grams of sugar in the U.S. Drinking a 20oz soda is equivalent to eating how many packets of sugar?   Nutrition label for a soda.  A nutrition label for a a soda. The serving size is 8 fl oz. The Servings per Container are about 2.5. Under the heading Amount Per Serving , the Calories are 110, Total Fat is 0g, Sodium is 70mg, Total Carbohydrate is 31g, Sugars 30g, and Protein 0g.    "
+},
+{
+  "id": "exercises-prop-reasoning-11-19",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-19",
+  "type": "Exercise",
+  "number": "3.4.50",
+  "title": "",
+  "body": " The flash of lightning travels at the speed of light, which is about 186,000 miles per second. The sound of lightning (thunder) travels at the speed of sound, which is about 750 miles per hour. If you see a flash of lightning, then hear the thunder 4 seconds later, how far away is the lightning?  "
+},
+{
+  "id": "exercises-prop-reasoning-11-20",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-11-20",
+  "type": "Exercise",
+  "number": "3.4.51",
+  "title": "",
+  "body": " Generalize your work from the problem above. If you count seconds between seeing a flash of lightning and hearing the associated thunder, how far away is the storm? Your answer should have the variable in it.  "
+},
+{
+  "id": "exercises-prop-reasoning-12",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-12",
+  "type": "Exercise",
+  "number": "3.4.52",
+  "title": "",
+  "body": " A recipe for sabayon calls for 2 egg yolks, 3 tablespoons of sugar, and ¼ cup of white wine. After cracking the eggs, you start measuring the sugar, but accidentally put in 4 tablespoons of sugar. How can you compensate?  "
+},
+{
+  "id": "exercises-prop-reasoning-13",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-13",
+  "type": "Exercise",
+  "number": "3.4.53",
+  "title": "",
+  "body": " Your chocolate milk mix says to use 4 scoops of mix for 2 cups of milk. After pouring in the milk, you start adding the mix, but get distracted and accidentally put in 5 scoops of mix. How can you adjust the mix if there is still room in the cup? What if the cup is already full?  "
+},
+{
+  "id": "exercises-prop-reasoning-14-3",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-14-3",
+  "type": "Exercise",
+  "number": "3.4.54",
+  "title": "",
+  "body": " The table below gives data on three movies. Gross earnings is the amount of money the movie brings in. Compare the net earnings (money made after expenses) for the three movies.               World Wide Box Office    Movie  Release Date  Budget  and Home Market Performance    Avengers: Endgame  April 2019  $400,000,000  $2,825,413,435    Clerks  October 1994  $27,000  $4,400,000    High School Musical  May 2006  $4,200,000  $131,765,000    "
+},
+{
+  "id": "exercises-prop-reasoning-14-4",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-14-4",
+  "type": "Exercise",
+  "number": "3.4.55",
+  "title": "",
+  "body": " For the movies in the previous problem, which provided the best return on investment?  "
+},
+{
+  "id": "exercises-prop-reasoning-14-5",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-14-5",
+  "type": "Exercise",
+  "number": "3.4.56",
+  "title": "",
+  "body": " The GDP (Gross Domestic Product) of China was $4,525,704 million in 2023, and the GDP of Sweden was $584,960 million. The population of China in July 2023 was 1,422,584,933, while the population of Sweden was about 10,551,494. Compare the GDP per capita of the two countries.  "
+},
+{
+  "id": "exercises-prop-reasoning-14-6",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-14-6",
+  "type": "Exercise",
+  "number": "3.4.57",
+  "title": "",
+  "body": " In June 2018, Twitter was reporting 500 million tweets per day. Each tweet can consist of up to 140 characters (letter, numbers, etc.). Create a comparison to help understand the amount of tweets in a year by imagining each character was a drop of water and comparing to filling something up.  "
+},
+{
+  "id": "exercises-prop-reasoning-14-7",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-14-7",
+  "type": "Exercise",
+  "number": "3.4.58",
+  "title": "",
+  "body": " In it's own environmental report, Microsoft disclosed that its global water consumption increased 34% from 2021 to 2022 to nearly 1.7 billion gallons. This is generally thought to be from their partnership with OpenAI and the development and use of ChatGPT. Create a comparison to help understand that amount of water.  "
+},
+{
+  "id": "exercises-prop-reasoning-14-8",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-14-8",
+  "type": "Exercise",
+  "number": "3.4.59",
+  "title": "",
+  "body": " Use the data , July 2025 , July 2025 in the table below to compare the size of the countries.            Country  Land Area (km )  Water Area (km )  Population    Brazil  8,460,415  55,352  212,583,750    Finland  303,815  34,330  5,644,772    India  2,973,190  314,070  1,417,492,000    Indonesia  1,811,569  93,000  281,190,067    Japan  364,485  13,430  123,360,000    Russia  16,376,870  721,380  146,028,325    Singapore  726  10  6,036,900    United States  9,147,593  377,424  340,110,988    "
+},
+{
+  "id": "exercises-prop-reasoning-15",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-15",
+  "type": "Exercise",
+  "number": "3.4.60",
+  "title": "",
+  "body": " How thick is a single sheet of paper? How much does it weigh?  "
+},
+{
+  "id": "exercises-prop-reasoning-16",
+  "level": "2",
+  "url": "exercises-prop-reasoning.html#exercises-prop-reasoning-16",
+  "type": "Exercise",
+  "number": "3.4.61",
+  "title": "",
+  "body": " You need to replace the boards on your deck. About how much will the materials cost?  "
+},
+{
+  "id": "sec-prop-reasoning-proj",
+  "level": "1",
+  "url": "sec-prop-reasoning-proj.html",
+  "type": "Section",
+  "number": "3.5",
+  "title": "Proportional Reasoning Projects",
+  "body": " Proportional Reasoning Projects   Taxes  Governments collect taxes to pay for the services they provide. In the United States, federal income taxes help fund the military, the environmental protection agency, and thousands of other programs. Property taxes help fund schools. Gasoline taxes help pay for road improvements. While very few people enjoy paying taxes, they are necessary to pay for the services we all depend upon.  Taxes can be computed in a variety of ways, but are typically computed as a percentage of a sale, of one's income, or of one's assets. Below are some important definitions:   Effective Rate   The effective tax rate taxes effective rate is the equivalent percent rate of the tax paid out of the dollar amount the tax is based on.      Joan paid $3,200 in property taxes on her house valued at $215,000 last year. What is the effective tax rate?    We can compute the equivalent percentage; the PART is the amount paid in taxes and the WHOLE is the value of the house. The effective (property) tax rate where Joan lives is 1.49%.    Tax plans are often referred to as progressive, regressive, or flat.   Tax Categories   A flat tax taxes flat tax , or proportional tax, charges the same rate for all bases.  A progressive tax taxes progressive tax increases the tax rate as the base ammount increases.  A regressive tax taxes regressive tax decreases the tax rate as the base ammount increases.    The adjectives above are often used to describe the tax structure and the outcomes; and these may not match. For example, property taxes are typically a flat tax; every household in a particular jurisdiction has the same property tax rate. The property tax rate in Fitchburg is 1.338% for everyone. However, since lower income households tend to spend a higher percentage of their income on housing than higher income households, this effect is regressive; lower-income households pay a larger portion of their overall income in property taxes when compared to high-income households.  Income tax uses a progressive tax rate. If a household has a higher income, they fall into a higher bracket and pay a higher percentage of their income in federal income taxes. This seems like the outcome would also be progressive, but there are a variety of types of income that are all taxed differently. Higher-income earners tend to have more variety of types of income that typically have lower rates.  Many people have proposed various revisions to the income tax collection in the United States. Some, for example, have claimed that a flat tax would be fairer. Others call for revisions to how different types of income are taxed, since currently investment income is taxed at a different rate than wage income. The following two projects will allow you to explore some of these ideas and draw your own conclusions.    Flat Tax, Modified Flat Tax, and Progressive Tax Project    You are strongly encouraged to make use of spreadsheets for this project. Minimally, this helps you to organize the information you're calculating. If you make use of more of the functionality (see ), it can actually help clarify the process and let you focus more on which computation to do and to make sense of the outcome, rather than focussing on repeating the same computation over and over without making a mistake. You do the human things of choosing and evaluating, let a computer do the computing.  Imagine the country is made up of 100 households and that the federal government needs to collect $1,400,000 in income taxes to be able to function. The population consists of 6 groups:   Group A:  20 households that earn $17,650 each    Group B:  20 households that earn $47,590 each    Group C:  20 households that earn $80,730 each    Group D:  20 households that earn $129,400 each    Group E:  15 households that earn $221,000 each    Group F:  5 households that earn $526,200 each     This scenario is roughly proportional to the actual United States population and tax needs in 2023. We are going to determine appropriate income tax rates.     Flat Tax   The first proposal we'll consider is a flat tax one where every income group is taxed at the same percentage tax rate.    Determine the total income for the population (all 100 households together).    Determine what flat tax rate would be necessary to collect enough money.     Modified Flat Tax   The second proposal we'll consider is a modified flat-tax plan, where everyone only pays taxes on any income over $30,000. So, everyone in group A will pay no taxes. Everyone in group B will pay taxes only on $17,590.    Determine the total taxable income for the whole population.    Determine what flat tax rate would be necessary to collect enough money in this modified system.     Complete the following table for both tax plans:           Flat Tax Plan  Modified Flat Tax Plan    Group  Income per Household  Income Tax per Household  Income After Taxes  Income Tax per Household  Income After Taxes    A  $17,650        B  $47,590        C  $80,730        D  $129,400        E  $221,000        F  $526,200          Progressive Tax   The third proposal we'll consider is a progressive tax, where lower income groups are taxed at a lower percent rate, and higher income groups are taxed at a higher percent rate.  For simplicity, you may assume that a household is taxed at the same rate on all their income. In actuality, income is taxed by the bracket it falls into. For example, a household in group C would pay the Group A rate on $17,650 of their income, the B rate on the next $29,940, and the C rate on the last $33,140. If you'd like an extra challenge, feel free to follow that procedure. Just be clear that you're doing that.    Set progressive tax rates for each income group at levels that bring in enough money (the column on the right should total at least $1,400,000). There is no one right answer here just make sure you bring in enough money! You should have a different rate for each group, and a 0% tax rate is an option.          Group  Income per Household  Tax Rate  Income Tax per Household  Income After Tax  Total Tax for All Households    A  $17,650        B  $47,590        C  $80,730        D  $129,400        E  $221,000        F  $526,200        Total for All 100 Households:        Discretionary Income   Discretionary income is the income people have left over after paying for necessities like rent, food, transportation, etc. The cost of basic expenses does usually increase with income, since housing and car costs also increase with income. However, the increase in expenses is usually not proportional to the increase in income.    Explain what is meant by the increase in expenses is usually not proportional to the increase in income, in your own words.    The table below has a column for each of four different categories of essential expenses: housing, transportation, food, and medical. For each group, estimate their essential expenses in each category. Remember that most of us deal with these costs on a monthly basis, but we need annual totals in the table.  Housing should include utilities like water, electricity, heat, etc. Transportation could be a car payment, or bus tickets, or cab\/Uber rides, etc. Lower income groups may receive government assistance in any of the categories, which will change the ammount they pay.  These are just estimates, but you should gather some information rather than just making things up. For consistency, consider a one-income earner family of four as your household for each group and look for your data in the same region. You may use whatever region you'd like. You may be most familiar with the state you're from, and that is worth something. Also, keep in mind that these numbers are national averages and medians, so lower than the corresponding numbers would be in a high-earner states. That means, it is even harder to live in groups A and B in a state like Massachusetts. Arizona's median income is very close the national median, which may make the whole process work out a bit easier.  Describe your process and complete the table. You do not need to carefully every category for every group. Do that for a few, and you can extrapolate\/interpolate (fancy words to mean fill in the other stuff following the trends) the rest, but remember that it should NOT be proportional . The Essential Expenses Column should be the total of the other four, and Discretionary Income (the final column) is the Income minus the Essential Expenses.            Group  Income per Household  Housing  Transportation  Food  Medical  Essential Expenses  Discretionary Income    A  $17,650          B  $47,590          C  $80,730          D  $129,400          E  $221,000          F  $526,200            Complete the table to reflect a Flat Tax Plan based on discretionary income.   In the appropriate place in the table, enter the discretionary income for each group that you determined above.    Just as in problems #1 and #2, determine the total discretionary income for all 100 households and use this to determine an effective flat tax rate. Enter the total and rate you decide into the appropriate spaces.    As in #5, fill in the remaining two columns with how much each household pays in income tax and the total discretionary income left after paying that tax.              Flat Tax Plan Rate =    Group  Income per Household  Discretionary Income per Household  Income Tax per Household  Income After Taxes    A  $17,650       B  $47,590       C  $80,730       D  $129,400       E  $221,000       F  $526,200       Total for All 100 Households:       Complete the table to reflect a Modified Flat Tax Plan based on discretionary income.   In the appropriate place in the table, enter the discretionary income for each group.    Determine an amount of discretionary income to not be taxed. You can use the same $30,000 as we did above, or lower amount to reflect that discretionary income is already lower than total income. Enter this amount in the appropriate place in the chart.    Just as in problems #3 and #4, determine the total taxable discretionary income for all 100 households and use this to determine an effective modified flat tax rate. Enter the total and rate you decide into the appropriate spaces.    As in #5, fill in the remaining two columns with how much each household pays in income tax and the total discretionary income left after paying that tax.              Taxable Disc. Income Cutoff:     Modified Flat Tax Plan Rate =    Group  Income per Household  Discretionary Income per Household  Taxable Discretionary Income per Household  Income Tax per Household  Income After Taxes    A  $17,650        B  $47,590        C  $80,730        D  $129,400        E  $221,000        F  $526,200        Total for All 100 Households:        Complete the table to reflect a progressive tax plan based on discretionary income.   In the appropriate place in the table enter the discretionary income for each group.    As in #6, choose a tax rate for each group and include that in the appropriate column. Compute and enter the income tax paid per household in each group and the total for all households in the group. This may take a few tries to get right; you need to make sure you're collecting at least $1,400,000.    Fill in the final column with the amount of discretionary income remaining after taxes.              Group  Income per Household  Discretionary Income  Progressive Tax Rate  Income Tax per Household  Total Tax Collected for All Households  Discretionary Income After Tax per Household    A  $17,650         B  $47,590         C  $80,730         D  $129,400         E  $221,000         F  $526,200          Total for All 100 Households:        Which plan seems the most fair to you? Which plan seems the least fair to you? Why?  We're going to encounter a number of questions like this. There is not necessarily always a clear answer. Your job is to consider the quantitative information, your individual or community values, and make a choice. You should use the numbers as a part of your justification; this is quantitative reasoning .      Income Types and Deductions    In the previous project, we were treating all income the same; as wage income. In reality, different types of income are taxed differently and households can take deductions based on a variety of things.  Visit and locate and download the most recent version of a 1040 form. The instructions for the 1040 form can also be viewed from the same site and are helpful in determining which additional forms or schedules are needed.   "
+},
+{
+  "id": "def-effective-rate",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#def-effective-rate",
+  "type": "Definition",
+  "number": "3.5.1",
+  "title": "Effective Rate.",
+  "body": " Effective Rate   The effective tax rate taxes effective rate is the equivalent percent rate of the tax paid out of the dollar amount the tax is based on.   "
+},
+{
+  "id": "example-taxrate",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#example-taxrate",
+  "type": "Example",
+  "number": "3.5.2",
+  "title": "",
+  "body": "  Joan paid $3,200 in property taxes on her house valued at $215,000 last year. What is the effective tax rate?    We can compute the equivalent percentage; the PART is the amount paid in taxes and the WHOLE is the value of the house. The effective (property) tax rate where Joan lives is 1.49%.   "
+},
+{
+  "id": "def-taxplans",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#def-taxplans",
+  "type": "Definition",
+  "number": "3.5.3",
+  "title": "Tax Categories.",
+  "body": " Tax Categories   A flat tax taxes flat tax , or proportional tax, charges the same rate for all bases.  A progressive tax taxes progressive tax increases the tax rate as the base ammount increases.  A regressive tax taxes regressive tax decreases the tax rate as the base ammount increases.   "
+},
+{
+  "id": "exercises-taxplan-2-3",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-2-3",
+  "type": "Exercise",
+  "number": "3.5.2.1",
+  "title": "",
+  "body": " Determine the total income for the population (all 100 households together).  "
+},
+{
+  "id": "exercises-taxplan-2-4",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-2-4",
+  "type": "Exercise",
+  "number": "3.5.2.2",
+  "title": "",
+  "body": " Determine what flat tax rate would be necessary to collect enough money.  "
+},
+{
+  "id": "exercises-taxplan-3-3",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-3-3",
+  "type": "Exercise",
+  "number": "3.5.2.3",
+  "title": "",
+  "body": " Determine the total taxable income for the whole population.  "
+},
+{
+  "id": "exercises-taxplan-3-4",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-3-4",
+  "type": "Exercise",
+  "number": "3.5.2.4",
+  "title": "",
+  "body": " Determine what flat tax rate would be necessary to collect enough money in this modified system.  "
+},
+{
+  "id": "exercises-taxplan-4",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-4",
+  "type": "Exercise",
+  "number": "3.5.2.5",
+  "title": "",
+  "body": " Complete the following table for both tax plans:           Flat Tax Plan  Modified Flat Tax Plan    Group  Income per Household  Income Tax per Household  Income After Taxes  Income Tax per Household  Income After Taxes    A  $17,650        B  $47,590        C  $80,730        D  $129,400        E  $221,000        F  $526,200        "
+},
+{
+  "id": "exercises-taxplan-5-3",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-5-3",
+  "type": "Exercise",
+  "number": "3.5.2.6",
+  "title": "",
+  "body": " Set progressive tax rates for each income group at levels that bring in enough money (the column on the right should total at least $1,400,000). There is no one right answer here just make sure you bring in enough money! You should have a different rate for each group, and a 0% tax rate is an option.          Group  Income per Household  Tax Rate  Income Tax per Household  Income After Tax  Total Tax for All Households    A  $17,650        B  $47,590        C  $80,730        D  $129,400        E  $221,000        F  $526,200        Total for All 100 Households:     "
+},
+{
+  "id": "exercises-taxplan-6-3",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-6-3",
+  "type": "Exercise",
+  "number": "3.5.2.7",
+  "title": "",
+  "body": " Explain what is meant by the increase in expenses is usually not proportional to the increase in income, in your own words.  "
+},
+{
+  "id": "exercises-taxplan-6-4",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-6-4",
+  "type": "Exercise",
+  "number": "3.5.2.8",
+  "title": "",
+  "body": " The table below has a column for each of four different categories of essential expenses: housing, transportation, food, and medical. For each group, estimate their essential expenses in each category. Remember that most of us deal with these costs on a monthly basis, but we need annual totals in the table.  Housing should include utilities like water, electricity, heat, etc. Transportation could be a car payment, or bus tickets, or cab\/Uber rides, etc. Lower income groups may receive government assistance in any of the categories, which will change the ammount they pay.  These are just estimates, but you should gather some information rather than just making things up. For consistency, consider a one-income earner family of four as your household for each group and look for your data in the same region. You may use whatever region you'd like. You may be most familiar with the state you're from, and that is worth something. Also, keep in mind that these numbers are national averages and medians, so lower than the corresponding numbers would be in a high-earner states. That means, it is even harder to live in groups A and B in a state like Massachusetts. Arizona's median income is very close the national median, which may make the whole process work out a bit easier.  Describe your process and complete the table. You do not need to carefully every category for every group. Do that for a few, and you can extrapolate\/interpolate (fancy words to mean fill in the other stuff following the trends) the rest, but remember that it should NOT be proportional . The Essential Expenses Column should be the total of the other four, and Discretionary Income (the final column) is the Income minus the Essential Expenses.            Group  Income per Household  Housing  Transportation  Food  Medical  Essential Expenses  Discretionary Income    A  $17,650          B  $47,590          C  $80,730          D  $129,400          E  $221,000          F  $526,200          "
+},
+{
+  "id": "exercises-taxplan-6-5",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-6-5",
+  "type": "Exercise",
+  "number": "3.5.2.9",
+  "title": "",
+  "body": " Complete the table to reflect a Flat Tax Plan based on discretionary income.   In the appropriate place in the table, enter the discretionary income for each group that you determined above.    Just as in problems #1 and #2, determine the total discretionary income for all 100 households and use this to determine an effective flat tax rate. Enter the total and rate you decide into the appropriate spaces.    As in #5, fill in the remaining two columns with how much each household pays in income tax and the total discretionary income left after paying that tax.              Flat Tax Plan Rate =    Group  Income per Household  Discretionary Income per Household  Income Tax per Household  Income After Taxes    A  $17,650       B  $47,590       C  $80,730       D  $129,400       E  $221,000       F  $526,200       Total for All 100 Households:     "
+},
+{
+  "id": "exercises-taxplan-6-6",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-6-6",
+  "type": "Exercise",
+  "number": "3.5.2.10",
+  "title": "",
+  "body": " Complete the table to reflect a Modified Flat Tax Plan based on discretionary income.   In the appropriate place in the table, enter the discretionary income for each group.    Determine an amount of discretionary income to not be taxed. You can use the same $30,000 as we did above, or lower amount to reflect that discretionary income is already lower than total income. Enter this amount in the appropriate place in the chart.    Just as in problems #3 and #4, determine the total taxable discretionary income for all 100 households and use this to determine an effective modified flat tax rate. Enter the total and rate you decide into the appropriate spaces.    As in #5, fill in the remaining two columns with how much each household pays in income tax and the total discretionary income left after paying that tax.              Taxable Disc. Income Cutoff:     Modified Flat Tax Plan Rate =    Group  Income per Household  Discretionary Income per Household  Taxable Discretionary Income per Household  Income Tax per Household  Income After Taxes    A  $17,650        B  $47,590        C  $80,730        D  $129,400        E  $221,000        F  $526,200        Total for All 100 Households:      "
+},
+{
+  "id": "exercises-taxplan-6-7",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-6-7",
+  "type": "Exercise",
+  "number": "3.5.2.11",
+  "title": "",
+  "body": " Complete the table to reflect a progressive tax plan based on discretionary income.   In the appropriate place in the table enter the discretionary income for each group.    As in #6, choose a tax rate for each group and include that in the appropriate column. Compute and enter the income tax paid per household in each group and the total for all households in the group. This may take a few tries to get right; you need to make sure you're collecting at least $1,400,000.    Fill in the final column with the amount of discretionary income remaining after taxes.              Group  Income per Household  Discretionary Income  Progressive Tax Rate  Income Tax per Household  Total Tax Collected for All Households  Discretionary Income After Tax per Household    A  $17,650         B  $47,590         C  $80,730         D  $129,400         E  $221,000         F  $526,200          Total for All 100 Households:     "
+},
+{
+  "id": "exercises-taxplan-7",
+  "level": "2",
+  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-7",
+  "type": "Exercise",
+  "number": "3.5.2.12",
+  "title": "",
+  "body": " Which plan seems the most fair to you? Which plan seems the least fair to you? Why?  We're going to encounter a number of questions like this. There is not necessarily always a clear answer. Your job is to consider the quantitative information, your individual or community values, and make a choice. You should use the numbers as a part of your justification; this is quantitative reasoning .  "
 },
 {
   "id": "sec-intro-types",
@@ -865,11 +1603,29 @@ var ptx_lunr_docs = [
   "body": " Modeling Wrap-Up  Text of section.  "
 },
 {
+  "id": "sec-savings",
+  "level": "1",
+  "url": "sec-savings.html",
+  "type": "Section",
+  "number": "5.1",
+  "title": "Savings Accounts",
+  "body": " Savings Accounts    "
+},
+{
+  "id": "sec-loans",
+  "level": "1",
+  "url": "sec-loans.html",
+  "type": "Section",
+  "number": "5.2",
+  "title": "Loans",
+  "body": " Loans    "
+},
+{
   "id": "sec-stat-intro",
   "level": "1",
   "url": "sec-stat-intro.html",
   "type": "Section",
-  "number": "5.1",
+  "number": "6.1",
   "title": "What is Statistics?",
   "body": " What is Statistics?  Text of section.  "
 },
@@ -878,7 +1634,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-formal.html",
   "type": "Section",
-  "number": "6.1",
+  "number": "7.1",
   "title": "Formal Logic",
   "body": " Formal Logic  Text of section.  "
 },
@@ -887,7 +1643,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-verbal.html",
   "type": "Section",
-  "number": "6.2",
+  "number": "7.2",
   "title": "Verbal Logic",
   "body": " Verbal Logic  Text of section.  "
 },

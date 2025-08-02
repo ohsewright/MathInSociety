@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-financial" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Financial Mathematics</title>
+
+  <introduction>
+    <p>
+        Possibly one of the most obviously applicable topics...
+    </p>
+    <p>
+        A solid understanding of how spreadsheets work will help you in this chapter more than any other.
+        Depending on your comfort level, you may want to work through <xref ref="sec-spreadsheets"/> completely, do a quick refresher, or just use as reference as you work through this chapter.
+        No one of these options is better than others; making the proper choice for where your brain is at is the best option.
+    </p>
+
+   </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-savings.ptx" />
+  <xi:include href="sec-loans.ptx" />
+
+</chapter>

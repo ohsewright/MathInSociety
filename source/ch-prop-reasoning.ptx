@@ -31,6 +31,8 @@
   <!-- include sections -->
   <xi:include href="sec-percent.ptx" />
   <xi:include href="sec-proportions.ptx" />
-  <xi:include href="sec-huge-tiny.ptx" />
+  <xi:include href="sec-making-sense.ptx" />
+  <xi:include href="exercises-prop-reasoning.ptx" />
+  <xi:include href="sec-prop-reasoning-proj.ptx" />
 
 </chapter>

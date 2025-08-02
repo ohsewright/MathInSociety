@@ -16,6 +16,7 @@
     <xi:include href="./ch-foundations.ptx" />
     <xi:include href="./ch-prop-reasoning.ptx" />
     <xi:include href="./ch-models.ptx" />
+    <xi:include href="./ch-financial.ptx" />
     <xi:include href="./ch-stats.ptx" />
     <xi:include href="./ch-logic.ptx" />
 

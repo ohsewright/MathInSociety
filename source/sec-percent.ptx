@@ -624,49 +624,50 @@
     <introduction>
       <p>
         According to the 2020 US Census, the population of the US was 331,449,281.
-        The racial makeup of the population is: 
+        The racial and ethnic makeup of the population is: 
         <ul>
           <li>
             <p>
-              61.6% White American;
+              57.8% White American;
             </p>
           </li>
           <li>
             <p>
-              18.9% Hispanic and Latinx;
+              18.7% Hispanic;
             </p>
           </li>
           <li>
             <p>
-              12.4% Black American;
+              12.1% Black American;
             </p>
           </li>
           <li>
             <p>
-              10.2% Multiracial;
+              5.9% Asian American; 
             </p>
           </li>
           <li>
             <p>
-              6% Asian American; 
+              4.1% Multiracial;
             </p>
           </li>
           <li>
             <p>
-              1.12% Indigenous Americans; and
+              0.7% Indigenous Americans; and
             </p>
           </li>
           <li>
             <p>
-              0.21% Pacific Islander.
+              0.2% Pacific Islander.
             </p>
           </li>
         </ul>
-        Additionally, 8.42% of Americans classified themselves as another race not part of the above six recognized racial categories. <fn><url href="https://en.wikipedia.org/wiki/Race_and_ethnicity_in_the_United_States_census" /></fn>
+        Additionally, 0.5% of Americans classified themselves as another race. <fn>The Census considers Hispanic/Latinx as ethnicity, not race. The group here with the title <q>Hispanic</q> consists of people who identify as Hispanic or Latino and any race. In all other groups (except possibly the Multiracial group) respondants do not identify as Hispanic or Latino. How to best represent this group of citizens is the subject of much debate./<url href="https://en.wikipedia.org/wiki/Race_and_ethnicity_in_the_United_States_census" /></fn>
         The gender divide is: 50.9% women and 49.1% men.
       </p>
       <p>
-        The US Congress has 535 members of which 100 are Senators and 435 are in the House of Representatives.  
+        The US Congress has 535 members of which 100 are Senators and 435 are in the House of Representatives.
+        The 119th Congress was not fully seated at the time of this data:
       </p>
       <tabular halign="center">
         <col right="major"> </col>
@@ -684,33 +685,38 @@
         </row>
         <row bottom="minor">
           <cell>Women</cell>
-          <cell>122</cell>
-          <cell>24</cell>
+          <cell>125</cell>
+          <cell>25</cell>
         </row>
         <row bottom="medium">
           <cell>Men</cell>
-          <cell></cell>
-          <cell></cell>
+          <cell>309</cell>
+          <cell>74</cell>
         </row>
         <row bottom="minor">
           <cell>White American</cell>
-          <cell></cell>
-          <cell></cell>
+          <cell>301</cell>
+          <cell>83</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Hispanic</cell>
+          <cell>46</cell>
+          <cell>7</cell>
         </row>
         <row bottom="minor">
           <cell>Black American</cell>
-          <cell>54</cell>
-          <cell>4</cell>
-        </row>
-        <row bottom="minor">
-          <cell>Multiracial</cell>
-          <cell></cell>
-          <cell></cell>
+          <cell>61</cell>
+          <cell>5</cell>
         </row>
         <row bottom="minor">
           <cell>Asian American</cell>
-          <cell></cell>
+          <cell>18</cell>
           <cell>3</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Multiracial</cell>
+          <cell>5</cell>
+          <cell>0</cell>
         </row>
         <row bottom="minor">
           <cell>Indigenous American</cell>
@@ -719,8 +725,8 @@
         </row>
         <row>
           <cell>Pacific Islander</cell>
-          <cell></cell>
-          <cell></cell>
+          <cell>0</cell>
+          <cell>0</cell>
         </row>
       </tabular>
     </introduction>
@@ -728,7 +734,7 @@
       <statement>
         <p>
           If the Senate accurately represented the racial makeup of the US,
-          how many senators from each of the racial groups would there be in 2020?
+          how many senators from each of the racial groups would there be?
         </p>
       </statement>
     </task>
@@ -736,7 +742,7 @@
       <statement>
         <p>
           If the House of Representatives accurately represented the racial makeup of the US,
-          how many representatives from each of the racial groups would there be in 2020?
+          how many representatives from each of the racial groups would there be?
         </p>
       </statement>
     </task>
@@ -744,6 +750,22 @@
       <statement>
         <p>
           If Congress had the same gender breakdown as the whole population, how many members of 2020 Congress should be women?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Choose another demographic factor. 
+          Religious affiliations, veteran status, LGBTQ identities, visible or invisible disabilities, education level, generational identity, marrital/parental status, etc. are all interesting<fn>It is great to choose something that matters to you. <q>Am I represented in my government?</q> is a <alert>very</alert> important question to ask. But, know that you are not disclosing anything about yourself by what you choose here.</fn>.
+          Is this group proportionally represented in either portion of the current Congress?
+        </p>  
+        <p>
+          Do your best<fn>Your author wants you to know that she recognizes that this is often far more difficult than it ought to be.</fn> to find national and congressional data about that group.
+          The Census does not collect data on everything, and even Census data is self reported and there are many reasons people may not respond accurately. Much of the reporting on these demographics could be done by special interest groups, which may sway the numbers one way or the other. Be aware.
+        </p>
+        <p>
+          If the group is underrespresented, try to find some hope. Is there a state or local government where this group is well represented or more visable?
         </p>
       </statement>
     </task>

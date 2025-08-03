@@ -854,7 +854,83 @@
         The instructions for the 1040 form can also be viewed from the same site and are helpful in determining which additional forms or schedules are needed.
     </p>
 
+    <exercises>
+    <title></title>
     
+        <exercise>
+            <statement>
+                <p>
+                    Scenario 1:  Calculate the taxes for someone who earned $60,000 in standard wage income (W-2 income), has no dependents, and takes the standard deduction. 
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Scenario 2: Calculate the taxes for someone who earned $20,000 in standard wage income, $40,000 in qualified dividends, has no dependents, and takes the standard deduction.  (Qualified dividends are earnings on certain investments such as stocks.)
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Scenario 3: Calculate the taxes for someone who earned $60,000 in small business income, has no dependents, and takes the standard deduction.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Based on these three scenarios, what are your impressions of how the income tax system treats these different forms of income (wage, dividends, and business income)?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Scenario 4: To get a more realistic sense for calculating taxes, you'll need to consider itemized deductions.  Calculate the income taxes for someone with the income and expenses listed below.
+                    <ul>
+                        <li>
+                            <p>
+                                Married with 2 children, filing jointly
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Wage income: $50,000 combined
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Paid sales tax in State of Massachussetts
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Property taxes paid: $3200
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Home mortgage interest paid: $4800
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Charitable gifts: $1200
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </exercise>
+    </exercises>
+
+
 
 </subsection>
 

@@ -210,7 +210,7 @@
                 We'll use the estimates from our pretend person below, seperated into city miles and highway miles.
                 That ends up being 12,480 miles of highway driving and 7,020 miles of city driving.
                 <md>
-                    <mrow>\text{Sonata:  } \amp 7,020\text{ city miles} \cdot \frac{1 \text{ gal}}{25 \text{ city miles}} </mrow>
+                    <mrow>\text{Sportage:  } \amp 7,020\text{ city miles} \cdot \frac{1 \text{ gal}}{25 \text{ city miles}} </mrow>
                     <mrow> \amp + 12,480\text{ hwy miles}\cdot \frac{1 \text{ gal}}{33 \text{ hwy miles}} = 659 \text{ gal}</mrow>
                     <mrow>\text{Hybrid:  } \amp 7,020\text{ city miles} \cdot \frac{1 \text{ gal}}{41 \text{ city miles}} </mrow>
                     <mrow> \amp + 12,480\text{ hwy miles}\cdot \frac{1 \text{ gal}}{44 \text{ hwy miles}} = 454.9 \text{ gal}</mrow>
@@ -220,7 +220,7 @@
                 Currently (July 2025) the average price of gas in Massachusetts is $3.05 per gallon, according to AAA.
                 We can use this to determine yearly fuel costs:
                 <md>
-                    <mrow>\text{Sonata:  } \amp 659 \text{ gal} \cdot \frac{\$3.05}{1 \text{gal}} = \$2,009.95</mrow>
+                    <mrow>\text{Sportage:  } \amp 659 \text{ gal} \cdot \frac{\$3.05}{1 \text{gal}} = \$2,009.95</mrow>
                     <mrow>\text{Hybrid:  } \amp 454.9 \text{ gal} \cdot \frac{\$3.05}{1 \text{gal}} = \$1,387.45</mrow>
                 </md>
             </p>
@@ -237,7 +237,7 @@
             </p>
             <p>
                 While both the absolute and relative comparisons are useful here, they still make it hard to answer the original question, since <q>Is it worth it?</q> implies there is some tradeoff for the gas savings.
-                Indeed, the Sonata Hybrid costs about $30,290, compared to the base model for the regular Sonata, at $28,690.
+                Indeed, the Sportage Hybrid costs about $30,290, compared to the base model for the regular Sportage, at $28,690.
                 To better answer the <q>Is it worth it?</q> question, we might explore how long it will take the gas savings to make up for the additional initial cost.
                 The hybrid costs $1600 more (another absolute difference).
                 With gas savings of $497.45 a year, it will take about 
@@ -494,13 +494,13 @@
         <introduction>
             <p>
                 Dr. Math has worked in three different US cities during her time in the US: Tallahassee, FL; Atlanta, GA and Fitchburg, MA.
-                Following is the table for the population and number of violent crimes reported in 2017 in each city along with the national data.
+                Following is the table for the population and number of violent crimes reported in 2023 in each city along with the national data.
                 Using the table below answer the following questions.
             </p>
             <tabular>
-                <col right="major"></col>
+                <col right="medium"></col>
                 <col right="minor"></col>
-                <row header="yes" bottom="major">
+                <row header="yes" bottom="medium">
                     <cell></cell>
                     <cell>Population</cell>
                     <cell>Violent Crimes Reported in 2023</cell>
@@ -515,10 +515,15 @@
                     <cell>513,184</cell>
                     <cell>3,554</cell>
                 </row>
-                <row>
+                <row bottom="minor">
                     <cell>Tallahassee, FL</cell>
                     <cell>203,665</cell>
                     <cell>1,753</cell>
+                </row>
+                <row>
+                    <cell>United State</cell>
+                    <cell>334,233,854</cell>
+                    <cell>1,218,467</cell>
                 </row>
             </tabular>
         </introduction>

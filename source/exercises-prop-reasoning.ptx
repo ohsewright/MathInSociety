@@ -764,26 +764,6 @@
         <exercise>
             <statement>
                 <p>
-                    In June 2018, Twitter was reporting 500 million tweets per day.
-                    Each tweet can consist of up to 140 characters (letter, numbers, etc.).
-                    Create a comparison to help understand the amount of tweets in a year by imagining each character was a drop of water and comparing to filling something up.
-                </p>
-            </statement>
-        </exercise>
-
-        <exercise>
-            <statement>
-                <p>
-                    In it's own environmental report, Microsoft disclosed that its global water consumption increased 34% from 2021 to 2022 to nearly 1.7 billion gallons.<fn><url href="https://apnews.com/article/chatgpt-gpt4-iowa-ai-water-consumption-microsoft-f551fde98083d17a7e8d904f8be822c4"/></fn>
-                    This is generally thought to be from their partnership with OpenAI and the development and use of ChatGPT.
-                    Create a comparison to help understand that amount of water.
-                </p>
-            </statement>
-        </exercise>
-
-        <exercise>
-            <statement>
-                <p>
                     Use the data<fn><url href="https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area" />, July 2025</fn><fn><url href="https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population" />, July 2025</fn>in the table below to compare the size of the countries.
                 </p>
                 <tabular>
@@ -851,21 +831,54 @@
     
     </exercisegroup>
 
-    <exercise>
-        <statement>
+    <exercisegroup>
+    <title>Estimates</title>
+    
+    
+        <introduction>
             <p>
-                How thick is a single sheet of paper?  How much does it weigh?
+                For each of these exercises, you'll need to estimate some quantities to complete the problem.
+                A more accurate estimate of course makes for more informative answers, but the same proportional reasoning skills get practiced with wild guesses.
             </p>
-        </statement>
-    </exercise>
+        </introduction>
+    
+        <exercise>
+            <statement>
+                <p>
+                    In June 2018, Twitter was reporting 500 million tweets per day.
+                    Each tweet can consist of up to 140 characters (letter, numbers, etc.).
+                    Create a comparison to help understand the amount of tweets in a year by imagining each character was a drop of water and comparing to filling something up.
+                </p>
+            </statement>
+        </exercise>
 
-    <exercise>
-        <statement>
-            <p>
-                You need to replace the boards on your deck.
-                About how much will the materials cost?
-            </p>
-        </statement>
-    </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    In it's own environmental report, Microsoft disclosed that its global water consumption increased 34% from 2021 to 2022 to nearly 1.7 billion gallons.<fn><url href="https://apnews.com/article/chatgpt-gpt4-iowa-ai-water-consumption-microsoft-f551fde98083d17a7e8d904f8be822c4"/></fn>
+                    This is generally thought to be from their partnership with OpenAI and the development and use of ChatGPT.
+                    Create a comparison to help understand that amount of water.
+                </p>
+            </statement>
+        </exercise>
+        
+        <exercise>
+            <statement>
+                <p>
+                    How thick is a single sheet of paper?  How much does it weigh?
+                </p>
+            </statement>
+        </exercise>
+    
+        <exercise>
+            <statement>
+                <p>
+                    You need to replace the boards on your deck.
+                    About how much will the materials cost?
+                </p>
+            </statement>
+        </exercise>
+    
+    </exercisegroup>
 
 </exercises>

@@ -25,7 +25,7 @@
 
   <p>
     Pizza is helpful in many situations. Suppose a large pizza is cut into 12 <alert>equally sized</alert> pieces and that your family finished 8 of them during dinner.
-    Since the pieces are all the same size and 12 of them make up an whole pizza, the denominator we want is 12.
+    Since the pieces are all the same size and 12 of them make up a whole pizza, the denominator we want is 12.
     The number of pieces of pizza left, 4, is the numerator.
   </p>
   
@@ -110,7 +110,7 @@
   </figure>
 
   <p>
-    We can think of the rectangle as representing desk in a classroom; the shaded desks have students sitting in them. Four twlefths of the desks have students.
+    We can think of the rectangle as representing desks in a classroom; the shaded desks have students sitting in them. Four twlefths of the desks have students.
     Perhaps the circles each represent a space in an egg carton. You've used eight twelfths of your dozen eggs.
     Suppose that the line segment represents a length of one foot. Since a foot is equal to 12 inches, the length of the shaded region is 4 inches or four twelfths of a foot.
     The stars could show the positions of players in a certain area of a field of play. Four twelfths of the players in this area are on the blue team and eight twelfths are on the white team.
@@ -160,7 +160,7 @@
 
   <p>
     Before we get into the mechanics of equivalent fractions, let's think more about the pizza example.
-    Even though what we'll actually be quite procedural in all our manipulations, it is important to remember what the fraction actually reprepsents.
+    Even though we'll actually be quite procedural in all our manipulations, it is important to remember what the fraction actually reprepsents.
   </p>  
     
   <example xml:id="example-equivalentfrac">
@@ -407,7 +407,7 @@
 
   <p>
     We can replace any fraction or mixed number with an <em>equivalent</em> fraction at any step of any computation.
-    We know the definition of <term> quivalent fractions</term> and can identify them in diagrams, but how to we change them numerically?
+    We know the definition of <term>equivalent fractions</term> and can identify them in diagrams, but how to we change them numerically?
   </p>
 
   <fact xml:id="fact-equivalentfractions">
@@ -428,7 +428,7 @@
   <p>
     We often hear the term <em>reduced</em> to refer to a particular form of a fraction.
     Usually, when someone says the fraction is <em>reduced</em> or <em>in reduced form</em> they mean that there is no other equivalent fraction with a smaller numerator or denominator.
-    Often the reduced form a fraction is preferred, but that is <alert>not</alert> universally true.
+    Often the reduced form of a fraction is preferred, but that is <alert>not</alert> universally true.
   </p>
 
   <example xml:id="example-fractionreduce">
@@ -517,13 +517,13 @@
   <p>
     When fractions have the same denominator, we simply add or subtract their numerators.
     Remember, the denominator tells us how many equally sized parts make up a whole, and we should think of these equally sized parts as the objects.
-    So, in our first pizza example with 12 slices, the computation <m>\frac{5}{12} + \frac{3}{12} = \frac{8}{12}</m> could represent one person eatin 5 slices and another eating 3 slices meaning altogether they ate 8 slices.
+    So, in our first pizza example with 12 slices, the computation <m>\frac{5}{12} + \frac{3}{12} = \frac{8}{12}</m> could represent one person eating 5 slices and another eating 3 slices meaning altogether they ate 8 slices.
     We can simply add the number of slices up for a total, because the objects we're counting up are the same.
   </p>
   
   <p>
-    If the denominators are not the same, maybe slices from a large pizza and slices from a medium pizza, <m>\frac{5}{12} + \frac{3}{8} = ?</m>, then a total of 8 objects doesn't tell us what we want to know.
-    It would be equivalent to asking something like <q>If Jack has 5 bananas and Jill has 3 apples, what do they have alltogether?</q> 
+    If the denominators are not the same, maybe from large pizzas cut into a different number of slices, <m>\frac{5}{12} + \frac{3}{8} = ?</m>, then a total of 8 objects doesn't tell us what we want to know.
+    It would be equivalent to asking something like <q>If Jack has 5 bananas and Jill has 3 apples, what do they have altogether?</q> 
     They have 8 pieces of fruit altogether, but they have neither 8 apples nor 8 bananas nor 8 <q>banapples</q>! 
   </p>
 
@@ -558,7 +558,7 @@
       There are a few typical options for a <em>common denominator</em>, but as long as you've only used <xref ref="fact-equivalentfractions"/> and have denomintors that are equal, any option is fine.
     </p>
     <p>
-      A common <em>common denomintor</em> (<q>words are hard</q>) is simply the product of the denominotrs we start with.
+      A common <em>common denomintor</em> (<q>words are hard</q>) is simply the product of the denominators we start with.
       When we multiply the 12 in the denominator by 8, we must also do the same to the numerator to keep the fraction equivalent.
       Similarly, multiplying the 8 denominator by 12 will make the denominators match, but we need to again do the same to the numerator to keep the fractions equivalent.
       In written out steps, this would look like
@@ -618,7 +618,7 @@
         \frac{5}{12} + \frac{3}{8} = \frac{5 \cdot 2}{12 \cdot 2} + \frac{3 \cdot 3}{8 \cdot 3} = \frac{10}{24} + \frac{9}{24} = \frac{10+9}{24} = \frac{19}{24}
       </me>.
       This method will more often, but <alert>not always</alert>, end in an answer that is already reduced.
-      We can see from the reduced forms, that both methods produce equvalent fractions as the final answer.
+      We can see from the reduced forms, that both methods produce equivalent fractions as the final answer.
     </p>
   </solution>
 </example>
@@ -880,7 +880,7 @@
 </insight>
 
 <p>
-  In this case, that means we want to use facts that we know about know about division and check if a precedure gives us the correct result.
+  In this case, that means we want to use facts that we know about division and check if a procedure gives us the correct result.
   First, we should know that any non-zero number divided by itself is equal to 1. As long as I don't choose 0, I can be as whacky as I want to be with these numbers:
   <me>
     \frac{34}{47} \div \frac{34}{47} = \frac{34}{47} \cdot \frac{47}{34} = \frac{34 \cdot 47}{47 \cdot 34} = \frac{1598}{1598} = 1 \checkmark

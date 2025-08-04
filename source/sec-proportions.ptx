@@ -217,7 +217,7 @@
             </md>
         </p>
         <p>
-            It may not be obvious from teh above why this approach is in anyway streamlined.
+            It may not be obvious from the above why this approach is in anyway streamlined.
             We would need at least this many steps/proportion equations to make each of these unit convertions.
             However, with dimensional analysis, we can just keep multiplying all the fancy ones in a single computation:
             <md>

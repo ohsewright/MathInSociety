@@ -187,100 +187,158 @@ Remember, to enter a fraction of the form <m>\frac{a}{b}</m>, type a / b.
     <pg source="Library/PCC/BasicAlgebra/FractionArithmetic/DivideFractions20.pg"/>
   </webwork-reps>
   <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-8" ww-id="webwork-8">
-    <static seed="8" source="Library/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion60.pg">
-      <statement><p>Convert the following decimals into percentages:</p>
-<p><m>\displaystyle{ 0.09 = }</m> <fillin name="AnSwEr0001" characters="5"/></p>
-<p><m>\displaystyle{ 0.009 = }</m> <fillin name="AnSwEr0002" characters="5"/></p>
-<p><m>\displaystyle{ 0.0009 = }</m> <fillin name="AnSwEr0003" characters="5"/></p>
+    <static seed="8" source="Contrib/CCCS/AlgebraicLiteracy/Equations_of_Lines/Slope_1.pg">
+      <statement><p>Find the slope of the line that passes through the following points</p>
+<p><m>(8,-8)</m>  and  <m>(-3,10)</m>.</p>
+<p>Write your answer as an integer or fraction.</p>
+<p><fillin name="AnSwEr0001" characters="4"/></p>
 </statement>
       <answer>
         <p>
-          <m>9.00\%</m>
+          <m>-{\frac{18}{11}}</m>
+        </p>
+      </answer>
+      <solution><p>Slope can be computed by taking the change in y divided by the change in x:</p>
+<p><m>m = \frac{y_2 - y_1}{x_2 - x_1}</m></p>
+<p>I am going to let <m>x_1 = 8</m>, <m>y_1 = -8</m>, <m>x_2 = -3</m>, and <m>y_2 = 10</m>.  Plugging those numbers in my slope formula, I get:</p>
+<p><m>m = \frac{10  + 8}{-3 - 8}</m></p>
+<p><m>m = \frac{18}{-11}</m></p>
+<p><m>m = {-{\frac{18}{11}}}</m></p>
+<p><em>Note: I might have reduced my answer.</em></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Contrib/CCCS/AlgebraicLiteracy/Equations_of_Lines/Slope_1.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Contrib/CCCS/AlgebraicLiteracy/Equations_of_Lines/Slope_1.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-9" ww-id="webwork-9">
+    <static seed="9" source="Contrib/CCCS/AlgebraicLiteracy/Equations_of_Lines/Slope_2.pg">
+      <statement><p>Find the slope of the graphed line.</p>
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" width="66.6666666666667%" pi:generated="webwork/images/webwork-9-image-1.png"/>
+<p>The slope is <fillin name="AnSwEr0001" characters="6"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <solution><p>Slope can be computed by taking the change in y divided by the change in x.  This can also be thought of as:</p>
+<p><m>m = \frac{rise}{run}</m></p>
+<p>I notice the y-intercept is located at:</p>
+<p><m>( 0, 0 )</m></p>
+<p>To get to another point on the graph, I have to either:
+<ul label="disc">
+<li>
+<p>Move right 4 units and up 4 units, or</p>
+</li>
+<li>
+<p>Move left 4 units and down 4 units.</p>
+</li>
+</ul></p>
+<p>That makes the slope,</p>
+<p><m>m = \frac{4}{4}=\frac{-4}{-4}</m></p>
+<p><m>m = {1}</m></p>
+<p><em>Note: I might have reduced my answer.</em></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Contrib/CCCS/AlgebraicLiteracy/Equations_of_Lines/Slope_2.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Contrib/CCCS/AlgebraicLiteracy/Equations_of_Lines/Slope_2.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-10" ww-id="webwork-10">
+    <static seed="10" source="Library/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion60.pg">
+      <statement><p>Convert the following decimals into percentages:</p>
+<p><m>\displaystyle{ 0.02 = }</m> <fillin name="AnSwEr0001" characters="5"/></p>
+<p><m>\displaystyle{ 0.002 = }</m> <fillin name="AnSwEr0002" characters="5"/></p>
+<p><m>\displaystyle{ 0.0002 = }</m> <fillin name="AnSwEr0003" characters="5"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2.00\%</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>0.90\%</m>
+          <m>0.20\%</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>0.09\%</m>
+          <m>0.02\%</m>
         </p>
       </answer>
       <solution><p>To change a decimal to a percentage, we move the decimal point to the right twice.</p>
-<p><m>\displaystyle{ 0.09 = 9\% }</m></p>
-<p><m>\displaystyle{ 0.009 = 0.9\% }</m></p>
-<p><m>\displaystyle{ 0.0009 = 0.09\% }</m></p>
+<p><m>\displaystyle{ 0.02 = 2\% }</m></p>
+<p><m>\displaystyle{ 0.002 = 0.2\% }</m></p>
+<p><m>\displaystyle{ 0.0002 = 0.02\% }</m></p>
 </solution>
     </static>
     <server-data sourceFilePath="Library/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion60.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
     <pg source="Library/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion60.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-9" ww-id="webwork-9">
-    <static seed="9" source="Library/PCC/BasicAlgebra/NumberBasics/PercentOfNumber70.pg">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-11" ww-id="webwork-11">
+    <static seed="11" source="Library/PCC/BasicAlgebra/NumberBasics/PercentOfNumber70.pg">
       <statement><p>Fill in the blanks:</p>
 <p><ol label="a.">
 <li>
-<p><fillin name="AnSwEr0001" characters="7"/> is <m>98\%</m> of <m>300</m>?</p>
+<p><fillin name="AnSwEr0001" characters="7"/> is <m>30\%</m> of <m>100</m>?</p>
 </li>
 <li>
-<p><m>228.8</m> is <fillin name="AnSwEr0002" characters="6"/> <m>\%</m> of <m>440</m>?</p>
+<p><m>118.8</m> is <fillin name="AnSwEr0002" characters="6"/> <m>\%</m> of <m>330</m>?</p>
 </li>
 <li>
-<p><m>2960</m> is  <m>37\%</m> of <fillin name="AnSwEr0003" characters="6"/>?</p>
+<p><m>2886</m> is  <m>37\%</m> of <fillin name="AnSwEr0003" characters="6"/>?</p>
 </li>
 </ol></p>
 </statement>
       <answer>
         <p>
-          <m>294</m>
+          <m>30</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>52</m>
+          <m>36</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>8000</m>
+          <m>7800</m>
         </p>
       </answer>
       <solution><p>This translation from English to math may help you remember the percentage formula.</p>
 <p><m>2 \text{ is } 50\% \text{ of } 4 \iff 2 = 0.5 \cdot 4</m></p>
 <p><ol label="a.">
 <li>
-<p>What is <m>98\%</m> of <m>300</m>?</p>
+<p>What is <m>30\%</m> of <m>100</m>?</p>
 <p><m>\displaystyle{ \begin{aligned}
-      x \amp = 0.98 \cdot 300\\
-        \amp = {294} 
+      x \amp = 0.3 \cdot 100\\
+        \amp = {30} 
       \end{aligned}}</m></p>
-<p>So <m>{294}</m> is <m>98\%</m> of <m>300</m>.</p>
+<p>So <m>{30}</m> is <m>30\%</m> of <m>100</m>.</p>
 <!-- PTX:WARNING: PGML wanted to place a horizontal rule here. -->
 </li>
 <li>
-<p><m>228.8</m> is what <m>\%</m> of <m>440</m>?</p>
+<p><m>118.8</m> is what <m>\%</m> of <m>330</m>?</p>
 <p><m>\begin{aligned}
-  228.8 \amp =\frac{x}{100} \cdot 440 \\
-  100(228.8) \amp =100\cdot\frac{x}{100} \cdot 440 \\
-  22880 \amp =x \cdot 440 \\
-  \frac{22880}{440} \amp = \frac{x \cdot 440}{440} \\
-  {52} \amp = x\\
-  x \amp ={52}
+  118.8 \amp =\frac{x}{100} \cdot 330 \\
+  100(118.8) \amp =100\cdot\frac{x}{100} \cdot 330 \\
+  11880 \amp =x \cdot 330 \\
+  \frac{11880}{330} \amp = \frac{x \cdot 330}{330} \\
+  {36} \amp = x\\
+  x \amp ={36}
 \end{aligned}</m></p>
-<p>So <m>228.8</m> is <m>{52}\%</m> of <m>440</m>.</p>
+<p>So <m>118.8</m> is <m>{36}\%</m> of <m>330</m>.</p>
 <!-- PTX:WARNING: PGML wanted to place a horizontal rule here. -->
 </li>
 <li>
-<p><m>2960</m> is  <m>37\%</m> of what?</p>
+<p><m>2886</m> is  <m>37\%</m> of what?</p>
 <p><m>\begin{aligned}
-  2960 \amp = 0.37 \cdot x \\
-  \frac{2960}{0.37} \amp = \frac{0.37 \cdot x}{0.37} \\
-  {8000} \amp = x\\
-  x \amp  = {8000}
+  2886 \amp = 0.37 \cdot x \\
+  \frac{2886}{0.37} \amp = \frac{0.37 \cdot x}{0.37} \\
+  {7800} \amp = x\\
+  x \amp  = {7800}
 \end{aligned}</m></p>
-<p>So <m>2960</m> is <m>37\%</m> of <m>{8000}</m>.</p>
+<p>So <m>2886</m> is <m>37\%</m> of <m>{7800}</m>.</p>
 </li>
 </ol></p>
 </solution>
@@ -288,75 +346,75 @@ Remember, to enter a fraction of the form <m>\frac{a}{b}</m>, type a / b.
     <server-data sourceFilePath="Library/PCC/BasicAlgebra/NumberBasics/PercentOfNumber70.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
     <pg source="Library/PCC/BasicAlgebra/NumberBasics/PercentOfNumber70.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-10" ww-id="webwork-10">
-    <static seed="10" source="Library/NewHampshire/unh_schoolib/Percent/pctsrs201.pg">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-12" ww-id="webwork-12">
+    <static seed="12" source="Library/NewHampshire/unh_schoolib/Percent/pctsrs201.pg">
       <statement><p>Baseball batting averages are somewhat similar to percentages except that they
 are usually rounded to three decimal places and include the decimal point.  That is, if a player got 3 hits in 10 at bats then she had a hit <m>\frac {3}{10} = .300</m> of the times she was at bat. Her batting average is listed as .300 in the newspapers.</p>
-<p>a) If Fred got 12 hits in 50 times at bat, his batting average is <fillin name="AnSwEr0001" characters="3"/>.</p>
-<p>b) If Mary got 139 hits in 501 times at bat, her batting average is <fillin name="AnSwEr0002" characters="3"/>.</p>
-<p>If Mary got 139 hits in 501 times at bat, then she got</p>
+<p>a) If Fred got 14 hits in 50 times at bat, his batting average is <fillin name="AnSwEr0001" characters="3"/>.</p>
+<p>b) If Mary got 159 hits in 491 times at bat, her batting average is <fillin name="AnSwEr0002" characters="3"/>.</p>
+<p>If Mary got 159 hits in 491 times at bat, then she got</p>
 <p>hits <fillin name="AnSwEr0003" characters="3"/>% of the times she was at bat.</p>
 <p>Answer should be correct to 1 decimal place.</p>
-<p>Jack's batting average is 0.27.  He was at bat 148 times.  That means he
+<p>Jack's batting average is 0.297.  He was at bat 148 times.  That means he
 got <fillin name="AnSwEr0004" characters="3"/> hits.</p>
 </statement>
       <answer>
         <p>
-          <m>0.24</m>
+          <m>0.28</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>0.277445</m>
+          <m>0.323829</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>27.7</m>
+          <m>32.4</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>40</m>
+          <m>44</m>
         </p>
       </answer>
       <solution><p>SOLUTIONS
 In a) just divide  by 50 and round to three decimal places.</p>
-<p>Answer is 0.24.</p>
-<p>In b) divide  by 501 and round to three decimal places.</p>
-<p>Answer is 0.277445109780439.</p>
+<p>Answer is 0.28.</p>
+<p>In b) divide  by 491 and round to three decimal places.</p>
+<p>Answer is 0.323828920570265.</p>
 <p>In c) Your answer should be a percentage.  So multiply the decimal
 batting average in b) by 100.</p>
-<p>Answer is 27.7445109780439.</p>
+<p>Answer is 32.3828920570265.</p>
 <p>In d) since batting average is hits/(at bats), hits must be batting
 average times at bats,</p>
-<p>so multiply 0.27 by at bats and round the
+<p>so multiply 0.297 by at bats and round the
 answer to be an integer.</p>
 <p>You must round because the batting average
 is approximate since it is only calculated to 3 decimal places.</p>
-<p>Ans = 40.</p>
+<p>Ans = 44.</p>
 </solution>
     </static>
     <server-data sourceFilePath="Library/NewHampshire/unh_schoolib/Percent/pctsrs201.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
     <pg source="Library/NewHampshire/unh_schoolib/Percent/pctsrs201.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-11" ww-id="webwork-11">
-    <static seed="11" source="Library/NewHampshire/NECAP/grade7/gr7-2009/n7-2009-3s.pg">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-13" ww-id="webwork-13">
+    <static seed="13" source="Library/NewHampshire/NECAP/grade7/gr7-2009/n7-2009-3s.pg">
       <statement><p>Andrew spent $16 on gasoline last week.</p>
 <p>He will spend 25% more on gasoline this week than he did last week.</p>
 <p>How much will Andrew spend on gasoline this week? 
 <var form="buttons">
 <li>
-<p>$41</p>
+<p>$64</p>
 </li>
 <li>
 <p>$24</p>
 </li>
 <li>
-<p>$64</p>
+<p>$20</p>
 </li>
 <li>
-<p>$20</p>
+<p>$41</p>
 </li>
 </var></p>
 </statement>
@@ -367,38 +425,38 @@ is approximate since it is only calculated to 3 decimal places.</p>
     <server-data sourceFilePath="Library/NewHampshire/NECAP/grade7/gr7-2009/n7-2009-3s.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
     <pg source="Library/NewHampshire/NECAP/grade7/gr7-2009/n7-2009-3s.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-12" ww-id="webwork-12">
-    <static seed="12" source="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg">
-      <statement><p>Find an equivalent fraction to <m>\frac{3}{4}</m>:</p>
-<p><m>\displaystyle{ \frac{3}{4} = \frac{15}{?} }</m></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-14" ww-id="webwork-14">
+    <static seed="14" source="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg">
+      <statement><p>Find an equivalent fraction to <m>\frac{5}{6}</m>:</p>
+<p><m>\displaystyle{ \frac{5}{6} = \frac{20}{?} }</m></p>
 <p>The question mark should be the number <fillin name="AnSwEr0001" characters="8"/>.</p>
-</statement>
-      <answer>
-        <p>
-          <m>20</m>
-        </p>
-      </answer>
-      <solution><p>From <m>3</m> to <m>15</m>, we multiplied by <m>15\div3=5</m>.</p>
-<p>For a fraction, when we multiply the same number in both the numerator and denominator, the fraction<rsq/>s value doesn<rsq/>t change. We have:</p>
-<p><m>\displaystyle{ \frac{3}{4}=\frac{3\cdot5}{4\cdot5} = \frac{15}{20} }</m></p>
-</solution>
-    </static>
-    <server-data sourceFilePath="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
-    <pg source="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-13" ww-id="webwork-13">
-    <static seed="13" source="Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg">
-      <statement><p>Jeff bought 6 quarts of juice for a party.  One glass holds 8 fluid ounces of juice.</p>
-<p>The total number of glasses that Jeff can fill is <fillin name="AnSwEr0001" characters="3"/>. [1 quart = 32  fluid ounces]</p>
 </statement>
       <answer>
         <p>
           <m>24</m>
         </p>
       </answer>
+      <solution><p>From <m>5</m> to <m>20</m>, we multiplied by <m>20\div5=4</m>.</p>
+<p>For a fraction, when we multiply the same number in both the numerator and denominator, the fraction<rsq/>s value doesn<rsq/>t change. We have:</p>
+<p><m>\displaystyle{ \frac{5}{6}=\frac{5\cdot4}{6\cdot4} = \frac{20}{24} }</m></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-15" ww-id="webwork-15">
+    <static seed="15" source="Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg">
+      <statement><p>Jeff bought 7 quarts of juice for a party.  One glass holds 8 fluid ounces of juice.</p>
+<p>The total number of glasses that Jeff can fill is <fillin name="AnSwEr0001" characters="3"/>. [1 quart = 32  fluid ounces]</p>
+</statement>
+      <answer>
+        <p>
+          <m>28</m>
+        </p>
+      </answer>
       <solution><p>Solution</p>
 <p>Since each quart is 32 fluid ounces, it will fill four 8 ounce glasses.</p>
-<p>That means that 6 quarts will fill 24 glasses.</p>
+<p>That means that 7 quarts will fill 28 glasses.</p>
 </solution>
     </static>
     <server-data sourceFilePath="Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>

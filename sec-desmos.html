@@ -127,18 +127,30 @@ eBookConfig.enable_chatcodes =  false;
 <script src="_static/prefix-runtime.879b99e54406967d.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
 <style>
+#check-Desmoscomp-2-2 { counter-set: check-Desmoscomp-2-2 0; }
+#check-Desmoscomp-2-2 > li::marker { content: ""counter(check-Desmoscomp-2-2,decimal)"."; }
+#check-Desmoscomp-2-2 > li { counter-increment: check-Desmoscomp-2-2; }
+#check-Desmoscomp-3-3-1 { counter-set: check-Desmoscomp-3-3-1 0; }
+#check-Desmoscomp-3-3-1 > li::marker { content: ""counter(check-Desmoscomp-3-3-1,decimal)"."; }
+#check-Desmoscomp-3-3-1 > li { counter-increment: check-Desmoscomp-3-3-1; }
+#example-slope-points-2-1-1 { counter-set: example-slope-points-2-1-1 0; }
+#example-slope-points-2-1-1 > li::marker { content: "("counter(example-slope-points-2-1-1,lower-alpha)".)"; }
+#example-slope-points-2-1-1 > li { counter-increment: example-slope-points-2-1-1; }
+#example-slope-points-3-1-1 { counter-set: example-slope-points-3-1-1 0; }
+#example-slope-points-3-1-1 > li::marker { content: "("counter(example-slope-points-3-1-1,lower-alpha)".)"; }
+#example-slope-points-3-1-1 > li { counter-increment: example-slope-points-3-1-1; }
 #example-perc-dec-frac-1-1-1 { counter-set: example-perc-dec-frac-1-1-1 0; }
 #example-perc-dec-frac-1-1-1 > li::marker { content: "("counter(example-perc-dec-frac-1-1-1,lower-alpha)")"; }
 #example-perc-dec-frac-1-1-1 > li { counter-increment: example-perc-dec-frac-1-1-1; }
 #example-perc-dec-frac-2-1-1 { counter-set: example-perc-dec-frac-2-1-1 0; }
 #example-perc-dec-frac-2-1-1 > li::marker { content: "("counter(example-perc-dec-frac-2-1-1,lower-alpha)")"; }
 #example-perc-dec-frac-2-1-1 > li { counter-increment: example-perc-dec-frac-2-1-1; }
-#extracted-webwork-9-1-1-2-1 { counter-set: extracted-webwork-9-1-1-2-1 0; }
-#extracted-webwork-9-1-1-2-1 > li::marker { content: ""counter(extracted-webwork-9-1-1-2-1,lower-alpha)"."; }
-#extracted-webwork-9-1-1-2-1 > li { counter-increment: extracted-webwork-9-1-1-2-1; }
-#extracted-webwork-9-1-5-3-1 { counter-set: extracted-webwork-9-1-5-3-1 0; }
-#extracted-webwork-9-1-5-3-1 > li::marker { content: ""counter(extracted-webwork-9-1-5-3-1,lower-alpha)"."; }
-#extracted-webwork-9-1-5-3-1 > li { counter-increment: extracted-webwork-9-1-5-3-1; }
+#extracted-webwork-11-1-1-2-1 { counter-set: extracted-webwork-11-1-1-2-1 0; }
+#extracted-webwork-11-1-1-2-1 > li::marker { content: ""counter(extracted-webwork-11-1-1-2-1,lower-alpha)"."; }
+#extracted-webwork-11-1-1-2-1 > li { counter-increment: extracted-webwork-11-1-1-2-1; }
+#extracted-webwork-11-1-5-3-1 { counter-set: extracted-webwork-11-1-5-3-1 0; }
+#extracted-webwork-11-1-5-3-1 > li::marker { content: ""counter(extracted-webwork-11-1-5-3-1,lower-alpha)"."; }
+#extracted-webwork-11-1-5-3-1 > li { counter-increment: extracted-webwork-11-1-5-3-1; }
 #exercises-taxplan-6-5-1-1-1 { counter-set: exercises-taxplan-6-5-1-1-1 0; }
 #exercises-taxplan-6-5-1-1-1 > li::marker { content: "("counter(exercises-taxplan-6-5-1-1-1,lower-alpha)")"; }
 #exercises-taxplan-6-5-1-1-1 > li { counter-increment: exercises-taxplan-6-5-1-1-1; }
@@ -185,7 +197,14 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-QR.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is Quantitative Reasoning?</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-prob.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Problem Solving Strategies</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-graphs.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Intepreting Graphs</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-desmos.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Using Desmos</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-desmos.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Using Desmos</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-desmos.html#subsec-computations" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Basic Computations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-desmos.html#subsec-graphing" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Graphing</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-desmos.html#subsec-solveequations" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Solving Equations</span></a></div></li>
+</ul>
+</li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-spreadsheets.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Spreadsheets are your Friends</span></a></div></li>
 </ul>
 </li>
@@ -197,7 +216,10 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponents.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exponent Rules</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-roots.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Roots and Solving for the Base</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-logs.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Logarithms and Solving for the Power</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-lines.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Graphing and Solving Linear Equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-lines.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Graphing and Solving Linear Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-lines.html#exercises-lines" class="internal"><span class="codenumber">2.6</span> <span class="title">A Few Practice Exercises</span></a></div></li></ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -230,7 +252,6 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Linear Models</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Exponential Models</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-powers.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Power Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-wrapup.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Modeling Wrap-Up</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -262,7 +283,119 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-desmos"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">1.4</span><span class="space"> </span><span class="title">Using Desmos</span>
 </h2>
-<div class="para" id="sec-desmos-2">Text of section.</div></section></div>
+<section class="introduction" id="sec-desmos-2"><div class="para" id="sec-desmos-2-1">For numerical computations, graphing, solving equations, and exploratory investigations, we’ll use the free and very intuitive site Desmos. There are far more powerful mathematical tools out there, but Desmos is the best balance of power with user friendliness and cost, and it will help us all to be using the same tools.</div>
+<article class="heuristic theorem-like" id="heuristic-desmos-login"><h3 class="heading">
+<span class="type">Procedure</span><span class="space"> </span><span class="codenumber">1.4.1</span><span class="period">.</span><span class="space"> </span><span class="title">Login to Desmos.</span>
+</h3>
+<div class="para logical" id="heuristic-desmos-login-2-1"><ul class="disc" id="heuristic-desmos-login-2-1-1">
+<li id="heuristic-desmos-login-2-1-1-1"><div class="para" id="heuristic-desmos-login-2-1-1-1-1">Go to <a class="external" href="https://www.desmos.com/" target="_blank">desmos.com</a><details class="ptx-footnote" aria-live="polite" id="heuristic-desmos-login-2-1-1-1-1-2"><summary class="ptx-footnote__number" title="Footnote 1.4.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="heuristic-desmos-login-2-1-1-1-1-2"><code class="code-inline tex2jax_ignore">www.desmos.com/</code></div></details>.</div></li>
+<li id="heuristic-desmos-login-2-1-1-2"><div class="para" id="heuristic-desmos-login-2-1-1-2-1">In the upper right corner are buttons to Log In or Sign Up; create an account with your university email or log in if you already have one.</div></li>
+<li id="heuristic-desmos-login-2-1-1-3"><div class="para" id="heuristic-desmos-login-2-1-1-3-1">You’ll see many colorful squares linking to different tools. We will not need the Matrix option nor the the 3D option; ever!</div></li>
+<li id="heuristic-desmos-login-2-1-1-4"><div class="para" id="heuristic-desmos-login-2-1-1-4-1">The Scientific calculator or Four Function calculator may be easier to use, but you can also do all of any of those things in the Graphing mode, so go there.</div></li>
+</ul></div></article></section><section class="subsection" id="subsec-computations"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.4.1</span><span class="space"> </span><span class="title">Basic Computations</span>
+</h3>
+<div class="para" id="subsec-computations-2">You can use the graphing mode as a calculator for quick computations. If you’re really only doing computations, the scientific or four function calculutor may be more intuitive for you. But, it is convenient to have it all on one screen and once you practice a bit, typing computations out on the keyboard rather than searching for a button can be quicker. See the table below for a list of some mathematical operations that can be used in Desmos.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r1 l2 t2 lines">Math Operation</th>
+<th scope="col" class="l m b2 r1 l0 t2 lines">Keyboard Representation</th>
+<th scope="col" class="l m b2 r1 l0 t2 lines">Keyboard Location</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines" colspan="2">Example</th>
+</tr>
+<tr>
+<td class="l m b1 r1 l2 t0 lines">Addition</td>
+<td class="l m b1 r1 l0 t0 lines">+</td>
+<td class="l m b1 r1 l0 t0 lines">shift = (upper right)</td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(3+2\)</span></td>
+<td class="l m b1 r2 l0 t0 lines"><code class="code-inline tex2jax_ignore">3+2</code></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l2 t0 lines">Subtraction</td>
+<td class="l m b1 r1 l0 t0 lines">-</td>
+<td class="l m b1 r1 l0 t0 lines">- (upper right)</td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(6-1\)</span></td>
+<td class="l m b1 r2 l0 t0 lines"><code class="code-inline tex2jax_ignore">6-1</code></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l2 t0 lines">Multiplication</td>
+<td class="l m b1 r1 l0 t0 lines"><span class="times-sign">×</span></td>
+<td class="l m b1 r1 l0 t0 lines">shift 8</td>
+<td class="l m b1 r1 l0 t0 lines">5 <span class="times-sign">×</span> 4</td>
+<td class="l m b1 r2 l0 t0 lines"><code class="code-inline tex2jax_ignore">5*4</code></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l2 t0 lines">Division</td>
+<td class="l m b1 r1 l0 t0 lines">/</td>
+<td class="l m b1 r1 l0 t0 lines">/ (lower right)</td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(10 \div 2\)</span></td>
+<td class="l m b1 r2 l0 t0 lines"><code class="code-inline tex2jax_ignore">10/2</code></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l2 t0 lines">Exponent</td>
+<td class="l m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">^</code></td>
+<td class="l m b1 r1 l0 t0 lines">shift 6</td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(4^2\)</span></td>
+<td class="l m b1 r2 l0 t0 lines"><code class="code-inline tex2jax_ignore">4^2</code></td>
+</tr>
+<tr>
+<td class="l m b2 r1 l2 t0 lines">Square Root</td>
+<td class="l m b2 r1 l0 t0 lines">
+<code class="code-inline tex2jax_ignore">^.5</code> or sqrt</td>
+<td class="l m b2 r1 l0 t0 lines">shift 6 or letters</td>
+<td class="l m b2 r1 l0 t0 lines"><span class="process-math">\(\sqrt{16}\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">
+<code class="code-inline tex2jax_ignore">16^.5</code> or <code class="code-inline tex2jax_ignore">sqrt 16</code>
+</td>
+</tr>
+</table></div>
+<div class="para" id="subsec-computations-4">One can use the above operations to evaluate difficult expressions. For example, suppose we wish to know the value of <span class="process-math">\(1.5^3\text{.}\)</span> You can type this into Desmos as <code class="code-inline tex2jax_ignore">1.5^3</code> and the answer will be displayed below in a gray box. Try this for yourself. Your screen should match the one shown below:</div>
+<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/images/DesmosComputation.png" class="contained" alt="A simple computation with Desmos."></div>
+<article class="exercise exercise-like" id="check-Desmoscomp"><h4 class="heading">
+<span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">1.4.2</span><span class="period">.</span><span class="space"> </span><span class="title">Desmos Computations.</span>
+</h4>
+<div class="para" id="check-Desmoscomp-2-1">Use Desmos to compute the following:</div> <ol class="decimal" id="check-Desmoscomp-2-2">
+<li id="check-Desmoscomp-2-2-1"><div class="para" id="check-Desmoscomp-2-2-1-1"><span class="process-math">\(\displaystyle \frac{4}{193} - \frac{27}{8}\)</span></div></li>
+<li id="check-Desmoscomp-2-2-2"><div class="para" id="check-Desmoscomp-2-2-2-1"><span class="process-math">\(\displaystyle 1,945 \times 679\)</span></div></li>
+<li id="check-Desmoscomp-2-2-3"><div class="para" id="check-Desmoscomp-2-2-3-1"><span class="process-math">\(\displaystyle \frac{1,877}{45}\)</span></div></li>
+<li id="check-Desmoscomp-2-2-4"><div class="para" id="check-Desmoscomp-2-2-4-1"><span class="process-math">\(\displaystyle 18.9^{57}\)</span></div></li>
+<li id="check-Desmoscomp-2-2-5"><div class="para" id="check-Desmoscomp-2-2-5-1"><span class="process-math">\(\displaystyle \sqrt{14,161}\)</span></div></li>
+</ol>
+<div class="solutions"><details id="check-Desmoscomp-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="check-Desmoscomp-3-1">You should have something very similar to the picture below.</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/DesmosCompCheck.png" class="contained" alt="The answers for the above computations."></div>
+<div class="para logical" id="check-Desmoscomp-3-3">
+<div class="para">A few notes:</div>
+<ol class="decimal" id="check-Desmoscomp-3-3-1">
+<li id="check-Desmoscomp-3-3-1-1"><div class="para" id="check-Desmoscomp-3-3-1-1-1">When you are done typing a fraction, you’ll likely need to use the right arrow to move back to a regular line, rather than continuing to type in the denominator; <span class="process-math">\(\frac{4}{193} - \frac{27}{8} \neq \frac{4}{193 - \frac{27}{8}}\)</span> The circle on the left with a “fraction of squares” image has been clicked. This presents the answer as a (reduced) fraction.</div></li>
+<li id="check-Desmoscomp-3-3-1-2"><div class="para" id="check-Desmoscomp-3-3-1-2-1">The commas that appear between every three digits should not be entered into Desmos; you’ll get an error because it thinks you want to enter coordinates for a point on the graph. You can see how it “clumps” three digits together with a bit of space between to help our eyes take in the multidigit numbers.</div></li>
+<li id="check-Desmoscomp-3-3-1-3"><div class="para" id="check-Desmoscomp-3-3-1-3-1">You can also type <code class="code-inline tex2jax_ignore">frac</code> to get the division line to show up and use the up and down arrows to go between the numerator and denominator.</div></li>
+<li id="check-Desmoscomp-3-3-1-4"><div class="para" id="check-Desmoscomp-3-3-1-4-1">This is the sort of answer you’ll get for large numbers. This is scientific notation and the <span class="process-math">\(\times 10^72\)</span> indicates that we can move the decimal point 72 places to the right. Your handheld calculator or phone calculator may use a lower case or backward ‘E’ to indicate the same thing.</div></li>
+<li id="check-Desmoscomp-3-3-1-5"><div class="para" id="check-Desmoscomp-3-3-1-5-1">An exponent of <span class="process-math">\(0.5 = \frac{1}{2}\)</span> is the same thing as taking the square root of a number. You can enter this as an exponent or type <code class="code-inline tex2jax_ignore">sqrt</code> and the square root symbol will appear.</div></li>
+</ol>
+</div>
+</div></details></div></article></section><section class="subsection" id="subsec-graphing"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.4.2</span><span class="space"> </span><span class="title">Graphing</span>
+</h3>
+<div class="para" id="subsec-graphing-2">Graphing equations in Desmos is also straight forward. Try typing <code class="code-inline tex2jax_ignore">y=2x+5</code> into a box on the left. As you type a graph will appear on the right and change. Once you’re done it should look like this:</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/DesmosEasyPlot.png" class="contained" alt="A plot of a line."></div>
+<div class="para" id="subsec-graphing-4">You may end up with a different color. You can adjust this with the colorful circle with the wavy line to the left of the equation. You can choose from six colors and three solid/dashed/dotted options as well as specific the thickness.</div>
+<div class="para" id="subsec-graphing-5">You can have multiple equations plotted on the same grid. Try plotting <span class="process-math">\(y = 2\left(\frac{3}{4}\right)^x\text{.}\)</span> When an equation is highlighted (or your cursor is in the box), Desmos will show you the intersections of that plot and the axes or any other plot. If you hover over the dots, the coordiates of the point will be displayed.</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/DesmosIntersection.png" class="contained" alt="A linear and exponential graph intersect."></div>
+<div class="para" id="subsec-graphing-7">The above can be done with a graphing calculator, although the display is probably not as nice. But, Desmos is much more handy for investigating graphs. We might wonder what the 2 in our first plot or the <span class="process-math">\(\frac{3}{4}\)</span> in the second plot do. We could of course change them and see what happens to the graph, or we can do it all together with a <dfn class="terminology">slider</dfn>.</div>
+<div class="para" id="subsec-graphing-8">Put your cursor between the 2 and the <span class="process-math">\(x\)</span> in the first equation. Delete the 2 and type ‘<span class="process-math">\(m\)</span>’. You’ll get an error icon and an option to “add slider:” with a blue box with an <span class="process-math">\(m\)</span> in it. Click on the blue box. You’ll get an extra row/box in your list on the left with a slider in it. You can move the bubble back and forth, hit the play button, and adjust the range and step size of the slider. Try it!</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/DesmosSlider.png" class="contained" alt="The resulting slider."></div>
+<article class="exercise exercise-like" id="check-slider"><h4 class="heading">
+<span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">1.4.3</span><span class="period">.</span><span class="space"> </span><span class="title">Try Your Own Slider.</span>
+</h4>
+<div class="para" id="check-slider-2-1">Replace the <span class="process-math">\(\frac{3}{4}\)</span> in the other equation with a slider. Call it <span class="process-math">\(a\text{.}\)</span>
+</div></article><div class="para" id="subsec-graphing-11">Now, add a slider called <span class="process-math">\(b\)</span> in place of the 7 in your first equation. Change the range so that you can make <span class="process-math">\(b\)</span> at least 20. What happens?</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/DesmosWindowProblem.png" class="contained" alt="Two plots that intersect outside the viewable window."></div>
+<div class="para" id="subsec-graphing-13">We can no longer see where the two graphs intersect. (You may need to change your <span class="process-math">\(a\)</span> slider back to around 0.75 to get a similar picture.) Depending on your computer and the settings, you can move the window around (try clicking and dragging), or zoom in and out either with whatever mouse/trackpad move you use to scroll or using the <code class="code-inline tex2jax_ignore">+</code> and <code class="code-inline tex2jax_ignore">-</code> buttons. For more control, use the wrench icon in the upper right. This will let you specify the window in both the <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span>-directions as well as adjust grid lines and appearance. This is also where you can label the axes. Maybe this graph represents the size of a population over time. If we’re just investigating, labels and pretty graphs are not as important. But, if we’re including them in a project report, they should be as clear as possible.</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/DesmosWrench.png" class="contained" alt="Using the wrench icon to adjust the picture."></div></section><section class="subsection" id="subsec-solveequations"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.4.3</span><span class="space"> </span><span class="title">Solving Equations</span>
+</h3>
+<div class="para" id="subsec-solveequations-2">The last use we’ll try out in this section is using Desmos to solve equations.</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-graphs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-spreadsheets.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

@@ -3,6 +3,278 @@
 <section xml:id="sec-desmos" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Using Desmos</title>
 
-  <p> Text of section. </p>
+  <introduction>
+    <p>
+      For numerical computations, graphing, solving equations, and exploratory investigations, we'll use the free and very intuitive site Desmos.
+      There are far more powerful mathematical tools out there, but Desmos is the best balance of power with user friendliness and cost, and it will help us all to be using the same tools.
+    </p>
+
+    <heuristic xml:id="heuristic-desmos-login">
+    <title>Login to Desmos</title>
+    
+      <statement>
+        <p>
+          <ul>
+            <li>
+              <p>
+                Go to <url href="https://www.desmos.com/">desmos.com</url>.
+              </p>
+            </li>
+            <li>
+              <p>
+                In the upper right corner are buttons to Log In or Sign Up; create an account with your university email or log in if you already have one.
+              </p>
+            </li>
+            <li>
+              <p>
+                You'll see many colorful squares linking to different tools. We will not need the Matrix option nor the the 3D option; ever!
+              </p>
+            </li>
+            <li>
+              <p>
+                The Scientific calculator or Four Function calculator may be easier to use, but you can also do all of any of those things in the Graphing mode, so go there.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+    </heuristic>
+  </introduction>  
+
+  <subsection xml:id="subsec-computations">
+    <title>Basic Computations</title>
+
+  <p>
+    You can use the graphing mode as a calculator for quick computations. If you're really only doing computations, the scientific or four function calculutor may be more intuitive for you.
+    But, it is convenient to have it all on one screen and once you practice a bit, typing computations out on the keyboard rather than searching for a button can be quicker.
+    See the table below for a list of some mathematical operations that can be used in Desmos.
+  </p>
+  <tabular>
+    <col top="medium" right="minor"></col>
+    <col top="medium" right="minor"></col>
+    <col top="medium" right="minor"></col>
+    <col top="medium" right="minor"></col>
+    <col top="medium" right="medium"></col>
+    <row header="yes" bottom="medium" left="medium">
+      <cell>Math Operation</cell>
+      <cell>Keyboard Representation</cell>
+      <cell>Keyboard Location</cell>
+      <cell colspan="2">Example</cell>
+    </row>
+    <row bottom="minor" left="medium">
+      <cell>Addition</cell>
+      <cell>+</cell>
+      <cell>shift = (upper right)</cell>
+      <cell><m>3+2</m></cell>
+      <cell><c>3+2</c></cell>
+    </row>
+    <row bottom="minor" left="medium">
+      <cell>Subtraction</cell>
+      <cell>-</cell>
+      <cell>- (upper right)</cell>
+      <cell><m>6-1</m></cell>
+      <cell><c>6-1</c></cell>
+    </row>
+    <row bottom="minor" left="medium">
+      <cell>Multiplication</cell>
+      <cell><times/></cell>
+      <cell>shift 8</cell>
+      <cell>5 <times/> 4</cell>
+      <cell><c>5*4</c> </cell>
+    </row>
+    <row bottom="minor" left="medium">
+      <cell>Division</cell>
+      <cell>/</cell>
+      <cell>/ (lower right)</cell>
+      <cell><m>10 \div 2</m></cell>
+      <cell><c>10/2</c> </cell>
+    </row>
+    <row bottom="minor" left="medium">
+      <cell>Exponent</cell>
+      <cell><c>^</c></cell>
+      <cell>shift 6</cell>
+      <cell><m>4^2</m></cell>
+      <cell><c>4^2</c> </cell>
+    </row>
+    <row bottom="medium" left="medium">
+      <cell>Square Root</cell>
+      <cell><c>^.5</c> or sqrt</cell>
+      <cell>shift 6 or letters</cell>
+      <cell><m>\sqrt{16}</m></cell>
+      <cell><c>16^.5</c> or <c>sqrt 16</c></cell>
+    </row>
+  </tabular>
+  <p>
+    One can use the above operations to evaluate difficult expressions.
+    For example, suppose we wish to know the value of <m>1.5^3</m>.
+    You can type this into Desmos as <c>1.5^3</c> and the answer will be displayed below in a gray box. Try this for yourself.
+    Your screen should match the one shown below:
+  </p>
+  <image source="images/DesmosComputation.png" width="80%" >
+    <shortdescription>A simple computation with Desmos.</shortdescription>
+  </image>
+
+  <exercise xml:id="check-Desmoscomp">
+  <title>Desmos Computations</title>
+    <statement>
+      <p>
+        Use Desmos to compute the following:
+      </p>
+      <ol>
+        <li>
+          <p>
+            <m>\frac{4}{193} - \frac{27}{8}</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>1,945 \times 679</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\frac{1,877}{45}</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>18.9^{57}</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\sqrt{14,161}</m>
+          </p>
+        </li>
+      </ol>
+    </statement>  
+    <solution>
+      <p>
+        You should have something very similar to the picture below.
+      </p>
+      <image source="images/DesmosCompCheck.png">
+        <shortdescription>The answers for the above computations.</shortdescription>
+      </image>
+      <p>
+        A few notes:
+        <ol>
+          <li>
+            <p>
+              When you are done typing a fraction, you'll likely need to use the right arrow to move back to a regular line, rather than continuing to type in the denominator; <m>\frac{4}{193} - \frac{27}{8} \neq \frac{4}{193 - \frac{27}{8}}</m>
+              The circle on the left with a <q>fraction of squares</q> image has been clicked. This presents the answer as a (reduced) fraction.
+            </p>
+          </li>
+          <li>
+            <p>
+              The commas that appear between every three digits should not be entered into Desmos; you'll get an error because it thinks you want to enter coordinates for a point on the graph.
+              You can see how it <q>clumps</q> three digits together with a bit of space between to help our eyes take in the multidigit numbers.
+            </p>
+          </li>
+          <li>
+            <p>
+              You can also type <c>frac</c> to get the division line to show up and use the up and down arrows to go between the numerator and denominator.
+            </p>
+          </li>
+          <li>
+            <p>
+              This is the sort of answer you'll get for large numbers. This is scientific notation and the <m>\times 10^72</m> indicates that we can move the decimal point 72 places to the right.
+              Your handheld calculator or phone calculator may use a lower case or backward <sq>E</sq> to indicate the same thing.
+            </p>
+          </li>
+          <li>
+            <p>
+              An exponent of <m>0.5 = \frac{1}{2}</m> is the same thing as taking the square root of a number.
+              You can enter this as an exponent or type <c>sqrt</c> and the square root symbol will appear.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </solution>
+  </exercise>
+</subsection>
+
+<subsection xml:id="subsec-graphing">
+  <title>Graphing</title>
+  
+  <p>
+    Graphing equations in Desmos is also straight forward. Try typing <c>y=2x+5</c> into a box on the left.
+    As you type a graph will appear on the right and change. Once you're done it should look like this:
+  </p>
+  <image source="images/DesmosEasyPlot.png">
+    <shortdescription>A plot of a line.</shortdescription>
+  </image>
+  <p>
+    You may end up with a different color. You can adjust this with the colorful circle with the wavy line to the left of the equation.
+    You can choose from six colors and three solid/dashed/dotted options as well as specific the thickness.
+  </p>
+  <p>
+    You can have multiple equations plotted on the same grid.
+    Try plotting <m>y = 2\left(\frac{3}{4}\right)^x</m>.
+    When an equation is highlighted (or your cursor is in the box), Desmos will show you the intersections of that plot and the axes or any other plot.
+    If you hover over the dots, the coordiates of the point will be displayed.
+  </p>
+  <image source="images/DesmosIntersection.png">
+    <shortdescription>A linear and exponential graph intersect.</shortdescription>
+  </image>
+
+  <p>
+    The above can be done with a graphing calculator, although the display is probably not as nice.
+    But, Desmos is much more handy for investigating graphs.
+    We might wonder what the 2 in our first plot or the <m>\frac{3}{4}</m> in the second plot do.
+    We could of course change them and see what happens to the graph, or we can do it all together with a <term>slider</term><idx><h>slider</h></idx>.
+  </p>
+  <p>
+    Put your cursor between the 2 and the <m>x</m> in the first equation.
+    Delete the 2 and type <sq><m>m</m></sq>.
+    You'll get an error icon and an option to <q>add slider: </q> with a blue box with an <m>m</m> in it.
+    Click on the blue box.
+    You'll get an extra row/box in your list on the left with a slider in it.
+    You can move the bubble back and forth, hit the play button, and adjust the range and step size of the slider. Try it!
+  </p>
+  <image source="images/DesmosSlider.png" width="50%">
+    <shortdescription>The resulting slider.</shortdescription>
+  </image>
+
+  <exercise xml:id="check-slider">
+  <title>Try Your Own Slider</title>
+    <statement>
+      <p>
+        Replace the <m>\frac{3}{4}</m> in the other equation with a slider. Call it <m>a</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <p>
+    Now, add a slider called <m>b</m> in place of the 7 in your first equation.
+    Change the range so that you can make <m>b</m> at least 20.
+    What happens?
+  </p>
+  <image source="images/DesmosWindowProblem.png">
+    <shortdescription>Two plots that intersect outside the viewable window.</shortdescription>
+  </image>
+  <p>
+    We can no longer see where the two graphs intersect. (You may need to change your <m>a</m> slider back to around 0.75 to get a similar picture.)
+    Depending on your computer and the settings, you can move the window around (try clicking and dragging), or zoom in and out either with whatever mouse/trackpad move you use to scroll or using the <c>+</c> and <c>-</c> buttons.
+    For more control, use the wrench icon in the upper right.
+    This will let you specify the window in both the <m>x</m> and <m>y</m>-directions as well as adjust grid lines and appearance.
+    This is also where you can label the axes.
+    Maybe this graph represents the size of a population over time. 
+    If we're just investigating, labels and pretty graphs are not as important. But, if we're including them in a project report, they should be as clear as possible.
+  </p>
+  <image source="images/DesmosWrench.png">
+    <shortdescription>Using the wrench icon to adjust the picture.</shortdescription>
+  </image>
+
+</subsection>
+
+<subsection xml:id="subsec-solveequations">
+<title>Solving Equations</title>
+
+  <p>
+    The last use we'll try out in this section is using Desmos to solve equations.
+  </p>
+  
+</subsection>
+
 
 </section>

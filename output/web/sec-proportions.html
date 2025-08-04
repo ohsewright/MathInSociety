@@ -127,18 +127,30 @@ eBookConfig.enable_chatcodes =  false;
 <script src="_static/prefix-runtime.879b99e54406967d.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
 <style>
+#check-Desmoscomp-2-2 { counter-set: check-Desmoscomp-2-2 0; }
+#check-Desmoscomp-2-2 > li::marker { content: ""counter(check-Desmoscomp-2-2,decimal)"."; }
+#check-Desmoscomp-2-2 > li { counter-increment: check-Desmoscomp-2-2; }
+#check-Desmoscomp-3-3-1 { counter-set: check-Desmoscomp-3-3-1 0; }
+#check-Desmoscomp-3-3-1 > li::marker { content: ""counter(check-Desmoscomp-3-3-1,decimal)"."; }
+#check-Desmoscomp-3-3-1 > li { counter-increment: check-Desmoscomp-3-3-1; }
+#example-slope-points-2-1-1 { counter-set: example-slope-points-2-1-1 0; }
+#example-slope-points-2-1-1 > li::marker { content: "("counter(example-slope-points-2-1-1,lower-alpha)".)"; }
+#example-slope-points-2-1-1 > li { counter-increment: example-slope-points-2-1-1; }
+#example-slope-points-3-1-1 { counter-set: example-slope-points-3-1-1 0; }
+#example-slope-points-3-1-1 > li::marker { content: "("counter(example-slope-points-3-1-1,lower-alpha)".)"; }
+#example-slope-points-3-1-1 > li { counter-increment: example-slope-points-3-1-1; }
 #example-perc-dec-frac-1-1-1 { counter-set: example-perc-dec-frac-1-1-1 0; }
 #example-perc-dec-frac-1-1-1 > li::marker { content: "("counter(example-perc-dec-frac-1-1-1,lower-alpha)")"; }
 #example-perc-dec-frac-1-1-1 > li { counter-increment: example-perc-dec-frac-1-1-1; }
 #example-perc-dec-frac-2-1-1 { counter-set: example-perc-dec-frac-2-1-1 0; }
 #example-perc-dec-frac-2-1-1 > li::marker { content: "("counter(example-perc-dec-frac-2-1-1,lower-alpha)")"; }
 #example-perc-dec-frac-2-1-1 > li { counter-increment: example-perc-dec-frac-2-1-1; }
-#extracted-webwork-9-1-1-2-1 { counter-set: extracted-webwork-9-1-1-2-1 0; }
-#extracted-webwork-9-1-1-2-1 > li::marker { content: ""counter(extracted-webwork-9-1-1-2-1,lower-alpha)"."; }
-#extracted-webwork-9-1-1-2-1 > li { counter-increment: extracted-webwork-9-1-1-2-1; }
-#extracted-webwork-9-1-5-3-1 { counter-set: extracted-webwork-9-1-5-3-1 0; }
-#extracted-webwork-9-1-5-3-1 > li::marker { content: ""counter(extracted-webwork-9-1-5-3-1,lower-alpha)"."; }
-#extracted-webwork-9-1-5-3-1 > li { counter-increment: extracted-webwork-9-1-5-3-1; }
+#extracted-webwork-11-1-1-2-1 { counter-set: extracted-webwork-11-1-1-2-1 0; }
+#extracted-webwork-11-1-1-2-1 > li::marker { content: ""counter(extracted-webwork-11-1-1-2-1,lower-alpha)"."; }
+#extracted-webwork-11-1-1-2-1 > li { counter-increment: extracted-webwork-11-1-1-2-1; }
+#extracted-webwork-11-1-5-3-1 { counter-set: extracted-webwork-11-1-5-3-1 0; }
+#extracted-webwork-11-1-5-3-1 > li::marker { content: ""counter(extracted-webwork-11-1-5-3-1,lower-alpha)"."; }
+#extracted-webwork-11-1-5-3-1 > li { counter-increment: extracted-webwork-11-1-5-3-1; }
 #exercises-taxplan-6-5-1-1-1 { counter-set: exercises-taxplan-6-5-1-1-1 0; }
 #exercises-taxplan-6-5-1-1-1 > li::marker { content: "("counter(exercises-taxplan-6-5-1-1-1,lower-alpha)")"; }
 #exercises-taxplan-6-5-1-1-1 > li { counter-increment: exercises-taxplan-6-5-1-1-1; }
@@ -185,7 +197,14 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-QR.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is Quantitative Reasoning?</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-prob.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Problem Solving Strategies</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-graphs.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Intepreting Graphs</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-desmos.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Using Desmos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-desmos.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Using Desmos</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-desmos.html#subsec-computations" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Basic Computations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-desmos.html#subsec-graphing" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Graphing</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-desmos.html#subsec-solveequations" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Solving Equations</span></a></div></li>
+</ul>
+</li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-spreadsheets.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Spreadsheets are your Friends</span></a></div></li>
 </ul>
 </li>
@@ -197,7 +216,10 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponents.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exponent Rules</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-roots.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Roots and Solving for the Base</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-logs.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Logarithms and Solving for the Power</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-lines.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Graphing and Solving Linear Equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-lines.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Graphing and Solving Linear Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-lines.html#exercises-lines" class="internal"><span class="codenumber">2.6</span> <span class="title">A Few Practice Exercises</span></a></div></li></ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
@@ -230,7 +252,6 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Linear Models</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Exponential Models</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-powers.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Power Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-wrapup.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Modeling Wrap-Up</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -297,17 +318,17 @@ eBookConfig.enable_chatcodes =  false;
 </div></details></div></article><article class="exercise exercise-like" id="check-propeq"><h3 class="heading">
 <span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">3.2.5</span><span class="period">.</span><span class="space"> </span><span class="title">Solve a Proportion Equation.</span>
 </h3>
-<div id="webwork-12" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="12" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-12')">Activate</button></div>
+<div id="webwork-14" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="14" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-14')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-webwork-12-1-1-1">Find an equivalent fraction to <span class="process-math">\(\frac{3}{4}\text{:}\)</span>
-</div> <div class="para" id="extracted-webwork-12-1-1-2"><span class="process-math">\(\displaystyle{ \frac{3}{4} = \frac{15}{?} }\)</span></div> <div class="para" id="extracted-webwork-12-1-1-3">The question mark should be the number <span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span>.</div>
+<div class="para" id="extracted-webwork-14-1-1-1">Find an equivalent fraction to <span class="process-math">\(\frac{5}{6}\text{:}\)</span>
+</div> <div class="para" id="extracted-webwork-14-1-1-2"><span class="process-math">\(\displaystyle{ \frac{5}{6} = \frac{20}{?} }\)</span></div> <div class="para" id="extracted-webwork-14-1-1-3">The question mark should be the number <span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span>.</div>
 <div class="solutions">
-<details id="extracted-webwork-12-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-12-1-2-1"><span class="process-math">\(20\)</span></div></div></details><details id="extracted-webwork-12-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="extracted-webwork-12-1-3-1">From <span class="process-math">\(3\)</span> to <span class="process-math">\(15\text{,}\)</span> we multiplied by <span class="process-math">\(15\div3=5\text{.}\)</span>
+<details id="extracted-webwork-14-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-14-1-2-1"><span class="process-math">\(24\)</span></div></div></details><details id="extracted-webwork-14-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="extracted-webwork-14-1-3-1">From <span class="process-math">\(5\)</span> to <span class="process-math">\(20\text{,}\)</span> we multiplied by <span class="process-math">\(20\div5=4\text{.}\)</span>
 </div>
-<div class="para" id="extracted-webwork-12-1-3-2">For a fraction, when we multiply the same number in both the numerator and denominator, the fraction’s value doesn’t change. We have:</div>
-<div class="para" id="extracted-webwork-12-1-3-3"><span class="process-math">\(\displaystyle{ \frac{3}{4}=\frac{3\cdot5}{4\cdot5} = \frac{15}{20} }\)</span></div>
+<div class="para" id="extracted-webwork-14-1-3-2">For a fraction, when we multiply the same number in both the numerator and denominator, the fraction’s value doesn’t change. We have:</div>
+<div class="para" id="extracted-webwork-14-1-3-3"><span class="process-math">\(\displaystyle{ \frac{5}{6}=\frac{5\cdot4}{6\cdot4} = \frac{20}{24} }\)</span></div>
 </div></details>
 </div>
 </div>
@@ -498,15 +519,15 @@ x \amp = \frac{27}{2} = 13\frac{1}{2}
 </div></article><article class="exercise exercise-like" id="check-unit_conversion"><h3 class="heading">
 <span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">3.2.11</span><span class="period">.</span>
 </h3>
-<div id="webwork-13" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="13" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-13')">Activate</button></div>
+<div id="webwork-15" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="15" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-15')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-webwork-13-1-1-1">Jeff bought 6 quarts of juice for a party.  One glass holds 8 fluid ounces of juice.</div> <div class="para" id="extracted-webwork-13-1-1-2">The total number of glasses that Jeff can fill is <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span>. [1 quart = 32  fluid ounces]</div>
+<div class="para" id="extracted-webwork-15-1-1-1">Jeff bought 7 quarts of juice for a party.  One glass holds 8 fluid ounces of juice.</div> <div class="para" id="extracted-webwork-15-1-1-2">The total number of glasses that Jeff can fill is <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span>. [1 quart = 32  fluid ounces]</div>
 <div class="solutions">
-<details id="extracted-webwork-13-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-13-1-2-1"><span class="process-math">\(24\)</span></div></div></details><details id="extracted-webwork-13-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="extracted-webwork-13-1-3-1">Solution</div>
-<div class="para" id="extracted-webwork-13-1-3-2">Since each quart is 32 fluid ounces, it will fill four 8 ounce glasses.</div>
-<div class="para" id="extracted-webwork-13-1-3-3">That means that 6 quarts will fill 24 glasses.</div>
+<details id="extracted-webwork-15-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-15-1-2-1"><span class="process-math">\(28\)</span></div></div></details><details id="extracted-webwork-15-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="extracted-webwork-15-1-3-1">Solution</div>
+<div class="para" id="extracted-webwork-15-1-3-2">Since each quart is 32 fluid ounces, it will fill four 8 ounce glasses.</div>
+<div class="para" id="extracted-webwork-15-1-3-3">That means that 7 quarts will fill 28 glasses.</div>
 </div></details>
 </div>
 </div>

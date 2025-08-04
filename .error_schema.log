@@ -1,5 +1,5 @@
-/Users/swright8/Desktop/MathInSociety/source/main.ptx:174:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element blockquote, got p
+/Users/swright8/Desktop/MathInSociety/source/main.ptx:36:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element biography, got colophon
+/Users/swright8/Desktop/MathInSociety/source/main.ptx:4:0:ERROR:RELAXNGV:RELAXNG_ERR_NOTELEM: Expecting an element got text
 /Users/swright8/Desktop/MathInSociety/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element chapter has extra content: section
 /Users/swright8/Desktop/MathInSociety/source/main.ptx:9:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element subtitle there
-/Users/swright8/Desktop/MathInSociety/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element book has extra content: chapter
-/Users/swright8/Desktop/MathInSociety/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext
+/Users/swright8/Desktop/MathInSociety/source/main.ptx:7:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content

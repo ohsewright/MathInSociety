@@ -127,18 +127,30 @@ eBookConfig.enable_chatcodes =  false;
 <script src="_static/prefix-runtime.879b99e54406967d.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
 <style>
+#check-Desmoscomp-2-2 { counter-set: check-Desmoscomp-2-2 0; }
+#check-Desmoscomp-2-2 > li::marker { content: ""counter(check-Desmoscomp-2-2,decimal)"."; }
+#check-Desmoscomp-2-2 > li { counter-increment: check-Desmoscomp-2-2; }
+#check-Desmoscomp-3-3-1 { counter-set: check-Desmoscomp-3-3-1 0; }
+#check-Desmoscomp-3-3-1 > li::marker { content: ""counter(check-Desmoscomp-3-3-1,decimal)"."; }
+#check-Desmoscomp-3-3-1 > li { counter-increment: check-Desmoscomp-3-3-1; }
+#example-slope-points-2-1-1 { counter-set: example-slope-points-2-1-1 0; }
+#example-slope-points-2-1-1 > li::marker { content: "("counter(example-slope-points-2-1-1,lower-alpha)".)"; }
+#example-slope-points-2-1-1 > li { counter-increment: example-slope-points-2-1-1; }
+#example-slope-points-3-1-1 { counter-set: example-slope-points-3-1-1 0; }
+#example-slope-points-3-1-1 > li::marker { content: "("counter(example-slope-points-3-1-1,lower-alpha)".)"; }
+#example-slope-points-3-1-1 > li { counter-increment: example-slope-points-3-1-1; }
 #example-perc-dec-frac-1-1-1 { counter-set: example-perc-dec-frac-1-1-1 0; }
 #example-perc-dec-frac-1-1-1 > li::marker { content: "("counter(example-perc-dec-frac-1-1-1,lower-alpha)")"; }
 #example-perc-dec-frac-1-1-1 > li { counter-increment: example-perc-dec-frac-1-1-1; }
 #example-perc-dec-frac-2-1-1 { counter-set: example-perc-dec-frac-2-1-1 0; }
 #example-perc-dec-frac-2-1-1 > li::marker { content: "("counter(example-perc-dec-frac-2-1-1,lower-alpha)")"; }
 #example-perc-dec-frac-2-1-1 > li { counter-increment: example-perc-dec-frac-2-1-1; }
-#extracted-webwork-9-1-1-2-1 { counter-set: extracted-webwork-9-1-1-2-1 0; }
-#extracted-webwork-9-1-1-2-1 > li::marker { content: ""counter(extracted-webwork-9-1-1-2-1,lower-alpha)"."; }
-#extracted-webwork-9-1-1-2-1 > li { counter-increment: extracted-webwork-9-1-1-2-1; }
-#extracted-webwork-9-1-5-3-1 { counter-set: extracted-webwork-9-1-5-3-1 0; }
-#extracted-webwork-9-1-5-3-1 > li::marker { content: ""counter(extracted-webwork-9-1-5-3-1,lower-alpha)"."; }
-#extracted-webwork-9-1-5-3-1 > li { counter-increment: extracted-webwork-9-1-5-3-1; }
+#extracted-webwork-11-1-1-2-1 { counter-set: extracted-webwork-11-1-1-2-1 0; }
+#extracted-webwork-11-1-1-2-1 > li::marker { content: ""counter(extracted-webwork-11-1-1-2-1,lower-alpha)"."; }
+#extracted-webwork-11-1-1-2-1 > li { counter-increment: extracted-webwork-11-1-1-2-1; }
+#extracted-webwork-11-1-5-3-1 { counter-set: extracted-webwork-11-1-5-3-1 0; }
+#extracted-webwork-11-1-5-3-1 > li::marker { content: ""counter(extracted-webwork-11-1-5-3-1,lower-alpha)"."; }
+#extracted-webwork-11-1-5-3-1 > li { counter-increment: extracted-webwork-11-1-5-3-1; }
 #exercises-taxplan-6-5-1-1-1 { counter-set: exercises-taxplan-6-5-1-1-1 0; }
 #exercises-taxplan-6-5-1-1-1 > li::marker { content: "("counter(exercises-taxplan-6-5-1-1-1,lower-alpha)")"; }
 #exercises-taxplan-6-5-1-1-1 > li { counter-increment: exercises-taxplan-6-5-1-1-1; }
@@ -185,7 +197,14 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-QR.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is Quantitative Reasoning?</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-prob.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Problem Solving Strategies</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-graphs.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Intepreting Graphs</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-desmos.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Using Desmos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-desmos.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Using Desmos</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-desmos.html#subsec-computations" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Basic Computations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-desmos.html#subsec-graphing" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Graphing</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-desmos.html#subsec-solveequations" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Solving Equations</span></a></div></li>
+</ul>
+</li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-spreadsheets.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Spreadsheets are your Friends</span></a></div></li>
 </ul>
 </li>
@@ -197,7 +216,10 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponents.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exponent Rules</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-roots.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Roots and Solving for the Base</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-logs.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Logarithms and Solving for the Power</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-lines.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Graphing and Solving Linear Equations</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-lines.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Graphing and Solving Linear Equations</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-lines.html#exercises-lines" class="internal"><span class="codenumber">2.6</span> <span class="title">A Few Practice Exercises</span></a></div></li></ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -230,7 +252,6 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Linear Models</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Exponential Models</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-powers.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Power Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-wrapup.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Modeling Wrap-Up</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -262,7 +283,289 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-lines"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">2.6</span><span class="space"> </span><span class="title">Graphing and Solving Linear Equations</span>
 </h2>
-<div class="para" id="sec-lines-2">Text of section.</div></section></div>
+<div class="para" id="sec-lines-2">Linear equations are a topic usually covered for the first time in an Algebra 1 course. This section will provide a quick review of the basics. The information here will be mostly procedural and without a lot of context. We’ll dive in more deeply and look at some applications and more meaningful examples in the chapter on modeling. This might mean that this section is extra clear for you, or it might mean that is boring and harder to make sense of. Both outcomes and anything in between are fine, just be aware of how your brain is doing. If you need more context, move quickly here and come back as needed from <a href="ch-models.html" class="internal" title="Chapter 4: Modeling">Chapter 4</a>.</div>
+<div class="para" id="sec-lines-3">In the context of algebra, many folks are likely to give “<span class="process-math">\(y = mx + b\)</span>” as the definition of a line. While this is not exactly the definition, it is a great place to center our thinking.</div>
+<article class="definition definition-like" id="def-slope-intercept"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.6.1</span><span class="period">.</span><span class="space"> </span><span class="title">Slope-Intercept Form.</span>
+</h3>
+<div class="para" id="def-slope-intercept-2-1">The <dfn class="terminology">slope-intercept</dfn> form of a line is given by an equation in the form <span class="process-math">\(y = mx + b\text{.}\)</span> The variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{,}\)</span> are the independent (horizontal) and dependent (vertical) variables. The symbols <span class="process-math">\(m\)</span> and <span class="process-math">\(b\)</span> are place holders for the quantities of <dfn class="terminology">slope</dfn> and <dfn class="terminology"><span class="process-math">\(y\)</span>-intercept</dfn>.</div></article><div class="para" id="sec-lines-5">If the idea of independent and dependent variables or horizontal and vertical directions is a little fuzzy, visit (or revisit) <a href="sec-graphs.html" class="internal" title="Section 1.3: Intepreting Graphs">Section 1.3</a>.</div>
+<div class="para" id="sec-lines-6">A critical aspect of linear equations is <dfn class="terminology">slope</dfn>, which tells us how much the dependent variable (vertical, <span class="process-math">\(y\)</span>) changes with respect to the independent variable (horizontal, <span class="process-math">\(x\)</span>). In a linear situation, the slope is a constant single value (that is defining feature of a line in algebra) so it makes sense to have a formula to compute it.</div>
+<article class="definition definition-like" id="def-slope"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.6.2</span><span class="period">.</span><span class="space"> </span><span class="title">Slope Formula.</span>
+</h3>
+<div class="para logical" id="def-slope-2-1">
+<div class="para">Given two ordered pairs <span class="process-math">\((x_1, y_1)\)</span> and <span class="process-math">\((x_2, y_2)\text{,}\)</span> the slope of the line connecting the points is given by</div>
+<div class="displaymath process-math" id="def-slope-2-1-4">
+\begin{gather*}
+m = \frac{\text{rise}}{\text{run}} = \frac{\text{change in output}}{\text{change in input}} = \frac{y_2 - y_1}{x_2 - x_1}
+\end{gather*}
+</div>
+</div></article><div class="para" id="sec-lines-8">A positive slope, like <span class="process-math">\(m = \frac{1}{3}\)</span> results in an increasing line, goes from the bottom left to the upper right. From a point on this line, we could move three steps to the right (the “run”) and one step up (the “rise”) and stay on the line. A negative slope, like <span class="process-math">\(m = -4\)</span> results in a decreasing line; it moves downhill if we look at it from left to right. Since <span class="process-math">\(-4 = - \frac{4}{1} = \frac{-4}{1} = \frac{4}{-1}\)</span> we can think about the same slope in a variety of ways; move 4 steps down (the negative vertical “rise” direction) and 1 step right (the positive horizontal “run” direction), or move 4 steps up and 1 step left. Both give new points on the same line.</div>
+<article class="example example-like" id="example-slope-points"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.6.3</span><span class="period">.</span><span class="space"> </span><span class="title">Computing Slope.</span>
+</h3>
+<div class="para logical" id="example-slope-points-2-1"><ol class="lower-alpha" id="example-slope-points-2-1-1">
+<li id="example-slope-points-2-1-1-1"><div class="para" id="example-slope-points-2-1-1-1-1">Find the slope of the line connecting the two points <span class="process-math">\((9,5)\)</span> and <span class="process-math">\((3,4)\text{.}\)</span>
+</div></li>
+<li id="example-slope-points-2-1-1-2"><div class="para" id="example-slope-points-2-1-1-2-1">Find the slope of the line connecting the two points <span class="process-math">\((6, -7)\)</span> and <span class="process-math">\((2, 5)\text{.}\)</span>
+</div></li>
+</ol></div>
+<div class="solutions"><details id="example-slope-points-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-slope-points-3-1"><ol class="lower-alpha" id="example-slope-points-3-1-1">
+<li id="example-slope-points-3-1-1-1"><div class="para logical" id="example-slope-points-3-1-1-1-1">
+<div class="displaymath process-math" id="example-slope-points-3-1-1-1-1-1">
+\begin{gather*}
+m = \frac{5 - 4}{9 - 3} = \frac{1}{6}
+\end{gather*}
+</div>
+<div class="para">The slope is positive, so this is an increasing line. Notice that we could have changed the order of subtraction and obtained the same result:</div>
+<div class="displaymath process-math" id="example-slope-points-3-1-1-1-1-2">
+\begin{gather*}
+m = \frac{4 - 5}{3 - 9} = \frac{-1}{-6} = \frac{1}{6}
+\end{gather*}
+</div>
+<div class="para">Because this slope is small in absolute value, the line is closer to horizontal.</div>
+</div></li>
+<li id="example-slope-points-3-1-1-2"><div class="para logical" id="example-slope-points-3-1-1-2-1">
+<div class="displaymath process-math" id="example-slope-points-3-1-1-2-1-1">
+\begin{gather*}
+m = \frac{5 - (-7)}{2 - 4} = \frac{12}{2} = -6
+\end{gather*}
+</div>
+<div class="para">The slope is negative, so this is a decreasing line. Again, we could have changed the order of subtraction and obtained the same result:</div>
+<div class="displaymath process-math" id="example-slope-points-3-1-1-2-1-2">
+\begin{gather*}
+m = \frac{-7 - 5}{4 - 2} = \frac{-12}{2} = -6
+\end{gather*}
+</div>
+<div class="para">Because this slope is larger in absolute value (greater than 1), the line is closer to vertical.</div>
+</div></li>
+</ol></div></div></details></div></article><article class="example example-like" id="example-slope-picture"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.6.4</span><span class="period">.</span><span class="space"> </span><span class="title">Determining Slope from a Picture.</span>
+</h3>
+<div class="para" id="example-slope-picture-2-1">Determine the slope of the line shown below.</div> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/images/slopefrompicture.png" class="contained" alt="(A line with a positive slope)"></div>
+<div class="solutions"><details id="example-slope-picture-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="example-slope-picture-3-1">
+<div class="para">The black dots on the picture below are points on the line. We can use any pair of points to compute the slope. If we use any consecutive points in the lower left, the rise (blue dotted segments) is 2 and the run (green dashed segments) is 3. If we use the two most upper points, the rise is 4 and the run is 6. In any case, we have</div>
+<div class="displaymath process-math" id="example-slope-picture-3-1-1">
+\begin{gather*}
+\text{slope} = \frac{\text{rise}}{\text{run}} = \frac{2}{3} = \frac{4}{6}
+\end{gather*}
+</div>
+</div>
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/images/slopefrompicture_solution.png" class="contained" alt="(A line with a positive slope)"></div>
+<div class="para" id="example-slope-picture-3-3">There are no values or scales assigned to the directions in this picture, so we cannot use the numerical formula to make the computation. So long as we’re counting the same size segments/boxes in each direction, our result will be correct.</div>
+</div></details></div></article><article class="exercise exercise-like" id="check-slopeformula"><h3 class="heading">
+<span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">2.6.5</span><span class="period">.</span>
+</h3>
+<div id="webwork-8" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="8" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Contrib/CCCS/AlgebraicLiteracy/Equations_of_Lines/Slope_1.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-8')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-8-1-1-1">Find the slope of the line that passes through the following points</div> <div class="para" id="extracted-webwork-8-1-1-2">
+<span class="process-math">\((8,-8)\)</span>  and  <span class="process-math">\((-3,10)\text{.}\)</span>
+</div> <div class="para" id="extracted-webwork-8-1-1-3">Write your answer as an integer or fraction.</div>
+<div class="solutions">
+<details id="extracted-webwork-8-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-8-1-2-1"><span class="process-math">\(-{\frac{18}{11}}\)</span></div></div></details><details id="extracted-webwork-8-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="extracted-webwork-8-1-3-1">Slope can be computed by taking the change in y divided by the change in x:</div>
+<div class="para" id="extracted-webwork-8-1-3-2"><span class="process-math">\(m = \frac{y_2 - y_1}{x_2 - x_1}\)</span></div>
+<div class="para" id="extracted-webwork-8-1-3-3">I am going to let <span class="process-math">\(x_1 = 8\text{,}\)</span> <span class="process-math">\(y_1 = -8\text{,}\)</span> <span class="process-math">\(x_2 = -3\text{,}\)</span> and <span class="process-math">\(y_2 = 10\text{.}\)</span>  Plugging those numbers in my slope formula, I get:</div>
+<div class="para" id="extracted-webwork-8-1-3-4"><span class="process-math">\(m = \frac{10  + 8}{-3 - 8}\)</span></div>
+<div class="para" id="extracted-webwork-8-1-3-5"><span class="process-math">\(m = \frac{18}{-11}\)</span></div>
+<div class="para" id="extracted-webwork-8-1-3-6"><span class="process-math">\(m = {-{\frac{18}{11}}}\)</span></div>
+<div class="para" id="extracted-webwork-8-1-3-7"><em class="emphasis">Note: I might have reduced my answer.</em></div>
+</div></details>
+</div>
+</div>
+</div></article><article class="exercise exercise-like" id="check-slopepic"><h3 class="heading">
+<span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">2.6.6</span><span class="period">.</span>
+</h3>
+<div id="webwork-9" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="9" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Contrib/CCCS/AlgebraicLiteracy/Equations_of_Lines/Slope_2.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-9')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-9-1-1-1">Find the slope of the graphed line.</div>  <div class="image-box" style="width: 66.6666666666667%; margin-left: 16.6666666666667%; margin-right: 16.6666666666667%;"><img src="generated/webwork/images/webwork-9-image-1.png" class="contained"></div> <div class="para" id="extracted-webwork-9-1-1-3">The slope is <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div>
+<div class="solutions">
+<details id="extracted-webwork-9-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-9-1-2-1"><span class="process-math">\(1\)</span></div></div></details><details id="extracted-webwork-9-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="extracted-webwork-9-1-3-1">Slope can be computed by taking the change in y divided by the change in x.  This can also be thought of as:</div>
+<div class="para" id="extracted-webwork-9-1-3-2"><span class="process-math">\(m = \frac{rise}{run}\)</span></div>
+<div class="para" id="extracted-webwork-9-1-3-3">I notice the y-intercept is located at:</div>
+<div class="para" id="extracted-webwork-9-1-3-4"><span class="process-math">\(( 0, 0 )\)</span></div>
+<div class="para logical" id="extracted-webwork-9-1-3-5">
+<div class="para">To get to another point on the graph, I have to either:</div>
+<ul class="disc" id="extracted-webwork-9-1-3-5-1">
+<li id="extracted-webwork-9-1-3-5-1-1"><div class="para" id="extracted-webwork-9-1-3-5-1-1-1">Move right 4 units and up 4 units, or</div></li>
+<li id="extracted-webwork-9-1-3-5-1-2"><div class="para" id="extracted-webwork-9-1-3-5-1-2-1">Move left 4 units and down 4 units.</div></li>
+</ul>
+</div>
+<div class="para" id="extracted-webwork-9-1-3-6">That makes the slope,</div>
+<div class="para" id="extracted-webwork-9-1-3-7"><span class="process-math">\(m = \frac{4}{4}=\frac{-4}{-4}\)</span></div>
+<div class="para" id="extracted-webwork-9-1-3-8"><span class="process-math">\(m = {1}\)</span></div>
+<div class="para" id="extracted-webwork-9-1-3-9"><em class="emphasis">Note: I might have reduced my answer.</em></div>
+</div></details>
+</div>
+</div>
+</div></article><div class="para" id="sec-lines-13">The other piece of the slope-intercept form of a line, is right in the name:</div>
+<article class="definition definition-like" id="def-y-intercept"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.6.7</span><span class="period">.</span><span class="space"> </span><span class="title"><span class="process-math">\(y\)</span>-Intercept.</span>
+</h3>
+<div class="para logical" id="def-y-intercept-2-1">
+<div class="para">The constant value <span class="process-math">\(b\)</span> in the slope-intercept form of a line, <span class="process-math">\(y = mx +b\text{,}\)</span> is the <dfn class="terminology"><span class="process-math">\(y\)</span>-intercept</dfn> of the line. Visually, this is the <span class="process-math">\(y\)</span>-coordinate of the point where the line intersects the <span class="process-math">\(y\)</span>-axis (vertical axis). Indeed, if we input <span class="process-math">\(x=0\)</span> into the slope-intercept form,</div>
+<div class="displaymath process-math" id="def-y-intercept-2-1-8">
+\begin{align*}
+y \amp = mx + b\\
+\amp = m \cdot 0 + b\\
+\amp = 0 + b\\
+\amp = b,
+\end{align*}
+</div>
+<div class="para">we always obtain the output <span class="process-math">\(y=b\text{.}\)</span> An <span class="process-math">\(x\)</span>-coordinate of 0, means there is no horizontal movement to plot the point, so we remain on the <span class="process-math">\(y\)</span>-axis. Then a <span class="process-math">\(y\)</span>-coordinate of <span class="process-math">\(b\)</span> indicates how far and which direction to move vertically.</div>
+</div></article><div class="para" id="sec-lines-15">In a picture of the line or in the slope-intercept form, we can simply “read off” what the <span class="process-math">\(y\)</span>-intercept is. If we have other information, there isn’t a particular formula for determining the <span class="process-math">\(y\)</span>-intercept of a line.</div>
+<article class="example example-like" id="example-y-intercept"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.6.8</span><span class="period">.</span><span class="space"> </span><span class="title">Determine the <span class="process-math">\(y\)</span>-Intercept.</span>
+</h3>
+<div class="para" id="example-y-intercept-2-1">Write the equation of the line with slope 3 that passes through the point (5,4).</div>
+<div class="solutions"><details id="example-y-intercept-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-y-intercept-3-1">
+<div class="para">On its face, this problem does not ask us directly to determine the <span class="process-math">\(y\)</span>-intercept, but since the slope, <span class="process-math">\(m = 3\text{,}\)</span> is given, the only piece of the slope-intercept form we need is <span class="process-math">\(b\text{.}\)</span> We’ll substitute <span class="process-math">\(m = 3\)</span> into the form:</div>
+<div class="displaymath process-math" id="example-y-intercept-3-1-5">
+\begin{gather*}
+y = 3x + b.
+\end{gather*}
+</div>
+<div class="para">Is we’re asked for the equation of a line, our final answer will have the variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> in it, but there is a specific pair of values that we know will satisfy the linear equation we’re looking for. Namely, the given point, <span class="process-math">\((x_0,y_0) = (5,4)\text{.}\)</span> The notation here can be confusing. It is common to put a subscript (that tiny 0) on the <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> variables when we mean to indicate a specific point, but these are still substituted into the equation in place of <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="example-y-intercept-3-1-13">
+\begin{align*}
+y \amp = 3x + b\\
+4 \amp = 3 \cdot 5 + b
+\end{align*}
+</div>
+<div class="para">And now, we can solve the equation for the variable <span class="process-math">\(b\text{:}\)</span>
+</div>
+<div class="displaymath process-math" id="example-y-intercept-3-1-15">
+\begin{align*}
+4 \amp = 15 + b\\
+4 - 15 \amp = 15 + b - 15\\
+-11 \amp = b
+\end{align*}
+</div>
+<div class="para">So, the <span class="process-math">\(y\)</span>-intercept is, <span class="process-math">\(b=-11\text{,}\)</span> and the equation of the line passing through <span class="process-math">\((5,4)\)</span> with a slope of 3 is</div>
+<div class="displaymath process-math" id="example-y-intercept-3-1-19">
+\begin{gather*}
+y = 3x-11.
+\end{gather*}
+</div>
+</div></div></details></div></article><div class="para" id="sec-lines-17">The algebra above to determine <span class="process-math">\(b\)</span> was fairly easy, but it is even easier to not need to do it. The same equation can have multiple equivalent representations. In fact, that’s pretty much what algebra is all about! Another useful form for a linear equation is called <dfn class="terminology">point-slope form</dfn>.</div>
+<article class="definition definition-like" id="def-point-slope"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.6.9</span><span class="period">.</span><span class="space"> </span><span class="title">Point-Slope Form.</span>
+</h3>
+<div class="para" id="def-point-slope-2-1">The <dfn class="terminology">point-slope</dfn> form of a line is given by an equation in the form <span class="process-math">\(y-y_1 = m(x-x_1)\text{.}\)</span> Just like before, the <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> symbols are the independent and dependent variables, and <span class="process-math">\(m\)</span> is the constant slope. The symbols <span class="process-math">\(x_1\)</span> and <span class="process-math">\(y_1\)</span> indicate the coordinate of a particular point on the line (just like in the slope formula).</div></article><div class="para logical" id="sec-lines-19">
+<div class="para">From its name, you might guess that the point-slope form would be helpful in a case where you know the slope of a line and the coordinates of a point on that line. You would be very correct. If we just look at the statement of the problem in <a href="sec-lines.html#example-y-intercept" class="xref" data-knowl="./knowl/xref/example-y-intercept.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.6.8: Determine the y-Intercept">Example 2.6.8</a>, it does not ask for the equation to be given in a specific form. So, we can simply substitute the given information, <span class="process-math">\(m = 3\)</span> and <span class="process-math">\((x_1, y_1) = (5,4)\text{,}\)</span> into the point-slope form:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-y-intercept.html" id="sec-lines-19-4">
+\begin{align*}
+y - 4 \amp = 3(x-5).
+\end{align*}
+</div>
+<div class="para">We could use algebra from here to see:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-y-intercept.html" id="sec-lines-19-5">
+\begin{align*}
+y - 4\amp = 3(x-5)\\
+y - 4 + 4\amp = 3x - 15 + 4\\
+y \amp = 3x-11.
+\end{align*}
+</div>
+</div>
+<article class="example example-like" id="example-lineeqfrompicture"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.6.10</span><span class="period">.</span><span class="space"> </span><span class="title">Equation of A Line from the Graph.</span>
+</h3>
+<div class="para" id="example-lineeqfrompicture-2-1">Determine an equation of the line pictured.</div> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/images/eqfrompicture.png" class="contained" alt="A graphed line from the lower left to upper right corner of a set of axes."></div>
+<div class="solutions"><details id="example-lineeqfrompicture-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-lineeqfrompicture-3-1">Notice the phrasing; “<em class="alert">an</em> equation” and “<em class="alert">the</em> line” are on purpose. There is only one line pictured, but there are many equivalent equations to represent it. So, there are equally as many approaches to determining a valid equation.</div>
+<div class="para" id="example-lineeqfrompicture-3-2">We’ll start with the visual approach. This is probably the quickest in this case. We can observe that the line crosses the <span class="process-math">\(y\)</span>-axis at 3, so <span class="process-math">\(b=3\text{.}\)</span> We can also see (maybe immediately, maybe with easy counting) that from the point where the line crossed the <span class="process-math">\(x\)</span>-axis, it rises 3 units and runs 2 units before crossing the <span class="process-math">\(y\)</span>-axis again. That tells us that the slope is <span class="process-math">\(m = \frac{3}{2}\text{.}\)</span> Therefore, an equation of the line is <span class="process-math">\(y = \frac{3}{2}x + 3\text{.}\)</span>
+</div>
+<div class="para logical" id="example-lineeqfrompicture-3-3">
+<div class="para">In a case where it may not be possible to observe these quantities from the picture, or if you just prefer formulas, we can still determine an equation of this line. In order to determine the slope, we need the coordinates of two points on the line. The line passes through the points <span class="process-math">\((-4,-3)\text{,}\)</span> <span class="process-math">\((-2,0)\text{,}\)</span> <span class="process-math">\((0,3)\text{,}\)</span> and <span class="process-math">\((2,6)\text{.}\)</span> Using the slope formula with any two of these points will work. For example, using <span class="process-math">\((-4,-3)\)</span> and <span class="process-math">\((-2,0)\)</span> produce slope</div>
+<div class="displaymath process-math" id="example-lineeqfrompicture-3-3-7">
+\begin{gather*}
+m = \frac{0 - (-3)}{-2 - (-4)} = \frac{0 + 3}{-2 + 4} = \frac{3}{2}.
+\end{gather*}
+</div>
+<div class="para">Similarly, using <span class="process-math">\((-2,0)\)</span> and <span class="process-math">\((2,6)\)</span> results in slope</div>
+<div class="displaymath process-math" id="example-lineeqfrompicture-3-3-10">
+\begin{gather*}
+m = \frac{6-0}{2 - (-2)} = \frac{6}{2+2} = \frac{6}{4} = \frac{3}{2}.
+\end{gather*}
+</div>
+<div class="para">Any pair of points will give the same result, so long as we don’t mix up which point is which.</div>
+</div>
+<div class="para logical" id="example-lineeqfrompicture-3-4">
+<div class="para">We can use this computed slope and the observed <span class="process-math">\(y\)</span>-intercept to get the same equation, <span class="process-math">\(y = \frac{3}{2}x+3\text{,}\)</span> from slope-intercept form. But, suppose the line does not cross at a “nice” place on the grid, then we need to use another point. When we know the slope and the coordinates of a point, the point-slope form is helpful. In this case, we’ll use <span class="process-math">\((2,6)\text{:}\)</span>
+</div>
+<div class="displaymath process-math" id="example-lineeqfrompicture-3-4-5">
+\begin{align*}
+y - 6 \amp = \frac{3}{2}(x - 2).
+\end{align*}
+</div>
+<div class="para">It is be fine to leave this equation just like this if no more instructions are specified.</div>
+</div>
+<div class="para logical" id="example-lineeqfrompicture-3-5">
+<div class="para">If your brain prefers to just remember the slope-intercept form, you can still use that; we just need to do a bit of work to find <span class="process-math">\(b\text{,}\)</span> like we did in <a href="sec-lines.html#example-y-intercept" class="xref" data-knowl="./knowl/xref/example-y-intercept.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.6.8: Determine the y-Intercept">Example 2.6.8</a>. We susbtitute in the known slope, <span class="process-math">\(m = \frac{3}{2}\text{,}\)</span> and the coordinates of any point on the line, <span class="process-math">\((x_0, y_0) = (-4, -3)\text{,}\)</span> and then solve for <span class="process-math">\(b\text{.}\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-y-intercept.html" id="example-lineeqfrompicture-3-5-6">
+\begin{align*}
+-3 \amp = \frac{3}{2} \cdot (-4) + b\\
+-3 \amp = 3 \cdot -2 + b\\
+-3 \amp = -6 + b\\
+-3 + 6 \amp -6 + b + 6\\
+3 \amp = b
+\end{align*}
+</div>
+<div class="para">And, we end up with the same equation, <span class="process-math">\(y = \frac{3}{2}x + 3\text{.}\)</span>
+</div>
+</div>
+</div></details></div></article><div class="para" id="sec-lines-21">A couple of quick fun facts about linear equations before you practice. We won’t deeply explore the “why?” here, but looking at a few examples on your own should be enlightening.</div>
+<article class="fact theorem-like" id="fact-lines"><h3 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">2.6.11</span><span class="period">.</span><span class="space"> </span><span class="title">Linear Fun Facts.</span>
+</h3>
+<div class="para" id="fact-lines-2-1">A horizontal line has a slope of zero (no “rise”), so the equation will have the form <span class="process-math">\(y = b\text{,}\)</span> where <span class="process-math">\(b\)</span> is still the <span class="process-math">\(y\)</span>-intercept, but also the <span class="process-math">\(y\)</span>-coordinate of <em class="alert">every</em> point on the line.</div> <div class="para" id="fact-lines-2-2">A vertical line has no “run” so the denominator in the slope formula would be 0 which does not result in a real number. This is often described as an undefined slope. The equation for a vertical line has the form <span class="process-math">\(x = c\text{,}\)</span> where <span class="process-math">\(c\)</span> is the <span class="process-math">\(x\)</span>-intercept and the <span class="process-math">\(x\)</span>-coordinate of <em class="alert">every</em> point on the line.</div> <div class="para" id="fact-lines-2-3">A pair of lines that have the same slope are parallel.</div> <div class="para" id="fact-lines-2-4">A pair of perpendicular lines (that meet at a right angle, 90°) will have slopes that multiply to a product of -1.</div></article><section class="exercises" id="exercises-lines"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">A Few Practice Exercises</span>
+</h3>
+<div class="exercisegroup" id="exercises-lines-2">
+<h4 class="heading"><span class="title">Matching.</span></h4>
+<div class="introduction" id="exercises-lines-2-2"><div class="para logical" id="exercises-lines-2-2-1">
+<div class="para">Match each linear equation with a corresponding description from the list:</div>
+<ul class="disc" id="exercises-lines-2-2-1-1">
+<li id="exercises-lines-2-2-1-1-1"><div class="para" id="exercises-lines-2-2-1-1-1-1">
+<span class="process-math">\(y\)</span>-intercept of -2</div></li>
+<li id="exercises-lines-2-2-1-1-2"><div class="para" id="exercises-lines-2-2-1-1-2-1">horizontal line</div></li>
+<li id="exercises-lines-2-2-1-1-3"><div class="para" id="exercises-lines-2-2-1-1-3-1">slope of 2</div></li>
+<li id="exercises-lines-2-2-1-1-4"><div class="para" id="exercises-lines-2-2-1-1-4-1">through points <span class="process-math">\((1,3)\)</span> and <span class="process-math">\((-1, 4)\)</span>
+</div></li>
+<li id="exercises-lines-2-2-1-1-5"><div class="para" id="exercises-lines-2-2-1-1-5-1">vertical line</div></li>
+</ul>
+</div></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercises-lines-2-3"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para" id="exercises-lines-2-3-1-1"><span class="process-math">\(y = 42\)</span></div></article><article class="exercise exercise-like" id="exercises-lines-2-4"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="exercises-lines-2-4-1-1"><span class="process-math">\(2y=7-x\)</span></div></article><article class="exercise exercise-like" id="exercises-lines-2-5"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para" id="exercises-lines-2-5-1-1"><span class="process-math">\(x = -2\)</span></div></article><article class="exercise exercise-like" id="exercises-lines-2-6"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para" id="exercises-lines-2-6-1-1"><span class="process-math">\(3x=y+2\)</span></div></article><article class="exercise exercise-like" id="exercises-lines-2-7"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
+<div class="para" id="exercises-lines-2-7-1-1"><span class="process-math">\(y = 4 + 2x\)</span></div></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercises-lines-3">
+<h4 class="heading"><span class="title">Finding Equations.</span></h4>
+<div class="introduction" id="exercises-lines-3-2"><div class="para" id="exercises-lines-3-2-1">Determine an equation of…</div></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercises-lines-3-3"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
+<div class="para" id="exercises-lines-3-3-1-1">The line with a slope of <span class="process-math">\(\frac{1}{4}\)</span> and a <span class="process-math">\(y\)</span>-intercept of -2.</div></article><article class="exercise exercise-like" id="exercises-lines-3-4"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
+<div class="para" id="exercises-lines-3-4-1-1">The line connecting the points <span class="process-math">\((3, -1)\)</span> and <span class="process-math">\((-2, 5)\text{.}\)</span>
+</div></article><article class="exercise exercise-like" id="exercises-lines-3-5"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
+<div class="para" id="exercises-lines-3-5-1-1">The line pictured below.</div> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/lineexercise.png" class="contained"></div></article><article class="exercise exercise-like" id="exercises-lines-3-6"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
+<div class="para" id="exercises-lines-3-6-1-1">The horizontal line through the point <span class="process-math">\((-\pi, 9)\text{.}\)</span>
+</div></article><article class="exercise exercise-like" id="exercises-lines-3-7"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
+<div class="para" id="exercises-lines-3-7-1-1">The <span class="process-math">\(y\)</span>-axis.</div></article><article class="exercise exercise-like" id="exercises-lines-3-8"><h5 class="heading"><span class="codenumber">11<span class="period">.</span></span></h5>
+<div class="para" id="exercises-lines-3-8-1-1">The line through the point <span class="process-math">\((1,1)\)</span> and perpendicular to the line pictured.</div></article>
+</div>
+</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-logs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
 </div></main>

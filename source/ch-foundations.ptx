@@ -4,13 +4,18 @@
   <title>Foundations</title>
 
   <introduction>
-    <p> Text before the first section. </p>
-
-      <p>
-        Here's another paragraph.
-      </p>
-
-   </introduction>
+    <p>
+      Math classes prior to entering college cover a bunch of concepts, procedures, skills, and applications.
+      We don't all get the exrience we want in any class, and that can make it extra difficult to learn the concepts and skills and make the connections to application.
+      Also, if we don't practice the procedures and skills, they get rusty if we have a great understanding to begin with.
+    </p>
+    <p>
+      The sections in this chapter aim to strengthen that foundation your brain has already started to build.
+      For you, that might mean a reminder of a procedure (like how to use logarithms to solve exponential equations) or a whole new view of concept like fractions.
+      If you're finding your brain thinking something like, <q>I hated that topic!</q> or <q>I've never learned that,</q> then it would be a good idea to read through that section carefully.
+      If you're working in another section and just can't remember something, you can refer back to this chapter to check.
+    </p>
+  </introduction>
 
   <!-- include sections -->
   <xi:include href="sec-fractions.ptx" />

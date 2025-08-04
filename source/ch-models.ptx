@@ -17,6 +17,5 @@
   <xi:include href="sec-linear.ptx" />
   <xi:include href="sec-exponential.ptx" />
   <xi:include href="sec-powers.ptx" />
-  <xi:include href="sec-wrapup.ptx" />
 
 </chapter>

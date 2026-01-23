@@ -6,8 +6,8 @@
   <introduction>
     <p>
       Math classes prior to entering college cover a bunch of concepts, procedures, skills, and applications.
-      We don't all get the exrience we want in any class, and that can make it extra difficult to learn the concepts and skills and make the connections to application.
-      Also, if we don't practice the procedures and skills, they get rusty if we have a great understanding to begin with.
+      We don't all get the experience we want in any class, and that can make it extra difficult to learn the concepts and skills and make the connections to application.
+      Also, if we don't practice the procedures and skills, they get rusty even if we have a great understanding to begin with.
     </p>
     <p>
       The sections in this chapter aim to strengthen that foundation your brain has already started to build.
@@ -22,8 +22,9 @@
   <xi:include href="sec-decimals.ptx" />
   <xi:include href="sec-exponents.ptx" />
   <xi:include href="sec-roots.ptx" />
-  <xi:include href="sec-logs.ptx" />
   <xi:include href="sec-lines.ptx" />
+  <xi:include href="sec-logs.ptx" />
+
   
 
 

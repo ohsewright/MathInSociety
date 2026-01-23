@@ -265,15 +265,64 @@
     <shortdescription>Using the wrench icon to adjust the picture.</shortdescription>
   </image>
 
+  <p>
+    The equations we plotted above were all functions, but those are not the only types of equations (or even objects) that can be visualized.
+  </p>
+
+  <exercise xml:id="check-circle-plot">
+  
+    <statement>
+      <p>
+        Plot the equation <m>(x-h)^2 + (y-k)^2 = r^2</m> and create sliders for <m>h</m>, <m>k</m>, and <m>r</m>.
+        What does this plot?
+        Use the sliders to determine what each of the values <m>h</m>, <m>k</m>, and <m>r</m> change about the plot.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        The equation <m>(x-h)^2 + (y-k)^2 = r^2</m> plots a circle centered at <m>(h, k)</m> and with a radius <m>r</m>.
+      </p>
+      <image source="images/DesmosCircle.png">
+        <shortdescription>A circle with radius 2 centered at (-4, 3).</shortdescription>
+      </image>
+      <p>
+        Your plot will not have the center or radius marked. That is included here for clarity.
+      </p>
+    </solution>
+  </exercise>
 </subsection>
 
-<subsection xml:id="subsec-solveequations">
-<title>Solving Equations</title>
+<subsection xml:id="subsec-images">
+  <title>Image Imports</title>
+  
+  <p>
+    The last thing we're going to practice in Desmos is importing our own images.
+    Including an image as a background with the ability to plot equations and make measurements on the same grid, is a way we can study the underlying image.
+    We'll use this technique to evaluate maps of Congressional districts in <xref ref="ch-geometry"/>.
+  </p>
 
   <p>
-    The last use we'll try out in this section is using Desmos to solve equations.
+    To import an image into Desmos, use the drop-down menu shown to the left.
+    Select <q>image</q> and browse your files to upload an image.  
+    For practice, let's use an adorable puppy. Download the image linked <url href="https://drive.google.com/file/d/1ilsEoemwSlBksWOdcXaSAjoN1yt_4VAB/view?usp=drive_link" visual="here"/>.
   </p>
-  
+  <image source="images/DesmosImageImport.png">
+    <shortdescription>An adorable puppy imported onto the Desmos grid.</shortdescription>
+  </image>
+  <p>
+    Once you upload the picture, you should see the following screen and data.
+    This data includes the width and height of the picture (in Desmos, not the pixel height).
+    Desmos will always center the image, keep the proportions, and scale the image to a width of 10 units.
+    If you're going to change the size, it is important to scale both the width and the height in the same manner.
+  </p>
+    
+  <p>
+    The original picture is 480 pixels by 480 pixels.
+    See if you can find this info in the file from your machine.
+    We'll learn the tools needed to work with the pixel size, Desmos size, and real world representation in <xref ref="ch-prop-reasoning"/>,
+    and we'll review before we need to apply those skills to the maps.
+  </p>
+
 </subsection>
 
 

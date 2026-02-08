@@ -1,5 +1,5 @@
-/Users/swright8/Desktop/MathInSociety/source/main.ptx:52:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element tabular there
-/Users/swright8/Desktop/MathInSociety/source/main.ptx:52:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got tabular
+/Users/swright8/Desktop/MathInSociety/source/main.ptx:58:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element poem, got figure
+/Users/swright8/Desktop/MathInSociety/source/main.ptx:58:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element figure there
 /Users/swright8/Desktop/MathInSociety/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element chapter has extra content: section
 /Users/swright8/Desktop/MathInSociety/source/main.ptx:9:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element subtitle there
 /Users/swright8/Desktop/MathInSociety/source/main.ptx:7:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content

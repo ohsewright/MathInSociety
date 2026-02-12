@@ -23,4 +23,16 @@
     So, the 5 represents 5 onehundredths, <m>\frac{5}{100}</m>, and the 6 in the thousandths place is <m>\frac{6}{1000}</m>.
   </p>
 
+  <p>
+    Since most of us carry around a calculator (in the form of our phone) most of the time, being able to do computations by hand isn't a very important skill.
+    We can and should make use of calculators and computers for computations that are not immediately obvious to us.
+    If it takes longer to open the calulator app or type something in to Google than to do it by hand or in our head, we're wasting time.
+    We only care about the algorithmic procedures in as far as they reinforce other fundamental understandings.
+  </p>
+
+  <p>
+    For example, if we're going to do an addition or subtraction problem with decimal numbers, we need to line up the decimal points vertically.
+    This step in the algorithm means that digits with the same place value are vertically aligned.
+    For digits to the right of the decimal point, this really amounts to ensuring we're adding fractions with a common denominator.
+  </p>
 </section>

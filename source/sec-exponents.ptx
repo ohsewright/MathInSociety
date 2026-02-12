@@ -3,6 +3,129 @@
 <section xml:id="sec-exponents" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Exponent Rules</title>
 
-  <p> Text of section. </p>
+  <p> 
+    Similar to decimal numbers, we should make use of computers and calculators for most all computations involving exponents.
+    In this section, we want to clarify the definition of an exponent and make sure we're comfortable using our preferred computing device for the computations.
+  </p>
+
+  <p>
+    First, some notation and vocabulary.
+    <definition xml:id="def-exponent">
+      <statement>
+        <p>
+          When we see <m>b^n</m>, the <m>b</m> is the <term>base</term>, the <m>n</m> is the <term>exponent</term>, and this is read as <q><m>b</m> to the <m>n^{\text{th}}</m> power.</q>
+          When <m>n</m> is a whole positive number, <m>b^n</m> is a short-hand way to write <m>b</m> multiplied by itself <m>n</m> times.
+        </p>
+      </statement>
+    </definition> 
+    In some cases, there are more specialized wording; <m>3^2 = 3 \cdot 3 = 9</m> is called <q>3 squared</q> and <m>2^3 = 2 \cdot 2 \cdot 2 = 8</m> is referred to as <q>2 cubed.</q>
+  </p>
+  <p>
+    These are good examples of computations that we can use to check how to enter these computations in the calculator or computer.
+    On a computer with a keyboard, particularly in Desmos, we use the caret (shift 6) to enter the exponent, and the friendlier platforms will show it on the screen nicely so that we can be sure what we're entering is what we want.
+    On a calculator, you may have the same caret button, you also might have a button that looks something like <m>x^y</m>.
+    Depending on the specifics of the device, entering <c>2</c><c><m>x^y</m></c><c>3</c> could mean either <m>2^3=8</m> or <m>3^2=9</m>.
+  </p>
+
+  <insight>
+    <title>Calculator Check</title>
+    <p>
+      When you encounter a new to you calculator, or you just forget, test out the various computation buttons with <q>easy</q> computations.
+      Buttons like <m>x^y</m>, described above, <m>\sqrt[x]{y}</m>, and <m>\log_b(x)</m> all represent computations that we <alert>should</alert> use our calculators for,
+      but not if we're not sure we are getting the correct answer.
+    </p>
+  </insight>
+
+  <p>
+    Remembering the meaning of an exponent in the <q>nice cases</q> can help to make sense of the less nice cases and more general rules.
+    If we consider negative numbers as the opposites of positive numbers, then it should make sense that a negative exponent would represent repeated division, the opposite of multiplication.
+    This thinking also gives us the exponent rule of swapping numerator with denominator for a negative exponent.
+    For example, <me>
+      2^{-3} = 1 \div 2 \div 2 \div 2 = 1 \cdot \frac{1}{2} \cdot \frac{1}{2} \cdot \frac{1}{2} = \frac{1}{2 \cdot 2 \cdot 2} = \frac{1}{2^3} = \frac{1}{8}
+    </me>
+    
+  </p>
+
+  <p>
+    The rules about how exponents are combined are also easier to remember when we keep the nice examples in mind:
+    <md>
+      <mrow>2^3 \cdot 2^4 \amp = (2 \cdot 2 \cdot 2) \cdot (2 \cdot 2 \cdot 2 \cdot 2)</mrow>
+      <mrow> \amp = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2</mrow>
+      <mrow> \amp = 2^7</mrow>
+    </md>
+    and
+    <md>
+      <mrow>\left(2^3\right)^4 \amp = (2^3) \cdot (2^3) \cdot (2^3) \cdot (2^3)</mrow>
+      <mrow> \amp = 2^{3+3+3+3}</mrow>
+      <mrow> \amp = 2^{3\cdot 4}</mrow>
+      <mrow> \amp = 2^{12}</mrow>
+    </md>
+  </p>
+
+  <fact xml:id="fact-exponentrules">
+    <title>Exponent Rules</title>
+    <statement>
+      <p>
+        As long as the base, <m>b</m>, is a positive number, the following rules apply for any values of the exponents <m>m</m> and <m>n</m>.
+        <me>
+          b^{-n} = \frac{1}{b^n} \hspace{45pt} b^m\cdot b^n = b^{m+n} \hspace{1in} \left(b^m\right)^n = b^{m\cdot n}
+        </me>
+      </p>
+    </statement>
+  </fact>
+
+  <p>
+    These rules are easier to make sense of (and reconstruct of you forget) when we consider whole numbers for the exponents.
+    But, they still apply for fractional powers as well, and can help us make sense of why we use fractional powers in the way we do.
+  </p>
+  <p>
+    For this to make sense, we need to remember that <m>\frac{1}{2} \cdot 2 = 1 = \frac{1}{2} + \frac{1}{2}</m>.
+    We'll use the rules from above, but it may feel a bit backwards.
+    <me>
+      16 = 16^1 = 16^{\frac{1}{2} \cdot 2} = \left(16^{\frac{1}{2}})^2
+    </me>
+    So, whatever this <m>\frac{1}{2}</m> power might mean, one way to think about <m>16^{\frac{1}{2}}</m> is that is a number when <q>squared</q> (raised to the power of 2) gives 16.
+    You might know this by a different name: the <term>square root</term> of 16.
+    It is true that <m>16^{\frac{1}{2}} = \sqrt{16} = 4</m> because <m>4 \cdot 4 = 4^2 = 16</m>.
+  </p>
+  <p>
+    The above explanation may be confusing or it may seem so obvious it is silly.
+    If the explanation is helpful for remembering or explaining why this notation means what it does, that's great!
+    If your brain would rather just remember the following rule, that's okay too.
+  </p>
+
+  <fact xml:id="fact-rootasapower">
+    <statement>
+      <p>
+        For a positive base, <m>b</m>, and a positive whole number, <m>n</m>, <me>
+          b^{\frac{1}{n}} = \sqrt[n]{b},
+        </me>
+        read as <q>the <m>n^\text{th}</m> root of <m>b</m>.</q> The <m>n^\text{th}</m> root of <m>b</m> is some other number that when raised to the <m>n^\text{th}</m> power equals <m>b</m>.
+      </p>
+    </statement>
+  </fact>
+  <p>
+    It is likely that this feels at least okay when <m>n = 2</m>, but may feel a bit weird for something other than a square root.
+  </p>
+
+  <example>
+    <statement>
+      <p>
+        Evaluate <m>81^{\frac{1}{4}}</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <me> 81^{\frac{1}{4}} \amp = \sqrt[4]{81} \text{, by \<xref ref="fact-rootasapower"/>}. </me>
+        So, we're looking for some number, let's call it <m>x</m>, so that <m>x^4 = 81</m>.
+        One might recognize that <m>81 = 9 \cdot 9</m>, or equivalenty, <m>\sqrt{81} = 9</m>.
+        We can also maybe recognize that <m>9 = 3 \cdot 3</m>.
+        Putting this together, we see <me>
+          81 = 9 \cdot 9 = (3 \cdot 3) \cdot (3 \cdot 3) = 3^4.
+        </me>
+        So, <me> 81^{\frac{1}{4}} \amp = \sqrt[4]{81} = 3.</me>
+      </p>
+    </solution>
+  </example>
 
 </section>

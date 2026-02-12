@@ -82,7 +82,7 @@
     For this to make sense, we need to remember that <m>\frac{1}{2} \cdot 2 = 1 = \frac{1}{2} + \frac{1}{2}</m>.
     We'll use the rules from above, but it may feel a bit backwards.
     <me>
-      16 = 16^1 = 16^{\frac{1}{2} \cdot 2} = \left(16^{\frac{1}{2}})^2
+      16 = 16^1 = 16^{\frac{1}{2} \cdot 2} = \left(16^{\frac{1}{2}}\right)^2
     </me>
     So, whatever this <m>\frac{1}{2}</m> power might mean, one way to think about <m>16^{\frac{1}{2}}</m> is that is a number when <q>squared</q> (raised to the power of 2) gives 16.
     You might know this by a different name: the <term>square root</term> of 16.

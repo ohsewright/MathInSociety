@@ -117,14 +117,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.13';
+eBookConfig.runestone_version = '7.11.14';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.0d5f811896ddeac1.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.e2abc79debce15fd.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.d892923478694492.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1d6e4aba17c2c7f2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
 <style>
 #check-Desmoscomp-2-2 { counter-set: check-Desmoscomp-2-2 0; }
@@ -287,7 +287,104 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-exponents"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">2.3</span><span class="space"> </span><span class="title">Exponent Rules</span>
 </h2>
-<div class="para" id="sec-exponents-2">Text of section.</div></section></div>
+<div class="para" id="sec-exponents-2">Similar to decimal numbers, we should make use of computers and calculators for most all computations involving exponents. In this section, we want to clarify the definition of an exponent and make sure we’re comfortable using our preferred computing device for the computations.</div>
+<div class="para" id="sec-exponents-3">First, some notation and vocabulary. <article class="definition definition-like" id="def-exponent"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.3.1</span><span class="period">.</span>
+</h3>
+<div class="para" id="def-exponent-1-1">When we see <span class="process-math">\(b^n\text{,}\)</span> the <span class="process-math">\(b\)</span> is the <dfn class="terminology">base</dfn>, the <span class="process-math">\(n\)</span> is the <dfn class="terminology">exponent</dfn>, and this is read as “<span class="process-math">\(b\)</span> to the <span class="process-math">\(n^{\text{th}}\)</span> power.” When <span class="process-math">\(n\)</span> is a whole positive number, <span class="process-math">\(b^n\)</span> is a short-hand way to write <span class="process-math">\(b\)</span> multiplied by itself <span class="process-math">\(n\)</span> times.</div></article> In some cases, there are more specialized wording; <span class="process-math">\(3^2 = 3 \cdot 3 = 9\)</span> is called “3 squared” and <span class="process-math">\(2^3 = 2 \cdot 2 \cdot 2 = 8\)</span> is referred to as “2 cubed.”</div>
+<div class="para" id="sec-exponents-4">These are good examples of computations that we can use to check how to enter these computations in the calculator or computer. On a computer with a keyboard, particularly in Desmos, we use the caret (shift 6) to enter the exponent, and the friendlier platforms will show it on the screen nicely so that we can be sure what we’re entering is what we want. On a calculator, you may have the same caret button, you also might have a button that looks something like <span class="process-math">\(x^y\text{.}\)</span> Depending on the specifics of the device, entering <code class="code-inline tex2jax_ignore">2</code><code class="code-inline tex2jax_ignore">x^y</code><code class="code-inline tex2jax_ignore">3</code> could mean either <span class="process-math">\(2^3=8\)</span> or <span class="process-math">\(3^2=9\text{.}\)</span>
+</div>
+<article class="insight remark-like" id="sec-exponents-5"><h3 class="heading">
+<span class="type">Good Brain Habit</span><span class="space"> </span><span class="codenumber">2.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">Calculator Check.</span>
+</h3>
+<div class="para" id="sec-exponents-5-2">When you encounter a new to you calculator, or you just forget, test out the various computation buttons with “easy” computations. Buttons like <span class="process-math">\(x^y\text{,}\)</span> described above, <span class="process-math">\(\sqrt[x]{y}\text{,}\)</span> and <span class="process-math">\(\log_b(x)\)</span> all represent computations that we <em class="alert">should</em> use our calculators for, but not if we’re not sure we are getting the correct answer.</div></article><div class="para logical" id="sec-exponents-6">
+<div class="para">Remembering the meaning of an exponent in the “nice cases” can help to make sense of the less nice cases and more general rules. If we consider negative numbers as the opposites of positive numbers, then it should make sense that a negative exponent would represent repeated division, the opposite of multiplication. This thinking also gives us the exponent rule of swapping numerator with denominator for a negative exponent. For example,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2^{-3} = 1 \div 2 \div 2 \div 2 = 1 \cdot \frac{1}{2} \cdot \frac{1}{2} \cdot \frac{1}{2} = \frac{1}{2 \cdot 2 \cdot 2} = \frac{1}{2^3} = \frac{1}{8}
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="sec-exponents-7">
+<div class="para">The rules about how exponents are combined are also easier to remember when we keep the nice examples in mind:</div>
+<div class="displaymath process-math" id="sec-exponents-7-1">
+\begin{align*}
+2^3 \cdot 2^4 \amp = (2 \cdot 2 \cdot 2) \cdot (2 \cdot 2 \cdot 2 \cdot 2)\\
+\amp = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2\\
+\amp = 2^7
+\end{align*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math" id="sec-exponents-7-2">
+\begin{align*}
+\left(2^3\right)^4 \amp = (2^3) \cdot (2^3) \cdot (2^3) \cdot (2^3)\\
+\amp = 2^{3+3+3+3}\\
+\amp = 2^{3\cdot 4}\\
+\amp = 2^{12}
+\end{align*}
+</div>
+</div>
+<article class="fact theorem-like" id="fact-exponentrules"><h3 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">2.3.3</span><span class="period">.</span><span class="space"> </span><span class="title">Exponent Rules.</span>
+</h3>
+<div class="para logical" id="fact-exponentrules-2-1">
+<div class="para">As long as the base, <span class="process-math">\(b\text{,}\)</span> is a positive number, the following rules apply for any values of the exponents <span class="process-math">\(m\)</span> and <span class="process-math">\(n\text{.}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+b^{-n} = \frac{1}{b^n} \hspace{45pt} b^m\cdot b^n = b^{m+n} \hspace{1in} \left(b^m\right)^n = b^{m\cdot n}
+\end{equation*}
+</div>
+</div></article><div class="para" id="sec-exponents-9">These rules are easier to make sense of (and reconstruct of you forget) when we consider whole numbers for the exponents. But, they still apply for fractional powers as well, and can help us make sense of why we use fractional powers in the way we do.</div>
+<div class="para logical" id="sec-exponents-10">
+<div class="para">For this to make sense, we need to remember that <span class="process-math">\(\frac{1}{2} \cdot 2 = 1 = \frac{1}{2} + \frac{1}{2}\text{.}\)</span> We’ll use the rules from above, but it may feel a bit backwards.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+16 = 16^1 = 16^{\frac{1}{2} \cdot 2} = \left(16^{\frac{1}{2}})^2
+\end{equation*}
+</div>
+<div class="para">So, whatever this <span class="process-math">\(\frac{1}{2}\)</span> power might mean, one way to think about <span class="process-math">\(16^{\frac{1}{2}}\)</span> is that is a number when “squared” (raised to the power of 2) gives 16. You might know this by a different name: the <dfn class="terminology">square root</dfn> of 16. It is true that <span class="process-math">\(16^{\frac{1}{2}} = \sqrt{16} = 4\)</span> because <span class="process-math">\(4 \cdot 4 = 4^2 = 16\text{.}\)</span>
+</div>
+</div>
+<div class="para" id="sec-exponents-11">The above explanation may be confusing or it may seem so obvious it is silly. If the explanation is helpful for remembering or explaining why this notation means what it does, that’s great! If your brain would rather just remember the following rule, that’s okay too.</div>
+<article class="fact theorem-like" id="fact-rootasapower"><h3 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">2.3.4</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="fact-rootasapower-1-1">
+<div class="para">For a positive base, <span class="process-math">\(b\text{,}\)</span> and a positive whole number, <span class="process-math">\(n\text{,}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+b^{\frac{1}{n}} = \sqrt[n]{b},
+\end{equation*}
+</div>
+<div class="para">read as “the <span class="process-math">\(n^\text{th}\)</span> root of <span class="process-math">\(b\text{.}\)</span>” The <span class="process-math">\(n^\text{th}\)</span> root of <span class="process-math">\(b\)</span> is some other number that when raised to the <span class="process-math">\(n^\text{th}\)</span> power equals <span class="process-math">\(b\text{.}\)</span>
+</div>
+</div></article><div class="para" id="sec-exponents-13">It is likely that this feels at least okay when <span class="process-math">\(n = 2\text{,}\)</span> but may feel a bit weird for something other than a square root.</div>
+<article class="example example-like" id="sec-exponents-14"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.5</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec-exponents-14-1-1">Evaluate <span class="process-math">\(81^{\frac{1}{4}}\text{.}\)</span>
+</div>
+<div class="solutions"><details id="sec-exponents-14-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec-exponents-14-2-1">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fact-rootasapower.html">
+\begin{equation*}
+81^{\frac{1}{4}} \amp = \sqrt[4]{81} \text{, by \\knowl{./knowl/xref/fact-rootasapower.html}{Fact 2.3.4}}. 
+\end{equation*}
+</div>
+<div class="para">So, we’re looking for some number, let’s call it <span class="process-math">\(x\text{,}\)</span> so that <span class="process-math">\(x^4 = 81\text{.}\)</span> One might recognize that <span class="process-math">\(81 = 9 \cdot 9\text{,}\)</span> or equivalenty, <span class="process-math">\(\sqrt{81} = 9\text{.}\)</span> We can also maybe recognize that <span class="process-math">\(9 = 3 \cdot 3\text{.}\)</span> Putting this together, we see</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fact-rootasapower.html">
+\begin{equation*}
+81 = 9 \cdot 9 = (3 \cdot 3) \cdot (3 \cdot 3) = 3^4.
+\end{equation*}
+</div>
+<div class="para">So,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fact-rootasapower.html">
+\begin{equation*}
+81^{\frac{1}{4}} \amp = \sqrt[4]{81} = 3.
+\end{equation*}
+</div>
+</div></div></details></div></article></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-decimals.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-roots.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

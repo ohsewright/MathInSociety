@@ -511,7 +511,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Decimal Arithmetic",
-  "body": " Decimal Arithmetic  Recall that we can also view fractions as division problems and those quotients (the answer in a division problem) are written as decimals. We convert a fraction to a decimal representation by simply doing the division. To convert a decimal number to its equivalent fraction representation, we need to remember place value.  Consider the number 123.456. Each of 1, 2, 3, 4, 5, and 6 are the digits of the number. The location (place) of the digit tells us what it represents (its value). The digit immediately to the left of the decimal point is the ones place so the digit and the numerical value are the same. Moving to the left increases the value of a digit by a factor of 10. So, the 2 above represents 2 tens, or 20, and the 1 represents 1 hundred, 100. Digits to the right of the decimal point represent values less than one. The first digit is in the tenths place, and tells us how many s we have. Therefore, the 4 in 123.456 represents 4 tenths, or . Moving to the right decreases the value by a factor of 10, which increases the denominator of the fraction by a factor of 10. So, the 5 represents 5 onehundredths, , and the 6 in the thousandths place is .  "
+  "body": " Decimal Arithmetic  Recall that we can also view fractions as division problems and those quotients (the answer in a division problem) are written as decimals. We convert a fraction to a decimal representation by simply doing the division. To convert a decimal number to its equivalent fraction representation, we need to remember place value.  Consider the number 123.456. Each of 1, 2, 3, 4, 5, and 6 are the digits of the number. The location (place) of the digit tells us what it represents (its value). The digit immediately to the left of the decimal point is the ones place so the digit and the numerical value are the same. Moving to the left increases the value of a digit by a factor of 10. So, the 2 above represents 2 tens, or 20, and the 1 represents 1 hundred, 100. Digits to the right of the decimal point represent values less than one. The first digit is in the tenths place, and tells us how many s we have. Therefore, the 4 in 123.456 represents 4 tenths, or . Moving to the right decreases the value by a factor of 10, which increases the denominator of the fraction by a factor of 10. So, the 5 represents 5 onehundredths, , and the 6 in the thousandths place is .  Since most of us carry around a calculator (in the form of our phone) most of the time, being able to do computations by hand isn't a very important skill. We can and should make use of calculators and computers for computations that are not immediately obvious to us. If it takes longer to open the calulator app or type something in to Google than to do it by hand or in our head, we're wasting time. We only care about the algorithmic procedures in as far as they reinforce other fundamental understandings.  For example, if we're going to do an addition or subtraction problem with decimal numbers, we need to line up the decimal points vertically. This step in the algorithm means that digits with the same place value are vertically aligned. For digits to the right of the decimal point, this really amounts to ensuring we're adding fractions with a common denominator.  "
 },
 {
   "id": "sec-exponents",
@@ -520,7 +520,61 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Exponent Rules",
-  "body": " Exponent Rules  Text of section.  "
+  "body": " Exponent Rules  Similar to decimal numbers, we should make use of computers and calculators for most all computations involving exponents. In this section, we want to clarify the definition of an exponent and make sure we're comfortable using our preferred computing device for the computations.  First, some notation and vocabulary.   When we see , the is the base , the is the exponent , and this is read as to the power. When is a whole positive number, is a short-hand way to write multiplied by itself times.   In some cases, there are more specialized wording; is called 3 squared and is referred to as 2 cubed.   These are good examples of computations that we can use to check how to enter these computations in the calculator or computer. On a computer with a keyboard, particularly in Desmos, we use the caret (shift 6) to enter the exponent, and the friendlier platforms will show it on the screen nicely so that we can be sure what we're entering is what we want. On a calculator, you may have the same caret button, you also might have a button that looks something like . Depending on the specifics of the device, entering 2 3 could mean either or .   Calculator Check  When you encounter a new to you calculator, or you just forget, test out the various computation buttons with easy computations. Buttons like , described above, , and all represent computations that we should use our calculators for, but not if we're not sure we are getting the correct answer.   Remembering the meaning of an exponent in the nice cases can help to make sense of the less nice cases and more general rules. If we consider negative numbers as the opposites of positive numbers, then it should make sense that a negative exponent would represent repeated division, the opposite of multiplication. This thinking also gives us the exponent rule of swapping numerator with denominator for a negative exponent. For example,   The rules about how exponents are combined are also easier to remember when we keep the nice examples in mind: and    Exponent Rules   As long as the base, , is a positive number, the following rules apply for any values of the exponents and .     These rules are easier to make sense of (and reconstruct of you forget) when we consider whole numbers for the exponents. But, they still apply for fractional powers as well, and can help us make sense of why we use fractional powers in the way we do.  For this to make sense, we need to remember that . We'll use the rules from above, but it may feel a bit backwards. So, whatever this power might mean, one way to think about is that is a number when squared (raised to the power of 2) gives 16. You might know this by a different name: the square root of 16. It is true that because .  The above explanation may be confusing or it may seem so obvious it is silly. If the explanation is helpful for remembering or explaining why this notation means what it does, that's great! If your brain would rather just remember the following rule, that's okay too.    For a positive base, , and a positive whole number, , read as the root of . The root of is some other number that when raised to the power equals .    It is likely that this feels at least okay when , but may feel a bit weird for something other than a square root.    Evaluate .     So, we're looking for some number, let's call it , so that . One might recognize that , or equivalenty, . We can also maybe recognize that . Putting this together, we see So,     "
+},
+{
+  "id": "sec-exponents-3",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "base exponent "
+},
+{
+  "id": "sec-exponents-5",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-5",
+  "type": "Good Brain Habit",
+  "number": "2.3.2",
+  "title": "Calculator Check.",
+  "body": " Calculator Check  When you encounter a new to you calculator, or you just forget, test out the various computation buttons with easy computations. Buttons like , described above, , and all represent computations that we should use our calculators for, but not if we're not sure we are getting the correct answer.  "
+},
+{
+  "id": "fact-exponentrules",
+  "level": "2",
+  "url": "sec-exponents.html#fact-exponentrules",
+  "type": "Fact",
+  "number": "2.3.3",
+  "title": "Exponent Rules.",
+  "body": " Exponent Rules   As long as the base, , is a positive number, the following rules apply for any values of the exponents and .    "
+},
+{
+  "id": "sec-exponents-10",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "square root "
+},
+{
+  "id": "fact-rootasapower",
+  "level": "2",
+  "url": "sec-exponents.html#fact-rootasapower",
+  "type": "Fact",
+  "number": "2.3.4",
+  "title": "",
+  "body": "  For a positive base, , and a positive whole number, , read as the root of . The root of is some other number that when raised to the power equals .   "
+},
+{
+  "id": "sec-exponents-14",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-14",
+  "type": "Example",
+  "number": "2.3.5",
+  "title": "",
+  "body": "  Evaluate .     So, we're looking for some number, let's call it , so that . One might recognize that , or equivalenty, . We can also maybe recognize that . Putting this together, we see So,    "
 },
 {
   "id": "sec-roots",

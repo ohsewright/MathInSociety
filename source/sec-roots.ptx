@@ -3,6 +3,206 @@
 <section xml:id="sec-roots" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Roots and Solving for the Base</title>
 
-  <p> Text of section. </p>
+  <p> We saw in <xref ref="fact-rootasapower"/> that we can view a square root, or cube root, or any root as just a particular type of exponent, and in fact, that's often how we enter them into a calculator when we can't compute them in our heads.</p>
+
+  <p>
+    Sometimes we have information about the root of a value, but we want the value itself.
+    Other times, we'll have information about the value after it has been raised to a power, but want information about the original value.
+    Because terms like <q>square</q> and <q>cube</q> get thrown into the mix when we're talking about both the second or third power <alert>OR</alert> the second or third root... the language can get confusing.
+  </p>
+
+  <p>
+    We've learned and practiced how to solve linear equations in <xref ref="sec-lines"></xref>, now we want to be able to solve equations like <m>\sqrt[3]{x}=8</m> or <m>r^2=42</m>.
+  </p>
+
+  <example xml:id="example-cuberoot">
+    <statement>
+      <p>
+        Solve <m>\sqrt[3]{x}=8</m> for <m>x</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        You might read this equation as, <q>What number cube rooted equals 8?</q>
+        This can also be thought of as, <q>8 cubed is what number?</q>
+        To solve this, we can cube both sides of the equation because cube roots and cubing are inverse functions, they <q>undo</q> each other.   
+      </p>
+      <p>
+        <md>
+          <mrow>\sqrt[3]{x} \amp = 8</mrow>
+          <mrow>\left(\sqrt[3]{x}\right)^3 \amp = \left(8\right)^3</mrow>
+          <mrow>x \amp = 8 \times 8 \times 8</mrow>
+          <mrow>x \amp = 512</mrow>
+        </md>
+      </p>
+    </solution>
+  </example>
+
+  <example xml:id="example-r-squared">
+    <statement>
+      <p>
+        Solve <m>r^2=42</m> for <m>r</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        The equation reads, <q>What number squared is 42?</q>
+        This can also be thought of as, <q>The square root of 42 is what number?</q>
+        To solve this, we can take the square root of both sides of the equation, again because square roots and squaring are inverse operations.  
+      </p>
+      <p>
+        <md>
+          <mrow>r^2\amp = 42</mrow>
+          <mrow>\sqrt{r^2} \amp = \sqrt{42} \approx 6.4807</mrow>
+        </md>
+        Note that <m>6.4807 \times 6.4807</m> is 42, but <m>-6.4807 \times -6.4807 = 42</m> as well.  So <m>r</m> is really <m>\pm 6.4807</m>. 
+      </p>
+    </solution>
+  </example>
+
+  <insight>
+    <p>
+    We can (and should!) always check our answer(s) when solving equations; simply go back to the start and plug in the value(s) and see if it works out.
+    </p>
+  </insight>
+
+  <fact xml:id="fact-even-roots">
+  <title>Even Powers and Roots</title>
+    <statement>
+      <p>
+        Raising a negative number to an even power results in a positive value; <m>(-2)^4 = (-2)(-2)(-2)(-2) = (4)(4) = 16</m>.
+        So, an equation like <m>x^n = -1234</m> where <m>n</m> is even will have no solution. 
+        This also means, that if we input a negative value into an even root, <m>\sqrt[n]{-1234}</m> like we would to solve the above equation, most calculators will produce and error.
+        As we see in <xref ref="example-r-squared"/>, when determining the solution to an equation with an even power, we will need to consider negative values as well.
+        A calculator will always produce just the positive answer when you input <m>\sqrt[n]{\#}</m>.
+      </p>
+    </statement>
+  </fact>
+
+  <fact xml:id="fact-odd-roots">
+    <title>Odd Powers and Roots</title>
+      <statement>
+        <p>
+          Raising a negative number to an odd power results in a negative value; <m>(-2)^5 = (-2)(-2)(-2)(-2)(-2) = (4)(4)(-2) = -32</m>.
+          So, an equation like <m>x^m = -1234</m> where <m>m</m> is odd will have a <alert>unique</alert> solution; what we get when we input <m>\sqrt[m]{-1234}</m> into a calculator.
+        </p>
+      </statement>
+    </fact>
+  
+  <exercise>
+    <statement>
+      <p>
+        A number cubed is -27, what number (or numbers) is it?
+      </p>
+      <p>
+        A number squared is -64, what number (or numbers) is it?
+      </p>
+      <p>
+        A number raised to the fourth power is 81, what number (or numbers) is it? 
+      </p>
+    </statement>
+
+    <solution>
+      <p>
+        <q>A number cubed is -27,</q> translates to <m>x^3 = -27</m>.
+        We can solve this by taking the cube root of both sides:
+        <md>
+          <mrow>x^3 \amp -27</mrow>
+          <mrow>\sqrt[3]{x^3} \amp = \sqrt[3]{-27}</mrow>
+          <mrow>x \amp = -3</mrow>
+        </md>
+      </p>
+      <p>
+        <q>A number squared is -64,</q> translates to <m>x^2 = -64</m>.
+        This will have no solution, since any number raised to an even power is positive, <xref ref="fact-even-roots"/>.
+      </p>
+      <p>
+        <q>A number raised to the fourth power is 81,</q> translates to <m>x^4 = 81</m>.
+        We can solve this in one step by taking the fourth root of both sides, which is easy with a calculator.
+        Most of these types of equations require a calculator to solve, but this one has fairly friendly numbers.
+      </p>
+      <p>
+        We might recognize 81 as a <q>perfect square</q>, that is <m>81 = 9^2</m>. So,
+          <md>
+            <mrow>x^4 \amp = 81</mrow>
+            <mrow>\sqrt{x^4} \amp = \sqrt{81}</mrow>
+            <mrow>x^2 \amp = 9</mrow>
+            <mrow>\sqrt{x^2} \amp = \sqrt{9}</mrow>
+            <mrow>x \amp = 3</mrow>
+          </md>
+        Since this involves an even power, we consider if a negative might also be a solution:
+        <me>
+          (-3)^4 = (-3)(-3)(-3)(-3) = (9)(9) = 81.
+        </me>
+        So a number raised to the fourth power that equals 81 could be <m>\pm 3</m>.
+      </p>
+    </solution>
+  </exercise>  
+
+  <p>
+    In some cases, we'll need even more steps to solve an equation involving roots or powers. 
+    Before we attempt to undo a root with a power or vice versa, we need to make sure the we've isolated that term.
+  </p>
+  <example>
+    <statement>
+      <p>
+        Solve <m>2\sqrt{x} + 1 = 13</m> for <m>x</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We first aim to isolate the <m>\sqrt{x}</m> term on one side:
+        <md>
+          <mrow>2\sqrt{x} + 1 \amp = 13</mrow>
+          <mrow>2\sqrt{x} + 1 - 1\amp = 13 - 1</mrow>
+          <mrow>2\sqrt{x} \amp = 12</mrow>
+          <mrow>\frac{2sqrt{x}}{2} \amp = \frac{12}{2}</mrow>
+          <mrow>\sqrt{x} \amp = 6</mrow>
+        </md>
+        To undo the square root, we square both sides:
+        <md>
+          <mrow>\left(\sqrt{x}\right)^2 \amp = 6^2</mrow>
+          <mrow>x \amp 36</mrow>
+        </md>
+      </p>
+      It is good practice to consider potential negative solutions, but in this case, a negative value for <m>x</m> will not work since we cannot take the even root of a negative number.
+    </solution>
+  </example>
+
+  <exercise>
+    <statement>
+      <p>
+        Solve <m>\sqrt{2x} + 1 = 13</m> and <m>2\sqrt{x+1} = 13</m> for <m>x</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <md>
+          <mrow>\sqrt{2x} + 1 \amp = 13</mrow>
+          <mrow>\sqrt{2x} + 1 - 1 \amp = 13 - 1</mrow>
+          <mrow>\sqrt{2x} \amp = 12</mrow>
+          <mrow>\left(\sqrt{2x}\right)^2 \amp = 12^2</mrow>
+          <mrow>2x \amp = 144</mrow>
+          <mrow>\frac{2x}{2} \amp = \frac{144}{2}</mrow>
+          <mrow>x \amp = 72</mrow>
+        </md>
+      </p>
+      <p>
+        <md>
+          <mrow>2\sqrt{x+1} \amp = 13</mrow>
+          <mrow>\frac{2\sqrt{x+1}}{2} \amp = \frac{13}{2}</mrow>
+          <mrow>\sqrt{x+1} \amp = 6.5</mrow>
+          <mrow>\left(\sqrt{x+1}\right)^2 \amp = (6.5)^2</mrow>
+          <mrow>x+1 \amp = 42.5</mrow>
+          <mrow>x + 1 - 1 \amp = 42.5 - 1</mrow>
+          <mrow>x \amp = 41.5</mrow>
+        </md>
+      </p>
+      In both cases, these are the only solution.
+    </solution>
+  </exercise>
+
+
+  
 
 </section>

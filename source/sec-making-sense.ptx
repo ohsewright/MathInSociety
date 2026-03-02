@@ -521,7 +521,7 @@
                     <cell>1,753</cell>
                 </row>
                 <row>
-                    <cell>United State</cell>
+                    <cell>United States</cell>
                     <cell>334,233,854</cell>
                     <cell>1,218,467</cell>
                 </row>
@@ -549,7 +549,7 @@
         <task>
             <statement>
                 <p>
-                    Find the violent crime rate per 1000 for each city and compare it to the national rate?
+                    Find the violent crime rate per 1000 for each city and compare it to the national rate.
                 </p>
             </statement>
         </task>

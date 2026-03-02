@@ -4,18 +4,16 @@
   <title>Modeling</title>
 
   <introduction>
-    <p> Text before the first section. </p>
-
-      <p>
-        Here's another paragraph.
-      </p>
-
-   </introduction>
+    <p>
+      A lot of what mathematics aims to do is to describe situations with formulas and rules. That is essentially what modeling is.
+    </p>
+  </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-intro-types.ptx" />
+  <xi:include href="sec-types.ptx" />
   <xi:include href="sec-linear.ptx" />
   <xi:include href="sec-exponential.ptx" />
-  <xi:include href="sec-powers.ptx" />
+  <xi:include href="exercises-modeling.ptx" />
+  <xi:include href="sec-modeling-proj.ptx" />
 
 </chapter>

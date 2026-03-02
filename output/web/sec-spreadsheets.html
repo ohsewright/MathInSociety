@@ -5,15 +5,21 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_green">
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: denver                         *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Spreadsheets are your Friends</title>
-<meta name="Keywords" content="Authored in PreTeXt">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:type" content="book">
-<meta property="book:title" content="Mathematics in Society">
-<meta property="book:author" content="Sarah Wright">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -74,7 +80,7 @@ window.MathJax = {
       "[pretext]/mathjaxknowl3.js"
     ],
     "paths": {
-      "pretext": "_static/pretext/js/lib"
+      "pretext": "_static/pretext/js"
     }
   },
   "startup": {
@@ -86,16 +92,12 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="_static/pretext/js/pretext-webwork/2.17/pretext-webwork.js"></script><script src="https://webwork-ptx.aimath.org/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
-</script><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
-<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
-<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
-<!--** eBookCongig is necessary to configure interactive       **-->
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Mathematics in Society">
+<meta property="book:author" content="Sarah Wright">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -117,58 +119,23 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.14';
+eBookConfig.runestone_version = '7.11.16';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.d892923478694492.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1d6e4aba17c2c7f2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
-<style>
-#check-Desmoscomp-2-2 { counter-set: check-Desmoscomp-2-2 0; }
-#check-Desmoscomp-2-2 > li::marker { content: ""counter(check-Desmoscomp-2-2,decimal)"."; }
-#check-Desmoscomp-2-2 > li { counter-increment: check-Desmoscomp-2-2; }
-#check-Desmoscomp-3-3-1 { counter-set: check-Desmoscomp-3-3-1 0; }
-#check-Desmoscomp-3-3-1 > li::marker { content: ""counter(check-Desmoscomp-3-3-1,decimal)"."; }
-#check-Desmoscomp-3-3-1 > li { counter-increment: check-Desmoscomp-3-3-1; }
-#example-slope-points-2-1-1 { counter-set: example-slope-points-2-1-1 0; }
-#example-slope-points-2-1-1 > li::marker { content: "("counter(example-slope-points-2-1-1,lower-alpha)".)"; }
-#example-slope-points-2-1-1 > li { counter-increment: example-slope-points-2-1-1; }
-#example-slope-points-3-1-1 { counter-set: example-slope-points-3-1-1 0; }
-#example-slope-points-3-1-1 > li::marker { content: "("counter(example-slope-points-3-1-1,lower-alpha)".)"; }
-#example-slope-points-3-1-1 > li { counter-increment: example-slope-points-3-1-1; }
-#example-perc-dec-frac-1-1-1 { counter-set: example-perc-dec-frac-1-1-1 0; }
-#example-perc-dec-frac-1-1-1 > li::marker { content: "("counter(example-perc-dec-frac-1-1-1,lower-alpha)")"; }
-#example-perc-dec-frac-1-1-1 > li { counter-increment: example-perc-dec-frac-1-1-1; }
-#example-perc-dec-frac-2-1-1 { counter-set: example-perc-dec-frac-2-1-1 0; }
-#example-perc-dec-frac-2-1-1 > li::marker { content: "("counter(example-perc-dec-frac-2-1-1,lower-alpha)")"; }
-#example-perc-dec-frac-2-1-1 > li { counter-increment: example-perc-dec-frac-2-1-1; }
-#extracted-webwork-11-1-1-2-1 { counter-set: extracted-webwork-11-1-1-2-1 0; }
-#extracted-webwork-11-1-1-2-1 > li::marker { content: ""counter(extracted-webwork-11-1-1-2-1,lower-alpha)"."; }
-#extracted-webwork-11-1-1-2-1 > li { counter-increment: extracted-webwork-11-1-1-2-1; }
-#extracted-webwork-11-1-5-3-1 { counter-set: extracted-webwork-11-1-5-3-1 0; }
-#extracted-webwork-11-1-5-3-1 > li::marker { content: ""counter(extracted-webwork-11-1-5-3-1,lower-alpha)"."; }
-#extracted-webwork-11-1-5-3-1 > li { counter-increment: extracted-webwork-11-1-5-3-1; }
-#exercises-taxplan-6-5-1-1-1 { counter-set: exercises-taxplan-6-5-1-1-1 0; }
-#exercises-taxplan-6-5-1-1-1 > li::marker { content: "("counter(exercises-taxplan-6-5-1-1-1,lower-alpha)")"; }
-#exercises-taxplan-6-5-1-1-1 > li { counter-increment: exercises-taxplan-6-5-1-1-1; }
-#exercises-taxplan-6-6-1-1-1 { counter-set: exercises-taxplan-6-6-1-1-1 0; }
-#exercises-taxplan-6-6-1-1-1 > li::marker { content: "("counter(exercises-taxplan-6-6-1-1-1,lower-alpha)")"; }
-#exercises-taxplan-6-6-1-1-1 > li { counter-increment: exercises-taxplan-6-6-1-1-1; }
-#exercises-taxplan-6-7-1-1-1 { counter-set: exercises-taxplan-6-7-1-1-1 0; }
-#exercises-taxplan-6-7-1-1-1 > li::marker { content: "("counter(exercises-taxplan-6-7-1-1-1,lower-alpha)")"; }
-#exercises-taxplan-6-7-1-1-1 > li { counter-increment: exercises-taxplan-6-7-1-1-1; }
-</style>
+<script src="_static/prefix-runtime.0f480e95eedd3cd4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1d6e4aba17c2c7f2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.75d8d8257df1449f.css">
+<script src="_static/pretext/js/pretext-webwork/2.20/pretext-webwork.js"></script><script src="https://webwork-ptx.aimath.org/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
 </head>
 <body class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
-<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
-<h1 class="heading"><a href="math-in-society.html"><span class="title">Mathematics in Society:</span> <span class="subtitle">A Quantitative Reasoning Course for Fitchburg State University</span></a></h1>
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="math-in-society.html"><span class="title">Mathematics in Society</span> <span class="subtitle">A Quantitative Reasoning Course for Fitchburg State University</span></a></h1>
 <p class="byline">Sarah Wright</p>
-</div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
 <button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-2.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
@@ -180,7 +147,7 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-desmos.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span></span>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-desmos.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -189,7 +156,7 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction to Mathematics in Society</span></a></div>
@@ -213,13 +180,13 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-fractions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Fraction Arithmetic</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-decimals.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Decimal Arithmetic</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponents.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exponent Rules</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-roots.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Roots and Solving for the Base</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-lines.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Graphing and Solving Linear Equations</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-lines.html#exercises-lines" class="internal"><span class="codenumber">2.5</span> <span class="title">A Few Practice Exercises</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec-lines.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Graphing and Solving Linear Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-lines.html#exercises-lines" class="internal"><span class="codenumber">2.3</span> <span class="title">A Few Practice Exercises</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-logs.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Logarithms and Solving for the Power</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponents.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Exponent Rules</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-roots.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Roots and Solving for the Base</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-logs.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Logarithms and Solving for the Exponent</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -248,10 +215,11 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-models.html" class="internal"><span class="codenumber">4</span> <span class="title">Modeling</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-intro-types.html" class="internal"><span class="codenumber">4.1</span> <span class="title">What is a Model?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-types.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Two Types of Relationships</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Linear Models</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exponential.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Exponential Models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-powers.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Power Models</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-modeling.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Modeling Practice Exercises</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-modeling-proj.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Modeling Projects</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -285,63 +253,98 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-spreadsheets"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.5</span><span class="space"> </span><span class="title">Spreadsheets are your Friends</span>
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Spreadsheets are your Friends</span>
 </h2>
-<div class="para" id="sec-spreadsheets-2">Spreadsheets can be used for organizing information and presenting it in a pretty way, but they can also be powerful computational tools with a little knowhow.</div>
-<div class="para" id="sec-spreadsheets-3">We’ll use Google Sheets, because we all have access to that. While the details may change, the same principles will apply in any spreadsheet, like Excel. First, we orient ourselves to what we see and how to get around. When you open a new Google Sheet, you’ll see something like this:</div>
+<div class="para" id="sec-spreadsheets-2">Spreadsheets can be used for organizing information and presenting it in a pretty way, but they can also be powerful computational tools with a little knowhow.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-spreadsheets-3">We’ll use Google Sheets, because we all have access to that. While the details may change, the same principles will apply in any spreadsheet, like Excel. First, we orient ourselves to what we see and how to get around. When you open a new Google Sheet, you’ll see something like this:<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/blankspreadsheet.png" class="contained" alt="A new Google Sheet."></div>
-<div class="para" id="sec-spreadsheets-5">Clicking on “Untitled Spreadsheet” will allow you to rename your file, and a folder with an arrow icon to the right will let you save your file where you choose. The small boxes are called <em class="emphasis">cells</em> and clicking in one allows you to type in it directly. The entries in the cells can be formatted with the quick tools menu across the top.</div>
+<div class="para" id="sec-spreadsheets-5">Clicking on “Untitled Spreadsheet” will allow you to rename your file, and a folder with an arrow icon to the right will let you save your file where you choose. The small boxes are called <em class="emphasis">cells</em> and clicking in one allows you to type in it directly. The entries in the cells can be formatted with the quick tools menu across the top.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/Schedule.png" class="contained" alt="A new Google Sheet."></div>
 <article class="exercise exercise-like" id="check-SheetFormat"><h3 class="heading">
-<span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">1.5.1</span><span class="period">.</span>
+<span class="type">Check for Understanding</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
-<div class="para" id="check-SheetFormat-1-1">To practice formatting, try to recreate the schedule above in your own spreadsheet.</div></article><div class="para" id="sec-spreadsheets-8">In order to use spreadsheets for computations, the most important thing to understand is how to reference cells (the little boxes). You’ll write formulas and the values that are plugged in to those formulas are those in particular cells. Rather than typing hte value yourself, you reference the cell with its column letter and row number. The cell outlined in blue above is A1. The Friday math class is cell F3. The Wednesday lab occupies cells D6:D8, (the colon is used to indicate a range). While the options for labels will vary, this is similar to naming the squares on a chess board, or calling out a shot in the game Battleship, for finding your seat in a theater by the row and seat.</div>
-<div class="para" id="sec-spreadsheets-9">For our working example, we’ll set up a spreadsheet to track grades in a made up course. You are encouraged to follow along by creating the same spreadsheet and completing the same steps. You can also use <a class="external" href="https://docs.google.com/spreadsheets/d/14SKQmpqZkwbxlhSRGFUS4g7g15jej1VR7n0dw8A_5Oo/copy" target="_blank">this link</a><details class="ptx-footnote" aria-live="polite" id="sec-spreadsheets-9-2"><summary class="ptx-footnote__number" title="Footnote 1.5.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-spreadsheets-9-2"><code class="code-inline tex2jax_ignore">docs.google.com/spreadsheets/d/14SKQmpqZkwbxlhSRGFUS4g7g15jej1VR7n0dw8A_5Oo/copy</code></div></details> to generate your own copy of the final sheet.</div>
-<div class="para" id="sec-spreadsheets-10">We will start by listing our students. Type “Student 1” in cell A2 and “Student 2” in cell A3. We could continuing typing following this pattern, or let the sheet do the work for us! Highlight the two cells, click and hold on the blue dot in the lower right corner, and drag that down until 10 total cells are highlighted. When you release, you should see Student 1 through Student 10 in cells A2:A11.</div>
-<figure class="figure figure-like" id="sec-spreadsheets-11"><div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
-<div class="sbspanel middle" style="width:38.8888888888889%;"><figure class="figure figure-like" id="sec-spreadsheets-11-2-1"><img src="external/images/StudentListStart.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Start of the list</figcaption></figure></div>
-<div class="sbspanel middle" style="width:50%;"><figure class="figure figure-like" id="sec-spreadsheets-11-2-2"><img src="external/images/StudentListEnd.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Expanded list</figcaption></figure></div>
+<div class="para" id="check-SheetFormat-1-1">To practice formatting, try to recreate the schedule above in your own spreadsheet.<div class="autopermalink" data-description="Paragraph"><a href="#check-SheetFormat-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Check for Understanding 1.5.1"><a href="#check-SheetFormat" title="Copy heading and permalink for Check for Understanding 1.5.1" aria-label="Copy heading and permalink for Check for Understanding 1.5.1">🔗</a></div></article><div class="para" id="sec-spreadsheets-8">In order to use spreadsheets for computations, the most important thing to understand is how to reference cells (the little boxes). You’ll write formulas and the values that are plugged in to those formulas are those in particular cells. Rather than typing hte value yourself, you reference the cell with its column letter and row number. The cell outlined in blue above is A1. The Friday math class is cell F3. The Wednesday lab occupies cells D6:D8, (the colon is used to indicate a range). While the options for labels will vary, this is similar to naming the squares on a chess board, or calling out a shot in the game Battleship, for finding your seat in a theater by the row and seat.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-spreadsheets-9">For our working example, we’ll set up a spreadsheet to track grades in a made up course. You are encouraged to follow along by creating the same spreadsheet and completing the same steps. You can also use <a class="external" href="https://docs.google.com/spreadsheets/d/14SKQmpqZkwbxlhSRGFUS4g7g15jej1VR7n0dw8A_5Oo/copy" target="_blank">this link</a> to generate your own copy of the final sheet.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-spreadsheets-10">We will start by listing our students. Type “Student 1” in cell A2 and “Student 2” in cell A3. We could continuing typing following this pattern, or let the sheet do the work for us! Highlight the two cells, click and hold on the blue dot in the lower right corner, and drag that down until 10 total cells are highlighted. When you release, you should see Student 1 through Student 10 in cells A2:A11.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="sec-spreadsheets-11"><div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;grid-template-columns:38.8888888888889% 50%;column-gap:10%;">
+<div class="sbspanel sbspanel--middle middle" style=""><figure class="figure figure-like" id="sec-spreadsheets-11-2-1"><div class="image-box"><img src="external/images/StudentListStart.png" class="contained"></div>
+<figcaption><span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Start of the list<div class="autopermalink" data-description="Figure 1.5.2.(a)"><a href="#sec-spreadsheets-11-2-1" title="Copy heading and permalink for Figure 1.5.2.(a)" aria-label="Copy heading and permalink for Figure 1.5.2.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel sbspanel--middle middle" style=""><figure class="figure figure-like" id="sec-spreadsheets-11-2-2"><div class="image-box"><img src="external/images/StudentListEnd.png" class="contained"></div>
+<figcaption><span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Expanded list<div class="autopermalink" data-description="Figure 1.5.2.(b)"><a href="#sec-spreadsheets-11-2-2" title="Copy heading and permalink for Figure 1.5.2.(b)" aria-label="Copy heading and permalink for Figure 1.5.2.(b)">🔗</a></div></figcaption></figure></div>
 </div></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.2<span class="period">.</span></span><span class="space"> </span>Dragging a start to a list to follow a pattern.</figcaption></figure><article class="exercise exercise-like" id="check-SheetDrag"><h3 class="heading">
-<span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">1.5.3</span><span class="period">.</span>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Dragging a start to a list to follow a pattern.<div class="autopermalink" data-description="Figure 1.5.2"><a href="#sec-spreadsheets-11" title="Copy heading and permalink for Figure 1.5.2" aria-label="Copy heading and permalink for Figure 1.5.2">🔗</a></div></figcaption></figure><article class="exercise exercise-like" id="check-SheetDrag"><h3 class="heading">
+<span class="type">Check for Understanding</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
-<div class="para" id="check-SheetDrag-1-1">Use a similar strategy to enter Quiz 1 through Quiz 5 in cells B1:F1.</div></article><div class="para" id="sec-spreadsheets-13">We’re going to assign each of these students some made up quiz scores. You can copy the same numbers here, or make up your own. Use the tab button to move to the cell to the right after typing a number. The return key will move you to the next row down; sometimes directly below and sometimes back to the left at the start of your entry area. You can always use arrows too or click in a cell you want to type in.</div>
+<div class="para" id="check-SheetDrag-1-1">Use a similar strategy to enter Quiz 1 through Quiz 5 in cells B1:F1.<div class="autopermalink" data-description="Paragraph"><a href="#check-SheetDrag-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Check for Understanding 1.5.3"><a href="#check-SheetDrag" title="Copy heading and permalink for Check for Understanding 1.5.3" aria-label="Copy heading and permalink for Check for Understanding 1.5.3">🔗</a></div></article><div class="para" id="sec-spreadsheets-13">We’re going to assign each of these students some made up quiz scores. You can copy the same numbers here, or make up your own. Use the tab button to move to the cell to the right after typing a number. The return key will move you to the next row down; sometimes directly below and sometimes back to the left at the start of your entry area. You can always use arrows too or click in a cell you want to type in.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/QuizGrades.png" class="contained" alt="Quiz grades entered."></div>
-<div class="para" id="sec-spreadsheets-15">Now, we have some data to work with! If you want to do computations, you need to start your entry in the cell with “<span class="process-math">\(=\)</span>”. You can do this and simply use a spreadsheet like you might use a calculator. Click in cell G12, type “=(5+6+7+8+9)/5”, and hit enter. The entry in the cell should look like 7, and if you click on the cell again, you’ll see the formula you used in the formula bar near the top. This computed the quiz average of Student 1.</div>
-<div class="para" id="sec-spreadsheets-16">If instead of typing in the numbers we want to average directly, we reference the cells where those scores live, then we can drag to copy the formula similar to what we did for the Student names. Click in cell G2 and type “=(B2+C2+D2+E2+F2)/5” and hit enter. Rather than typing the name of a cell, you can also click on that cell. In many cases, once you type the “<span class="process-math">\(=\)</span>”, you will get suggestions of formulas to use. Once you’re a bit more comfortable with what’s going on, that can be a big time saver.</div>
+<div class="para" id="sec-spreadsheets-15">Now, we have some data to work with! If you want to do computations, you need to start your entry in the cell with “<span class="process-math">\(=\)</span>”. You can do this and simply use a spreadsheet like you might use a calculator. Click in cell G12, type “=(5+6+7+8+9)/5”, and hit enter. The entry in the cell should look like 7, and if you click on the cell again, you’ll see the formula you used in the formula bar near the top. This computed the quiz average of Student 1.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-spreadsheets-16">If instead of typing in the numbers we want to average directly, we reference the cells where those scores live, then we can drag to copy the formula similar to what we did for the Student names. Click in cell G2 and type “=(B2+C2+D2+E2+F2)/5” and hit enter. Rather than typing the name of a cell, you can also click on that cell. In many cases, once you type the “<span class="process-math">\(=\)</span>”, you will get suggestions of formulas to use. Once you’re a bit more comfortable with what’s going on, that can be a big time saver.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/FirstAverage.png" class="contained" alt="The formula “=(B2+C2+D2+E2+F2)/5” entered into cell G2."></div>
-<div class="para" id="sec-spreadsheets-18">One of those suggestions may have seen is “SUM”. Try typing “=SUM(B2:F2)/5” into cell G2. This should produce the same 7 as before. This doesn’t save a ton of keystrokes in this example, but it certainly would if there were 100 quizzes!</div>
-<div class="para" id="sec-spreadsheets-19">Now, let’s try dragging this formula down to compute the quiz average for all ten students. Click on cell G2, grab the blue dot in the lower right corner, and drag that down to cell G11. If you’ve used the same data as here, you should see all 7s in cells G2:G11, which might make you think that this is copied the same result rather than the formula. If you click on cell G6 however, you should see the formula “=SUM(B6:F6)/5” to compute the quiz average for Student 5. You can also change the entries in cells and see how that changes the result of the formula.</div>
+<div class="para" id="sec-spreadsheets-18">One of those suggestions may have seen is “SUM”. Try typing “=SUM(B2:F2)/5” into cell G2. This should produce the same 7 as before. This doesn’t save a ton of keystrokes in this example, but it certainly would if there were 100 quizzes!<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-spreadsheets-19">Now, let’s try dragging this formula down to compute the quiz average for all ten students. Click on cell G2, grab the blue dot in the lower right corner, and drag that down to cell G11. If you’ve used the same data as here, you should see all 7s in cells G2:G11, which might make you think that this is copied the same result rather than the formula. If you click on cell G6 however, you should see the formula “=SUM(B6:F6)/5” to compute the quiz average for Student 5. You can also change the entries in cells and see how that changes the result of the formula.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/DragAverage.png" class="contained" alt="All students have the same quiz average."></div>
-<div class="para" id="sec-spreadsheets-21">Perhaps, you don’t think that these 10 students have the same understanding of the content of the course, even though they have the same quiz average. Maybe, these quizzes are cummulative; so you’d like to treat the first as a practice quiz and count each subsequent quiz as a higher percentage of the grade. In cell H2, type “=0.1*C2+0.2*D2+0.3*E2+0.4*F2”. The “*” is the asterisk; use Shift-8 to type it.</div>
+<div class="para" id="sec-spreadsheets-21">Perhaps, you don’t think that these 10 students have the same understanding of the content of the course, even though they have the same quiz average. Maybe, these quizzes are cummulative; so you’d like to treat the first as a practice quiz and count each subsequent quiz as a higher percentage of the grade. In cell H2, type “=0.1*C2+0.2*D2+0.3*E2+0.4*F2”. The “*” is the asterisk; use Shift-8 to type it.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/WeightedAverage.png" class="contained" alt="Students have different weighted averages."></div>
-<div class="para" id="sec-spreadsheets-23">This is called a <dfn class="terminology">weighted average</dfn>. Here, the weights are 10%, 20%, 30%, and 40%, and we multiply each of the quiz scores by that weight (as a decimal) before adding. This is great for the five quizzes we have, but remember how “SUM” would save us a lot of keystrokes if we had 100 quizzes? We can make use of that again! For this we need to add a row of weights. In Row 14, type “Weights” in cell A14, and then enter the five weights across the row: 0, .1, .2, .3, and .4.</div>
-<div class="para" id="sec-spreadsheets-24">In cell I2, type “=SUMPRODUCT(B2:F2, B14:F14)”. This multiplies the first number in the first list by the first number of the second list, and so on, before then adding them up. This should give the same result as column H, 8 for Student 1 with this data. Try dragging this formula down for all ten students.</div>
-<div class="para" id="sec-spreadsheets-25"><em class="alert">What’s going on?!?!?!?!?!</em></div>
-<div class="para" id="sec-spreadsheets-26">Click on the cell for another student and see if you can tell what’s happening.</div>
+<div class="para" id="sec-spreadsheets-23">This is called a <dfn class="terminology">weighted average</dfn>. Here, the weights are 10%, 20%, 30%, and 40%, and we multiply each of the quiz scores by that weight (as a decimal) before adding. This is great for the five quizzes we have, but remember how “SUM” would save us a lot of keystrokes if we had 100 quizzes? We can make use of that again! For this we need to add a row of weights. In Row 14, type “Weights” in cell A14, and then enter the five weights across the row: 0, .1, .2, .3, and .4.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-23" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-spreadsheets-24">In cell I2, type “=SUMPRODUCT(B2:F2, B14:F14)”. This multiplies the first number in the first list by the first number of the second list, and so on, before then adding them up. This should give the same result as column H, 8 for Student 1 with this data. Try dragging this formula down for all ten students.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-24" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-spreadsheets-25">
+<em class="alert">What’s going on?!?!?!?!?!</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-25" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-spreadsheets-26">Click on the cell for another student and see if you can tell what’s happening.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-26" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/ZEROES.png" class="contained" alt="Dragging the formula as is produces a zero average for the remaining students."></div>
-<div class="para" id="sec-spreadsheets-28">We can see the issue in the formula for Student 6 in cell I7. The second list of numbers in SUMPRODUCT should be the weights we listed in row 14, but this formula uses cells B19:F19. When we drag a formula, the spreadsheet adjusts <em class="emphasis">everything</em> in the formula. It moved down five rows for both the quiz scores and the weights. We can tell it not to do that!</div>
-<div class="para" id="sec-spreadsheets-29">Go back to cell I2 and type a “$” before each 14. This tells the spreadsheet <em class="alert">not</em> to adjust those entries in the formula if it is dragged around. You could do the same thing for a column label by putting the “$” in front of the column letter. Once you’ve adjusted the original formula, you do need to drag it down for all the students again.</div>
+<div class="para" id="sec-spreadsheets-28">We can see the issue in the formula for Student 6 in cell I7. The second list of numbers in SUMPRODUCT should be the weights we listed in row 14, but this formula uses cells B19:F19. When we drag a formula, the spreadsheet adjusts <em class="emphasis">everything</em> in the formula. It moved down five rows for both the quiz scores and the weights. We can tell it not to do that!<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-28" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-spreadsheets-29">Go back to cell I2 and type a “$” before each 14. This tells the spreadsheet <em class="alert">not</em> to adjust those entries in the formula if it is dragged around. You could do the same thing for a column label by putting the “$” in front of the column letter. Once you’ve adjusted the original formula, you do need to drag it down for all the students again.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-29" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/FixedCells.png" class="contained" alt="Including $s in the formulas means those cell labels are not adjusted when the formula is copied."></div>
-<div class="para" id="sec-spreadsheets-31">Another benefit of this formatting is that we can adjust the weights without rewriting a whole formula. Simply type in new weights into cells B14:F14. Just make sure your weights add up to 1, 100%. You can try making all of the same 0.2; this should produce the average, same as column G. You can make four of them 0 and one equal to 1; this should copy the column with weight 1.</div>
+<div class="para" id="sec-spreadsheets-31">Another benefit of this formatting is that we can adjust the weights without rewriting a whole formula. Simply type in new weights into cells B14:F14. Just make sure your weights add up to 1, 100%. You can try making all of the same 0.2; this should produce the average, same as column G. You can make four of them 0 and one equal to 1; this should copy the column with weight 1.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-31" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <article class="exercise exercise-like" id="check-Weights"><h3 class="heading">
-<span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">1.5.4</span><span class="period">.</span>
+<span class="type">Check for Understanding</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
-<div class="para" id="check-Weights-1-1">Experiment with a variety of weights. Can you predict what the outcome will be? Can you determine weights to give Student 5 the highest grade possible?</div></article><div class="para" id="sec-spreadsheets-33">Perhaps you want to account for students having a bad day or missing class during a quiz. You could do this by not counting a student’s lowest score. This happens on different quizzes for different students, so we can’t just weight a paricular quiz at 0%. In cell J2, type “=(SUM(B2:F2)-MIN(B2:F2))/4”. The formula MIN(B2:F2) finds the lowest number in that range. This is subtracted out of the total, and then dividing by 4 computes the average of the four highest scores.</div>
+<div class="para" id="check-Weights-1-1">Experiment with a variety of weights. Can you predict what the outcome will be? Can you determine weights to give Student 5 the highest grade possible?<div class="autopermalink" data-description="Paragraph"><a href="#check-Weights-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Check for Understanding 1.5.4"><a href="#check-Weights" title="Copy heading and permalink for Check for Understanding 1.5.4" aria-label="Copy heading and permalink for Check for Understanding 1.5.4">🔗</a></div></article><div class="para" id="sec-spreadsheets-33">Perhaps you want to account for students having a bad day or missing class during a quiz. You could do this by not counting a student’s lowest score. This happens on different quizzes for different students, so we can’t just weight a paricular quiz at 0%. In cell J2, type “=(SUM(B2:F2)-MIN(B2:F2))/4”. The formula MIN(B2:F2) finds the lowest number in that range. This is subtracted out of the total, and then dividing by 4 computes the average of the four highest scores.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-33" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/Dropped.png" class="contained" alt="MIN(_) chooses the smallest number from a list."></div>
 <article class="exercise exercise-like" id="check-MAX"><h3 class="heading">
-<span class="type">Check for Understanding</span><span class="space"> </span><span class="codenumber">1.5.5</span><span class="period">.</span>
+<span class="type">Check for Understanding</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
-<div class="para" id="check-MAX-1-1">Suppose all these quizzes are the same, and so you just want to count a student’s best score. Write a formula in K2 and drag it down to determine just this.</div></article><div class="para" id="sec-spreadsheets-36">The last thing we’ll do, which nowhere near an exhaustive list of the functions of a spreadsheet, is sort our data. Highlight all the data you have, A1 through K11 if you tried the check above. On the Data menu (across the top), choose “Sort range”, and then “Advanced range sorting options.” Check the box to say that your data has header rows. Then, choose a column to sort by and the direction of the sort. I chose “Increasing Weighted Average” and A to Z so that the lowest scores would be at the top. The headers should stay in the first row, and all the students’ are sorted according to the weighted average in column H.</div>
+<div class="para" id="check-MAX-1-1">Suppose all these quizzes are the same, and so you just want to count a student’s best score. Write a formula in K2 and drag it down to determine just this.<div class="autopermalink" data-description="Paragraph"><a href="#check-MAX-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Check for Understanding 1.5.5"><a href="#check-MAX" title="Copy heading and permalink for Check for Understanding 1.5.5" aria-label="Copy heading and permalink for Check for Understanding 1.5.5">🔗</a></div></article><div class="para" id="sec-spreadsheets-36">The last thing we’ll do, which nowhere near an exhaustive list of the functions of a spreadsheet, is sort our data. Highlight all the data you have, A1 through K11 if you tried the check above. On the Data menu (across the top), choose “Sort range”, and then “Advanced range sorting options.” Check the box to say that your data has header rows. Then, choose a column to sort by and the direction of the sort. I chose “Increasing Weighted Average” and A to Z so that the lowest scores would be at the top. The headers should stay in the first row, and all the students’ are sorted according to the weighted average in column H.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-36" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/Sort.png" class="contained" alt="We can sort values in a spreadsheet."></div>
-<div class="para" id="sec-spreadsheets-38">This is only an introduction, the possibilities when using spreadsheets are endless. Mess around and try different things. There is a function list available under the Help menu that may give you some ideas, but usually googling “How do I ...?” will be helpful.</div>
-<div class="para" id="sec-spreadsheets-39">The tools in this section are enough to work through the problems and projects in <a href="ch-prop-reasoning.html" class="internal" title="Chapter 3: Proportional Reasoning">Chapter 3</a> and get started exploring in <a href="ch-models.html" class="internal" title="Chapter 4: Modeling">Chapter 4</a>. We’ll learn more techniques and formulas as needed in <a href="ch-models.html" class="internal" title="Chapter 4: Modeling">Chapter 4</a>, <a href="ch-stats.html" class="internal" title="Chapter 5: Statistical Thinking">Chapter 5</a>, and <a href="ch-financial.html" class="internal" title="Chapter 7: Financial Mathematics">Chapter 7</a>.</div></section></div>
-<div class="ptx-content-footer">
+<div class="para" id="sec-spreadsheets-38">This is only an introduction, the possibilities when using spreadsheets are endless. Mess around and try different things. There is a function list available under the Help menu that may give you some ideas, but usually googling “How do I ...?” will be helpful.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-38" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-spreadsheets-39">The tools in this section are enough to work through the problems and projects in <a href="ch-prop-reasoning.html" class="internal" title="Chapter 3: Proportional Reasoning">Chapter 3</a> and get started exploring in <a href="ch-models.html" class="internal" title="Chapter 4: Modeling">Chapter 4</a>. We’ll learn more techniques and formulas as needed in <a href="ch-models.html" class="internal" title="Chapter 4: Modeling">Chapter 4</a>, <a href="ch-stats.html" class="internal" title="Chapter 5: Statistical Thinking">Chapter 5</a>, and <a href="ch-financial.html" class="internal" title="Chapter 7: Financial Mathematics">Chapter 7</a>.<div class="autopermalink" data-description="Paragraph"><a href="#sec-spreadsheets-39" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section 1.5: Spreadsheets are your Friends"><a href="#sec-spreadsheets" title="Copy heading and permalink for Section 1.5: Spreadsheets are your Friends" aria-label="Copy heading and permalink for Section 1.5: Spreadsheets are your Friends">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-desmos.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
 </body>
 </html>

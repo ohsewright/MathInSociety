@@ -1,0 +1,71 @@
+openDate          = 03/01/2026 at 12:00am
+dueDate           = 09/01/2026 at 10:00pm
+answerDate        = 09/01/2026 at 10:00pm
+paperHeaderFile   = Mathematics_in_Society/header/Mathematics_in_Society.pg
+screenHeaderFile  = Mathematics_in_Society/header/Mathematics_in_Society.pg
+description       = Mathematics in Society
+problemListV2
+problem_start
+source_file = Library/PCC/BasicMath/FractionsCalculation/WriteFractionByGraph30.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/MC/PreAlgebra/setPreAlgebraC05S02/ConvertMixed2Fractionl01.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/NewHampshire/unh_schoolib/Fractions/frasrs101.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Library/NewHampshire/unh_schoolib/Fractions/frasrs102.pg
+problem_id = 20
+problem_end
+problem_start
+source_file = Library/ma112DB/set1_2/add_fractions.pg
+problem_id = 23
+problem_end
+problem_start
+source_file = Library/MC/PreAlgebra/setPreAlgebraC05S04/MultiplyingFractions01.pg
+problem_id = 26
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/FractionArithmetic/DivideFractions20.pg
+problem_id = 32
+problem_end
+problem_start
+source_file = Contrib/CCCS/AlgebraicLiteracy/Equations_of_Lines/Slope_1.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Contrib/CCCS/AlgebraicLiteracy/Equations_of_Lines/Slope_2.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Contrib/RRCC/College_Algebra/MAT121/6.6/CCD_CCCS_Openstax_AlgTrig_AT-1-001-AS_6_6_15.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion60.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/NumberBasics/PercentOfNumber70.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/NewHampshire/unh_schoolib/Percent/pctsrs201.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/NewHampshire/NECAP/grade7/gr7-2009/n7-2009-3s.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg
+problem_id = 11
+problem_end

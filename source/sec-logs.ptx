@@ -1,8 +1,270 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-logs" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Logarithms and Solving for the Power</title>
+  <title>Logarithms and Solving for the Exponent</title>
 
-  <p> Text of section. </p>
+  <p>
+    There is <alert>a lot</alert> one could say and learn about logarithms.
+    We will aim to keep this section as straightforward as possible, as we only need logs as a tool for solving equations that involve exponentials.
+  </p>
+  <p>
+    While there is a whole family of logarithms with different bases, we will simplify our study by focusing on the common log, which is based on the exponential <m>10^x</m>. 
+  </p>
+
+  <definition xml:id="def-commonlog">
+    <title>Common Logarithm</title>
+    <statement>
+      <p>
+        The common logarithm, written <m>\log(x)</m>, undoes the exponential <m>10^x</m>.
+        This means that <m>\log\left(10^x\right) = x</m>, and likewise <m>10^{\log(x)} = x</m>.
+        This also means the statement <m>10^a = b</m> is equivalent to the statement <m>\log(b) = a</m>. 
+      </p>
+    </statement>
+  </definition>
+
+  <insight>
+    <p>
+      Words are important. When we read the set of symbols <m>\log(x)</m> out loud (or maybe even more importantly, when we're just reading to ourselves),
+    we should say <q>log <alert>OF</alert> <m>x</m>,</q> or even more accurately, <q>log base 10 <alert>OF</alert> <m>x</m>.</q>
+    The focus here is on <q><alert>OF</alert></q> so that we do not confuse the parentheses as multiplication; <m>\log(x)</m> <alert>DOES NOT</alert> mean <q>log times x.</q>
+    Another approach to help remember that this is not multiplication, is that <q><m>\log</m></q> by itsels means nothing, just like <m>\sqrt{\hspace{8pt}}</m> or <m>+</m>.
+    </p>
+  </insight>
+
+  <example>
+    <statement>
+      <p>
+        Evaluate <m>\log(100)</m> and <m>\log\left(\frac{1}{100}\right)</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <m>\log(100)</m> can be read as <q>What power do we raise 10 to in order to get 100?</q>
+        We probably recoginize that <m>10^2 = 100</m>, so <m>\log(100) = 2</m>.
+      </p>
+      <p>
+        Recall from <xref ref="sec-exponents"/>, that <m>x^{-n} = \frac{1}{x^n}</m>, so
+        <me>\log\left(\frac{1}{100}\right) = \log\left(\frac{1}{10^2}\right) = \log\left(10^{-2}\right) = -2.</me>
+      </p>  
+    </solution>
+  </example>
+
+  <exercise>
+    <statement>
+      <p>
+        Evaluate the following expressions:
+        <ol marker = "a.">
+          <li>
+            <p>
+              <m>\log(10000)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\log(1)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\log\left(\frac{1}{1000}\right)</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <ol marker = "a.">
+          <li>
+            <p>
+              <m>\log(10000) = \log\left(10^4\right) = 4.</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\log(1) = \log\left(10^0\right) = 0.</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\log\left(\frac{1}{1000}\right) = \log\left(\frac{1}{10^3}\right) = \log\left(10^{-3}\right) = -3.</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </solution>
+  </exercise>
+
+  <insight>
+    <p>
+      It is worth noting that in the example and practice above, we used the word <q>evaluate</q> rather than <q>solve.</q>
+      This is an important distinction; we use the word <q>solve</q> when we want to determine the value of a variable in an equation, as below.
+    </p>
+  </insight>
+
+  <example xml:id="example-powersof10">
+    <statement>
+      <p>
+        Solve the following equations for the variable <m>x</m>:
+        <ol marker="a.">
+          <li>
+            <p>
+              <m>10^x = 1000</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>10^x = 3</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>2\left(10^x\right) = 8</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <ol marker="a.">
+        <li>
+          <p>
+            Taking the log of both sides gives <m>\log\left(10^x\right) = \log(1000)</m>.
+            Since the log undoes the exponential, <m>\log\left(10^x\right) = x</m>.
+            Similarly, <m>\log(1000) = \log\left(10^3\right) = 3</m>.   The equation simplifies then to <m>x = 3</m>. 
+          </p>
+        </li>
+        <li>
+          <p>
+            Taking the log of both sides gives <m>\log\left(10^x\right) = \log(3)</m>.
+            On the left side, <m>\log\left(10^x\right) = x</m>, so <m>x = \log(3) \approx 0.477</m>.
+            We evaluate <m>\log(3)</m> using a calculator or computer. 
+          </p>
+        </li>
+        <li>
+          <p>
+            Here we would first want to isolate the exponential by dividing both sides of the equation by 2, giving <m>10^x = 4</m>.
+            Now we can take the log of both sides, giving <m>\log\left(10^x\right) = \log(4)</m>, which simplifies to  <m>x = \log(4) \approx 0.602</m>. 
+          </p>
+        </li>
+      </ol>
+    </solution>
+  </example>
+
+  <p>
+    The approach in <xref ref="example-powersof10"/> allows us to solve exponential equations with powers of 10.
+    But, as we'll see in <xref ref="sec-exponential"/>, we'd like to be able to solve equations like <m>2 = 1.03^t</m>.
+    For that we need the exponent property for logs.
+  </p>
+
+  <fact xml:id="fact-exponent-prop-forlogs">
+    <title>Exponent Property of Logarithms</title>
+    <statement>
+      <p>
+        For a number <m>x</m> and any power <m>y</m>, <me>
+          \log\left(x^y\right) = y\log(x).
+        </me>
+      </p>
+    </statement>
+  </fact>
+
+  <p>
+    We can combine this fact with the approaches used in <xref ref="example-powersof10"/> to solve the desired type of equations.
+  </p>
+
+  <heuristic xml:id="heuristic-solve-exp-eq">
+    <title>Solving Exponential Equations with Logarithms</title>
+    <statement>
+      <p>
+        This process is used to solve exponential equations, where the unknown variable appears as the exponent.
+        <ol>
+          <li>
+            <p>
+              Isolate the exponential. In other words, get the number to the unknown power alone on one side of the equation.
+            </p>
+          </li>
+          <li>
+            <p>
+              Take the log of both sides of the equation.
+            </p>
+          </li>
+          <li>
+            <p>
+              Use the exponent property of logs.
+              Rewrite the side of the equation with the log of the number to the unknown variable as that variable times the log of the number.
+            </p>
+          </li>
+          <li>
+            <p>
+              Solve for the variable.
+              This will involve dividing by the log of the base, and maybe other steps as we used in solving linear equations or those involving roots or powers.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </heuristic>
+
+  <p>
+    It is important to note that <xref ref="heuristic-solve-exp-eq"/> should be used for <alert>exponential equations</alert>, where the unknown variable is in the exponent.
+    When the exponents are numbers and unknown appears in the base, that is a power equation and we use roots to solve. See <xref ref="sec-roots"/>.
+  </p>
+
+  <example>
+    <statement>
+      <p>
+        Solve the equation <m>10 = 5\left(1.03^t\right)</m> for <m>t</m>.
+      </p>
+    </statement>
+    <solution>
+      <ol>
+        <li>
+          <p>
+            First, we isolate the exponential, <m>1.03^t</m>, by dividing both sides by 5:
+              <md>
+                <mrow>\frac{10}{5} \amp = \frac{5\left(1.03^t\right)}{5}</mrow>
+                <mrow>2 \amp = 1.03^t.</mrow>
+              </md>
+            This step will often just involve division as it does here.
+            In more complicated examples, you may simplify things for your brain by replacing the exponential with it's own new variable, and solving for that in this first step.
+          </p>
+        </li>
+        <li>
+          <p>
+            Then, we take the log of both sides: <me> \log\left(2\right) = \log\left(1.03^t\right).</me>
+            This step is very simply just writing <q>log</q> on both sides, but be sure to include <alert>everything</alert> on each side inside the parentheses.
+          </p>
+        </li>
+        <li>
+          <p>
+            Next, we use the exponent property of logs to <q>bring down</q> the <m>t</m> to be outside of the log:
+            <me>
+              \log(2) = t\log(1.03).
+            </me>
+          Sometimes the exponent is more complicated than just the variable alone.
+          Still the <alert>entire</alert> expression should be <q>brought down</q> and parentheses included so that it is all multiplied by the log.
+          </p>
+        </li>
+        <li>
+          <p>
+            Lastly, we regonize that both expressions <m>\log(2)</m> and <m>\log(1.03)</m> are just numbers and we can divide both sides by <m>\log(1.03)</m> to isolate <m>t</m>.
+            <me>
+              \frac{\log(2)}{\log(1.03)} = \frac{t\log(1.03)}{\log(1.03)} = t.
+            </me> 
+            Like the first step, isolating the variable here may be more complicated, but involves the same tools and techniques used for other types of equations.
+          </p>
+        </li>
+      </ol>
+      <p>
+        We can plug the resulting fraction into a calculator or computer to obtain <me>
+          t = \frac{\log(2)}{\log(1.03)} \approx 23.45.
+        </me>
+      </p>
+    </solution>
+  </example>
+
+  <exercise>
+    <webwork source="Contrib/RRCC/College_Algebra/MAT121/6.6/CCD_CCCS_Openstax_AlgTrig_AT-1-001-AS_6_6_15.pg" />
+  </exercise>
 
 </section>

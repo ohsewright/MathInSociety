@@ -3,7 +3,8 @@
 <section xml:id="sec-exponential" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Exponential Models</title>
 
-  <p> Just like the section on linear models, this will have many more examples and much more discussion in the near future.
+  <p>
+    Just like the section on linear models, this will have many more examples and much more discussion in the near future.
     For now, we'll handle the three basic types of questions within one example.
   </p>
 
@@ -112,9 +113,13 @@
     </description>
   </image>
   <p>
-    This graph shows teh exponential formula we found in red. The blue shows a more realistic long term scenario.
-    You can see that levels off around 4000, which is 4 million users. The growth looks exponential until it reaches about half of that, 2 million.
+    This graph shows the exponential formula we found in red. The blue shows a more realistic long term scenario.
+    You can see that it levels off around 4000, which is 4 million users. The growth looks exponential until it reaches about half of that, 2 million.
     After that, it begins to slow down.
+  </p>
+  <p>
+    There are lots of other types of relationships between quantities that show up in the real world.
+    We can piece together linear and exponential models when appropriate, and explore other options with tools like Desmos.
   </p>
   
 

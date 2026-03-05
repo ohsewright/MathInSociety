@@ -3,6 +3,230 @@
 <section xml:id="sec-types" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Two Types of Relationships</title>
 
-  <p> Text of section. </p>
+  <p> 
+    This section will eventually contain the activities we did in class on Febraury 19th and 20th as well as narrative based on those activities.
+    The purpose of those activities is to discover the two different types of formulas, recursive and explicit, and the two main types of relationships between quantities that we want to explore, linear and exponential. 
+  </p>
+
+  <p>
+    The conclusions are summarized below:
+  </p>
+
+  <definition xml:id="def-recursive">
+    <title>Recursive Formula</title>
+    <statement>
+      <p>
+        A <term>recursive formula</term> gives instructions for getting a quantity on a list from the previous quantity (or quantities).
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    For example, the instructions for getting from the value of the investment in the simple interest scenario are <q>add $400 to the previous value.</q>
+    As a formula, this can look like <m>P_n = P_{n-1} + 400</m>.
+    If we want to know the value after 2 quarters, we'd be looking for <m>P_2</m>.
+    We can follow the formula:
+    <md>
+      <mrow>P_2 \amp = P_{2-1} + 400, \amp \text{using the recursive formula with } n=2,</mrow>
+      <mrow> \amp = P_1 + 400, \amp \text{since } 2-1 = 1,</mrow>
+      <mrow> \amp = \left(P_{1-1} + 400\right) + 400, \amp \text{using the recursive formula again with } n=1,</mrow>
+      <mrow> \amp = P_0 + 400 + 400, \amp \text{since } 1-1 = 0,</mrow>
+      <mrow> \amp = 1000 + 400 + 400 \amp \text{since } P_0 = 1000 \text{ is the starting value, and}</mrow>
+      <mrow> \amp = 1800</mrow>
+    </md>
+  </p>
+  <p>
+    While the notation might get confusing, the thinking behind recursive formulas is usually pretty intuitive for folks.
+    These types of formulas are exactly what we use in spreadsheets as well.
+    They work great when one has some access to helpful technology that can do <alert>many</alert> computations <alert>very</alert> quickly.
+    In the simple interest example, if we wanted to know the value of the investment 50 years in the future, we'd need to compute <m>P_200</m>,
+    and that would take a very long time by hand! That's where explicit formulas come in handy.
+  </p>
+
+  <definition xml:id="def-explicit">
+    <title>Explicit Formula</title>
+    <statement>
+      <p>
+        An <term>explicit formula</term> does not depend on prvious values; it gives mathematical instructions for finding any value.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    To get an explicit formula for the simple interest example, we can recall that the repeated addition of $400 can be simplified into multiplication:
+    <me>
+      P = 1000 + 400n.
+    </me>
+    Now, if we want to compute the value, <m>P</m>, of the investment after 50 years, we need only determine the value of <m>n</m> that is equivalent to 50 years.
+    Since there are four quarters in a year, the <m>n</m> we want is <m>n=4 \times 50 = 200</m>. The explicit formula then tells us
+    <md>
+      <mrow>P \amp = 1000 + 400(200)</mrow>
+      <mrow> \amp = 1000 + 80000</mrow>
+      <mrow> \amp = 81000</mrow>
+    </md>
+    After 50 years the investment will have grown to $81,000!
+  </p>
+
+  <p>
+    We saw two different types of relationships in these four scenarios.
+    The simple interest and knitting yarn examples are both <term>linear</term> relationships.
+    The compound interest and ibuprofen examples are both <term>exponential</term> relationships. 
+  </p>
+
+  <definition xml:id="def-linear">
+    <title>Linear Change</title>
+    <statement>
+      <p>
+        A quantity is changing <term>linearly</term> if the absolute change is consistent.
+        The consistent absolute change is called the <term>common difference</term>, and will be denoted <m>d</m> in the formulas below.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    In the simple interest example, the absolute change is $400 each quarter, so <m>d = 400</m>.
+    In the yarn example, the absolute change is a decrease of <m>\frac{1}{4}</m>yard for each row, <m>d = -\frac{1}{4}</m>.
+    The common difference appears as addition or subtraction in the recursive formula for linear change and as the slope in the explicit formula.
+  </p>
+
+  <definition xml:id="def-exponential">
+    <title>Exponential Change</title>
+    <statement>
+      <p>
+        A quantity is changing <term>exponentially</term> if the relative (percentage) change is consistent.
+        The consistent relative change is called the <term>growth rate</term> (or <term>decay rate</term> if it is negative) and is denoted with an <m>r</m> in the formulas.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    In the compound interest example, the percent change is 10% each quarter, so <m>r = 0.1</m>.
+    In the ibuprofen example, the percent change is a decrease of <m>\frac{1}{2}</m> or 50% for each two-hour time interval, <m>r = -\frac{1}{2} = -0.5</m>.
+    The value that appears in the formulas is not the growth/decay rate, but the <alert>multiplier</alert>, which is <m>1 + r</m> and is also consistent in exponential relationships.
+    The consistent multiplier appears as multiplication in the recursive formula and as the base of the exponential in teh explicit formula.
+  </p>
+
+  <note>
+    <p>
+      It is important to note that there are a lots of other types of relationships between quantities.
+      So, determining that a quantity is not changing linearly <alert>is not enough</alert> to determine that it is changing exponentially, nor vice versa.
+    </p>
+  </note>
+
+  <p>
+    The general information about linear and exponential realtionships and the coresponding recursive and explicit formulas is summaraize here:
+  </p>
+
+  <tabular>
+    <col width="45%"/>
+    <col width="10%"/>
+    <col width="45%"/>
+    <row header="yes" halign="center">
+      <cell>Linear Relationships</cell>
+      <cell></cell>
+      <cell>Exponential Relationships</cell>
+    </row>
+    <row>
+    </row>
+    <row>
+      <cell>The <alert>ABSOLUTE</alert> change is consistent.</cell>
+      <cell></cell>
+      <cell>The <alert>RELATIVE</alert> change is consistent.</cell>
+    </row>
+    <row>
+      <cell></cell>
+    </row>
+    <row>
+      <cell><p>We denote this <em>common difference</em> with <m>d</m>.</p></cell>
+      <cell></cell>
+      <cell><p>We denote this <em>common rate</em> with <m>r</m>.</p></cell>
+    </row>
+    <row>
+      <cell></cell>
+    </row>
+    <row>
+      <cell><p>The quantity is growing/increasing if <m>d \gt 0</m>.</p></cell>
+      <cell></cell>
+      <cell><p>The quantity is growing/increasing if <m>r \gt 0</m>, or equivalently, <m>r + 1 \gt 1</m>.</p></cell>
+    </row>
+    <row>
+      <cell></cell>
+    </row>
+    <row>
+      <cell><p>The quantity is decaying/decreasing if <m>d \lt 0</m>.</p></cell>
+      <cell></cell>
+      <cell><p>The quantity is decaying/decreasing if <m>-1 \lt r \lt 0</m>, or equivalently, <m>0 \lt r + 1 \lt 1</m>.</p></cell>
+    </row>
+    <row>
+      <cell><p>
+        The format for the recursive formula is: <m>P_n = P_{n-1} + d</m>.
+      </p></cell>
+      <cell></cell>
+      <cell><p>
+        The format for the recursive formula is: <m>P_n = (1 + r)P_{n-1}</m>.
+      </p></cell>
+    </row>
+    <row>
+      <cell></cell>
+    </row>
+    <row>
+      <cell><p>
+        The format for the explicit formula is: <m>y = y_0 + dx</m>.
+      </p></cell>
+      <cell></cell>
+      <cell><p>
+        The format for the explicit formula is: <m>y = y_0(1 + r)^x</m>.
+      </p></cell>
+    </row>
+  </tabular>
+
+  <p>
+    We organize the specific information for all four example scenarios below:
+  </p>
+
+  <tabular>
+    <col width="20%" header="yes" valign="middle"/>
+    <col width="40%" />
+    <col width="40%" />
+    <row header="yes" halign="center">
+      <cell></cell>
+      <cell>LINEAR</cell>
+      <cell>EXPONENTIAL</cell>
+    </row>
+    <row>
+      <cell><alert>GROWTH</alert></cell>
+      <cell><p>
+        <line>Simple Interest</line>
+        <line><m>d = 400</m></line> 
+        <line><m>P_n = P_{n-1} + 400</m></line>
+        <line><m>y = 1000 + 400x</m></line> 
+      </p></cell>
+      <cell><p>
+        <line>Compound Interest</line>
+        <line><m>r = 0.1</m></line> 
+        <line><m>P_n = (1.1)P_{n-1}</m></line>
+        <line><m>y = 1000(1.1)^x</m></line> 
+      </p></cell>
+    </row>
+    <row>
+      <cell><alert>DECAY</alert></cell>
+      <cell><p>
+        <line>Knitting Yarn</line>
+        <line><m>d = -\frac{1}{4}</m></line> 
+        <line><m>P_n = P_{n-1} - \frac{1}{4}</m></line>
+        <line><m>y = 400 - \frac{1}{4}x</m></line> 
+      </p></cell>
+      <cell><p>
+        <line>Ibuprofen</line>
+        <line><m>r = -0.5</m></line> 
+        <line><m>P_n = (0.5)P_{n-1}</m></line>
+        <line><m>y = 800(0.5)^x</m></line> 
+      </p></cell>
+    </row>
+  </tabular>
+
+  <p>
+    We'll see more examples of how to determine the explicit formulas for these situations and how to use those models in the next two sections.
+  </p>
 
 </section>

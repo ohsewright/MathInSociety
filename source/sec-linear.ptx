@@ -3,6 +3,183 @@
 <section xml:id="sec-linear" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Linear Models</title>
 
-  <p> Text of section. </p>
+  <p>When this section is complete there will be many more examples and discussion.
+    We'll tackle the basics with a single example for right now.
+  </p>
+
+  <example>
+    <statement>
+      <p>
+        Gasoline consumption data for the US from 1992 to 2004 is shown below.
+        Find a model for this data, and use it to predict consumption in 2022.
+        If the trend continues, when will consumption reach 200 billion gallons?
+      </p>
+      <tabular>
+        <row header="yes">
+          <cell>Year</cell>
+          <cell>Consumption</cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell>billions of gallons</cell>
+        </row>
+        <row>
+          <cell>1992</cell>
+          <cell>110</cell>
+        </row>
+        <row>
+          <cell>1993</cell>
+          <cell>111</cell>
+        </row>
+        <row>
+          <cell>1994</cell>
+          <cell>113</cell>
+        </row>
+        <row>
+          <cell>1995</cell>
+          <cell>116</cell>
+        </row>
+        <row>
+          <cell>1996</cell>
+          <cell>118</cell>
+        </row>
+        <row>
+          <cell>1997</cell>
+          <cell>119</cell>
+        </row>
+        <row>
+          <cell>1998</cell>
+          <cell>123</cell>
+        </row>
+        <row>
+          <cell>1999</cell>
+          <cell>125</cell>
+        </row>
+        <row>
+          <cell>2000</cell>
+          <cell>126</cell>
+        </row>
+        <row>
+          <cell>2001</cell>
+          <cell>128</cell>
+        </row>
+        <row>
+          <cell>2002</cell>
+          <cell>131</cell>
+        </row>
+        <row>
+          <cell>2003</cell>
+          <cell>133</cell>
+        </row>
+        <row>
+          <cell>2004</cell>
+          <cell>136</cell>
+        </row>
+      </tabular>
+    </statement>
+    <solution>
+      <p>
+        We first look at a display of this data.
+      </p>
+      <image source="images/gas_plot.png" width="65%">
+        <shortdescription>plot of the data</shortdescription>
+        <description>
+            <p>
+              The data points form close to a straight line growing upward.
+            </p>
+        </description>
+    </image>
+    <p>
+      Computing the absolute change from year to year via subtraction as well as the graph would both show a nearly linear relationship.
+      The change from year to year varies, but stays around two to three and the plot looks to be growing steadily.
+      In an exponential relationship, we'd see the absolute change increasing (or descreasing).
+    </p>
+    <p>
+      We can determine the average absolute change by considering the data at both extremes.
+      From 1992 to 2004, gasoline consumption grew from 110 to 136 billion gallons.
+      That is a change of <m>136 - 110 = 26</m> billion gallons in <m>2004 - 1992 = 12</m> years.
+      That is an average rate of 2.167 billion gallons per year.
+      So, the <em>common difference</em>, <m>d</m>, is 2.167.
+    </p>
+    <p>
+      This may look more familiar if we put the computations into the standard formula for computing slope.
+      <me>
+        \text{slope} = \frac{\text{change in output}}{\text{change in input}} = \frac{136 - 110}{2004-1992} = \frac{26}{12} = 2.167
+      </me>
+    </p>
+    <p>
+      The starting point for our data set is the year 1992 when consumption was 110 billion gallons.
+      Rather than needing to input numbers near 2000 into our formula, we'll let the variable <m>t</m> represent years since 1992.
+      Also, instead of including a bunch of zeros, we'll let the variable <m>C</m> represent the gasoline consumption in billions of gallons.
+      So, when <m>t = 0</m>, <m>C = 110</m>, and this gives us our initial value, or y-intercept.
+    </p>
+    <p>
+      The result is a linear equation: <m>C = 110 + 2.167t</m>.
+      We can look at the graph of this line to get a sense of the accuracy:
+    </p>
+    <image source="images/gas_plot_line1.png" width="65%">
+      <shortdescription>plot of the data and linear model</shortdescription>
+      <description>
+          <p>
+            The same data points as before are shown with a straight line approximation graph.
+          </p>
+      </description>
+    </image>
+    <p>
+      We might be bothered by the fact that it appears the line passes through three points exactly, but is above the others.
+      Perhaps we'd like it to be closer to the middle, with a similar number of data points above and below.
+      We can try using two differnt data points to estimate the average common difference, say 1993 and 2003:
+      <me>
+        d = \frac{133 - 111}{2003 - 1993} = \frac{22}{10} = 2.2
+      </me>
+      Changing the initial value to 111 billion gallons in 1993 and adjust <m>t</m> to represent years since 1993, gives <m>C = 111 + 2.2t</m> as another formula to describe the situation.
+      That graph looks like:
+    </p>
+    <image source="images/gas_plot_line2.png" width="65%">
+      <shortdescription>plot of the data and linear model</shortdescription>
+      <description>
+          <p>
+            The same data points as before are shown with a straight line approximation graph.
+          </p>
+      </description>
+    </image>
+    <p>
+      Both are reasonable models for this relationship, but we'll stick with the second option to answer the questions.
+    </p>
+    <p>
+      To predict the consumption in 2022, we need to determine what value of our input variable, <m>t</m>, corresponds to the year 2022.
+      Subtraction reveals that we want <m>t = 2022 - 1993 = 29</m>.
+      Now, we substitute that value into our model formula and complete the computations:
+      <md>
+        <mrow>C \amp = 111 + 2.2(29)</mrow>
+        <mrow> \amp = 111 + 63.8</mrow>
+        <mrow> \amp = 174.8</mrow>
+      </md>
+      Our model predicts the gasoline consumption in 2022 to 174.8 billion gallons.
+    </p>
+    <p>
+      The next question is the reverse type, when will consumption reach 200 billion gallons.
+      We are given the value of the output variable, <m>C = 200</m>, and asked to find the corresponding input, <m>t</m>.
+      Similar to above, we substitute the values we know into the formula, but this time we need to use some algebra to find <m>t</m>:
+      <md>
+        <mrow>C \amp = 111 + 2.2t</mrow>
+        <mrow>200 \amp = 111 + 2.2t</mrow>
+        <mrow>200 - 111 \amp = 111 + 2.2t - 111</mrow>
+        <mrow>89 \amp = 2.2t</mrow>
+        <mrow>\frac{89}{2.2} \amp = \frac{2.2t}{2.2}</mrow>
+        <mrow>40.45 \amp t</mrow>
+      </md>
+      This says that 40 years from 1993 the consumption will be below 200 billion gallons, but after 41 years it will exceed 200 billion gallons.
+      According to this model, if the trend continues, the US gasoline consumption would exceed 200 billion gallons in 2034.
+    </p>
+    </solution>
+  </example>
+  <p>
+    It is worth noting that models like this are not always accurate far into the future.
+    This one in particular was not built from data that included the year 2020, when personal travel, driving, and commuting were significantly lower due to the COVID-19 pandemic.
+    In addition to abrupt changes in amount of driving, this model also would not account for a sudden increase in the average gas millage of vehicles nor an increase in hybrid or electric vehicle production.
+    Models aren't perfect, especially when we limit ourselves to a specific very simple type of growth.
+    Researchers in all sorts of disciplines devote a lot of time to developing advanced techniques to more accurately model the quantities they study.
+  </p>
 
 </section>

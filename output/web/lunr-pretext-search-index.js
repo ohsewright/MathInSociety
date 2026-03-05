@@ -2140,7 +2140,61 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Two Types of Relationships",
-  "body": " Two Types of Relationships  Text of section.  "
+  "body": " Two Types of Relationships  This section will eventually contain the activities we did in class on Febraury 19th and 20th as well as narrative based on those activities. The purpose of those activities is to discover the two different types of formulas, recursive and explicit, and the two main types of relationships between quantities that we want to explore, linear and exponential.  The conclusions are summarized below:   Recursive Formula   A recursive formula gives instructions for getting a quantity on a list from the previous quantity (or quantities).    For example, the instructions for getting from the value of the investment in the simple interest scenario are add $400 to the previous value. As a formula, this can look like . If we want to know the value after 2 quarters, we'd be looking for . We can follow the formula:   While the notation might get confusing, the thinking behind recursive formulas is usually pretty intuitive for folks. These types of formulas are exactly what we use in spreadsheets as well. They work great when one has some access to helpful technology that can do many computations very quickly. In the simple interest example, if we wanted to know the value of the investment 50 years in the future, we'd need to compute , and that would take a very long time by hand! That's where explicit formulas come in handy.   Explicit Formula   An explicit formula does not depend on prvious values; it gives mathematical instructions for finding any value.    To get an explicit formula for the simple interest example, we can recall that the repeated addition of $400 can be simplified into multiplication: Now, if we want to compute the value, , of the investment after 50 years, we need only determine the value of that is equivalent to 50 years. Since there are four quarters in a year, the we want is . The explicit formula then tells us After 50 years the investment will have grown to $81,000!  We saw two different types of relationships in these four scenarios. The simple interest and knitting yarn examples are both linear relationships. The compound interest and ibuprofen examples are both exponential relationships.   Linear Change   A quantity is changing linearly if the absolute change is consistent. The consistent absolute change is called the common difference , and will be denoted in the formulas below.    In the simple interest example, the absolute change is $400 each quarter, so . In the yarn example, the absolute change is a decrease of yard for each row, . The common difference appears as addition or subtraction in the recursive formula for linear change and as the slope in the explicit formula.   Exponential Change   A quantity is changing exponentially if the relative (percentage) change is consistent. The consistent relative change is called the growth rate (or decay rate if it is negative) and is denoted with an in the formulas.    In the compound interest example, the percent change is 10% each quarter, so . In the ibuprofen example, the percent change is a decrease of or 50% for each two-hour time interval, . The value that appears in the formulas is not the growth\/decay rate, but the multiplier , which is and is also consistent in exponential relationships. The consistent multiplier appears as multiplication in the recursive formula and as the base of the exponential in teh explicit formula.   It is important to note that there are a lots of other types of relationships between quantities. So, determining that a quantity is not changing linearly is not enough to determine that it is changing exponentially, nor vice versa.   The general information about linear and exponential realtionships and the coresponding recursive and explicit formulas is summaraize here:       Linear Relationships   Exponential Relationships      The ABSOLUTE change is consistent.   The RELATIVE change is consistent.       We denote this common difference with .   We denote this common rate with .       The quantity is growing\/increasing if .   The quantity is growing\/increasing if , or equivalently, .       The quantity is decaying\/decreasing if .   The quantity is decaying\/decreasing if , or equivalently, .    The format for the recursive formula is: .   The format for the recursive formula is: .       The format for the explicit formula is: .   The format for the explicit formula is: .    We organize the specific information for all four example scenarios below:        LINEAR  EXPONENTIAL    GROWTH   Simple Interest       Compound Interest        DECAY   Knitting Yarn       Ibuprofen        We'll see more examples of how to determine the explicit formulas for these situations and how to use those models in the next two sections.  "
+},
+{
+  "id": "def-recursive",
+  "level": "2",
+  "url": "sec-types.html#def-recursive",
+  "type": "Definition",
+  "number": "4.1.1",
+  "title": "Recursive Formula.",
+  "body": " Recursive Formula   A recursive formula gives instructions for getting a quantity on a list from the previous quantity (or quantities).   "
+},
+{
+  "id": "def-explicit",
+  "level": "2",
+  "url": "sec-types.html#def-explicit",
+  "type": "Definition",
+  "number": "4.1.2",
+  "title": "Explicit Formula.",
+  "body": " Explicit Formula   An explicit formula does not depend on prvious values; it gives mathematical instructions for finding any value.   "
+},
+{
+  "id": "sec-types-9",
+  "level": "2",
+  "url": "sec-types.html#sec-types-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "linear exponential "
+},
+{
+  "id": "def-linear",
+  "level": "2",
+  "url": "sec-types.html#def-linear",
+  "type": "Definition",
+  "number": "4.1.3",
+  "title": "Linear Change.",
+  "body": " Linear Change   A quantity is changing linearly if the absolute change is consistent. The consistent absolute change is called the common difference , and will be denoted in the formulas below.   "
+},
+{
+  "id": "def-exponential",
+  "level": "2",
+  "url": "sec-types.html#def-exponential",
+  "type": "Definition",
+  "number": "4.1.4",
+  "title": "Exponential Change.",
+  "body": " Exponential Change   A quantity is changing exponentially if the relative (percentage) change is consistent. The consistent relative change is called the growth rate (or decay rate if it is negative) and is denoted with an in the formulas.   "
+},
+{
+  "id": "sec-types-14",
+  "level": "2",
+  "url": "sec-types.html#sec-types-14",
+  "type": "Note",
+  "number": "4.1.5",
+  "title": "",
+  "body": " It is important to note that there are a lots of other types of relationships between quantities. So, determining that a quantity is not changing linearly is not enough to determine that it is changing exponentially, nor vice versa.  "
 },
 {
   "id": "sec-linear",
@@ -2149,7 +2203,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Linear Models",
-  "body": " Linear Models  Text of section.  "
+  "body": " Linear Models  When this section is complete there will be many more examples and discussion. We'll tackle the basics with a single example for right now.    Gasoline consumption data for the US from 1992 to 2004 is shown below. Find a model for this data, and use it to predict consumption in 2022. If the trend continues, when will consumption reach 200 billion gallons?    Year  Consumption     billions of gallons    1992  110    1993  111    1994  113    1995  116    1996  118    1997  119    1998  123    1999  125    2000  126    2001  128    2002  131    2003  133    2004  136      We first look at a display of this data.   plot of the data   The data points form close to a straight line growing upward.    Computing the absolute change from year to year via subtraction as well as the graph would both show a nearly linear relationship. The change from year to year varies, but stays around two to three and the plot looks to be growing steadily. In an exponential relationship, we'd see the absolute change increasing (or descreasing).  We can determine the average absolute change by considering the data at both extremes. From 1992 to 2004, gasoline consumption grew from 110 to 136 billion gallons. That is a change of billion gallons in years. That is an average rate of 2.167 billion gallons per year. So, the common difference , , is 2.167.  This may look more familiar if we put the computations into the standard formula for computing slope.   The starting point for our data set is the year 1992 when consumption was 110 billion gallons. Rather than needing to input numbers near 2000 into our formula, we'll let the variable represent years since 1992. Also, instead of including a bunch of zeros, we'll let the variable represent the gasoline consumption in billions of gallons. So, when , , and this gives us our initial value, or y-intercept.  The result is a linear equation: . We can look at the graph of this line to get a sense of the accuracy:   plot of the data and linear model   The same data points as before are shown with a straight line approximation graph.    We might be bothered by the fact that it appears the line passes through three points exactly, but is above the others. Perhaps we'd like it to be closer to the middle, with a similar number of data points above and below. We can try using two differnt data points to estimate the average common difference, say 1993 and 2003: Changing the initial value to 111 billion gallons in 1993 and adjust to represent years since 1993, gives as another formula to describe the situation. That graph looks like:   plot of the data and linear model   The same data points as before are shown with a straight line approximation graph.    Both are reasonable models for this relationship, but we'll stick with the second option to answer the questions.  To predict the consumption in 2022, we need to determine what value of our input variable, , corresponds to the year 2022. Subtraction reveals that we want . Now, we substitute that value into our model formula and complete the computations: Our model predicts the gasoline consumption in 2022 to 174.8 billion gallons.  The next question is the reverse type, when will consumption reach 200 billion gallons. We are given the value of the output variable, , and asked to find the corresponding input, . Similar to above, we substitute the values we know into the formula, but this time we need to use some algebra to find : This says that 40 years from 1993 the consumption will be below 200 billion gallons, but after 41 years it will exceed 200 billion gallons. According to this model, if the trend continues, the US gasoline consumption would exceed 200 billion gallons in 2034.    It is worth noting that models like this are not always accurate far into the future. This one in particular was not built from data that included the year 2020, when personal travel, driving, and commuting were significantly lower due to the COVID-19 pandemic. In addition to abrupt changes in amount of driving, this model also would not account for a sudden increase in the average gas millage of vehicles nor an increase in hybrid or electric vehicle production. Models aren't perfect, especially when we limit ourselves to a specific very simple type of growth. Researchers in all sorts of disciplines devote a lot of time to developing advanced techniques to more accurately model the quantities they study.  "
+},
+{
+  "id": "sec-linear-3",
+  "level": "2",
+  "url": "sec-linear.html#sec-linear-3",
+  "type": "Example",
+  "number": "4.2.1",
+  "title": "",
+  "body": "  Gasoline consumption data for the US from 1992 to 2004 is shown below. Find a model for this data, and use it to predict consumption in 2022. If the trend continues, when will consumption reach 200 billion gallons?    Year  Consumption     billions of gallons    1992  110    1993  111    1994  113    1995  116    1996  118    1997  119    1998  123    1999  125    2000  126    2001  128    2002  131    2003  133    2004  136      We first look at a display of this data.   plot of the data   The data points form close to a straight line growing upward.    Computing the absolute change from year to year via subtraction as well as the graph would both show a nearly linear relationship. The change from year to year varies, but stays around two to three and the plot looks to be growing steadily. In an exponential relationship, we'd see the absolute change increasing (or descreasing).  We can determine the average absolute change by considering the data at both extremes. From 1992 to 2004, gasoline consumption grew from 110 to 136 billion gallons. That is a change of billion gallons in years. That is an average rate of 2.167 billion gallons per year. So, the common difference , , is 2.167.  This may look more familiar if we put the computations into the standard formula for computing slope.   The starting point for our data set is the year 1992 when consumption was 110 billion gallons. Rather than needing to input numbers near 2000 into our formula, we'll let the variable represent years since 1992. Also, instead of including a bunch of zeros, we'll let the variable represent the gasoline consumption in billions of gallons. So, when , , and this gives us our initial value, or y-intercept.  The result is a linear equation: . We can look at the graph of this line to get a sense of the accuracy:   plot of the data and linear model   The same data points as before are shown with a straight line approximation graph.    We might be bothered by the fact that it appears the line passes through three points exactly, but is above the others. Perhaps we'd like it to be closer to the middle, with a similar number of data points above and below. We can try using two differnt data points to estimate the average common difference, say 1993 and 2003: Changing the initial value to 111 billion gallons in 1993 and adjust to represent years since 1993, gives as another formula to describe the situation. That graph looks like:   plot of the data and linear model   The same data points as before are shown with a straight line approximation graph.    Both are reasonable models for this relationship, but we'll stick with the second option to answer the questions.  To predict the consumption in 2022, we need to determine what value of our input variable, , corresponds to the year 2022. Subtraction reveals that we want . Now, we substitute that value into our model formula and complete the computations: Our model predicts the gasoline consumption in 2022 to 174.8 billion gallons.  The next question is the reverse type, when will consumption reach 200 billion gallons. We are given the value of the output variable, , and asked to find the corresponding input, . Similar to above, we substitute the values we know into the formula, but this time we need to use some algebra to find : This says that 40 years from 1993 the consumption will be below 200 billion gallons, but after 41 years it will exceed 200 billion gallons. According to this model, if the trend continues, the US gasoline consumption would exceed 200 billion gallons in 2034.   "
 },
 {
   "id": "sec-exponential",
@@ -2158,7 +2221,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "Exponential Models",
-  "body": " Exponential Models  Text of section.  "
+  "body": " Exponential Models  Just like the section on linear models, this will have many more examples and much more discussion in the near future.  "
 },
 {
   "id": "exercises-modeling",

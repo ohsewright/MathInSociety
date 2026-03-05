@@ -3,7 +3,119 @@
 <section xml:id="sec-exponential" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Exponential Models</title>
 
-  <p> Just like the section on linear models, this will have many more examples and much more discussion in the near future.</p>
+  <p> Just like the section on linear models, this will have many more examples and much more discussion in the near future.
+    For now, we'll handle the three basic types of questions within one example.
+  </p>
 
+  <example>
+    <statement>
+      <p>
+        The number of users on a social networking site was 45,000 in February when they officially went public, and grew to 60,000 by October.
+        If the number of the site users is growing exponentially, and growth continues at the same rate, how many users should they expect two years after they went public?
+        When would the number of users exceed a million?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We will need an explicit formula to efficiently answer both of the these questions.
+        We'll start by defining our variables.
+        The output variable is the number of users of the site.
+        Since those are given in thousands, we might as well use that too.
+        So, let <m>U</m> respresent the number of thousands of users of the site.
+        The input variable is some sort of time element. Since this is given in months, we'll use that too.
+        Thus, <m>t</m> will represent the number of months since the site went public.
+      </p>
+      <p>
+        There are two things we need to figure out inorder to write an exponential formula to model any situation: an initial value and a consistent percentage change.
+        The initial value is the value of the output variable (in this case <m>U</m>) when the input variable (<m>t</m> here) is 0.
+        When <m>t = 0</m>, we're talking about February when the site went public; there were 45,000 users, so <m>U_0=45</m>.
+        (The subscript of 0 is how we indicate that this is the initial value and we're using 45 rather than 45,000 since we've made the units for the <m>U</m> variable thousands of people.)
+      </p>
+      <p>
+        The rate is a little trickier in this example. It is not given to us directly in words and the two data points we have are separated by a time interval of 8 months.
+        In October (of the same year the site went public), <m>t=8</m>, and the site has 60,000 users so <m>U = 60</m>.
+        We can substitute these values into the general format of the formula:
+        <me>
+          60 = 45(1 + r)^8.
+        </me>
+        Now, we have an equation with only one unknown variable, so we can solve for <m>r</m>. Check out <xref ref="sec-roots"/> for a refresher if you need.
+      </p>
+      <md>
+        <mrow>60 \amp = 45(1+r)^8</mrow>
+        <mrow>\frac{60}{45} \amp = \frac{45(1+r)^8}{45}</mrow>
+        <mrow>1.333 \amp = (1 + r)^8</mrow>
+        <mrow>\sqrt[8]{1.333} \amp = \sqrt[8]{(1+r)^8}</mrow>
+        <mrow>1.037 \amp = 1 + r</mrow>
+        <mrow>0.037 \amp = r</mrow>
+        <mrow>3.7\% \amp = r</mrow>
+      </md>
+      <p>
+        This means that the number of users is growing at a rate of 3.7% each month, and the final explicit formula is: <me>
+          U = 45(1.037)^t.
+        </me>
+      </p>
+      <p>
+        We'll first answer the question of how many users the site has two years after going public.
+        Since our input variable, <m>t</m>, is measured in months, we need to consider how many months two years later is.
+        There are 12 months in a year, so two years after going public, <m>t = 24</m>.
+        Now, we can substitute and evaluate:
+        <md>
+          <mrow>U \amp = 45(1.037)^t</mrow>
+          <mrow> \amp = 45(1.037)^{24}</mrow>
+          <mrow> \amp = 45(2.392)</mrow>
+          <mrow> \amp = 107.622</mrow>
+        </md>
+        Since the units for <m>U</m> are thousands of people, this means after two years of being public the cite has 107,622 users.
+      </p>
+      <p>
+        Answering how long it will take to reach one million users is a tougher question.
+        We still convert the info given into values for our variables, if there are one million users then <m>U = 1000</m>, and substitute that value into our formula:
+        <me>
+          1000 = 45(1.037)^t.
+        </me>
+        But, notice that this time, the unknown variable is not by itself on one side, so we need to sovle this equation for <m>t</m>.
+        Since the unknown is in the exponent, we'll need logarithms to solve this equation. See <xref ref="sec-logs"/> for a refresher.
+      </p>
+      <md>
+        <mrow>1000 \amp = 45(1.037)^t</mrow>
+        <mrow>\frac{1000}{45} \amp = \frac{45(1.037)^t}{45}</mrow>
+        <mrow>\frac{200}{9} \amp = 1.037^t</mrow>
+        <mrow>\log\left(\frac{200}{9}\right) \amp = \log\left(1.037^t\right)</mrow>
+        <mrow>\log\left(\frac{200}{9}\right) \amp = t\log\left(1.037\right)</mrow>
+        <mrow>\frac{\log\left(\frac{200}{9}\right)}{\log(1.037)} \amp = t</mrow>
+        <mrow> 85.35 \amp \approx t</mrow>
+      </md>
+      <p>
+        Since <m>t</m> is measured in months, this means that sometime during the 85th month after going public, the number of users will cross the one million mark.
+        We can get a better idea of what this means with some unit conversion.
+        There are 12 months in a year. Dividing 85 by 12 results in 7.08333. Seven years is <m>7 \times 12 = 84</m>months, leaving one month leftover.
+        So, the site reaches one million users in March after being public for just over seven years.       
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    Exponential growth is typically a good model for the spread of something, like the use of a new social networking website, or a disease, or a rumor, <ellipsis></ellipsis>.
+    But, this stops being a good fit at some point. That growth cannot continue forever, because we run out of people!
+    A graph of exponential growth becomes steeper and steeper. In the example above, the time it takes to reach another one million users will not be as long, less than two more years.
+    Something like this tends to slow down when it has reached half of the maximum. 
+    If that is potential users of a networking site in a particular field of work, then the maximum is the number of people employed in the field.
+    If we're considering the spread of a disease, the max may be the entire world population.
+    A rumor through a highschool, the max is the total number of students at the school.
+  </p>
+  <image source="images/UserPlot_expANDlog.png" width="65%">
+    <shortdescription>exponential and logistic model of the website growth</shortdescription>
+    <description>
+        <p>
+          The exponential formula we determined is in red. A possible logistic solution is in blue.
+        </p>
+    </description>
+  </image>
+  <p>
+    This graph shows teh exponential formula we found in red. The blue shows a more realistic long term scenario.
+    You can see that levels off around 4000, which is 4 million users. The growth looks exponential until it reaches about half of that, 2 million.
+    After that, it begins to slow down.
+  </p>
   
+
 </section>

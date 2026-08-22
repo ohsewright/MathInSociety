@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: denver                         *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="example example-like"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.2.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>
+<div class="para">Gasoline consumption data for the US from 1992 to 2004 is shown below. Find a model for this data, and use it to predict consumption in 2022. If the trend continues, when will consumption reach 200 billion gallons?<div class="autopermalink" data-description="Paragraph"><a href="#ex-linear-gasoline-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r0 l0 t0 lines">Year</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Consumption</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">billions of gallons</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1992</td>
+<td class="l m b0 r0 l0 t0 lines">110</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1993</td>
+<td class="l m b0 r0 l0 t0 lines">111</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1994</td>
+<td class="l m b0 r0 l0 t0 lines">113</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1995</td>
+<td class="l m b0 r0 l0 t0 lines">116</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1996</td>
+<td class="l m b0 r0 l0 t0 lines">118</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1997</td>
+<td class="l m b0 r0 l0 t0 lines">119</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1998</td>
+<td class="l m b0 r0 l0 t0 lines">123</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1999</td>
+<td class="l m b0 r0 l0 t0 lines">125</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2000</td>
+<td class="l m b0 r0 l0 t0 lines">126</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2001</td>
+<td class="l m b0 r0 l0 t0 lines">128</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2002</td>
+<td class="l m b0 r0 l0 t0 lines">131</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2003</td>
+<td class="l m b0 r0 l0 t0 lines">133</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2004</td>
+<td class="l m b0 r0 l0 t0 lines">136</td>
+</tr>
+</table></div>
+<div class="solutions"><details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para">We first look at a display of this data.<div class="autopermalink" data-description="Paragraph"><a href="#ex-linear-gasoline-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;">
+<img src="external/images/gas_plot.png" class="contained" alt="plot of the data"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="ex-linear-gasoline-2-2-description"><div class="para" id="ex-linear-gasoline-2-2-2-1">The data points form close to a straight line growing upward.<div class="autopermalink" data-description="Paragraph"><a href="#ex-linear-gasoline-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div></details>
+</div>
+<div class="para">Computing the absolute change from year to year via subtraction as well as the graph would both show a nearly linear relationship. The change from year to year varies, but stays around two to three and the plot looks to be growing steadily. In an exponential relationship, we’d see the absolute change increasing (or descreasing).<div class="autopermalink" data-description="Paragraph"><a href="#ex-linear-gasoline-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">We can determine the average absolute change by considering the data at both extremes. From 1992 to 2004, gasoline consumption grew from 110 to 136 billion gallons. That is a change of <span class="process-math">\(136 - 110 = 26\)</span> billion gallons in <span class="process-math">\(2004 - 1992 = 12\)</span> years. That is an average rate of 2.167 billion gallons per year. So, the <em class="emphasis">common difference</em>, <span class="process-math">\(d\text{,}\)</span> is 2.167.<div class="autopermalink" data-description="Paragraph"><a href="#ex-linear-gasoline-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">This may look more familiar if we put the computations into the standard formula for computing slope.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{slope} = \frac{\text{change in output}}{\text{change in input}} = \frac{136 - 110}{2004-1992} = \frac{26}{12} = 2.167
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex-linear-gasoline-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">The starting point for our data set is the year 1992 when consumption was 110 billion gallons. Rather than needing to input numbers near 2000 into our formula, we’ll let the variable <span class="process-math">\(t\)</span> represent years since 1992. Also, instead of including a bunch of zeros, we’ll let the variable <span class="process-math">\(C\)</span> represent the gasoline consumption in billions of gallons. So, when <span class="process-math">\(t = 0\text{,}\)</span> <span class="process-math">\(C = 110\text{,}\)</span> and this gives us our initial value, or y-intercept.<div class="autopermalink" data-description="Paragraph"><a href="#ex-linear-gasoline-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">The result is a linear equation: <span class="process-math">\(C = 110 + 2.167t\text{.}\)</span> We can look at the graph of this line to get a sense of the accuracy:<div class="autopermalink" data-description="Paragraph"><a href="#ex-linear-gasoline-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;">
+<img src="external/images/gas_plot_line1.png" class="contained" alt="plot of the data and linear model"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="ex-linear-gasoline-2-8-description"><div class="para" id="ex-linear-gasoline-2-8-2-1">The same data points as before are shown with a straight line approximation graph.<div class="autopermalink" data-description="Paragraph"><a href="#ex-linear-gasoline-2-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div></details>
+</div>
+<div class="para logical">
+<div class="para">We might be bothered by the fact that it appears the line passes through three points exactly, but is above the others. Perhaps we’d like it to be closer to the middle, with a similar number of data points above and below. We can try using two differnt data points to estimate the average common difference, say 1993 and 2003:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+d = \frac{133 - 111}{2003 - 1993} = \frac{22}{10} = 2.2
+\end{equation*}
+</div>
+<div class="para">Changing the initial value to 111 billion gallons in 1993 and adjust <span class="process-math">\(t\)</span> to represent years since 1993, gives <span class="process-math">\(C = 111 + 2.2t\)</span> as another formula to describe the situation. That graph looks like:</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex-linear-gasoline-2-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;">
+<img src="external/images/gas_plot_line2.png" class="contained" alt="plot of the data and linear model"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="ex-linear-gasoline-2-10-description"><div class="para" id="ex-linear-gasoline-2-10-2-1">The same data points as before are shown with a straight line approximation graph.<div class="autopermalink" data-description="Paragraph"><a href="#ex-linear-gasoline-2-10-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div></details>
+</div>
+<div class="para">Both are reasonable models for this relationship, but we’ll stick with the second option to answer the questions.<div class="autopermalink" data-description="Paragraph"><a href="#ex-linear-gasoline-2-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">To predict the consumption in 2022, we need to determine what value of our input variable, <span class="process-math">\(t\text{,}\)</span> corresponds to the year 2022. Subtraction reveals that we want <span class="process-math">\(t = 2022 - 1993 = 29\text{.}\)</span> Now, we substitute that value into our model formula and complete the computations:</div>
+<div class="displaymath process-math">
+\begin{align*}
+C \amp = 111 + 2.2(29)\\
+\amp = 111 + 63.8\\
+\amp = 174.8
+\end{align*}
+</div>
+<div class="para">Our model predicts the gasoline consumption in 2022 to 174.8 billion gallons.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex-linear-gasoline-2-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">The next question is the reverse type, when will consumption reach 200 billion gallons. We are given the value of the output variable, <span class="process-math">\(C = 200\text{,}\)</span> and asked to find the corresponding input, <span class="process-math">\(t\text{.}\)</span> Similar to above, we substitute the values we know into the formula, but this time we need to use some algebra to find <span class="process-math">\(t\text{:}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{align*}
+C \amp = 111 + 2.2t\\
+200 \amp = 111 + 2.2t\\
+200 - 111 \amp = 111 + 2.2t - 111\\
+89 \amp = 2.2t\\
+\frac{89}{2.2} \amp = \frac{2.2t}{2.2}\\
+40.45 \amp t
+\end{align*}
+</div>
+<div class="para">This says that 40 years from 1993 the consumption will be below 200 billion gallons, but after 41 years it will exceed 200 billion gallons. According to this model, if the trend continues, the US gasoline consumption would exceed 200 billion gallons in 2034.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex-linear-gasoline-2-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.2.6.1"><a href="#ex-linear-gasoline-2" title="Copy heading and permalink for Solution 4.2.6.1" aria-label="Copy heading and permalink for Solution 4.2.6.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.2.6"><a href="#ex-linear-gasoline" title="Copy heading and permalink for Example 4.2.6" aria-label="Copy heading and permalink for Example 4.2.6">🔗</a></div></article><span class="incontext"><a class="internal" href="sec-linear.html#ex-linear-gasoline">in-context</a></span>
+</body>
+</html>

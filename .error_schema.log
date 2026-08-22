@@ -1,5 +1,5 @@
-<string>:58:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element poem, got figure
-<string>:58:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element figure there
+<string>:36:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element biography, got colophon
+<string>:4:0:ERROR:RELAXNGV:RELAXNG_ERR_NOTELEM: Expecting an element got text
 <string>:3:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element chapter has extra content: section
 <string>:9:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element subtitle there
 <string>:7:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content

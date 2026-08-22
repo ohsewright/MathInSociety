@@ -460,17 +460,17 @@
         The order you notice them in will vary across people.
         You might notice first that 5 is a common factor. (Numbers that are divisible by five end with a 0 or a 5.)
         So, we divide both the numerator and denominator by 5:
-        <me>
+        <md>
           \frac{90}{105} = \frac{90 \div 5}{105 \div 5} = \frac{18}{21}
-        </me>.   
+        </md>.   
       </p>
       <p>
         Next, you might notice that 3 is a common factor of both 18 and 21.
         (If a number is divisible by three, then the sum of its digits is also divisible by 3. For these numbers, <m>1 + 8 = 9</m> and <m>2 + 1 = 3</m>.)
         So, we divide both the top and bottom of the fraction by 3:
-        <me>
+        <md>
           \frac{18}{21} = \frac{18 \div 3}{21 \div 3} = \frac{6}{7}
-        </me>.
+        </md>.
       </p>
       <p>
         All of the equal signs above are used purposely; they tell us that the value of the fraction has not changed.
@@ -485,9 +485,9 @@
       <p>
         This can be tedious to write out this way when there are a lot of common factors.
         As long as you're careful with the use of equal signs and remember the allowable moves, some people prefer a sort of cancellation notation that might look like:
-        <me>
+        <md>
           \frac{90}{105} = \frac{2 \cdot 3^2 \cdot 5}{3 \cdot 5 \cdot 7} = \frac{2 \cdot \cancel{3} \cdot 3 \cdot \cancel{5}}{\cancel{3} \cdot \cancel{5} \cdot 7} = \frac{2 \cdot 3}{7} = \frac{6}{7}
-        </me>.
+        </md>.
       </p>
       <p>
         We know we cannot reduce this fraction further since 6 and 7 have no common factors; 
@@ -537,9 +537,9 @@
   <statement>
     <p>
       Complete the fraction addition coming from the example of pizzas with differing numbers of slices:
-      <me>
+      <md>
         \frac{5}{12} + \frac{3}{8} = 
-      </me>
+      </md>
     </p>
   </statement>
   <hint>
@@ -562,10 +562,10 @@
       When we multiply the 12 in the denominator by 8, we must also do the same to the numerator to keep the fraction equivalent.
       Similarly, multiplying the 8 denominator by 12 will make the denominators match, but we need to again do the same to the numerator to keep the fractions equivalent.
       In written out steps, this would look like
-      <me>
+      <md>
         \frac{5}{12} + \frac{3}{8} = \frac{5 \cdot 8}{12 \cdot 8} + \frac{3 \cdot 12}{8 \cdot 12}
         = \frac{40}{96}+\frac{36}{96} = \frac{40 + 36}{96} = \frac{76}{96}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -575,17 +575,17 @@
         <li>
           <p>
             Since the denominator is very close to 100, we may be able to get better sense of how large this fraction actually is in this form:
-          <me>
+          <md>
             \frac{76}{96} \sim \frac{76}{100} = 0.76 \sim 0.75 = \frac{3}{4}
-          </me>.
+          </md>.
           </p>
         </li>
         <li>
           <p>
             You might also just want to do the division in a calculator to convert this to a decimal number anyway, and in that case, the size of the numerator and denominator matter less.
-            <me>
+            <md>
               \frac{76}{96} = 76 \div 96 = 0.791\overline{6}
-            </me>.
+            </md>.
           </p>
         </li>
         <li>
@@ -600,9 +600,9 @@
 
     <p>
       If you do want to reduce this fraction, it works in the same way as <xref ref="example-fractionreduce"/>:
-      <me>
+      <md>
         \frac{76}{96} = \frac{76 \div 2}{96 \div 2} = \frac{38}{48} = \frac{38 \div 2}{48 \div 2} = \frac{19}{24}
-      </me>.
+      </md>.
       
     </p>
 
@@ -614,9 +614,9 @@
     <p>
       For this example, the least common multiple of 12 and 8 is 24.
       With this common denominator, the steps look like:
-      <me>
+      <md>
         \frac{5}{12} + \frac{3}{8} = \frac{5 \cdot 2}{12 \cdot 2} + \frac{3 \cdot 3}{8 \cdot 3} = \frac{10}{24} + \frac{9}{24} = \frac{10+9}{24} = \frac{19}{24}
-      </me>.
+      </md>.
       This method will more often, but <alert>not always</alert>, end in an answer that is already reduced.
       We can see from the reduced forms, that both methods produce equivalent fractions as the final answer.
     </p>
@@ -674,25 +674,25 @@
   <solution>
     <p>
       We first convert the one mixed number factor, <m>3\frac{5}{6}</m>, into an improper fraction:
-      <me>
+      <md>
         3\frac{5}{6} = \frac{6\cdot 3 + 5}{6} = \frac{18 + 5}{6} = \frac{23}{6}
-      </me>.
+      </md>.
     </p>
     <p>
       Now, we <q>multiply across,</q> numerators with numerators and denominators with denominators:
-      <me>
+      <md>
         \frac{3}{10} \cdot 3\frac{5}{6} = \frac{3}{10} \cdot \frac{23}{6} = \frac{3 \cdot 23}{10 \cdot 6} = \frac{69}{60}
-      </me>.
+      </md>.
     </p>
     <p>
       We can convert this product to a reduce mixed number:
-      <me>
+      <md>
         \frac{69}{60} = \frac{60 + 9}{60} = 1\frac{9}{60} = 1\frac{9 \div 3}{60 \div 3} = 1\frac{3}{20}
-      </me>,
+      </md>,
       or
-      <me>
+      <md>
         \frac{69}{60} = \frac{69 \div 3}{60 \div 3} = \frac{23}{20} = \frac{20 + 3}{20} = 1\frac{3}{20}
-      </me>.
+      </md>.
     </p>
   </solution>
 </example>
@@ -771,7 +771,7 @@
   The area of the purple/crosshatched rectangle we can compute via multiplication, length times width.
   The length measured vertically in blue is <m>\frac{3}{5}</m>. We can tell this because that side of the square is split into 5 <em>equally sized</em> pieces (the denominator) and the length is 3 of those pieces (the numerator).
   Similary, the width measured horizontally in red is <m>\frac{5}{6}</m>. To compute the area, we multiply these two values:
-  <me>\frac{3}{5} \cdot \frac{5}{6} = \frac{15}{30}</me>. 
+  <md>\frac{3}{5} \cdot \frac{5}{6} = \frac{15}{30}</md>. 
   This product can be reduced, but this is a good example of when doing that reduction is not helpful.
   This is what the procedure for multiplication, <xref ref="heuristic-fracmult"/>, tells us to do, but why does this answer and process make sense?
 </p>
@@ -839,27 +839,27 @@
   <solution>
     <p>
       We first convert the mixed number divisor, <m>3\frac{5}{6}</m>, into an improper fraction:
-      <me>
+      <md>
         3\frac{5}{6} = \frac{6\cdot 3 + 5}{6} = \frac{18 + 5}{6} = \frac{23}{6}
-      </me>.
+      </md>.
     </p>
     <p>
       Now, we <q>flip</q> the divisor and change the division to multiplication:
-      <me>
+      <md>
         \frac{3}{10} \div 3\frac{5}{6} = \frac{3}{10} \div \frac{23}{6} = \frac{3}{10} \cdot \frac{6}{23}
-      </me>.
+      </md>.
     </p>
     <p>
       Lastly, we <q>mutiply across</q>, just like <xref ref="heuristic-fracmult"/>:
-      <me>
+      <md>
         \frac{3}{10} \div \frac{23}{6} = \frac{3}{10} \cdot \frac{6}{23} = \frac{3 \cdot 6}{10 \cdot 23}
-      </me>
+      </md>
     </p>
     <p>
       We can reduce in the process of multiplying by <q>canceling</q> common factors:
-      <me>
+      <md>
         \frac{3 \cdot 6}{10 \cdot 23} = \frac{3 \cdot 3 \cdot \cancel{2}}{5 \cdot \cancel{2} \cdot 23} = \frac{9}{115}
-      </me>.
+      </md>.
     </p>
   </solution>
 </example>
@@ -882,14 +882,14 @@
 <p>
   In this case, that means we want to use facts that we know about division and check if a procedure gives us the correct result.
   First, we should know that any non-zero number divided by itself is equal to 1. As long as I don't choose 0, I can be as whacky as I want to be with these numbers:
-  <me>
+  <md>
     \frac{34}{47} \div \frac{34}{47} = \frac{34}{47} \cdot \frac{47}{34} = \frac{34 \cdot 47}{47 \cdot 34} = \frac{1598}{1598} = 1 \checkmark
-  </me>
+  </md>
   This should give you the feeling that <q>flipping and multiplying</q> is at least on the right track<ellipsis/>
   But, how do we know which fraction to flip? You can try whole numbers that you're comfortable with:
-  <me>
+  <md>
     4 \div 2 = \frac{4}{1} \div \frac{2}{1} = \frac{4}{1} \cdot \frac{1}{2} = \frac{4 \cdot 1}{1 \cdot 2} = \frac{4}{2} = 2 \checkmark
-  </me>
+  </md>
   Remember that a fraction is also division, so we can write whole numbers as fractions by giving them a denominator of 1.
   If we had erroneously <q>flipped</q> the first fraction above, we would end up with an incorrect answer of <m>\frac{1}{2}</m>.
 </p>  

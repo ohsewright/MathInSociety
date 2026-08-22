@@ -4,12 +4,29 @@
   <title>Statistical Thinking</title>
 
   <introduction>
-    <p> Text before the first section. </p>
-
+    <blockquote>
       <p>
-        Here's another paragraph.
+        <em> There are three kinds of lies: lies, damned lies, and statistics. </em>
       </p>
-
+    </blockquote>
+    <p>
+      The true origin of this quote is debateable<fn><url href="https://en.wikipedia.org/wiki/Lies,_damned_lies,_and_statistics"/></fn>, but it is the warning that is important for us.
+      Quantitative information can be tricky to understand, and we can all be tricked!
+      We saw this in <xref ref="ch-prop-reasoning"/> when we could get different numerical answers depending on the base of the percentage.
+      That doesn't mean the answer is wrong, it just means that we need to be careful with the words we use to describe what the quantity represents.
+    </p>
+    <p>
+      The words will be just as important when learning some statistics.
+      There are plenty of mathematical formulas in this field of study; many quite complex!
+      Our focus here will be not be on using these formulas, computing our own statistics, designing our own studies, or making our own predictions.
+      We're focused here on becoming knowledgable consumers of data. We don't want to be tricked!
+    </p>
+    <p>
+      Statistical methods arise in every field and in many parts of our regular lives.
+      What does this cancer treatment study really tell me about my risks?
+      What does this report about local school performance tell me about how well my kid is reading?
+      Is this politician telling the <alert>whole</alert> truth in this campaign speech?
+    </p>
    </introduction>
 
   <!-- include sections -->

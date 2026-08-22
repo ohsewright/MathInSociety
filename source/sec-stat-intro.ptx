@@ -3,6 +3,229 @@
 <section xml:id="sec-stat-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>What is Statistics?</title>
 
-  <p> Text of section. </p>
+  <introduction>
+  <p>
+    There are two main branches of statistics: descriptive statistics and inferential statistics.
+    Our focus in this text is on descriptive statistics, but we'll see some of the basics and use the vocabulary of inferential statistics along the way.
+    If you're a Fitchburg State student and want to learn more about inferential statistics, MATH 1700 - Applied Statistics is a great place to start.
+    If you're in Math and Society already, then you meet the requirements for MATH 1700.
+  </p>
+  <p>
+    The methods of descriptive statistics allow us to describe a lot of information more concisely, like a summary.
+    We do this with visually with charts and graphs and quantitatively with formulas for values like the median or standard deviation.
+    Just like any summary, a statistical summary leaves out some of the information.
+    A good use of descriptive statistics strikes a balance; it doesn't conceal the most important imformation or features of the data, while still presenting something that is more quickly and easily understandable than the entire set of data
+    <ellipsis></ellipsis> that is, if you have the right tools!
+  </p>
+  <p>
+    In inferential statistics, we aim to use limited amounts of data to make predictions about what more information would tell us.
+    This might be looking at weather data from the past few days and forcasting tomorrow's chance for rain. We are predicting future data based on observations of past data.
+    Another way this might look is an experiment; see how a small group of patients respond to a treatment, and use that data to decide if this is safe and effective enough for everyone.
+    Here, we're using data we have about a smaller group and seeing if the patterns tell us anything that may apply to a larger group.
+  </p>
+</introduction>
+
+  <subsection xml:id="subsec-stat-vocab">
+    <title>Basic Vocabulary </title>
+  <p>
+    For the rest of this section, we'll cover a lot of vocabulary words; some are already mentioned in the paragraphs above.
+  </p>
+  <insight>
+    <p>
+      Words are hard. Much of the vocabulary introduced here (and in other sections of the text) will not be completely new words to you.
+      That does not mean you can skip over thinking about the definition in this context.
+      It is important to note the similarities and differences in the meaning of the vocabulary word when used in statistical scenarios versus in our everyday language.
+    </p>
+  </insight>
+
+  <p>
+    A statistical study<idx><h>statistical study</h></idx> aims to answer some question about a <term>population</term><idx><h>statistical study</h><h>popuation</h></idx>, and we call that question the <term>research question</term> for the study.
+    If statistics is being used, then that means we don't have the information we need for the entire population; we only have data for a smaller group called the <term>sample</term><idx><h>stastitical study</h><h>sample</h></idx>.
+    The objects that make up both the population and the sample are called <term>observational units</term><idx><h>statistical study</h><h>observational unit</h></idx>.
+    The number of observational units in the sample is called the <term>sample size</term><idx><h>statistical study</h><h>sample size</h></idx>, and we typically use the symbol <m>n</m> to represent that sample size.
+  </p>
+  
+  <example xml:id="ex-stat-study-basics-1">
+    <p>
+      Suppose your roommate regularly gets out of bed in the afternoon, but you are up early to have breakfast before your 8:00am class<ellipsis/> and you both like it this way.
+      You may wonder, <q>Which of us is more typical?</q> A research question for a related study might be, <q><em>What proportion of college students are morning people?</em></q>
+      The <term>population</term> you're studying is <alert>ALL</alert> college students. You decide to collect data from the residents of your dorm; that is the <alert>sample</alert>.
+      The elements of these two sets are college students, so the <term>observational unit</term> of this study is a college student. If 100 students live in your dorm, that is the <term>sample size</term>, and we would write, <m>n = 100</m>.
+    </p>
+  </example>
+
+  <p>
+    An attribute or quality of an observational unit that can be counted, measured, or categorized, is a <term>variable</term><idx><h>variable</h></idx><idx><h>statistical study</h><h>variable</h></idx>.
+    (This is one of the terms that probably already lives in the mathy part of your brain, so be careful to not confuse this meaning for a <alert>statistical</alert> variable, with that of a variable in algebra.)
+    A variable can have a different value for each observational unit, but that is not a requirement. 
+    The collection of all the values of the variables for all the observational units of the sample is the <term>data</term><idx><h>statistical study</h><h>data</h></idx>.
+    All of these terms are related and sorting out what is what can be confusing.
+  </p>
+
+  <example xml:id="ex-stat-study-basics-2">
+    <p>
+      In <xref ref="ex-stat-study-basics-1"/>, the observational unit is a college student. There are many attributes of colleges students that we might care about, and each of these could be considered a variable in this study.
+      We should always have a variable that is directly related to the research question. Here that <alert>variable</alert> is whether or not the college student is a morning person.
+      The yes/no values for this variable for each student are the <alert>data</alert> for this study.
+      You would very likely have more variables and collect more date.
+      It may just be name or room number of the student to help keep the values of the main variable of interest organized.
+      You may also be wanting to answer other research questions with this data, so you may also other variables: the student's GPA, how many morning classes they have, their major, etc.
+    </p>
+    <p>
+      It can help to imagine how you would actually keep track of all this should you conduct the study. You'd likely come up with a chart that's something like:
+    </p>
+    <tabular>
+      <row header="yes" bottom="medium">
+        <cell></cell>
+        <cell>Name</cell>
+        <cell>Room #</cell>
+        <cell><line>Morning</line><line>Person?</line></cell>
+        <cell><line>Morning</line><line>Classes</line></cell>
+        <cell>GPA</cell>
+        <cell>Major</cell>
+      </row>
+      <row>
+        <cell>1</cell>
+        <cell>Silvia</cell>
+        <cell>101</cell>
+        <cell>Yes</cell>
+        <cell>3</cell>
+        <cell>3.21</cell>
+        <cell>Communications</cell>
+      </row>
+      <row>
+        <cell><m>\vdots</m></cell>
+        <cell><m>\vdots</m></cell>
+        <cell><m>\vdots</m></cell>
+        <cell><m>\vdots</m></cell>
+        <cell><m>\vdots</m></cell>
+        <cell><m>\vdots</m></cell>
+        <cell><m>\vdots</m></cell>
+      </row>
+      <row>
+        <cell>100</cell>
+
+      </row>
+    </tabular>
+    <p>
+      Each row of this chart represents a particular <alert>observational unit</alert>,
+      each column is a <alert>variable</alert> with the name of that variable across the top of the chart,
+      and all the entries within the table make up the <alert>data</alert>.
+      We can tell that the sample size is <m>n = 100</m>, since there are 100 rows of data in the table.
+    </p>
+  </example>
+
+  <p>
+    Once the data is collected, we should try to give our best answer to the research question.
+    The true answer to the research question is called the <term>population parameter</term><idx><h>statistical study</h><h>parameter</h></idx>.
+    In our example scenario above, the population parameter, <m>p</m>, is the proportion of <alert>ALL</alert> college students who are morning people.
+    We can't get that true value.
+    What we can determine from our study is called the <term>sample statistic</term><idx><h>statistical study</h><h>statistic</h></idx>.
+    In our case, the statistic is a sample proportion, <m>\hat{p} = \frac{27}{100} = 0.27</m>.
+  </p>
+
+  <exercise xml:id="check-stat-study-basics">
+    <title>Statistical Study Vocabulary</title>
+    <webwork source="Library/ASU-topics/setStat/gust67.pg" />    
+  </exercise>
+
+  <image source="images/pop_samp_obs_recap.png">
+    <shortdescription>A visual recap of population, sample, and observational unit</shortdescription>
+    
+  </image>
+
+  <image source="images/var_par_stat_recap.png">
+    <shortdescription>A visual recap of variable, population parameter, and sample statistic</shortdescription>
+    
+  </image>
+
+</subsection>
+
+<subsection xml:id="subsec-var-types">
+  <title>Variable Types</title>
+
+  <p>
+    Take a look back at the chart in <xref ref="ex-stat-study-basics-2"/>. There are six different variables.
+    Each of these variables falls into one of two main types:
+    <ul>
+      <li>
+        <p>
+          A <term>categorical</term><idx><h>variable</h><h>categorical</h></idx> (<term>qualitative</term><idx><h>variable</h><h>qualitative</h></idx>) variable
+          has possible values that can be categorized or described easily in words. The possible values of a categorical variable are called <term>levels</term>.
+        </p>
+      </li>
+      <li>
+        <p>
+          A <term>numerical</term><idx><h>variable</h><h>numerical</h></idx> (<term>quantitative</term><idx><h>variable</h><h>quantitative</h></idx>) variable
+          takes values that can be represented by a number, <alert>AND</alert> it makes sense to add, subtract, or average the values.
+        </p>
+      </li>
+    </ul> 
+    Note that is also acceptable to use these terms to describe the data collected for each variable.
+  </p>
+
+  <example xml:id="ex-cat-num">
+    <statement>
+      <p>
+        Sort the six variables in the chart from <xref ref="ex-stat-study-basics-2"/> in categorical or numerical.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        One is tricky...
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    We can further sort variables into subtypes. Numerical variables are either <term>continuous</term><idx><h>variable</h><h>numerical</h><h>continuous</h></idx>
+    or <term>discrete</term><idx><h>variable</h><h>numerical</h><h>discrete</h></idx>.
+    Continuous variables are those that come from measurement or computation and can have values that are not whole numbers.
+    In our example, GPA is a <alert>continuous</alert> numerical variable.
+    Discrete variables are those that result from counting and can only have whole number values.
+    The number of morning classes is an example of a <alert>discrete</alert> numerical variable.
+  </p>
+
+  <p>
+    Categorical variables can be <term>binary</term><idx><h>variable</h><h>categorical</h><h>binary</h></idx>,
+    <term>ordinal</term><idx><h>variable</h><h>categorical</h><h>ordinal</h></idx>,
+    or <term>nominal</term><idx><h>variable</h><h>categorical</h><h>nominal</h></idx>.
+    The morning person variable is <alert>binary</alert>; there are only two options for an value: yes or no.
+    When the possible values (levels) of a categorical variable where a particular order is clear, that is an <alert>ordinal</alert> variable.
+    This could be the case if we allowed the students to choose one of 
+    <ul>
+      <li>
+        <p>
+          Very Much
+        </p>
+      </li>
+      <li>
+        <p>
+          Somewhat
+        </p>
+      </li>
+      <li>
+        <p>
+          Rarely
+        </p>
+      </li>
+      <li>
+        <p>
+          Not At All
+        </p>
+      </li>
+    </ul>
+    as responses to the question. In the example, the student's room number is an <alert>ordinal</alert> variable.
+    If a categorical variable has more than two possible values and those values don't have a clear order, then that is a <alert>nominal</alert> variable.
+    Both the student's name and their major are <alert>nominal</alert> variables.
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-sampling-bias">
+  <title>Sampling Methods and Bias</title>
+  <p>
+    
+  </p>
+</subsection>
 
 </section>

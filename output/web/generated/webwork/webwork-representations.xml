@@ -478,4 +478,129 @@ is approximate since it is only calculated to 3 decimal places.</p>
     <rendering-data sourceFilePath="Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg"/>
   </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-17" ww-id="webwork-17">
+    <static seed="17" source="Library/CollegeOfIdaho/setAlgebra_01_05_ProblemSolvingAndFormulas/15IntAlg_04_ProblemSolve.pg">
+      <statement><p>According to one mathematical model, the average life expenctancy for American men born in 1900 was 55 years. Life expectancy has increased by about 0.2 year for each birth year after 1900.</p>
+<p><ol label="a.">
+<li>
+<p>Let <m>n</m> represent the average  life expectancy for American born <m>t</m> years after 1900.  Write an equation that expresses how <m>t</m> is related to <m>n</m>, according to the model. For example,  <m>t = 12</m> in 1912  and the model predicts that <m>n=57.4</m> in that year.</p>
+<p>Answer: <fillin characters="10" name="AnSwEr0001"/></p>
+</li>
+<li>
+<p>If the trend described in the model continues, for which birth year will the average American man<rsq/>s life expectancy be 79 years?  Solve your equation from part a), then answer this question.   (Note: You are asked for a year, not a value for <m>t</m>.)</p>
+<p>Answer: <fillin characters="9" name="AnSwEr0002"/></p>
+</li>
+</ol></p>
+</statement>
+      <hint><p>Part b) asks for the year. How is <m>t</m> related to the year?</p>
+</hint>
+      <answer>
+        <p>
+          <m>0.2t-n = -55</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2020</m>
+        </p>
+      </answer>
+      <solution><p>Part a)  <m>n = 55</m> in 1900, and <m>n</m> increases by 0.2 years for each year after 1900. Thus <m>t</m> years after 1900, <m>n</m> will have increased by <m>0.2t</m> years above 55, which means <m>n</m> will be <m>55+0.2t</m>.  So,  according to the model, 
+<m>55+0.2t=n</m>.</p>
+<p>Part b)  gives the life expectancy <m>n= {79}</m> and asks for the year.   One can find the year if one knows <m>t</m> because the year is <m>1900+t</m> when it<rsq/>s <m>t</m> years after 1900.   So plug <m>n={79}</m> into the equation in part b),<m>55+0.2t={79}</m> solve for <m>t</m>,<m>\displaystyle{\begin{gathered} 
+    0.2t = {79}-55 = 24 \\ 
+    t = 24/0.2 = 120 \end{gathered} }</m> and then use that to find the year <m>1900+t=1900+120 = {2020}</m>.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_01_05_ProblemSolvingAndFormulas/15IntAlg_04_ProblemSolve.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_01_05_ProblemSolvingAndFormulas/15IntAlg_04_ProblemSolve.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-18" ww-id="webwork-18">
+    <static seed="18" source="Library/ASU-topics/setLogarithmicFunctions/srw4_5_5.pg">
+      <statement><p>The population of a certain city was 299000 in 2018, and the observed relative
+growth rate is 2 percent per year.</p>
+<p><ol label="a.">
+<li>
+<p>Let <m>t</m> be the number of years after 2018 and <m>r</m> be the relative growth rate.  Find a function that models the population after <m>t</m> years.</p>
+<p><m>P(t)=</m> <fillin characters="1" name="AnSwEr0001"/></p>
+</li>
+<li>
+<p>Find the projected population in the year 2027: <fillin characters="1" name="AnSwEr0002"/></p>
+</li>
+<li>
+<p>In what year will the population reach 418672? <fillin characters="1" name="AnSwEr0003"/></p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>299000\cdot 1.02^{t}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>357333</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2035</m>
+        </p>
+      </answer>
+      <solution><p>a. The model will be an exponential model: <m>P(t) =  a(1+r)^t</m>, where the initial population will be <m>a=229000</m> and growth rate as <m>r=2/100 = 0.02</m>.  The model then is</p>
+<p><me>P(t) = 299000\ast1.02^t</me></p>
+<p>b. To find the projected population, first note that 2027 is <m>t=9</m> years after 2018. This value of <m>t</m> will be substituted into the model so</p>
+<p><me>P(9) = 299000\ast1.02^{9} = {357333}</me></p>
+<p>c. Use logarithms to solve the equation 
+<m>\displaystyle{{418672}=299000\ast 1.02^t }</m> for <m>t</m>.</p>
+<p><m>\displaystyle{\begin{aligned}
+        {418672}\amp =299000\ast 1.02^t \\
+        {418672}/299000 \amp = 1.02^t \\
+        {1.40024} \amp = 1.02^t \\
+        \ln({1.40024}) \amp = \ln\big(1.02^t\big)=t \ln(1.02) \\
+        t \amp = \frac{\ln({1.40024})}{\ln(1.02)}\\
+        t \amp = {17} \end{aligned}}</m></p>
+<p>So the year is <m>2018+t =2035</m></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/setLogarithmicFunctions/srw4_5_5.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/setLogarithmicFunctions/srw4_5_5.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-19" ww-id="webwork-19">
+    <static seed="19" source="Library/ASU-topics/setStat/gust67.pg">
+      <statement><p>Suppose we were comparing the mean age of buyers of new domestic cars to the mean age of buyers of new imported cars.</p>
+<p>What is the variable under consideration?
+<var form="buttons">
+<li>
+<p>buyers of imported cars</p>
+</li>
+<li>
+<p>age of buyers</p>
+</li>
+<li>
+<p>buyers of domestic cars</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+<p>What are the two populations under consideration?
+<var form="buttons">
+<li>
+<p>cars and buyers</p>
+</li>
+<li>
+<p>buyers of new domestic cars and buyers of new imported cars</p>
+</li>
+<li>
+<p>age of buyers of new domestic cars and age of buyers of new imported cars</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/setStat/gust67.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/setStat/gust67.pg"/>
+  </webwork-reps>
 </webwork-representations>

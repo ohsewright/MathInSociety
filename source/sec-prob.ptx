@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-prob" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Problem Solving Strategies</title>
+  <title>? Problem Solving Strategies</title>
 
-  <p> Text of section. </p>
+  <p> Maybe Problem Solving Strategies isn't the right thing here...</p>
+
+  <p>
+    To start, think about what number the following complicated fractional expression is equal to.<md>
+      \frac{1^2 + 2^2 + 3^2 + \cdots + 99^2 + 100^2}{1 + 2 + 3 + \cdots + 99 + 100}
+    </md>
+  </p>
+
+  <p>
+    Why this? It is equal to 67.
+    Students can figure out the denominator (maybe with some coaching)... 
+    Can provide the formula for the numerator and do a lot of discussion on how to process that and why formulas are helpful formula notation
+    Too many numbers to type yourself into a calculator or computer... maybe a spreadsheet is a good choice? maybe AI is an okay choice? What would you ask?
+    Arithmetic and algebraic ideas
+  </p>
 
 </section>

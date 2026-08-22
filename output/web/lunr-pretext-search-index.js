@@ -24,8 +24,8 @@ var ptx_lunr_docs = [
   "url": "sec-prob.html",
   "type": "Section",
   "number": "1.2",
-  "title": "Problem Solving Strategies",
-  "body": " Problem Solving Strategies  Text of section.  "
+  "title": "? Problem Solving Strategies",
+  "body": " ? Problem Solving Strategies  Maybe Problem Solving Strategies isn't the right thing here...  To start, think about what number the following complicated fractional expression is equal to.   Why this? It is equal to 67. Students can figure out the denominator (maybe with some coaching)... Can provide the formula for the numerator and do a lot of discussion on how to process that and why formulas are helpful formula notation Too many numbers to type yourself into a calculator or computer... maybe a spreadsheet is a good choice? maybe AI is an okay choice? What would you ask? Arithmetic and algebraic ideas  "
 },
 {
   "id": "sec-graphs",
@@ -37,36 +37,36 @@ var ptx_lunr_docs = [
   "body": " Intepreting Graphs  Just braining needed stuff: x and y vs independent and dependent variables functional and equation notation scales for axes (proportional reasoning) types of graphs  "
 },
 {
-  "id": "sec-desmos",
+  "id": "subsec-computations",
   "level": "1",
-  "url": "sec-desmos.html",
-  "type": "Section",
-  "number": "1.4",
-  "title": "Using Desmos",
-  "body": " Using Desmos   For numerical computations, graphing, solving equations, and exploratory investigations, we'll use the free and very intuitive site Desmos. There are far more powerful mathematical tools out there, but Desmos is the best balance of power with user friendliness and cost, and it will help us all to be using the same tools.   Login to Desmos      Go to desmos.com .    In the upper right corner are buttons to Log In or Sign Up; create an account with your university email or log in if you already have one.    You'll see many colorful squares linking to different tools. We will not need the Matrix option nor the the 3D option; ever!    The Scientific calculator or Four Function calculator may be easier to use, but you can also do all of any of those things in the Graphing mode, so go there.         Basic Computations  You can use the graphing mode as a calculator for quick computations. If you're really only doing computations, the scientific or four function calculutor may be more intuitive for you. But, it is convenient to have it all on one screen and once you practice a bit, typing computations out on the keyboard rather than searching for a button can be quicker. See the table below for a list of some mathematical operations that can be used in Desmos.         Math Operation  Keyboard Representation  Keyboard Location  Example    Addition  +  shift = (upper right)   3+2    Subtraction  -  - (upper right)   6-1    Multiplication   shift 8  5 4  5*4     Division  \/  \/ (lower right)   10\/2     Exponent  ^  shift 6   4^2     Square Root  ^.5 or sqrt  shift 6 or letters   16^.5 or sqrt 16    One can use the above operations to evaluate difficult expressions. For example, suppose we wish to know the value of . You can type this into Desmos as 1.5^3 and the answer will be displayed below in a gray box. Try this for yourself. Your screen should match the one shown below:   A simple computation with Desmos.    Desmos Computations   Use Desmos to compute the following:                               You should have something very similar to the picture below.   The answers for the above computations.   A few notes:   When you are done typing a fraction, you'll likely need to use the right arrow to move back to a regular line, rather than continuing to type in the denominator; The circle on the left with a fraction of squares image has been clicked. This presents the answer as a (reduced) fraction.    The commas that appear between every three digits should not be entered into Desmos; you'll get an error because it thinks you want to enter coordinates for a point on the graph. You can see how it clumps three digits together with a bit of space between to help our eyes take in the multidigit numbers.    You can also type frac to get the division line to show up and use the up and down arrows to go between the numerator and denominator.    This is the sort of answer you'll get for large numbers. This is scientific notation and the indicates that we can move the decimal point 72 places to the right. Your handheld calculator or phone calculator may use a lower case or backward E to indicate the same thing.    An exponent of is the same thing as taking the square root of a number. You can enter this as an exponent or type sqrt and the square root symbol will appear.         Graphing  Graphing equations in Desmos is also straight forward. Try typing y=2x+5 into a box on the left. As you type a graph will appear on the right and change. Once you're done it should look like this:   A plot of a line.   You may end up with a different color. You can adjust this with the colorful circle with the wavy line to the left of the equation. You can choose from six colors and three solid\/dashed\/dotted options as well as specific the thickness.  You can have multiple equations plotted on the same grid. Try plotting . When an equation is highlighted (or your cursor is in the box), Desmos will show you the intersections of that plot and the axes or any other plot. If you hover over the dots, the coordiates of the point will be displayed.   A linear and exponential graph intersect.   The above can be done with a graphing calculator, although the display is probably not as nice. But, Desmos is much more handy for investigating graphs. We might wonder what the 2 in our first plot or the in the second plot do. We could of course change them and see what happens to the graph, or we can do it all together with a slider slider .  Put your cursor between the 2 and the in the first equation. Delete the 2 and type . You'll get an error icon and an option to add slider: with a blue box with an in it. Click on the blue box. You'll get an extra row\/box in your list on the left with a slider in it. You can move the bubble back and forth, hit the play button, and adjust the range and step size of the slider. Try it!   The resulting slider.    Try Your Own Slider   Replace the in the other equation with a slider. Call it .    Now, add a slider called in place of the 7 in your first equation. Change the range so that you can make at least 20. What happens?   Two plots that intersect outside the viewable window.   We can no longer see where the two graphs intersect. (You may need to change your slider back to around 0.75 to get a similar picture.) Depending on your computer and the settings, you can move the window around (try clicking and dragging), or zoom in and out either with whatever mouse\/trackpad move you use to scroll or using the + and - buttons. For more control, use the wrench icon in the upper right. This will let you specify the window in both the and -directions as well as adjust grid lines and appearance. This is also where you can label the axes. Maybe this graph represents the size of a population over time. If we're just investigating, labels and pretty graphs are not as important. But, if we're including them in a project report, they should be as clear as possible.   Using the wrench icon to adjust the picture.   The equations we plotted above were all functions, but those are not the only types of equations (or even objects) that can be visualized.    Plot the equation and create sliders for , , and . What does this plot? Use the sliders to determine what each of the values , , and change about the plot.    The equation plots a circle centered at and with a radius .   A circle with radius 2 centered at (-4, 3).   Your plot will not have the center or radius marked. That is included here for clarity.      Image Imports  The last thing we're going to practice in Desmos is importing our own images. Including an image as a background with the ability to plot equations and make measurements on the same grid, is a way we can study the underlying image. We'll use this technique to evaluate maps of Congressional districts in .  To import an image into Desmos, use the drop-down menu shown to the left. Select image and browse your files to upload an image. For practice, let's use an adorable puppy. Download the image linked .   An adorable puppy imported onto the Desmos grid.   Once you upload the picture, you should see the following screen and data. This data includes the width and height of the picture (in Desmos, not the pixel height). Desmos will always center the image, keep the proportions, and scale the image to a width of 10 units. If you're going to change the size, it is important to scale both the width and the height in the same manner.  The original picture is 480 pixels by 480 pixels. See if you can find this info in the file from your machine. We'll learn the tools needed to work with the pixel size, Desmos size, and real world representation in , and we'll review before we need to apply those skills to the maps.   "
-},
-{
-  "id": "heuristic-desmos-login",
-  "level": "2",
-  "url": "sec-desmos.html#heuristic-desmos-login",
-  "type": "Procedure",
+  "url": "subsec-computations.html",
+  "type": "Subsection",
   "number": "1.4.1",
-  "title": "Login to Desmos.",
-  "body": " Login to Desmos      Go to desmos.com .    In the upper right corner are buttons to Log In or Sign Up; create an account with your university email or log in if you already have one.    You'll see many colorful squares linking to different tools. We will not need the Matrix option nor the the 3D option; ever!    The Scientific calculator or Four Function calculator may be easier to use, but you can also do all of any of those things in the Graphing mode, so go there.      "
+  "title": "Basic Computations",
+  "body": " Basic Computations  You can use the graphing mode as a calculator for quick computations. If you're really only doing computations, the scientific or four function calculutor may be more intuitive for you. But, it is convenient to have it all on one screen and once you practice a bit, typing computations out on the keyboard rather than searching for a button can be quicker. See the table below for a list of some mathematical operations that can be used in Desmos.         Math Operation  Keyboard Representation  Keyboard Location  Example    Addition  +  shift = (upper right)   3+2    Subtraction  -  - (upper right)   6-1    Multiplication   shift 8  5 4  5*4     Division  \/  \/ (lower right)   10\/2     Exponent  ^  shift 6   4^2     Square Root  ^.5 or sqrt  shift 6 or letters   16^.5 or sqrt 16    One can use the above operations to evaluate difficult expressions. For example, suppose we wish to know the value of . You can type this into Desmos as 1.5^3 and the answer will be displayed below in a gray box. Try this for yourself. Your screen should match the one shown below:   A simple computation with Desmos.    Desmos Computations   Use Desmos to compute the following:                               You should have something very similar to the picture below.   The answers for the above computations.   A few notes:   When you are done typing a fraction, you'll likely need to use the right arrow to move back to a regular line, rather than continuing to type in the denominator; The circle on the left with a fraction of squares image has been clicked. This presents the answer as a (reduced) fraction.    The commas that appear between every three digits should not be entered into Desmos; you'll get an error because it thinks you want to enter coordinates for a point on the graph. You can see how it clumps three digits together with a bit of space between to help our eyes take in the multidigit numbers.    You can also type frac to get the division line to show up and use the up and down arrows to go between the numerator and denominator.    This is the sort of answer you'll get for large numbers. This is scientific notation and the indicates that we can move the decimal point 72 places to the right. Your handheld calculator or phone calculator may use a lower case or backward E to indicate the same thing.    An exponent of is the same thing as taking the square root of a number. You can enter this as an exponent or type sqrt and the square root symbol will appear.       "
 },
 {
   "id": "check-Desmoscomp",
   "level": "2",
-  "url": "sec-desmos.html#check-Desmoscomp",
+  "url": "subsec-computations.html#check-Desmoscomp",
   "type": "Check for Understanding",
   "number": "1.4.2",
   "title": "Desmos Computations.",
   "body": " Desmos Computations   Use Desmos to compute the following:                               You should have something very similar to the picture below.   The answers for the above computations.   A few notes:   When you are done typing a fraction, you'll likely need to use the right arrow to move back to a regular line, rather than continuing to type in the denominator; The circle on the left with a fraction of squares image has been clicked. This presents the answer as a (reduced) fraction.    The commas that appear between every three digits should not be entered into Desmos; you'll get an error because it thinks you want to enter coordinates for a point on the graph. You can see how it clumps three digits together with a bit of space between to help our eyes take in the multidigit numbers.    You can also type frac to get the division line to show up and use the up and down arrows to go between the numerator and denominator.    This is the sort of answer you'll get for large numbers. This is scientific notation and the indicates that we can move the decimal point 72 places to the right. Your handheld calculator or phone calculator may use a lower case or backward E to indicate the same thing.    An exponent of is the same thing as taking the square root of a number. You can enter this as an exponent or type sqrt and the square root symbol will appear.      "
 },
 {
+  "id": "subsec-graphing",
+  "level": "1",
+  "url": "subsec-graphing.html",
+  "type": "Subsection",
+  "number": "1.4.2",
+  "title": "Graphing",
+  "body": " Graphing  Graphing equations in Desmos is also straight forward. Try typing y=2x+5 into a box on the left. As you type a graph will appear on the right and change. Once you're done it should look like this:   A plot of a line.   You may end up with a different color. You can adjust this with the colorful circle with the wavy line to the left of the equation. You can choose from six colors and three solid\/dashed\/dotted options as well as specific the thickness.  You can have multiple equations plotted on the same grid. Try plotting . When an equation is highlighted (or your cursor is in the box), Desmos will show you the intersections of that plot and the axes or any other plot. If you hover over the dots, the coordiates of the point will be displayed.   A linear and exponential graph intersect.   The above can be done with a graphing calculator, although the display is probably not as nice. But, Desmos is much more handy for investigating graphs. We might wonder what the 2 in our first plot or the in the second plot do. We could of course change them and see what happens to the graph, or we can do it all together with a slider slider .  Put your cursor between the 2 and the in the first equation. Delete the 2 and type . You'll get an error icon and an option to add slider: with a blue box with an in it. Click on the blue box. You'll get an extra row\/box in your list on the left with a slider in it. You can move the bubble back and forth, hit the play button, and adjust the range and step size of the slider. Try it!   The resulting slider.    Try Your Own Slider   Replace the in the other equation with a slider. Call it .    Now, add a slider called in place of the 7 in your first equation. Change the range so that you can make at least 20. What happens?   Two plots that intersect outside the viewable window.   We can no longer see where the two graphs intersect. (You may need to change your slider back to around 0.75 to get a similar picture.) Depending on your computer and the settings, you can move the window around (try clicking and dragging), or zoom in and out either with whatever mouse\/trackpad move you use to scroll or using the + and - buttons. For more control, use the wrench icon in the upper right. This will let you specify the window in both the and -directions as well as adjust grid lines and appearance. This is also where you can label the axes. Maybe this graph represents the size of a population over time. If we're just investigating, labels and pretty graphs are not as important. But, if we're including them in a project report, they should be as clear as possible.   Using the wrench icon to adjust the picture.   The equations we plotted above were all functions, but those are not the only types of equations (or even objects) that can be visualized.    Plot the equation and create sliders for , , and . What does this plot? Use the sliders to determine what each of the values , , and change about the plot.    The equation plots a circle centered at and with a radius .   A circle with radius 2 centered at (-4, 3).   Your plot will not have the center or radius marked. That is included here for clarity.    "
+},
+{
   "id": "subsec-graphing-7",
   "level": "2",
-  "url": "sec-desmos.html#subsec-graphing-7",
+  "url": "subsec-graphing.html#subsec-graphing-7",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -75,7 +75,7 @@ var ptx_lunr_docs = [
 {
   "id": "check-slider",
   "level": "2",
-  "url": "sec-desmos.html#check-slider",
+  "url": "subsec-graphing.html#check-slider",
   "type": "Check for Understanding",
   "number": "1.4.3",
   "title": "Try Your Own Slider.",
@@ -84,11 +84,20 @@ var ptx_lunr_docs = [
 {
   "id": "check-circle-plot",
   "level": "2",
-  "url": "sec-desmos.html#check-circle-plot",
+  "url": "subsec-graphing.html#check-circle-plot",
   "type": "Check for Understanding",
   "number": "1.4.4",
   "title": "",
   "body": "  Plot the equation and create sliders for , , and . What does this plot? Use the sliders to determine what each of the values , , and change about the plot.    The equation plots a circle centered at and with a radius .   A circle with radius 2 centered at (-4, 3).   Your plot will not have the center or radius marked. That is included here for clarity.   "
+},
+{
+  "id": "subsec-images",
+  "level": "1",
+  "url": "subsec-images.html",
+  "type": "Subsection",
+  "number": "1.4.3",
+  "title": "Image Imports",
+  "body": " Image Imports  The last thing we're going to practice in Desmos is importing our own images. Including an image as a background with the ability to plot equations and make measurements on the same grid, is a way we can study the underlying image. We'll use this technique to evaluate maps of Congressional districts in .  To import an image into Desmos, use the drop-down menu shown to the left. Select image and browse your files to upload an image. For practice, let's use an adorable puppy. Download the image linked .   An adorable puppy imported onto the Desmos grid.   Once you upload the picture, you should see the following screen and data. This data includes the width and height of the picture (in Desmos, not the pixel height). Desmos will always center the image, keep the proportions, and scale the image to a width of 10 units. If you're going to change the size, it is important to scale both the width and the height in the same manner.  The original picture is 480 pixels by 480 pixels. See if you can find this info in the file from your machine. We'll learn the tools needed to work with the pixel size, Desmos size, and real world representation in , and we'll review before we need to apply those skills to the maps.  "
 },
 {
   "id": "sec-spreadsheets",
@@ -642,7 +651,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-lines-2-3",
   "level": "2",
-  "url": "sec-lines.html#exercises-lines-2-3",
+  "url": "exercises-lines.html#exercises-lines-2-3",
   "type": "Exercise",
   "number": "2.3.1",
   "title": "",
@@ -651,7 +660,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-lines-2-4",
   "level": "2",
-  "url": "sec-lines.html#exercises-lines-2-4",
+  "url": "exercises-lines.html#exercises-lines-2-4",
   "type": "Exercise",
   "number": "2.3.2",
   "title": "",
@@ -660,7 +669,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-lines-2-5",
   "level": "2",
-  "url": "sec-lines.html#exercises-lines-2-5",
+  "url": "exercises-lines.html#exercises-lines-2-5",
   "type": "Exercise",
   "number": "2.3.3",
   "title": "",
@@ -669,7 +678,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-lines-2-6",
   "level": "2",
-  "url": "sec-lines.html#exercises-lines-2-6",
+  "url": "exercises-lines.html#exercises-lines-2-6",
   "type": "Exercise",
   "number": "2.3.4",
   "title": "",
@@ -678,7 +687,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-lines-2-7",
   "level": "2",
-  "url": "sec-lines.html#exercises-lines-2-7",
+  "url": "exercises-lines.html#exercises-lines-2-7",
   "type": "Exercise",
   "number": "2.3.5",
   "title": "",
@@ -687,7 +696,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-lines-3-3",
   "level": "2",
-  "url": "sec-lines.html#exercises-lines-3-3",
+  "url": "exercises-lines.html#exercises-lines-3-3",
   "type": "Exercise",
   "number": "2.3.6",
   "title": "",
@@ -696,7 +705,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-lines-3-4",
   "level": "2",
-  "url": "sec-lines.html#exercises-lines-3-4",
+  "url": "exercises-lines.html#exercises-lines-3-4",
   "type": "Exercise",
   "number": "2.3.7",
   "title": "",
@@ -705,7 +714,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-lines-3-5",
   "level": "2",
-  "url": "sec-lines.html#exercises-lines-3-5",
+  "url": "exercises-lines.html#exercises-lines-3-5",
   "type": "Exercise",
   "number": "2.3.8",
   "title": "",
@@ -714,7 +723,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-lines-3-6",
   "level": "2",
-  "url": "sec-lines.html#exercises-lines-3-6",
+  "url": "exercises-lines.html#exercises-lines-3-6",
   "type": "Exercise",
   "number": "2.3.9",
   "title": "",
@@ -723,7 +732,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-lines-3-7",
   "level": "2",
-  "url": "sec-lines.html#exercises-lines-3-7",
+  "url": "exercises-lines.html#exercises-lines-3-7",
   "type": "Exercise",
   "number": "2.3.10",
   "title": "",
@@ -732,7 +741,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-lines-3-8",
   "level": "2",
-  "url": "sec-lines.html#exercises-lines-3-8",
+  "url": "exercises-lines.html#exercises-lines-3-8",
   "type": "Exercise",
   "number": "2.3.11",
   "title": "",
@@ -889,7 +898,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.6",
   "title": "Logarithms and Solving for the Exponent",
-  "body": " Logarithms and Solving for the Exponent  There is a lot one could say and learn about logarithms. We will aim to keep this section as straightforward as possible, as we only need logs as a tool for solving equations that involve exponentials.  While there is a whole family of logarithms with different bases, we will simplify our study by focusing on the common log, which is based on the exponential .   Common Logarithm   The common logarithm, written , undoes the exponential . This means that , and likewise . This also means the statement is equivalent to the statement .     Words are important. When we read the set of symbols out loud (or maybe even more importantly, when we're just reading to ourselves), we should say log OF  , or even more accurately, log base 10 OF  . The focus here is on OF so that we do not confuse the parentheses as multiplication;  DOES NOT mean log times x. Another approach to help remember that this is not multiplication, is that by itsels means nothing, just like or .     Evaluate and .     can be read as What power do we raise 10 to in order to get 100? We probably recoginize that , so .  Recall from , that , so       Evaluate the following expressions:                                           It is worth noting that in the example and practice above, we used the word evaluate rather than solve. This is an important distinction; we use the word solve when we want to determine the value of a variable in an equation, as below.     Solve the following equations for the variable :                       Taking the log of both sides gives . Since the log undoes the exponential, . Similarly, . The equation simplifies then to .    Taking the log of both sides gives . On the left side, , so . We evaluate using a calculator or computer.    Here we would first want to isolate the exponential by dividing both sides of the equation by 2, giving . Now we can take the log of both sides, giving , which simplifies to .      The approach in allows us to solve exponential equations with powers of 10. But, as we'll see in , we'd like to be able to solve equations like . For that we need the exponent property for logs.   Exponent Property of Logarithms   For a number and any power ,     We can combine this fact with the approaches used in to solve the desired type of equations.   Solving Exponential Equations with Logarithms   This process is used to solve exponential equations, where the unknown variable appears as the exponent.   Isolate the exponential. In other words, get the number to the unknown power alone on one side of the equation.    Take the log of both sides of the equation.    Use the exponent property of logs. Rewrite the side of the equation with the log of the number to the unknown variable as that variable times the log of the number.    Solve for the variable. This will involve dividing by the log of the base, and maybe other steps as we used in solving linear equations or those involving roots or powers.       It is important to note that should be used for exponential equations , where the unknown variable is in the exponent. When the exponents are numbers and unknown appears in the base, that is a power equation and we use roots to solve. See .    Solve the equation for .      First, we isolate the exponential, , by dividing both sides by 5: This step will often just involve division as it does here. In more complicated examples, you may simplify things for your brain by replacing the exponential with it's own new variable, and solving for that in this first step.    Then, we take the log of both sides: This step is very simply just writing log on both sides, but be sure to include everything on each side inside the parentheses.    Next, we use the exponent property of logs to bring down the to be outside of the log: Sometimes the exponent is more complicated than just the variable alone. Still the entire expression should be brought down and parentheses included so that it is all multiplied by the log.    Lastly, we regonize that both expressions and are just numbers and we can divide both sides by to isolate . Like the first step, isolating the variable here may be more complicated, but involves the same tools and techniques used for other types of equations.    We can plug the resulting fraction into a calculator or computer to obtain        Give all solutions to the equation, or state that the equation has no solutions by entering NONE .  If there is more than one solution, enter the answers as a comma-separated list.              "
+  "body": " Logarithms and Solving for the Exponent  There is a lot one could say and learn about logarithms. We will aim to keep this section as straightforward as possible, as we only need logs as a tool for solving equations that involve exponentials.  While there is a whole family of logarithms with different bases, we will simplify our study by focusing on the common log, which is based on the exponential .   Common Logarithm   The common logarithm, written , undoes the exponential . This means that , and likewise . This also means the statement is equivalent to the statement .     Words are important. When we read the set of symbols out loud (or maybe even more importantly, when we're just reading to ourselves), we should say log OF  , or even more accurately, log base 10 OF  . The focus here is on OF so that we do not confuse the parentheses as multiplication;  DOES NOT mean log times x. Another approach to help remember that this is not multiplication, is that by itsels means nothing, just like or .     Evaluate and .     can be read as What power do we raise 10 to in order to get 100? We probably recoginize that , so .  Recall from , that , so       Evaluate the following expressions:                                           It is worth noting that in the example and practice above, we used the word evaluate rather than solve. This is an important distinction; we use the word solve when we want to determine the value of a variable in an equation, as below.     Solve the following equations for the variable :                        Taking the log of both sides gives . Since the log undoes the exponential, . Similarly, . The equation simplifies then to .    Taking the log of both sides gives . On the left side, , so . We evaluate using a calculator or computer.    Here we would first want to isolate the exponential by dividing both sides of the equation by 2, giving . Now we can take the log of both sides, giving , which simplifies to .       The approach in allows us to solve exponential equations with powers of 10. But, as we'll see in , we'd like to be able to solve equations like . For that we need the exponent property for logs.   Exponent Property of Logarithms   For a number and any power ,     We can combine this fact with the approaches used in to solve the desired type of equations.   Solving Exponential Equations with Logarithms   This process is used to solve exponential equations, where the unknown variable appears as the exponent.   Isolate the exponential. In other words, get the number to the unknown power alone on one side of the equation.    Take the log of both sides of the equation.    Use the exponent property of logs. Rewrite the side of the equation with the log of the number to the unknown variable as that variable times the log of the number.    Solve for the variable. This will involve dividing by the log of the base, and maybe other steps as we used in solving linear equations or those involving roots or powers.       It is important to note that should be used for exponential equations , where the unknown variable is in the exponent. When the exponents are numbers and unknown appears in the base, that is a power equation and we use roots to solve. See .    Solve the equation for .       First, we isolate the exponential, , by dividing both sides by 5: This step will often just involve division as it does here. In more complicated examples, you may simplify things for your brain by replacing the exponential with it's own new variable, and solving for that in this first step.    Then, we take the log of both sides: This step is very simply just writing log on both sides, but be sure to include everything on each side inside the parentheses.    Next, we use the exponent property of logs to bring down the to be outside of the log: Sometimes the exponent is more complicated than just the variable alone. Still the entire expression should be brought down and parentheses included so that it is all multiplied by the log.    Lastly, we regonize that both expressions and are just numbers and we can divide both sides by to isolate . Like the first step, isolating the variable here may be more complicated, but involves the same tools and techniques used for other types of equations.     We can plug the resulting fraction into a calculator or computer to obtain        Give all solutions to the equation, or state that the equation has no solutions by entering NONE .  If there is more than one solution, enter the answers as a comma-separated list.              "
 },
 {
   "id": "def-commonlog",
@@ -943,7 +952,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.6.6",
   "title": "",
-  "body": "  Solve the following equations for the variable :                       Taking the log of both sides gives . Since the log undoes the exponential, . Similarly, . The equation simplifies then to .    Taking the log of both sides gives . On the left side, , so . We evaluate using a calculator or computer.    Here we would first want to isolate the exponential by dividing both sides of the equation by 2, giving . Now we can take the log of both sides, giving , which simplifies to .     "
+  "body": "  Solve the following equations for the variable :                        Taking the log of both sides gives . Since the log undoes the exponential, . Similarly, . The equation simplifies then to .    Taking the log of both sides gives . On the left side, , so . We evaluate using a calculator or computer.    Here we would first want to isolate the exponential by dividing both sides of the equation by 2, giving . Now we can take the log of both sides, giving , which simplifies to .      "
 },
 {
   "id": "fact-exponent-prop-forlogs",
@@ -970,7 +979,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.6.9",
   "title": "",
-  "body": "  Solve the equation for .      First, we isolate the exponential, , by dividing both sides by 5: This step will often just involve division as it does here. In more complicated examples, you may simplify things for your brain by replacing the exponential with it's own new variable, and solving for that in this first step.    Then, we take the log of both sides: This step is very simply just writing log on both sides, but be sure to include everything on each side inside the parentheses.    Next, we use the exponent property of logs to bring down the to be outside of the log: Sometimes the exponent is more complicated than just the variable alone. Still the entire expression should be brought down and parentheses included so that it is all multiplied by the log.    Lastly, we regonize that both expressions and are just numbers and we can divide both sides by to isolate . Like the first step, isolating the variable here may be more complicated, but involves the same tools and techniques used for other types of equations.    We can plug the resulting fraction into a calculator or computer to obtain    "
+  "body": "  Solve the equation for .       First, we isolate the exponential, , by dividing both sides by 5: This step will often just involve division as it does here. In more complicated examples, you may simplify things for your brain by replacing the exponential with it's own new variable, and solving for that in this first step.    Then, we take the log of both sides: This step is very simply just writing log on both sides, but be sure to include everything on each side inside the parentheses.    Next, we use the exponent property of logs to bring down the to be outside of the log: Sometimes the exponent is more complicated than just the variable alone. Still the entire expression should be brought down and parentheses included so that it is all multiplied by the log.    Lastly, we regonize that both expressions and are just numbers and we can divide both sides by to isolate . Like the first step, isolating the variable here may be more complicated, but involves the same tools and techniques used for other types of equations.     We can plug the resulting fraction into a calculator or computer to obtain    "
 },
 {
   "id": "sec-logs-16",
@@ -1945,18 +1954,18 @@ var ptx_lunr_docs = [
   "body": "  You need to replace the boards on your deck. About how much will the materials cost?   "
 },
 {
-  "id": "sec-prop-reasoning-proj",
+  "id": "subsec-tax-basics",
   "level": "1",
-  "url": "sec-prop-reasoning-proj.html",
-  "type": "Section",
-  "number": "3.5",
-  "title": "Proportional Reasoning Projects",
-  "body": " Proportional Reasoning Projects   Taxes  Governments collect taxes to pay for the services they provide. In the United States, federal income taxes help fund the military, the environmental protection agency, and thousands of other programs. Property taxes help fund schools. Gasoline taxes help pay for road improvements. While very few people enjoy paying taxes, they are necessary to pay for the services we all depend upon.  Taxes can be computed in a variety of ways, but are typically computed as a percentage of a sale, of one's income, or of one's assets. Below are some important definitions:   Effective Rate   The effective tax rate taxes effective rate is the equivalent percent rate of the tax paid out of the dollar amount the tax is based on.      Joan paid $3,200 in property taxes on her house valued at $215,000 last year. What is the effective tax rate?    We can compute the equivalent percentage; the PART is the amount paid in taxes and the WHOLE is the value of the house. The effective (property) tax rate where Joan lives is 1.49%.    Tax plans are often referred to as progressive, regressive, or flat.   Tax Categories   A flat tax taxes flat tax , or proportional tax, charges the same rate for all bases.  A progressive tax taxes progressive tax increases the tax rate as the base amount increases.  A regressive tax taxes regressive tax decreases the tax rate as the base amount increases.    The adjectives above are often used to describe the tax structure and the outcomes; and these may not match. For example, property taxes are typically a flat tax; every household in a particular jurisdiction has the same property tax rate. The property tax rate in Fitchburg is 1.338% for everyone. However, since lower income households tend to spend a higher percentage of their income on housing than higher income households, this effect is regressive; lower-income households pay a larger portion of their overall income in property taxes when compared to high-income households.  Income tax uses a progressive tax rate. If a household has a higher income, they fall into a higher bracket and pay a higher percentage of their income in federal income taxes. This seems like the outcome would also be progressive, but there are a variety of types of income that are all taxed differently. Higher-income earners tend to have more variety of types of income that typically have lower rates.  Many people have proposed various revisions to the income tax collection in the United States. Some, for example, have claimed that a flat tax would be fairer. Others call for revisions to how different types of income are taxed, since currently investment income is taxed at a different rate than wage income. The following two projects will allow you to explore some of these ideas and draw your own conclusions.    Flat Tax, Modified Flat Tax, and Progressive Tax Project    You are strongly encouraged to make use of spreadsheets for this project. Minimally, this helps you to organize the information you're calculating. If you make use of more of the functionality (see ), it can actually help clarify the process and let you focus more on which computation to do and to make sense of the outcome, rather than focussing on repeating the same computation over and over without making a mistake. You do the human things of choosing and evaluating, let a computer do the computing.  Imagine the country is made up of 100 households and that the federal government needs to collect $1,400,000 in income taxes to be able to function. The population consists of 6 groups:   Group A:  20 households that earn $17,650 each    Group B:  20 households that earn $47,590 each    Group C:  20 households that earn $80,730 each    Group D:  20 households that earn $129,400 each    Group E:  15 households that earn $221,000 each    Group F:  5 households that earn $526,200 each     This scenario is roughly proportional to the actual United States population and tax needs in 2023. We are going to determine appropriate income tax rates.     Flat Tax   The first proposal we'll consider is a flat tax one where every income group is taxed at the same percentage tax rate.     Determine the total income for the population (all 100 households together).      Determine what flat tax rate would be necessary to collect enough money.      Modified Flat Tax   The second proposal we'll consider is a modified flat-tax plan, where everyone only pays taxes on any income over $30,000. So, everyone in group A will pay no taxes. Everyone in group B will pay taxes only on $17,590.     Determine the total taxable income for the whole population.      Determine what flat tax rate would be necessary to collect enough money in this modified system.       Complete the following table for both tax plans:           Flat Tax Plan  Modified Flat Tax Plan    Group  Income per Household  Income Tax per Household  Income After Taxes  Income Tax per Household  Income After Taxes    A  $17,650        B  $47,590        C  $80,730        D  $129,400        E  $221,000        F  $526,200           Progressive Tax   The third proposal we'll consider is a progressive tax, where lower income groups are taxed at a lower percent rate, and higher income groups are taxed at a higher percent rate.  For simplicity, you may assume that a household is taxed at the same rate on all their income. In actuality, income is taxed by the bracket it falls into. For example, a household in group C would pay the Group A rate on $17,650 of their income, the B rate on the next $29,940, and the C rate on the last $33,140. If you'd like an extra challenge, feel free to follow that procedure. Just be clear that you're doing that.     Set progressive tax rates for each income group at levels that bring in enough money (the column on the right should total at least $1,400,000). There is no one right answer here just make sure you bring in enough money! You should have a different rate for each group, and a 0% tax rate is an option.          Group  Income per Household  Tax Rate  Income Tax per Household  Income After Tax  Total Tax for All Households    A  $17,650        B  $47,590        C  $80,730        D  $129,400        E  $221,000        F  $526,200        Total for All 100 Households:         Discretionary Income   Discretionary income is the income people have left over after paying for necessities like rent, food, transportation, etc. The cost of basic expenses does usually increase with income, since housing and car costs also increase with income. However, the increase in expenses is usually not proportional to the increase in income.     Explain what is meant by the increase in expenses is usually not proportional to the increase in income, in your own words.      The table below has a column for each of four different categories of essential expenses: housing, transportation, food, and medical. For each group, estimate their essential expenses in each category. Remember that most of us deal with these costs on a monthly basis, but we need annual totals in the table.  Housing should include utilities like water, electricity, heat, etc. Transportation could be a car payment, or bus tickets, or cab\/Uber rides, etc. Lower income groups may receive government assistance in any of the categories, which will change the amount they pay.  These are just estimates, but you should gather some information rather than just making things up. For consistency, consider a one-income earner family of four as your household for each group and look for your data in the same region. You may use whatever region you'd like. You may be most familiar with the state you're from, and that is worth something. Also, keep in mind that these numbers are national averages and medians, so lower than the corresponding numbers would be in a high-earner states. That means, it is even harder to live in groups A and B in a state like Massachusetts. Arizona's median income is very close the national median, which may make the whole process work out a bit easier.  Describe your process and complete the table. You do not need to carefully every category for every group. Do that for a few, and you can extrapolate\/interpolate (fancy words to mean fill in the other stuff following the trends) the rest, but remember that it should NOT be proportional . The Essential Expenses Column should be the total of the other four, and Discretionary Income (the final column) is the Income minus the Essential Expenses.            Group  Income per Household  Housing  Transportation  Food  Medical  Essential Expenses  Discretionary Income    A  $17,650          B  $47,590          C  $80,730          D  $129,400          E  $221,000          F  $526,200              Complete the table to reflect a Flat Tax Plan based on discretionary income.   In the appropriate place in the table, enter the discretionary income for each group that you determined above.    Just as in problems #1 and #2, determine the total discretionary income for all 100 households and use this to determine an effective flat tax rate. Enter the total and rate you decide into the appropriate spaces.    As in #5, fill in the remaining two columns with how much each household pays in income tax and the total discretionary income left after paying that tax.              Flat Tax Plan Rate =    Group  Income per Household  Discretionary Income per Household  Income Tax per Household  Income After Taxes    A  $17,650       B  $47,590       C  $80,730       D  $129,400       E  $221,000       F  $526,200       Total for All 100 Households:         Complete the table to reflect a Modified Flat Tax Plan based on discretionary income.   In the appropriate place in the table, enter the discretionary income for each group.    Determine an amount of discretionary income to not be taxed. You can use the same $30,000 as we did above, or lower amount to reflect that discretionary income is already lower than total income. Enter this amount in the appropriate place in the chart.    Just as in problems #3 and #4, determine the total taxable discretionary income for all 100 households and use this to determine an effective modified flat tax rate. Enter the total and rate you decide into the appropriate spaces.    As in #5, fill in the remaining two columns with how much each household pays in income tax and the total discretionary income left after paying that tax.              Taxable Disc. Income Cutoff:     Modified Flat Tax Plan Rate =    Group  Income per Household  Discretionary Income per Household  Taxable Discretionary Income per Household  Income Tax per Household  Income After Taxes    A  $17,650        B  $47,590        C  $80,730        D  $129,400        E  $221,000        F  $526,200        Total for All 100 Households:          Complete the table to reflect a progressive tax plan based on discretionary income.   In the appropriate place in the table enter the discretionary income for each group.    As in #6, choose a tax rate for each group and include that in the appropriate column. Compute and enter the income tax paid per household in each group and the total for all households in the group. This may take a few tries to get right; you need to make sure you're collecting at least $1,400,000.    Fill in the final column with the amount of discretionary income remaining after taxes.              Group  Income per Household  Discretionary Income  Progressive Tax Rate  Income Tax per Household  Total Tax Collected for All Households  Discretionary Income After Tax per Household    A  $17,650         B  $47,590         C  $80,730         D  $129,400         E  $221,000         F  $526,200          Total for All 100 Households:          Which plan seems the most fair to you? Which plan seems the least fair to you? Why?  We're going to encounter a number of questions like this. There is not necessarily always a clear answer. Your job is to consider the quantitative information, your individual or community values, and make a choice. You should use the numbers as a part of your justification; this is quantitative reasoning .       Income Types and Deductions    In the previous project, we were treating all income the same; as wage income. In reality, different types of income are taxed differently and households can take deductions based on a variety of things.  Visit and locate and download the most recent version of a 1040 form. The instructions for the 1040 form can also be viewed from the same site and are helpful in determining which additional forms or schedules are needed.      Scenario 1: Calculate the taxes for someone who earned $60,000 in standard wage income (W-2 income), has no dependents, and takes the standard deduction.      Scenario 2: Calculate the taxes for someone who earned $20,000 in standard wage income, $40,000 in qualified dividends, has no dependents, and takes the standard deduction. (Qualified dividends are earnings on certain investments such as stocks.)      Scenario 3: Calculate the taxes for someone who earned $60,000 in small business income, has no dependents, and takes the standard deduction.      Based on these three scenarios, what are your impressions of how the income tax system treats these different forms of income (wage, dividends, and business income)?      Scenario 4: To get a more realistic sense for calculating taxes, you'll need to consider itemized deductions. Calculate the income taxes for someone with the income and expenses listed below.   Married with 2 children, filing jointly    Wage income: $50,000 combined    Paid sales tax in State of Massachussetts    Property taxes paid: $3200    Home mortgage interest paid: $4800    Charitable gifts: $1200         "
+  "url": "subsec-tax-basics.html",
+  "type": "Subsection",
+  "number": "3.5.1",
+  "title": "Taxes",
+  "body": " Taxes  Governments collect taxes to pay for the services they provide. In the United States, federal income taxes help fund the military, the environmental protection agency, and thousands of other programs. Property taxes help fund schools. Gasoline taxes help pay for road improvements. While very few people enjoy paying taxes, they are necessary to pay for the services we all depend upon.  Taxes can be computed in a variety of ways, but are typically computed as a percentage of a sale, of one's income, or of one's assets. Below are some important definitions:   Effective Rate   The effective tax rate taxes effective rate is the equivalent percent rate of the tax paid out of the dollar amount the tax is based on.      Joan paid $3,200 in property taxes on her house valued at $215,000 last year. What is the effective tax rate?    We can compute the equivalent percentage; the PART is the amount paid in taxes and the WHOLE is the value of the house. The effective (property) tax rate where Joan lives is 1.49%.    Tax plans are often referred to as progressive, regressive, or flat.   Tax Categories   A flat tax taxes flat tax , or proportional tax, charges the same rate for all bases.  A progressive tax taxes progressive tax increases the tax rate as the base amount increases.  A regressive tax taxes regressive tax decreases the tax rate as the base amount increases.    The adjectives above are often used to describe the tax structure and the outcomes; and these may not match. For example, property taxes are typically a flat tax; every household in a particular jurisdiction has the same property tax rate. The property tax rate in Fitchburg is 1.338% for everyone. However, since lower income households tend to spend a higher percentage of their income on housing than higher income households, this effect is regressive; lower-income households pay a larger portion of their overall income in property taxes when compared to high-income households.  Income tax uses a progressive tax rate. If a household has a higher income, they fall into a higher bracket and pay a higher percentage of their income in federal income taxes. This seems like the outcome would also be progressive, but there are a variety of types of income that are all taxed differently. Higher-income earners tend to have more variety of types of income that typically have lower rates.  Many people have proposed various revisions to the income tax collection in the United States. Some, for example, have claimed that a flat tax would be fairer. Others call for revisions to how different types of income are taxed, since currently investment income is taxed at a different rate than wage income. The following two projects will allow you to explore some of these ideas and draw your own conclusions.  "
 },
 {
   "id": "def-effective-rate",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#def-effective-rate",
+  "url": "subsec-tax-basics.html#def-effective-rate",
   "type": "Definition",
   "number": "3.5.1",
   "title": "Effective Rate.",
@@ -1965,7 +1974,7 @@ var ptx_lunr_docs = [
 {
   "id": "example-taxrate",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#example-taxrate",
+  "url": "subsec-tax-basics.html#example-taxrate",
   "type": "Example",
   "number": "3.5.2",
   "title": "",
@@ -1974,16 +1983,25 @@ var ptx_lunr_docs = [
 {
   "id": "def-taxplans",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#def-taxplans",
+  "url": "subsec-tax-basics.html#def-taxplans",
   "type": "Definition",
   "number": "3.5.3",
   "title": "Tax Categories.",
   "body": " Tax Categories   A flat tax taxes flat tax , or proportional tax, charges the same rate for all bases.  A progressive tax taxes progressive tax increases the tax rate as the base amount increases.  A regressive tax taxes regressive tax decreases the tax rate as the base amount increases.   "
 },
 {
+  "id": "proj-taxplans",
+  "level": "1",
+  "url": "proj-taxplans.html",
+  "type": "Subsection",
+  "number": "3.5.2",
+  "title": "Flat Tax, Modified Flat Tax, and Progressive Tax Project",
+  "body": " Flat Tax, Modified Flat Tax, and Progressive Tax Project    You are strongly encouraged to make use of spreadsheets for this project. Minimally, this helps you to organize the information you're calculating. If you make use of more of the functionality (see ), it can actually help clarify the process and let you focus more on which computation to do and to make sense of the outcome, rather than focussing on repeating the same computation over and over without making a mistake. You do the human things of choosing and evaluating, let a computer do the computing.  Imagine the country is made up of 100 households and that the federal government needs to collect $1,400,000 in income taxes to be able to function. The population consists of 6 groups:   Group A:  20 households that earn $17,650 each    Group B:  20 households that earn $47,590 each    Group C:  20 households that earn $80,730 each    Group D:  20 households that earn $129,400 each    Group E:  15 households that earn $221,000 each    Group F:  5 households that earn $526,200 each     This scenario is roughly proportional to the actual United States population and tax needs in 2023. We are going to determine appropriate income tax rates.     Flat Tax   The first proposal we'll consider is a flat tax one where every income group is taxed at the same percentage tax rate.     Determine the total income for the population (all 100 households together).      Determine what flat tax rate would be necessary to collect enough money.      Modified Flat Tax   The second proposal we'll consider is a modified flat-tax plan, where everyone only pays taxes on any income over $30,000. So, everyone in group A will pay no taxes. Everyone in group B will pay taxes only on $17,590.     Determine the total taxable income for the whole population.      Determine what flat tax rate would be necessary to collect enough money in this modified system.       Complete the following table for both tax plans:           Flat Tax Plan  Modified Flat Tax Plan    Group  Income per Household  Income Tax per Household  Income After Taxes  Income Tax per Household  Income After Taxes    A  $17,650        B  $47,590        C  $80,730        D  $129,400        E  $221,000        F  $526,200           Progressive Tax   The third proposal we'll consider is a progressive tax, where lower income groups are taxed at a lower percent rate, and higher income groups are taxed at a higher percent rate.  For simplicity, you may assume that a household is taxed at the same rate on all their income. In actuality, income is taxed by the bracket it falls into. For example, a household in group C would pay the Group A rate on $17,650 of their income, the B rate on the next $29,940, and the C rate on the last $33,140. If you'd like an extra challenge, feel free to follow that procedure. Just be clear that you're doing that.     Set progressive tax rates for each income group at levels that bring in enough money (the column on the right should total at least $1,400,000). There is no one right answer here just make sure you bring in enough money! You should have a different rate for each group, and a 0% tax rate is an option.          Group  Income per Household  Tax Rate  Income Tax per Household  Income After Tax  Total Tax for All Households    A  $17,650        B  $47,590        C  $80,730        D  $129,400        E  $221,000        F  $526,200        Total for All 100 Households:         Discretionary Income   Discretionary income is the income people have left over after paying for necessities like rent, food, transportation, etc. The cost of basic expenses does usually increase with income, since housing and car costs also increase with income. However, the increase in expenses is usually not proportional to the increase in income.     Explain what is meant by the increase in expenses is usually not proportional to the increase in income, in your own words.      The table below has a column for each of four different categories of essential expenses: housing, transportation, food, and medical. For each group, estimate their essential expenses in each category. Remember that most of us deal with these costs on a monthly basis, but we need annual totals in the table.  Housing should include utilities like water, electricity, heat, etc. Transportation could be a car payment, or bus tickets, or cab\/Uber rides, etc. Lower income groups may receive government assistance in any of the categories, which will change the amount they pay.  These are just estimates, but you should gather some information rather than just making things up. For consistency, consider a one-income earner family of four as your household for each group and look for your data in the same region. You may use whatever region you'd like. You may be most familiar with the state you're from, and that is worth something. Also, keep in mind that these numbers are national averages and medians, so lower than the corresponding numbers would be in a high-earner states. That means, it is even harder to live in groups A and B in a state like Massachusetts. Arizona's median income is very close the national median, which may make the whole process work out a bit easier.  Describe your process and complete the table. You do not need to carefully every category for every group. Do that for a few, and you can extrapolate\/interpolate (fancy words to mean fill in the other stuff following the trends) the rest, but remember that it should NOT be proportional . The Essential Expenses Column should be the total of the other four, and Discretionary Income (the final column) is the Income minus the Essential Expenses.            Group  Income per Household  Housing  Transportation  Food  Medical  Essential Expenses  Discretionary Income    A  $17,650          B  $47,590          C  $80,730          D  $129,400          E  $221,000          F  $526,200              Complete the table to reflect a Flat Tax Plan based on discretionary income.   In the appropriate place in the table, enter the discretionary income for each group that you determined above.    Just as in problems #1 and #2, determine the total discretionary income for all 100 households and use this to determine an effective flat tax rate. Enter the total and rate you decide into the appropriate spaces.    As in #5, fill in the remaining two columns with how much each household pays in income tax and the total discretionary income left after paying that tax.              Flat Tax Plan Rate =    Group  Income per Household  Discretionary Income per Household  Income Tax per Household  Income After Taxes    A  $17,650       B  $47,590       C  $80,730       D  $129,400       E  $221,000       F  $526,200       Total for All 100 Households:         Complete the table to reflect a Modified Flat Tax Plan based on discretionary income.   In the appropriate place in the table, enter the discretionary income for each group.    Determine an amount of discretionary income to not be taxed. You can use the same $30,000 as we did above, or lower amount to reflect that discretionary income is already lower than total income. Enter this amount in the appropriate place in the chart.    Just as in problems #3 and #4, determine the total taxable discretionary income for all 100 households and use this to determine an effective modified flat tax rate. Enter the total and rate you decide into the appropriate spaces.    As in #5, fill in the remaining two columns with how much each household pays in income tax and the total discretionary income left after paying that tax.              Taxable Disc. Income Cutoff:     Modified Flat Tax Plan Rate =    Group  Income per Household  Discretionary Income per Household  Taxable Discretionary Income per Household  Income Tax per Household  Income After Taxes    A  $17,650        B  $47,590        C  $80,730        D  $129,400        E  $221,000        F  $526,200        Total for All 100 Households:          Complete the table to reflect a progressive tax plan based on discretionary income.   In the appropriate place in the table enter the discretionary income for each group.    As in #6, choose a tax rate for each group and include that in the appropriate column. Compute and enter the income tax paid per household in each group and the total for all households in the group. This may take a few tries to get right; you need to make sure you're collecting at least $1,400,000.    Fill in the final column with the amount of discretionary income remaining after taxes.              Group  Income per Household  Discretionary Income  Progressive Tax Rate  Income Tax per Household  Total Tax Collected for All Households  Discretionary Income After Tax per Household    A  $17,650         B  $47,590         C  $80,730         D  $129,400         E  $221,000         F  $526,200          Total for All 100 Households:          Which plan seems the most fair to you? Which plan seems the least fair to you? Why?  We're going to encounter a number of questions like this. There is not necessarily always a clear answer. Your job is to consider the quantitative information, your individual or community values, and make a choice. You should use the numbers as a part of your justification; this is quantitative reasoning .     "
+},
+{
   "id": "exercises-taxplan-2-3",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-2-3",
+  "url": "proj-taxplans.html#exercises-taxplan-2-3",
   "type": "Exercise",
   "number": "3.5.2.1",
   "title": "",
@@ -1992,7 +2010,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-taxplan-2-4",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-2-4",
+  "url": "proj-taxplans.html#exercises-taxplan-2-4",
   "type": "Exercise",
   "number": "3.5.2.2",
   "title": "",
@@ -2001,7 +2019,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-taxplan-3-3",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-3-3",
+  "url": "proj-taxplans.html#exercises-taxplan-3-3",
   "type": "Exercise",
   "number": "3.5.2.3",
   "title": "",
@@ -2010,7 +2028,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-taxplan-3-4",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-3-4",
+  "url": "proj-taxplans.html#exercises-taxplan-3-4",
   "type": "Exercise",
   "number": "3.5.2.4",
   "title": "",
@@ -2019,7 +2037,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-taxplan-4",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-4",
+  "url": "proj-taxplans.html#exercises-taxplan-4",
   "type": "Exercise",
   "number": "3.5.2.5",
   "title": "",
@@ -2028,7 +2046,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-taxplan-5-3",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-5-3",
+  "url": "proj-taxplans.html#exercises-taxplan-5-3",
   "type": "Exercise",
   "number": "3.5.2.6",
   "title": "",
@@ -2037,7 +2055,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-taxplan-6-3",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-6-3",
+  "url": "proj-taxplans.html#exercises-taxplan-6-3",
   "type": "Exercise",
   "number": "3.5.2.7",
   "title": "",
@@ -2046,7 +2064,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-taxplan-6-4",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-6-4",
+  "url": "proj-taxplans.html#exercises-taxplan-6-4",
   "type": "Exercise",
   "number": "3.5.2.8",
   "title": "",
@@ -2055,7 +2073,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-taxplan-6-5",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-6-5",
+  "url": "proj-taxplans.html#exercises-taxplan-6-5",
   "type": "Exercise",
   "number": "3.5.2.9",
   "title": "",
@@ -2064,7 +2082,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-taxplan-6-6",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-6-6",
+  "url": "proj-taxplans.html#exercises-taxplan-6-6",
   "type": "Exercise",
   "number": "3.5.2.10",
   "title": "",
@@ -2073,7 +2091,7 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-taxplan-6-7",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-6-7",
+  "url": "proj-taxplans.html#exercises-taxplan-6-7",
   "type": "Exercise",
   "number": "3.5.2.11",
   "title": "",
@@ -2082,16 +2100,25 @@ var ptx_lunr_docs = [
 {
   "id": "exercises-taxplan-7",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#exercises-taxplan-7",
+  "url": "proj-taxplans.html#exercises-taxplan-7",
   "type": "Exercise",
   "number": "3.5.2.12",
   "title": "",
   "body": "  Which plan seems the most fair to you? Which plan seems the least fair to you? Why?  We're going to encounter a number of questions like this. There is not necessarily always a clear answer. Your job is to consider the quantitative information, your individual or community values, and make a choice. You should use the numbers as a part of your justification; this is quantitative reasoning .   "
 },
 {
+  "id": "proj-incometypes",
+  "level": "1",
+  "url": "proj-incometypes.html",
+  "type": "Subsection",
+  "number": "3.5.3",
+  "title": "Income Types and Deductions",
+  "body": " Income Types and Deductions    In the previous project, we were treating all income the same; as wage income. In reality, different types of income are taxed differently and households can take deductions based on a variety of things.  Visit and locate and download the most recent version of a 1040 form. The instructions for the 1040 form can also be viewed from the same site and are helpful in determining which additional forms or schedules are needed.      Scenario 1: Calculate the taxes for someone who earned $60,000 in standard wage income (W-2 income), has no dependents, and takes the standard deduction.      Scenario 2: Calculate the taxes for someone who earned $20,000 in standard wage income, $40,000 in qualified dividends, has no dependents, and takes the standard deduction. (Qualified dividends are earnings on certain investments such as stocks.)      Scenario 3: Calculate the taxes for someone who earned $60,000 in small business income, has no dependents, and takes the standard deduction.      Based on these three scenarios, what are your impressions of how the income tax system treats these different forms of income (wage, dividends, and business income)?      Scenario 4: To get a more realistic sense for calculating taxes, you'll need to consider itemized deductions. Calculate the income taxes for someone with the income and expenses listed below.   Married with 2 children, filing jointly    Wage income: $50,000 combined    Paid sales tax in State of Massachussetts    Property taxes paid: $3200    Home mortgage interest paid: $4800    Charitable gifts: $1200        "
+},
+{
   "id": "proj-incometypes-5-2",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#proj-incometypes-5-2",
+  "url": "proj-incometypes.html#proj-incometypes-5-2",
   "type": "Exercise",
   "number": "3.5.3.1",
   "title": "",
@@ -2100,7 +2127,7 @@ var ptx_lunr_docs = [
 {
   "id": "proj-incometypes-5-3",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#proj-incometypes-5-3",
+  "url": "proj-incometypes.html#proj-incometypes-5-3",
   "type": "Exercise",
   "number": "3.5.3.2",
   "title": "",
@@ -2109,7 +2136,7 @@ var ptx_lunr_docs = [
 {
   "id": "proj-incometypes-5-4",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#proj-incometypes-5-4",
+  "url": "proj-incometypes.html#proj-incometypes-5-4",
   "type": "Exercise",
   "number": "3.5.3.3",
   "title": "",
@@ -2118,7 +2145,7 @@ var ptx_lunr_docs = [
 {
   "id": "proj-incometypes-5-5",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#proj-incometypes-5-5",
+  "url": "proj-incometypes.html#proj-incometypes-5-5",
   "type": "Exercise",
   "number": "3.5.3.4",
   "title": "",
@@ -2127,7 +2154,7 @@ var ptx_lunr_docs = [
 {
   "id": "proj-incometypes-5-6",
   "level": "2",
-  "url": "sec-prop-reasoning-proj.html#proj-incometypes-5-6",
+  "url": "proj-incometypes.html#proj-incometypes-5-6",
   "type": "Exercise",
   "number": "3.5.3.5",
   "title": "",
@@ -2140,7 +2167,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Two Types of Relationships",
-  "body": " Two Types of Relationships  This section will eventually contain the activities we did in class on Febraury 19th and 20th as well as narrative based on those activities. The purpose of those activities is to discover the two different types of formulas, recursive and explicit, and the two main types of relationships between quantities that we want to explore, linear and exponential.  The conclusions are summarized below:   Recursive Formula   A recursive formula gives instructions for getting a quantity on a list from the previous quantity (or quantities).    For example, the instructions for getting from the value of the investment in the simple interest scenario are add $400 to the previous value. As a formula, this can look like . If we want to know the value after 2 quarters, we'd be looking for . We can follow the formula:   While the notation might get confusing, the thinking behind recursive formulas is usually pretty intuitive for folks. These types of formulas are exactly what we use in spreadsheets as well. They work great when one has some access to helpful technology that can do many computations very quickly. In the simple interest example, if we wanted to know the value of the investment 50 years in the future, we'd need to compute , and that would take a very long time by hand! That's where explicit formulas come in handy.   Explicit Formula   An explicit formula does not depend on prvious values; it gives mathematical instructions for finding any value.    To get an explicit formula for the simple interest example, we can recall that the repeated addition of $400 can be simplified into multiplication: Now, if we want to compute the value, , of the investment after 50 years, we need only determine the value of that is equivalent to 50 years. Since there are four quarters in a year, the we want is . The explicit formula then tells us After 50 years the investment will have grown to $81,000!  We saw two different types of relationships in these four scenarios. The simple interest and knitting yarn examples are both linear relationships. The compound interest and ibuprofen examples are both exponential relationships.   Linear Change   A quantity is changing linearly if the absolute change is consistent. The consistent absolute change is called the common difference , and will be denoted in the formulas below.    In the simple interest example, the absolute change is $400 each quarter, so . In the yarn example, the absolute change is a decrease of yard for each row, . The common difference appears as addition or subtraction in the recursive formula for linear change and as the slope in the explicit formula.   Exponential Change   A quantity is changing exponentially if the relative (percentage) change is consistent. The consistent relative change is called the growth rate (or decay rate if it is negative) and is denoted with an in the formulas.    In the compound interest example, the percent change is 10% each quarter, so . In the ibuprofen example, the percent change is a decrease of or 50% for each two-hour time interval, . The value that appears in the formulas is not the growth\/decay rate, but the multiplier , which is and is also consistent in exponential relationships. The consistent multiplier appears as multiplication in the recursive formula and as the base of the exponential in teh explicit formula.   It is important to note that there are a lots of other types of relationships between quantities. So, determining that a quantity is not changing linearly is not enough to determine that it is changing exponentially, nor vice versa.   The general information about linear and exponential realtionships and the coresponding recursive and explicit formulas is summaraize here:       Linear Relationships   Exponential Relationships      The ABSOLUTE change is consistent.   The RELATIVE change is consistent.       We denote this common difference with .   We denote this common rate with .       The quantity is growing\/increasing if .   The quantity is growing\/increasing if , or equivalently, .       The quantity is decaying\/decreasing if .   The quantity is decaying\/decreasing if , or equivalently, .    The format for the recursive formula is: .   The format for the recursive formula is: .       The format for the explicit formula is: .   The format for the explicit formula is: .    We organize the specific information for all four example scenarios below:        LINEAR  EXPONENTIAL    GROWTH   Simple Interest       Compound Interest        DECAY   Knitting Yarn       Ibuprofen        We'll see more examples of how to determine the explicit formulas for these situations and how to use those models in the next two sections.  "
+  "body": " Two Types of Relationships  In this section, we'll explore four different sceanorios. Through our work with these scenarios, we'll discover two different types of formulas, recursive and explicit, and the two main types of relationships between quantities that we want to explore, linear and exponential.   Scenario 1:  You wish to grow $1,000 of your savings. You choose an option based on simple interest, which means the money you make will be a fixed amount each time period based on a percentage of the initial investment. A payout of 40% of the initial investment per quarter, or $400 every 3 months.    Scenario 2:  Consider the same $1,000 investment, but this time you choose an option based on compound interest, which means the money made changes each time period based on the total accrued value of the initial investment. Your investment will increase 10% per quarter (10% growth every 3 months).    Scenario 3:  You take an 800mg dose of ibuprofen. Your body (kidneys and liver) metabolizes the drug reducing the amount in your bloodstream by half every two hours.    Scenario 4:  A certain scarf pattern calls for a 400 yard ball of yarn. Each row that is knitted uses 9 inches or ¼ of a yard of yarn.     The following activity uses all four scenarios. This activity is best done in groups where the full group determines the general process for each task, and then the computations are split up to individuals, rotating through different scenarios for new tasks. Whether working in a group or individually, the hints in this activity will describe a general process or have particular answers you can check.   Exploring the Four Scenarios   Make a chart for each scenario with four columns and at least ten rows. Label the columns with    number of stages (quarters after initial investment, two-hour time increments since intitial dose, or number of rows knit);       the quantity (amount of money in the account, amount of drug present, amount of yarn remaining) at the stage;      Absolute Change  will be the absolute change between the row and the previous row; and      Relative Change  will be the relative (percentage) change between the current row and previous row.   Fill in the first column with values of starting with . In the row and the column, enter the initial amount of the quantity. The chart for the first and second scenarios should look something like:   example chart  A chart the matches the descriptions above.      Initial Stage   Determine the value of the quantity in question in each scenario after a single stage : the $1,000 investment after one quarter with each option, the amount of the drug in the body after two hours, and the amount of yarn remaining in the ball after knitting one row.    The amount of yarn left after knitting one row is 399.75 yards.     Future Stages   Once you're comfortable with how to get from one stage to the next, complete the second column (the one labeled ) for each scenario. As long as you understand the process for each scenario, this is a good place to divide up the busy work if you're working with others.    After one year (four quarters, so ), the amount of money in the account in Scenario 2 with compound interest is $1,464.10.     Absolute Change   Recall how to compute absolute change and compute the absolute change between stage and for each scenario.    Use . The absolute change in the amount of money in the account in Scenario 1, with simple interest, is an increase of $400.     More Absolute Change   Complete the third column in the chart for each scenario by computing the absolute change between the previous stage and the stage in that row.    Remember to only go back one stage for each computation; NOT all the way back to the initial\/starting value. The absolute change from the stage (4 rows in) to the stage (5 rows knitted) in the amount of yand remaining is a decrease of 0.25 yards.     Relative Change   Recall how to compute relative change and compute the relative change between stage and for each scenario.    Use . The relative change in the amount of ibuprofen in the body is a decrease of 50%.     More Relative Change   Complete the fourth column in the chart for each scenario by computing the relative change between the previous stage and the stage in that row.    Remember to only go back one stage for each computation; NOT all the way back to the initial\/starting value. The relative change from the stage (3 quarters or 9 months since the initial investment) to the stage (one year later) in the amount of money in the compound interest account is an increase of 10%.     Noticing Similarities   What do you notice about...   The second column ( ) in Scenarios 1 and 2 vs Scenarios 3 and 4?    The third column (Absolute Change) in Scenarios 1 and 4 vs Scenarios 2 and 3?    The fourth column (Relative Change) in Scenarios 1 and 4 vs Scenarios 2 and 3?        We'll use the data you generated and the patterns you noticed to discuss the two types of formulas we'll use (recursive and explicit) and the two main types of relationships we'll study (linear and exponential). We'll dive more deeply into many examples in the next two sections, so while the information should make sense and align with your work in the activity, don't worry if you don't feel like a master of this material yet.   Recursive Formula   A recursive formula gives instructions for getting a quantity on a list from the previous quantity (or quantities).    For example, the instructions for getting from the value of the investment in the simple interest scenario are add $400 to the previous value. As a formula, this can look like . This (or other small font symbol down low) is called a subscript, and we say as P sub n, and it means the value of the variable (in this case the amount of money in the account) at the stage (in this case quarters after the initial investment).  If we want to know the value after 2 quarters, we'd be looking for . We can follow the formula:    Yarn!   Determine the recursive formula for the amount of yarn left after knitting rows in Scenario 4.    A good first step is to use the thinking from the activity, and aim to put the instructions into words. Each row uses 1\/4 yard of yarn, so to get the amount of yarn left subtract 1\/4 from the amount remaining after knitting the previous row.   Putting this into a formula looks like .    While the notation might get confusing, the thinking behind recursive formulas is usually pretty intuitive for folks. These types of formulas are exactly what we use in spreadsheets as well. They work great when one has some access to helpful technology that can do many computations very quickly. In the simple interest example, if we wanted to know the value of the investment 50 years in the future, we'd need to compute , and that would take a very long time by hand! That's where explicit formulas come in handy.   Explicit Formula   An explicit formula does not depend on previous values; it gives mathematical instructions for finding any value.    To get an explicit formula for the simple interest example, we can recall that the repeated addition of $400 can be simplified into multiplication: Phrased another way, Adding 400 times is the same as 400 times .   Now, if we want to compute the value, , of the investment after 50 years, we need only determine the value of that is equivalent to 50 years. Since there are four quarters in a year, the we want is . The explicit formula then tells us After 50 years the investment will have grown to $81,000!  We've dropped the use of the subscript here. You don't have to do that. Often, in explicit formulas you'll see that input variable ( for us) in parentheses, , rather than a subscript. This is known as function notation and is read as  of  .    Explicit Yarn   Determine an explicit formula for the amount of yarn left after knitting rows in Scenario 4.    Consider what is being repeated at each stage; we're subtracting off 1\/4. We could repeatedly subtract off 1\/4 times, or we could first multiply 1\/4 by and then subtract. Multiplying 1\/4 by is written as , and we want to subtract that off from our starting amount of 400 yards. That looks like when it is all put together.  Note that you can choose any variables or notation you like. Using for the number of rows and for the length of yarn left makes sense. Then the formula would look like using subscript notation, or in function notation, or just .    We saw two different types of relationships in these four scenarios. The simple interest and knitting yarn examples are both linear relationships. The compound interest and ibuprofen examples are both exponential relationships. The distinction between the two should be what you noticed in the last part of the activity exercise.   Linear Change   A quantity is changing linearly if the absolute change is consistent. The consistent absolute change is called the common difference , and will be denoted in the formulas below.    In the simple interest example, the absolute change is $400 each quarter, so . In the yarn example, the absolute change is a decrease of yard for each row, . The common difference appears as addition or subtraction in the recursive formula for linear change and as the slope in the explicit formula.   Exponential Change   A quantity is changing exponentially if the relative (percentage) change is consistent. The consistent relative change is called the growth rate (or decay rate if it is negative) and is denoted with an in the formulas.    In the compound interest example, the percent change is 10% each quarter, so . In the ibuprofen example, the percent change is a decrease of or 50% for each two-hour time interval, . The value that appears in the formulas is not the growth\/decay rate, but the multiplier , which is and is also consistent in exponential relationships. The consistent multiplier appears as multiplication in the recursive formula and as the base of the exponential in the explicit formula.   It is important to note that there are a lots of other types of relationships between quantities. So, determining that a quantity is not changing linearly is not enough to determine that it is changing exponentially, nor vice versa.   The general information about linear and exponential realtionships and the coresponding recursive and explicit formulas is summarized here:       Linear Relationships   Exponential Relationships    The ABSOLUTE change is consistent.   The RELATIVE change is consistent.       We denote this common difference with .   We denote this common rate with .       The quantity is growing\/increasing if .   The quantity is growing\/increasing if , or equivalently, .       The quantity is decaying\/decreasing if .   The quantity is decaying\/decreasing if , or equivalently, .    The format for the recursive formula is: .   The format for the recursive formula is: .       The format for the explicit formula is: .   The format for the explicit formula is: .    The last piece of the end of the activity asked you to notice the similarties between the first two scenarios and the second two. The two financial accounts are growing over time where as the amount of drug and yarn remaining is decreasing. We organize the specific information for all four example scenarios below:        LINEAR  EXPONENTIAL    GROWTH  Simple Interest      Compound Interest              DECAY   Knitting Yarn      Ibuprofen        We'll see more examples of how to determine the explicit formulas for these situations and how to use those models in the next two sections.  "
+},
+{
+  "id": "activity-four-scenarios",
+  "level": "2",
+  "url": "sec-types.html#activity-four-scenarios",
+  "type": "Activity",
+  "number": "4.1.1",
+  "title": "Exploring the Four Scenarios.",
+  "body": " Exploring the Four Scenarios   Make a chart for each scenario with four columns and at least ten rows. Label the columns with    number of stages (quarters after initial investment, two-hour time increments since intitial dose, or number of rows knit);       the quantity (amount of money in the account, amount of drug present, amount of yarn remaining) at the stage;      Absolute Change  will be the absolute change between the row and the previous row; and      Relative Change  will be the relative (percentage) change between the current row and previous row.   Fill in the first column with values of starting with . In the row and the column, enter the initial amount of the quantity. The chart for the first and second scenarios should look something like:   example chart  A chart the matches the descriptions above.      Initial Stage   Determine the value of the quantity in question in each scenario after a single stage : the $1,000 investment after one quarter with each option, the amount of the drug in the body after two hours, and the amount of yarn remaining in the ball after knitting one row.    The amount of yarn left after knitting one row is 399.75 yards.     Future Stages   Once you're comfortable with how to get from one stage to the next, complete the second column (the one labeled ) for each scenario. As long as you understand the process for each scenario, this is a good place to divide up the busy work if you're working with others.    After one year (four quarters, so ), the amount of money in the account in Scenario 2 with compound interest is $1,464.10.     Absolute Change   Recall how to compute absolute change and compute the absolute change between stage and for each scenario.    Use . The absolute change in the amount of money in the account in Scenario 1, with simple interest, is an increase of $400.     More Absolute Change   Complete the third column in the chart for each scenario by computing the absolute change between the previous stage and the stage in that row.    Remember to only go back one stage for each computation; NOT all the way back to the initial\/starting value. The absolute change from the stage (4 rows in) to the stage (5 rows knitted) in the amount of yand remaining is a decrease of 0.25 yards.     Relative Change   Recall how to compute relative change and compute the relative change between stage and for each scenario.    Use . The relative change in the amount of ibuprofen in the body is a decrease of 50%.     More Relative Change   Complete the fourth column in the chart for each scenario by computing the relative change between the previous stage and the stage in that row.    Remember to only go back one stage for each computation; NOT all the way back to the initial\/starting value. The relative change from the stage (3 quarters or 9 months since the initial investment) to the stage (one year later) in the amount of money in the compound interest account is an increase of 10%.     Noticing Similarities   What do you notice about...   The second column ( ) in Scenarios 1 and 2 vs Scenarios 3 and 4?    The third column (Absolute Change) in Scenarios 1 and 4 vs Scenarios 2 and 3?    The fourth column (Relative Change) in Scenarios 1 and 4 vs Scenarios 2 and 3?       "
 },
 {
   "id": "def-recursive",
@@ -2152,18 +2188,36 @@ var ptx_lunr_docs = [
   "body": " Recursive Formula   A recursive formula gives instructions for getting a quantity on a list from the previous quantity (or quantities).   "
 },
 {
+  "id": "check-recirsive-linear",
+  "level": "2",
+  "url": "sec-types.html#check-recirsive-linear",
+  "type": "Check for Understanding",
+  "number": "4.1.2",
+  "title": "Yarn!",
+  "body": " Yarn!   Determine the recursive formula for the amount of yarn left after knitting rows in Scenario 4.    A good first step is to use the thinking from the activity, and aim to put the instructions into words. Each row uses 1\/4 yard of yarn, so to get the amount of yarn left subtract 1\/4 from the amount remaining after knitting the previous row.   Putting this into a formula looks like .   "
+},
+{
   "id": "def-explicit",
   "level": "2",
   "url": "sec-types.html#def-explicit",
   "type": "Definition",
-  "number": "4.1.2",
+  "number": "4.1.3",
   "title": "Explicit Formula.",
-  "body": " Explicit Formula   An explicit formula does not depend on prvious values; it gives mathematical instructions for finding any value.   "
+  "body": " Explicit Formula   An explicit formula does not depend on previous values; it gives mathematical instructions for finding any value.   "
 },
 {
-  "id": "sec-types-9",
+  "id": "check-explicit-linear",
   "level": "2",
-  "url": "sec-types.html#sec-types-9",
+  "url": "sec-types.html#check-explicit-linear",
+  "type": "Check for Understanding",
+  "number": "4.1.4",
+  "title": "Explicit Yarn.",
+  "body": " Explicit Yarn   Determine an explicit formula for the amount of yarn left after knitting rows in Scenario 4.    Consider what is being repeated at each stage; we're subtracting off 1\/4. We could repeatedly subtract off 1\/4 times, or we could first multiply 1\/4 by and then subtract. Multiplying 1\/4 by is written as , and we want to subtract that off from our starting amount of 400 yards. That looks like when it is all put together.  Note that you can choose any variables or notation you like. Using for the number of rows and for the length of yarn left makes sense. Then the formula would look like using subscript notation, or in function notation, or just .   "
+},
+{
+  "id": "sec-types-16",
+  "level": "2",
+  "url": "sec-types.html#sec-types-16",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2174,7 +2228,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-types.html#def-linear",
   "type": "Definition",
-  "number": "4.1.3",
+  "number": "4.1.5",
   "title": "Linear Change.",
   "body": " Linear Change   A quantity is changing linearly if the absolute change is consistent. The consistent absolute change is called the common difference , and will be denoted in the formulas below.   "
 },
@@ -2183,16 +2237,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-types.html#def-exponential",
   "type": "Definition",
-  "number": "4.1.4",
+  "number": "4.1.6",
   "title": "Exponential Change.",
   "body": " Exponential Change   A quantity is changing exponentially if the relative (percentage) change is consistent. The consistent relative change is called the growth rate (or decay rate if it is negative) and is denoted with an in the formulas.   "
 },
 {
-  "id": "sec-types-14",
+  "id": "sec-types-21",
   "level": "2",
-  "url": "sec-types.html#sec-types-14",
+  "url": "sec-types.html#sec-types-21",
   "type": "Note",
-  "number": "4.1.5",
+  "number": "4.1.7",
   "title": "",
   "body": " It is important to note that there are a lots of other types of relationships between quantities. So, determining that a quantity is not changing linearly is not enough to determine that it is changing exponentially, nor vice versa.  "
 },
@@ -2203,14 +2257,59 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Linear Models",
-  "body": " Linear Models  When this section is complete there will be many more examples and discussion. We'll tackle the basics with a single example for right now.    Gasoline consumption data for the US from 1992 to 2004 is shown below. Find a model for this data, and use it to predict consumption in 2022. If the trend continues, when will consumption reach 200 billion gallons?    Year  Consumption     billions of gallons    1992  110    1993  111    1994  113    1995  116    1996  118    1997  119    1998  123    1999  125    2000  126    2001  128    2002  131    2003  133    2004  136      We first look at a display of this data.   plot of the data   The data points form close to a straight line growing upward.    Computing the absolute change from year to year via subtraction as well as the graph would both show a nearly linear relationship. The change from year to year varies, but stays around two to three and the plot looks to be growing steadily. In an exponential relationship, we'd see the absolute change increasing (or descreasing).  We can determine the average absolute change by considering the data at both extremes. From 1992 to 2004, gasoline consumption grew from 110 to 136 billion gallons. That is a change of billion gallons in years. That is an average rate of 2.167 billion gallons per year. So, the common difference , , is 2.167.  This may look more familiar if we put the computations into the standard formula for computing slope.   The starting point for our data set is the year 1992 when consumption was 110 billion gallons. Rather than needing to input numbers near 2000 into our formula, we'll let the variable represent years since 1992. Also, instead of including a bunch of zeros, we'll let the variable represent the gasoline consumption in billions of gallons. So, when , , and this gives us our initial value, or y-intercept.  The result is a linear equation: . We can look at the graph of this line to get a sense of the accuracy:   plot of the data and linear model   The same data points as before are shown with a straight line approximation graph.    We might be bothered by the fact that it appears the line passes through three points exactly, but is above the others. Perhaps we'd like it to be closer to the middle, with a similar number of data points above and below. We can try using two differnt data points to estimate the average common difference, say 1993 and 2003: Changing the initial value to 111 billion gallons in 1993 and adjust to represent years since 1993, gives as another formula to describe the situation. That graph looks like:   plot of the data and linear model   The same data points as before are shown with a straight line approximation graph.    Both are reasonable models for this relationship, but we'll stick with the second option to answer the questions.  To predict the consumption in 2022, we need to determine what value of our input variable, , corresponds to the year 2022. Subtraction reveals that we want . Now, we substitute that value into our model formula and complete the computations: Our model predicts the gasoline consumption in 2022 to 174.8 billion gallons.  The next question is the reverse type, when will consumption reach 200 billion gallons. We are given the value of the output variable, , and asked to find the corresponding input, . Similar to above, we substitute the values we know into the formula, but this time we need to use some algebra to find : This says that 40 years from 1993 the consumption will be below 200 billion gallons, but after 41 years it will exceed 200 billion gallons. According to this model, if the trend continues, the US gasoline consumption would exceed 200 billion gallons in 2034.    It is worth noting that models like this are not always accurate far into the future. This one in particular was not built from data that included the year 2020, when personal travel, driving, and commuting were significantly lower due to the COVID-19 pandemic. In addition to abrupt changes in amount of driving, this model also would not account for a sudden increase in the average gas millage of vehicles nor an increase in hybrid or electric vehicle production. Models aren't perfect, especially when we limit ourselves to a specific very simple type of growth. Researchers in all sorts of disciplines devote a lot of time to developing advanced techniques to more accurately model the quantities they study.  "
+  "body": " Linear Models  First, a recap of what we learned about linear relationships in the last section. A linear relationship is one where the ABSOLUTE change is consistent between stages, and we call this consistent absolute change the common difference . In a formula, the common difference is what ends up being the slope of the line. We used , but you can use anything you want including the we introduced in . In order to generate formulas and answer questions about linear relationships, we need another piece of information, like a starting place; a value to sort of anchor our consistent relative change. In the recursive relationship, we called this in , and in the explicit formula, we used the notation . This is the initial value or the y-intercept , so if you're more comfortable with using as in , that's great.  The simplest examples are those where these two quantities, the common difference and the starting value, are given and we only need to translate between the words to the mathematical symbols to build and use the model. Scenarios 1 and 4 are exactly like this, but let's look at a new example.    When Pete moved into his house on July 1, 2016, the tree in the front yard was twelve feet tall. It has grown eighteen inches taller each year. Determine a model for the growth of the tree.    First define your variables; choose a time variable so that determining a starting point is straightforward. What part of the description of the scenario tells you the common difference? What part tells you an initial value?    We have two variables here, a time variable we'll call and a height variable that we'll call . In order to make things easier, we'll say that represents the number of years since July 1, 2016, when we have a known value for . So, on July 1, 2016, and ft, which means our initial value is , so long as we define to be the height of the tree in feet.  The common difference is the other number given in the scenario; 18 inches each year. This is just a bit trickier since the units do not already align with the units we've determined for our variables. We need to know the common difference in feet (units for ) per year (units for ). Check back to if you need a refresher, but 18 inchesis equal to 1.5 feet. So, the common difference, .  A final formula for the model is We say A formula rather than THE formula on purpose. Defining the variables differently would yield a different, but equally correct, formula.    In , we determined an explicit formula for the height of the tree. We can also write down the recursive formula: But, the explicit formula is more useful for questions like   How tall will the tree be at the start of 2027?    When will the tree be 42 feet tall?     The modeling formulas we'll work with have two variables. Given a value for one of them, we can determine the corresponding value of the other. In the first question above, the input variable, is given, and we're asked to find the output variable, . For the second question, these roles are reversed.    For the same scenario as ,   How tall will the tree be at the start of 2027?    When will the tree be 42 feet tall?       For (a), we are given (indirectly) a value for the input variable , the start of 2027. We need to translate these words into a numerical value for . How many years is January 2027 from July 2016? When , it is July 1, 2026, which we get by adding 10 to 2016. The start of 2027 is six months later, so we need to add a half of a year onto our value of .  We substitute the value into our model formula: So, in January 2027, the model predicts that the tree will be 27.75 feet tall.  For part (b), we are given a value, 42, for the output variable , and need to findthe corresponding value of . Less thinking is required to translate the words into quantities, but algebra will be required to solve the equation. The value is substituted into the formula and we use algebra to isolate the variable :   Finding means 20 years after July 1, 2016. So, in July 2036, the tree will reach a height of 42 feet.     Solving Input or Output Problems   Once you havea formula for the model, the process for answering a question about that model are always pretty much the same.   Translate the words into a quantity for the appropriate variable using the definition of the variable.    Substitute this value into the model formula.    Determine the corresponding value of the other unknown variable.    Translate that quantity back into a meanigful answer using the definition of the variable; don't forget to include the units!       The amount of work involved in each of the steps above will vary across problems. The one that is always simple is step 2: just replace the letter in the formula with the number!     According to one mathematical model, the average life expenctancy for American men born in 1900 was 55 years. Life expectancy has increased by about 0.2 year for each birth year after 1900.    Let represent the average life expectancy for American born years after 1900. Write an equation that expresses how is related to , according to the model. For example, in 1912 and the model predicts that in that year.  Answer:    If the trend described in the model continues, for which birth year will the average American man s life expectancy be 79 years? Solve your equation from part a), then answer this question. (Note: You are asked for a year, not a value for .)  Answer:     Part b) asks for the year. How is related to the year?             Part a) in 1900, and increases by 0.2 years for each year after 1900. Thus years after 1900, will have increased by years above 55, which means will be . So, according to the model, .  Part b) gives the life expectancy and asks for the year. One can find the year if one knows because the year is when it s years after 1900. So plug into the equation in part b), solve for , and then use that to find the year .        Sometimes, we'll not be given the needed information quite so readily. One common way this could arise is to be given the common difference directly, but rather than given a starting value we would know a value at a different time.    Maggie wanted to drink her strawberry milkshake as quickly as possible; she's amazingly immune to the dreaded brain freeze! She can drink a milkshake at a rate of 3.5 milliliters each second. After drinking for 12 seconds, 178 milliliters remain in the cup. Determine a formula to model the amount of milkshake in the cup with respect to time.    First, we define our variables. We have a time variable we'll call that will represent the number of seconds that Maggie has been drinking her milkshake. The other variable represents the amount of milkshake. This is a volume, so we'll use to represent the number of milliliters of milkshake in the cup.  The common difference (slope or rate of change) is given directly, milliliters per second. (Notice how the units of the common difference corespond to the units of the variables themselves.) This gives us a portion of our desired formula: It is easier to see why the value for the common difference in negative once it is in the formula; those 3.5 milliliters are being removed from the cup and going into Maggie's belly!  If we were told how large the milkshake was to begin with, this would be initial value, , but we are given a different value for . We can determine following a similar procidure to the input or output problems.  We do know that after 12 seconds (so when ) the amount of milkshake remaining, , is 178 milliliters. We substitute these values into our formula leasvingonly as the unknown that we can solve for:   Maggie started out with 220 milliliters of milkshakein her cup, and so the final formula is     The examples so far have been perfectly linear; the difference in the quantity of interest at each stage is exactly the same. This is unlikely to happen so perfectly in the real world. The next example demonstrates that as well as shows us how to determine (or estimate) the common difference when it isn't explicitely stated.    Gasoline consumption data for the US from 1992 to 2004 is shown below. Find a model for this data, and use it to predict consumption in 2022. If the trend continues, when will consumption reach 200 billion gallons?    Year  Consumption     billions of gallons    1992  110    1993  111    1994  113    1995  116    1996  118    1997  119    1998  123    1999  125    2000  126    2001  128    2002  131    2003  133    2004  136      We first look at a display of this data.   plot of the data   The data points form close to a straight line growing upward.    Computing the absolute change from year to year via subtraction as well as the graph would both show a nearly linear relationship. The change from year to year varies, but stays around two to three and the plot looks to be growing steadily. In an exponential relationship, we'd see the absolute change increasing (or descreasing).  We can determine the average absolute change by considering the data at both extremes. From 1992 to 2004, gasoline consumption grew from 110 to 136 billion gallons. That is a change of billion gallons in years. That is an average rate of 2.167 billion gallons per year. So, the common difference , , is 2.167.  This may look more familiar if we put the computations into the standard formula for computing slope.   The starting point for our data set is the year 1992 when consumption was 110 billion gallons. Rather than needing to input numbers near 2000 into our formula, we'll let the variable represent years since 1992. Also, instead of including a bunch of zeros, we'll let the variable represent the gasoline consumption in billions of gallons. So, when , , and this gives us our initial value, or y-intercept.  The result is a linear equation: . We can look at the graph of this line to get a sense of the accuracy:   plot of the data and linear model   The same data points as before are shown with a straight line approximation graph.    We might be bothered by the fact that it appears the line passes through three points exactly, but is above the others. Perhaps we'd like it to be closer to the middle, with a similar number of data points above and below. We can try using two differnt data points to estimate the average common difference, say 1993 and 2003: Changing the initial value to 111 billion gallons in 1993 and adjust to represent years since 1993, gives as another formula to describe the situation. That graph looks like:   plot of the data and linear model   The same data points as before are shown with a straight line approximation graph.    Both are reasonable models for this relationship, but we'll stick with the second option to answer the questions.  To predict the consumption in 2022, we need to determine what value of our input variable, , corresponds to the year 2022. Subtraction reveals that we want . Now, we substitute that value into our model formula and complete the computations: Our model predicts the gasoline consumption in 2022 to 174.8 billion gallons.  The next question is the reverse type, when will consumption reach 200 billion gallons. We are given the value of the output variable, , and asked to find the corresponding input, . Similar to above, we substitute the values we know into the formula, but this time we need to use some algebra to find : This says that 40 years from 1993 the consumption will be below 200 billion gallons, but after 41 years it will exceed 200 billion gallons. According to this model, if the trend continues, the US gasoline consumption would exceed 200 billion gallons in 2034.    It is worth noting that models like this are not always accurate far into the future. This one in particular in was not built from data that included the year 2020, when personal travel, driving, and commuting were significantly lower due to the COVID-19 pandemic. In addition to abrupt changes in amount of driving, this model also would not account for a sudden increase in the average gas millage of vehicles nor an increase in hybrid or electric vehicle production.  Models aren't perfect, especially when we limit ourselves to a specific very simple type of growth or decline. In the next section we'll explore exponential relationships. The overarching concepts and processes are the same as working with linear models. Researchers in all sorts of disciplines devote a lot of time to developing advanced techniques to more accurately model the quantities they study.  "
 },
 {
-  "id": "sec-linear-3",
+  "id": "ex-basic-linear",
   "level": "2",
-  "url": "sec-linear.html#sec-linear-3",
+  "url": "sec-linear.html#ex-basic-linear",
   "type": "Example",
   "number": "4.2.1",
+  "title": "",
+  "body": "  When Pete moved into his house on July 1, 2016, the tree in the front yard was twelve feet tall. It has grown eighteen inches taller each year. Determine a model for the growth of the tree.    First define your variables; choose a time variable so that determining a starting point is straightforward. What part of the description of the scenario tells you the common difference? What part tells you an initial value?    We have two variables here, a time variable we'll call and a height variable that we'll call . In order to make things easier, we'll say that represents the number of years since July 1, 2016, when we have a known value for . So, on July 1, 2016, and ft, which means our initial value is , so long as we define to be the height of the tree in feet.  The common difference is the other number given in the scenario; 18 inches each year. This is just a bit trickier since the units do not already align with the units we've determined for our variables. We need to know the common difference in feet (units for ) per year (units for ). Check back to if you need a refresher, but 18 inchesis equal to 1.5 feet. So, the common difference, .  A final formula for the model is We say A formula rather than THE formula on purpose. Defining the variables differently would yield a different, but equally correct, formula.   "
+},
+{
+  "id": "ex-basic-linear-input-output",
+  "level": "2",
+  "url": "sec-linear.html#ex-basic-linear-input-output",
+  "type": "Example",
+  "number": "4.2.2",
+  "title": "",
+  "body": "  For the same scenario as ,   How tall will the tree be at the start of 2027?    When will the tree be 42 feet tall?       For (a), we are given (indirectly) a value for the input variable , the start of 2027. We need to translate these words into a numerical value for . How many years is January 2027 from July 2016? When , it is July 1, 2026, which we get by adding 10 to 2016. The start of 2027 is six months later, so we need to add a half of a year onto our value of .  We substitute the value into our model formula: So, in January 2027, the model predicts that the tree will be 27.75 feet tall.  For part (b), we are given a value, 42, for the output variable , and need to findthe corresponding value of . Less thinking is required to translate the words into quantities, but algebra will be required to solve the equation. The value is substituted into the formula and we use algebra to isolate the variable :   Finding means 20 years after July 1, 2016. So, in July 2036, the tree will reach a height of 42 feet.   "
+},
+{
+  "id": "heuristic-input-output-steps",
+  "level": "2",
+  "url": "sec-linear.html#heuristic-input-output-steps",
+  "type": "Procedure",
+  "number": "4.2.3",
+  "title": "Solving Input or Output Problems.",
+  "body": " Solving Input or Output Problems   Once you havea formula for the model, the process for answering a question about that model are always pretty much the same.   Translate the words into a quantity for the appropriate variable using the definition of the variable.    Substitute this value into the model formula.    Determine the corresponding value of the other unknown variable.    Translate that quantity back into a meanigful answer using the definition of the variable; don't forget to include the units!      "
+},
+{
+  "id": "check-linear-basics",
+  "level": "2",
+  "url": "sec-linear.html#check-linear-basics",
+  "type": "Check for Understanding",
+  "number": "4.2.4",
+  "title": "",
+  "body": "   According to one mathematical model, the average life expenctancy for American men born in 1900 was 55 years. Life expectancy has increased by about 0.2 year for each birth year after 1900.    Let represent the average life expectancy for American born years after 1900. Write an equation that expresses how is related to , according to the model. For example, in 1912 and the model predicts that in that year.  Answer:    If the trend described in the model continues, for which birth year will the average American man s life expectancy be 79 years? Solve your equation from part a), then answer this question. (Note: You are asked for a year, not a value for .)  Answer:     Part b) asks for the year. How is related to the year?             Part a) in 1900, and increases by 0.2 years for each year after 1900. Thus years after 1900, will have increased by years above 55, which means will be . So, according to the model, .  Part b) gives the life expectancy and asks for the year. One can find the year if one knows because the year is when it s years after 1900. So plug into the equation in part b), solve for , and then use that to find the year .       "
+},
+{
+  "id": "ex-determine-intercept",
+  "level": "2",
+  "url": "sec-linear.html#ex-determine-intercept",
+  "type": "Example",
+  "number": "4.2.5",
+  "title": "",
+  "body": "  Maggie wanted to drink her strawberry milkshake as quickly as possible; she's amazingly immune to the dreaded brain freeze! She can drink a milkshake at a rate of 3.5 milliliters each second. After drinking for 12 seconds, 178 milliliters remain in the cup. Determine a formula to model the amount of milkshake in the cup with respect to time.    First, we define our variables. We have a time variable we'll call that will represent the number of seconds that Maggie has been drinking her milkshake. The other variable represents the amount of milkshake. This is a volume, so we'll use to represent the number of milliliters of milkshake in the cup.  The common difference (slope or rate of change) is given directly, milliliters per second. (Notice how the units of the common difference corespond to the units of the variables themselves.) This gives us a portion of our desired formula: It is easier to see why the value for the common difference in negative once it is in the formula; those 3.5 milliliters are being removed from the cup and going into Maggie's belly!  If we were told how large the milkshake was to begin with, this would be initial value, , but we are given a different value for . We can determine following a similar procidure to the input or output problems.  We do know that after 12 seconds (so when ) the amount of milkshake remaining, , is 178 milliliters. We substitute these values into our formula leasvingonly as the unknown that we can solve for:   Maggie started out with 220 milliliters of milkshakein her cup, and so the final formula is    "
+},
+{
+  "id": "ex-linear-gasoline",
+  "level": "2",
+  "url": "sec-linear.html#ex-linear-gasoline",
+  "type": "Example",
+  "number": "4.2.6",
   "title": "",
   "body": "  Gasoline consumption data for the US from 1992 to 2004 is shown below. Find a model for this data, and use it to predict consumption in 2022. If the trend continues, when will consumption reach 200 billion gallons?    Year  Consumption     billions of gallons    1992  110    1993  111    1994  113    1995  116    1996  118    1997  119    1998  123    1999  125    2000  126    2001  128    2002  131    2003  133    2004  136      We first look at a display of this data.   plot of the data   The data points form close to a straight line growing upward.    Computing the absolute change from year to year via subtraction as well as the graph would both show a nearly linear relationship. The change from year to year varies, but stays around two to three and the plot looks to be growing steadily. In an exponential relationship, we'd see the absolute change increasing (or descreasing).  We can determine the average absolute change by considering the data at both extremes. From 1992 to 2004, gasoline consumption grew from 110 to 136 billion gallons. That is a change of billion gallons in years. That is an average rate of 2.167 billion gallons per year. So, the common difference , , is 2.167.  This may look more familiar if we put the computations into the standard formula for computing slope.   The starting point for our data set is the year 1992 when consumption was 110 billion gallons. Rather than needing to input numbers near 2000 into our formula, we'll let the variable represent years since 1992. Also, instead of including a bunch of zeros, we'll let the variable represent the gasoline consumption in billions of gallons. So, when , , and this gives us our initial value, or y-intercept.  The result is a linear equation: . We can look at the graph of this line to get a sense of the accuracy:   plot of the data and linear model   The same data points as before are shown with a straight line approximation graph.    We might be bothered by the fact that it appears the line passes through three points exactly, but is above the others. Perhaps we'd like it to be closer to the middle, with a similar number of data points above and below. We can try using two differnt data points to estimate the average common difference, say 1993 and 2003: Changing the initial value to 111 billion gallons in 1993 and adjust to represent years since 1993, gives as another formula to describe the situation. That graph looks like:   plot of the data and linear model   The same data points as before are shown with a straight line approximation graph.    Both are reasonable models for this relationship, but we'll stick with the second option to answer the questions.  To predict the consumption in 2022, we need to determine what value of our input variable, , corresponds to the year 2022. Subtraction reveals that we want . Now, we substitute that value into our model formula and complete the computations: Our model predicts the gasoline consumption in 2022 to 174.8 billion gallons.  The next question is the reverse type, when will consumption reach 200 billion gallons. We are given the value of the output variable, , and asked to find the corresponding input, . Similar to above, we substitute the values we know into the formula, but this time we need to use some algebra to find : This says that 40 years from 1993 the consumption will be below 200 billion gallons, but after 41 years it will exceed 200 billion gallons. According to this model, if the trend continues, the US gasoline consumption would exceed 200 billion gallons in 2034.   "
 },
@@ -2221,16 +2320,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "Exponential Models",
-  "body": " Exponential Models  Just like the section on linear models, this will have many more examples and much more discussion in the near future. For now, we'll handle the three basic types of questions within one example.    The number of users on a social networking site was 45,000 in February when they officially went public, and grew to 60,000 by October. If the number of the site users is growing exponentially, and growth continues at the same rate, how many users should they expect two years after they went public? When would the number of users exceed a million?    We will need an explicit formula to efficiently answer both of the these questions. We'll start by defining our variables. The output variable is the number of users of the site. Since those are given in thousands, we might as well use that too. So, let respresent the number of thousands of users of the site. The input variable is some sort of time element. Since this is given in months, we'll use that too. Thus, will represent the number of months since the site went public.  There are two things we need to figure out inorder to write an exponential formula to model any situation: an initial value and a consistent percentage change. The initial value is the value of the output variable (in this case ) when the input variable ( here) is 0. When , we're talking about February when the site went public; there were 45,000 users, so . (The subscript of 0 is how we indicate that this is the initial value and we're using 45 rather than 45,000 since we've made the units for the variable thousands of people.)  The rate is a little trickier in this example. It is not given to us directly in words and the two data points we have are separated by a time interval of 8 months. In October (of the same year the site went public), , and the site has 60,000 users so . We can substitute these values into the general format of the formula: Now, we have an equation with only one unknown variable, so we can solve for . Check out for a refresher if you need.   This means that the number of users is growing at a rate of 3.7% each month, and the final explicit formula is:   We'll first answer the question of how many users the site has two years after going public. Since our input variable, , is measured in months, we need to consider how many months two years later is. There are 12 months in a year, so two years after going public, . Now, we can substitute and evaluate: Since the units for are thousands of people, this means after two years of being public the cite has 107,622 users.  Answering how long it will take to reach one million users is a tougher question. We still convert the info given into values for our variables, if there are one million users then , and substitute that value into our formula: But, notice that this time, the unknown variable is not by itself on one side, so we need to sovle this equation for . Since the unknown is in the exponent, we'll need logarithms to solve this equation. See for a refresher.   Since is measured in months, this means that sometime during the 85th month after going public, the number of users will cross the one million mark. We can get a better idea of what this means with some unit conversion. There are 12 months in a year. Dividing 85 by 12 results in 7.08333. Seven years is months, leaving one month leftover. So, the site reaches one million users in March after being public for just over seven years.    Exponential growth is typically a good model for the spread of something, like the use of a new social networking website, or a disease, or a rumor, . But, this stops being a good fit at some point. That growth cannot continue forever, because we run out of people! A graph of exponential growth becomes steeper and steeper. In the example above, the time it takes to reach another one million users will not be as long, less than two more years. Something like this tends to slow down when it has reached half of the maximum. If that is potential users of a networking site in a particular field of work, then the maximum is the number of people employed in the field. If we're considering the spread of a disease, the max may be the entire world population. A rumor through a highschool, the max is the total number of students at the school.   exponential and logistic model of the website growth   The exponential formula we determined is in red. A possible logistic solution is in blue.    This graph shows the exponential formula we found in red. The blue shows a more realistic long term scenario. You can see that it levels off around 4000, which is 4 million users. The growth looks exponential until it reaches about half of that, 2 million. After that, it begins to slow down.  There are lots of other types of relationships between quantities that show up in the real world. We can piece together linear and exponential models when appropriate, and explore other options with tools like Desmos.  "
+  "body": " Exponential Models  In this section, we'll explore the same types of questions and approaches to answering those questions as we did in the previous section, , but this time with exponential relationships. The techniques and formulas are only good if we're applying them in the correct situation. So, as a review of what we saw in , a relationship is exponential if the RELATIVE change is the same between consecutive stages, and we call this relative change the common rate and denote it with . In the explicit formula, this common rate is part of the base of the exponential, but just like linear relationships, we need some information about where to start, not just how the quantity in question changes. We use the same notation for our generic formula as we did with linear, is the starting or initial value, but you're encouraged to use a notation that works well for you and makes sense with the scenario.  As with linear relationships, determining the formula is the most straight forward when these two needed pieces of information are given to us directly.    We'll again consider Pete and his move into his house in July 2016. When he moved in, there were three bunny rabbits living under the big tree. He's noticed that that number of bunny rabbits appears to be doubling each year. Determine a model for the bunny rabbit population.    As always in a modeling problem, we start by defining our variables. It is common to use for a population variable and for a time variable, so we'll do that. Define to be the number of rabbits living under the tree and to be the number of years since July 2016. The initial value of the population, when is three rabbits, so .  The common rate sounds simple here, but dealing with percentages always has the potential to be tricky. If a quantity doubles, it is increasing by 100%. So, the common rate, is 100% and as a decimal that is . In our general formula, the base of the exponential is , the common multiplier , and that here is equal to 2 and that probably feels more correct than thinking about the rate being 100%.  Putting all that together gives a final formula of     Again, we have found in the explicit formula, but can also write down the recursive formula: This form can make the idea of doubling at each stage more clear than in the explicit formula. But as before, the explicit form is often more practical when using the model formula to answer further questions about the scenario.    For the same scenario as ,   How many bunny rabbits will be under Pete's tree at the start of 2027? (Assume bunnieslive forever!)    When will there be 42 bunnies?       We'll follow the steps of to answer these two questions.  For (a), we've already done Step 1 in , . We substitute that value into the explicit formula from and then evaluate: Notice that we first evaluated the exponential (using a calculator) BEFORE multiplying by 3. We've also indicated where we've rounded our result by using a rather than an equal sign. For the final step in the procedure, we translate this back into the meaning in the scenario. Since we shouldn't have partial bunnies, we'll say that at the start of 2027, the model predicts there will be 4,344 bunny rabbits under Pete's tree.   PLEASE NOTICE that this scenario is completely bananas; bunnies do not live forever. We'll see later that exponential models tend to lose their accuracy over time as well.  The procedure works just as well for part (b), but Step 3 involves using logarithms. If you need a review, visit now.  The first two steps of the procedure give the following equation with the single unknown variable, : We follow the process of to solve the exponential equation; one where the unknown quantity is in the exponent.     We isolate the exponential by dividing both sides of the equation by 3:     We make sure when we apply the logarithm it is to EVERYTHING on BOTH sides of the equation:     We apply the exponent property of logs:     We solve for the variable by dividing both sides by :    We use a calculator to do the final computation:   Lastly, we determine what this value means in our scenario. Since we've found a non-whole number answer, we can choose how exact we want to get. The answer of 3.8 is between 3 and 4, so sometime between July 2019 and July 2020 the bunny was born. We could convert .8 years into a number of months using the skills from : About 9 and a half months after July 1, 2019 is around mid-April in the year 2020. We could go further and convert 0.8 years into days to determine the exact date, but population models are rarely that accurate to begin with; especially when we're pretending bunnies live forever.       The population of a certain city was 299000 in 2018, and the observed relative growth rate is 2 percent per year.    Let be the number of years after 2018 and be the relative growth rate. Find a function that models the population after years.      Find the projected population in the year 2027:    In what year will the population reach 418672?                    a. The model will be an exponential model: , where the initial population will be and growth rate as . The model then is   b. To find the projected population, first note that 2027 is years after 2018. This value of will be substituted into the model so   c. Use logarithms to solve the equation for .   So the year is        We won't always be given an initial value and consistant growth rate to simply put in the proper place in our formula. The next problem is an example of that. We still work with the same format for an exponential relationship. If we're careful with what each piece represents and the methods used to solve for variables in different places, we'll be just fine. Hopefully we can see that this is most definitely a longer process, but not really any different from the more straightforward examples we've seen.    The number of users on a social networking site was 45,000 in February when they officially went public, and grew to 60,000 by October. If the number of the site users is growing exponentially, and growth continues at the same rate, how many users should they expect two years after they went public? When would the number of users exceed a million?    We will need an explicit formula to efficiently answer both of the these questions. We'll start by defining our variables. The output variable is the number of users of the site. Since those are given in thousands, we might as well use that too. So, let respresent the number of thousands of users of the site. The input variable is some sort of time element. Since this is given in months, we'll use that too. Thus, will represent the number of months since the site went public.  There are two things we need to figure out in order to write an exponential formula to model any situation: an initial value and a consistent percentage change. The initial value is the value of the output variable (in this case ) when the input variable ( here) is 0. When , we're talking about February when the site went public; there were 45,000 users, so . (The subscript of 0 is how we indicate that this is the initial value and we're using 45 rather than 45,000 since we've made the units for the variable thousands of people.)  The rate is a little trickier in this example. It is not given to us directly in words and the two data points we have are separated by a time interval of 8 months. In October (of the same year the site went public), , and the site has 60,000 users so . We can substitute these values into the general format of the formula: Now, we have an equation with only one unknown variable, so we can solve for . Check out for a refresher if you need.     This means that the number of users is growing at a rate of 3.7% each month, and the final explicit formula is:   We follow for both questions. First we consider how many users the site has two years after going public. Since our input variable, , is measured in months, we need to consider how many months two years later is. There are 12 months in a year, so two years after going public, . (That's Step 1.) Now, we can substitute and evaluate (Steps 2 and 3): In Step 4, we translate our numeric answer back into words that connect to the scenario. Since the units for are thousands of people, this means after two years of being public the cite has 107,622 users.  Answering how long it will take to reach one million users requires more work in Step 3, so it is trickier but the procedure is the same. We still convert the info given into values for our variables, if there are one million users then , and substitute that value into our formula: But, notice that this time, the unknown variable is not by itself on one side, so we need to solve this equation for . Since the unknown is in the exponent, we'll need logarithms to solve this equation. See for a refresher.     Since is measured in months, this means that sometime during the 85th month after going public, the number of users will cross the one million mark. We can get a better idea of what this means with some unit conversion. There are 12 months in a year. Dividing 85 by 12 results in 7.08333. Seven years is months, leaving one month leftover. So, the site reaches one million users in March after being public for just over seven years.    Exponential growth is typically a good model for the spread of something, like the use of a new social networking website, or a disease, or a rumor, . But, this stops being a good fit at some point. That growth cannot continue forever, because we run out of people! A graph of exponential growth becomes steeper and steeper. In the example above, the time it takes to reach another one million users will not be as long, less than two more years. Something like this tends to slow down when it has reached half of the maximum. If that is potential users of a networking site in a particular field of work, then the maximum is the number of people employed in the field. If we're considering the spread of a disease, the max may be the entire world population. A rumor through a highschool, the max is the total number of students at the school.   exponential and logistic model of the website growth   The exponential formula we determined is in red. A possible logistic solution is in blue.    This graph shows the exponential formula we found in red. The blue shows a more realistic long term scenario. You can see that it levels off around 4000, which is 4 million users. The growth looks exponential until it reaches about half of that, 2 million. After that, it begins to slow down.  There are lots of other types of relationships between quantities that show up in the real world. We can piece together linear and exponential models when appropriate, and explore other options with tools like Desmos.  "
 },
 {
-  "id": "sec-exponential-3",
+  "id": "ex-basic-exp",
   "level": "2",
-  "url": "sec-exponential.html#sec-exponential-3",
+  "url": "sec-exponential.html#ex-basic-exp",
   "type": "Example",
   "number": "4.3.1",
   "title": "",
-  "body": "  The number of users on a social networking site was 45,000 in February when they officially went public, and grew to 60,000 by October. If the number of the site users is growing exponentially, and growth continues at the same rate, how many users should they expect two years after they went public? When would the number of users exceed a million?    We will need an explicit formula to efficiently answer both of the these questions. We'll start by defining our variables. The output variable is the number of users of the site. Since those are given in thousands, we might as well use that too. So, let respresent the number of thousands of users of the site. The input variable is some sort of time element. Since this is given in months, we'll use that too. Thus, will represent the number of months since the site went public.  There are two things we need to figure out inorder to write an exponential formula to model any situation: an initial value and a consistent percentage change. The initial value is the value of the output variable (in this case ) when the input variable ( here) is 0. When , we're talking about February when the site went public; there were 45,000 users, so . (The subscript of 0 is how we indicate that this is the initial value and we're using 45 rather than 45,000 since we've made the units for the variable thousands of people.)  The rate is a little trickier in this example. It is not given to us directly in words and the two data points we have are separated by a time interval of 8 months. In October (of the same year the site went public), , and the site has 60,000 users so . We can substitute these values into the general format of the formula: Now, we have an equation with only one unknown variable, so we can solve for . Check out for a refresher if you need.   This means that the number of users is growing at a rate of 3.7% each month, and the final explicit formula is:   We'll first answer the question of how many users the site has two years after going public. Since our input variable, , is measured in months, we need to consider how many months two years later is. There are 12 months in a year, so two years after going public, . Now, we can substitute and evaluate: Since the units for are thousands of people, this means after two years of being public the cite has 107,622 users.  Answering how long it will take to reach one million users is a tougher question. We still convert the info given into values for our variables, if there are one million users then , and substitute that value into our formula: But, notice that this time, the unknown variable is not by itself on one side, so we need to sovle this equation for . Since the unknown is in the exponent, we'll need logarithms to solve this equation. See for a refresher.   Since is measured in months, this means that sometime during the 85th month after going public, the number of users will cross the one million mark. We can get a better idea of what this means with some unit conversion. There are 12 months in a year. Dividing 85 by 12 results in 7.08333. Seven years is months, leaving one month leftover. So, the site reaches one million users in March after being public for just over seven years.   "
+  "body": "  We'll again consider Pete and his move into his house in July 2016. When he moved in, there were three bunny rabbits living under the big tree. He's noticed that that number of bunny rabbits appears to be doubling each year. Determine a model for the bunny rabbit population.    As always in a modeling problem, we start by defining our variables. It is common to use for a population variable and for a time variable, so we'll do that. Define to be the number of rabbits living under the tree and to be the number of years since July 2016. The initial value of the population, when is three rabbits, so .  The common rate sounds simple here, but dealing with percentages always has the potential to be tricky. If a quantity doubles, it is increasing by 100%. So, the common rate, is 100% and as a decimal that is . In our general formula, the base of the exponential is , the common multiplier , and that here is equal to 2 and that probably feels more correct than thinking about the rate being 100%.  Putting all that together gives a final formula of    "
+},
+{
+  "id": "ex-basic-exp-input-output",
+  "level": "2",
+  "url": "sec-exponential.html#ex-basic-exp-input-output",
+  "type": "Example",
+  "number": "4.3.2",
+  "title": "",
+  "body": "  For the same scenario as ,   How many bunny rabbits will be under Pete's tree at the start of 2027? (Assume bunnieslive forever!)    When will there be 42 bunnies?       We'll follow the steps of to answer these two questions.  For (a), we've already done Step 1 in , . We substitute that value into the explicit formula from and then evaluate: Notice that we first evaluated the exponential (using a calculator) BEFORE multiplying by 3. We've also indicated where we've rounded our result by using a rather than an equal sign. For the final step in the procedure, we translate this back into the meaning in the scenario. Since we shouldn't have partial bunnies, we'll say that at the start of 2027, the model predicts there will be 4,344 bunny rabbits under Pete's tree.   PLEASE NOTICE that this scenario is completely bananas; bunnies do not live forever. We'll see later that exponential models tend to lose their accuracy over time as well.  The procedure works just as well for part (b), but Step 3 involves using logarithms. If you need a review, visit now.  The first two steps of the procedure give the following equation with the single unknown variable, : We follow the process of to solve the exponential equation; one where the unknown quantity is in the exponent.     We isolate the exponential by dividing both sides of the equation by 3:     We make sure when we apply the logarithm it is to EVERYTHING on BOTH sides of the equation:     We apply the exponent property of logs:     We solve for the variable by dividing both sides by :    We use a calculator to do the final computation:   Lastly, we determine what this value means in our scenario. Since we've found a non-whole number answer, we can choose how exact we want to get. The answer of 3.8 is between 3 and 4, so sometime between July 2019 and July 2020 the bunny was born. We could convert .8 years into a number of months using the skills from : About 9 and a half months after July 1, 2019 is around mid-April in the year 2020. We could go further and convert 0.8 years into days to determine the exact date, but population models are rarely that accurate to begin with; especially when we're pretending bunnies live forever.   "
+},
+{
+  "id": "check-exp-basics",
+  "level": "2",
+  "url": "sec-exponential.html#check-exp-basics",
+  "type": "Check for Understanding",
+  "number": "4.3.3",
+  "title": "",
+  "body": "   The population of a certain city was 299000 in 2018, and the observed relative growth rate is 2 percent per year.    Let be the number of years after 2018 and be the relative growth rate. Find a function that models the population after years.      Find the projected population in the year 2027:    In what year will the population reach 418672?                    a. The model will be an exponential model: , where the initial population will be and growth rate as . The model then is   b. To find the projected population, first note that 2027 is years after 2018. This value of will be substituted into the model so   c. Use logarithms to solve the equation for .   So the year is       "
+},
+{
+  "id": "sec-exponential-9",
+  "level": "2",
+  "url": "sec-exponential.html#sec-exponential-9",
+  "type": "Example",
+  "number": "4.3.4",
+  "title": "",
+  "body": "  The number of users on a social networking site was 45,000 in February when they officially went public, and grew to 60,000 by October. If the number of the site users is growing exponentially, and growth continues at the same rate, how many users should they expect two years after they went public? When would the number of users exceed a million?    We will need an explicit formula to efficiently answer both of the these questions. We'll start by defining our variables. The output variable is the number of users of the site. Since those are given in thousands, we might as well use that too. So, let respresent the number of thousands of users of the site. The input variable is some sort of time element. Since this is given in months, we'll use that too. Thus, will represent the number of months since the site went public.  There are two things we need to figure out in order to write an exponential formula to model any situation: an initial value and a consistent percentage change. The initial value is the value of the output variable (in this case ) when the input variable ( here) is 0. When , we're talking about February when the site went public; there were 45,000 users, so . (The subscript of 0 is how we indicate that this is the initial value and we're using 45 rather than 45,000 since we've made the units for the variable thousands of people.)  The rate is a little trickier in this example. It is not given to us directly in words and the two data points we have are separated by a time interval of 8 months. In October (of the same year the site went public), , and the site has 60,000 users so . We can substitute these values into the general format of the formula: Now, we have an equation with only one unknown variable, so we can solve for . Check out for a refresher if you need.     This means that the number of users is growing at a rate of 3.7% each month, and the final explicit formula is:   We follow for both questions. First we consider how many users the site has two years after going public. Since our input variable, , is measured in months, we need to consider how many months two years later is. There are 12 months in a year, so two years after going public, . (That's Step 1.) Now, we can substitute and evaluate (Steps 2 and 3): In Step 4, we translate our numeric answer back into words that connect to the scenario. Since the units for are thousands of people, this means after two years of being public the cite has 107,622 users.  Answering how long it will take to reach one million users requires more work in Step 3, so it is trickier but the procedure is the same. We still convert the info given into values for our variables, if there are one million users then , and substitute that value into our formula: But, notice that this time, the unknown variable is not by itself on one side, so we need to solve this equation for . Since the unknown is in the exponent, we'll need logarithms to solve this equation. See for a refresher.     Since is measured in months, this means that sometime during the 85th month after going public, the number of users will cross the one million mark. We can get a better idea of what this means with some unit conversion. There are 12 months in a year. Dividing 85 by 12 results in 7.08333. Seven years is months, leaving one month leftover. So, the site reaches one million users in March after being public for just over seven years.   "
 },
 {
   "id": "exercises-modeling",
@@ -2239,7 +2365,61 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "4.4",
   "title": "Modeling Practice Exercises",
-  "body": " Modeling Practice Exercises  "
+  "body": " Modeling Practice Exercises   Linear vs Exponential   For each relationship described, determine if is (approximately) linear, exponential, or not close enough to either. It is also good practice to determine if the quantity is growing or declining. Additionally, if you want more practice determining formulas, go for it!     The population of the world in 1987 was 5 billion and the annual growth rate was estimated at 2 percent per year.      A store's sales (in thousands of dollars) grow according to the recursive rule , with initial amount .       An image of a graph of a straight.  An image of a graph of a straight, red line with two grid points and markedin blue and green, respectively. The horizontal axis is labeled Time (months since Jan 2020) and the vertical axis is labeled Street Lights in Town.       The Consumer Price Index (CPI) is calculated by the Department of Labor. The percentage increase in the CPI from one year to the next gives the annual inflation rate. The table shows the CPI in December of the indicated year.      Year  2013  2014  2015  2016  2017  2018  2019  2020    CPI  233.0  234.8  236.5  241.4  246.5  251.2  257.0  260.5         Graph of a curve  An image of graph of a red curve on a grid. The horizontal axis is labeled Thousands of Years and the vertical axis is labeled Remaining Plutonium-239 (grams). The curve passes through the points and .       The number of whiteboard markers in the supply closet on the Monday morning of each week during the semester is given below.     Week  0  1  2  3  4  5  6  7  8    Markers  500  376  279  211  157  120  90  66  51       "
+},
+{
+  "id": "exercises-modeling-2-3",
+  "level": "2",
+  "url": "exercises-modeling.html#exercises-modeling-2-3",
+  "type": "Exercise",
+  "number": "4.4.1",
+  "title": "",
+  "body": "  The population of the world in 1987 was 5 billion and the annual growth rate was estimated at 2 percent per year.   "
+},
+{
+  "id": "exercises-modeling-2-4",
+  "level": "2",
+  "url": "exercises-modeling.html#exercises-modeling-2-4",
+  "type": "Exercise",
+  "number": "4.4.2",
+  "title": "",
+  "body": "  A store's sales (in thousands of dollars) grow according to the recursive rule , with initial amount .   "
+},
+{
+  "id": "exercises-modeling-2-5",
+  "level": "2",
+  "url": "exercises-modeling.html#exercises-modeling-2-5",
+  "type": "Exercise",
+  "number": "4.4.3",
+  "title": "",
+  "body": "   An image of a graph of a straight.  An image of a graph of a straight, red line with two grid points and markedin blue and green, respectively. The horizontal axis is labeled Time (months since Jan 2020) and the vertical axis is labeled Street Lights in Town.    "
+},
+{
+  "id": "exercises-modeling-2-6",
+  "level": "2",
+  "url": "exercises-modeling.html#exercises-modeling-2-6",
+  "type": "Exercise",
+  "number": "4.4.4",
+  "title": "",
+  "body": "  The Consumer Price Index (CPI) is calculated by the Department of Labor. The percentage increase in the CPI from one year to the next gives the annual inflation rate. The table shows the CPI in December of the indicated year.      Year  2013  2014  2015  2016  2017  2018  2019  2020    CPI  233.0  234.8  236.5  241.4  246.5  251.2  257.0  260.5     "
+},
+{
+  "id": "exercises-modeling-2-7",
+  "level": "2",
+  "url": "exercises-modeling.html#exercises-modeling-2-7",
+  "type": "Exercise",
+  "number": "4.4.5",
+  "title": "",
+  "body": "   Graph of a curve  An image of graph of a red curve on a grid. The horizontal axis is labeled Thousands of Years and the vertical axis is labeled Remaining Plutonium-239 (grams). The curve passes through the points and .    "
+},
+{
+  "id": "exercises-modeling-2-8",
+  "level": "2",
+  "url": "exercises-modeling.html#exercises-modeling-2-8",
+  "type": "Exercise",
+  "number": "4.4.6",
+  "title": "",
+  "body": "  The number of whiteboard markers in the supply closet on the Monday morning of each week during the semester is given below.     Week  0  1  2  3  4  5  6  7  8    Markers  500  376  279  211  157  120  90  66  51     "
 },
 {
   "id": "sec-modeling-proj",
@@ -2251,13 +2431,130 @@ var ptx_lunr_docs = [
   "body": " Modeling Projects  "
 },
 {
-  "id": "sec-stat-intro",
+  "id": "subsec-stat-vocab",
   "level": "1",
-  "url": "sec-stat-intro.html",
-  "type": "Section",
-  "number": "5.1",
-  "title": "What is Statistics?",
-  "body": " What is Statistics?  Text of section.  "
+  "url": "subsec-stat-vocab.html",
+  "type": "Subsection",
+  "number": "5.1.1",
+  "title": "Basic Vocabulary",
+  "body": " Basic Vocabulary  For the rest of this section, we'll cover a lot of vocabulary words; some are already mentioned in the paragraphs above.   Words are hard. Much of the vocabulary introduced here (and in other sections of the text) will not be completely new words to you. That does not mean you can skip over thinking about the definition in this context. It is important to note the similarities and differences in the meaning of the vocabulary word when used in statistical scenarios versus in our everyday language.   A statistical study statistical study aims to answer some question about a population statistical study popuation , and we call that question the research question for the study. If statistics is being used, then that means we don't have the information we need for the entire population; we only have data for a smaller group called the sample stastitical study sample . The objects that make up both the population and the sample are called observational units statistical study observational unit . The number of observational units in the sample is called the sample size statistical study sample size , and we typically use the symbol to represent that sample size.   Suppose your roommate regularly gets out of bed in the afternoon, but you are up early to have breakfast before your 8:00am class and you both like it this way. You may wonder, Which of us is more typical? A research question for a related study might be, What proportion of college students are morning people? The population you're studying is ALL college students. You decide to collect data from the residents of your dorm; that is the sample . The elements of these two sets are college students, so the observational unit of this study is a college student. If 100 students live in your dorm, that is the sample size , and we would write, .   An attribute or quality of an observational unit that can be counted, measured, or categorized, is a variable variable statistical study variable . (This is one of the terms that probably already lives in the mathy part of your brain, so be careful to not confuse this meaning for a statistical variable, with that of a variable in algebra.) A variable can have a different value for each observational unit, but that is not a requirement. The collection of all the values of the variables for all the observational units of the sample is the data statistical study data . All of these terms are related and sorting out what is what can be confusing.   In , the observational unit is a college student. There are many attributes of colleges students that we might care about, and each of these could be considered a variable in this study. We should always have a variable that is directly related to the research question. Here that variable is whether or not the college student is a morning person. The yes\/no values for this variable for each student are the data for this study. You would very likely have more variables and collect more date. It may just be name or room number of the student to help keep the values of the main variable of interest organized. You may also be wanting to answer other research questions with this data, so you may also other variables: the student's GPA, how many morning classes they have, their major, etc.  It can help to imagine how you would actually keep track of all this should you conduct the study. You'd likely come up with a chart that's something like:     Name  Room #  Morning Person?  Morning Classes  GPA  Major    1  Silvia  101  Yes  3  3.21  Communications             100    Each row of this chart represents a particular observational unit , each column is a variable with the name of that variable across the top of the chart, and all the entries within the table make up the data . We can tell that the sample size is , since there are 100 rows of data in the table.   Once the data is collected, we should try to give our best answer to the research question. The true answer to the research question is called the population parameter statistical study parameter . In our example scenario above, the population parameter, , is the proportion of ALL college students who are morning people. We can't get that true value. What we can determine from our study is called the sample statistic statistical study statistic . In our case, the statistic is a sample proportion, .   Statistical Study Vocabulary    Suppose we were comparing the mean age of buyers of new domestic cars to the mean age of buyers of new imported cars.  What is the variable under consideration?   buyers of imported cars    age of buyers    buyers of domestic cars    None of the above    What are the two populations under consideration?   cars and buyers    buyers of new domestic cars and buyers of new imported cars    age of buyers of new domestic cars and age of buyers of new imported cars    None of the above           A visual recap of population, sample, and observational unit    A visual recap of variable, population parameter, and sample statistic   "
+},
+{
+  "id": "subsec-stat-vocab-3",
+  "level": "2",
+  "url": "subsec-stat-vocab.html#subsec-stat-vocab-3",
+  "type": "Good Brain Habit",
+  "number": "5.1.1",
+  "title": "",
+  "body": " Words are hard. Much of the vocabulary introduced here (and in other sections of the text) will not be completely new words to you. That does not mean you can skip over thinking about the definition in this context. It is important to note the similarities and differences in the meaning of the vocabulary word when used in statistical scenarios versus in our everyday language.  "
+},
+{
+  "id": "subsec-stat-vocab-4",
+  "level": "2",
+  "url": "subsec-stat-vocab.html#subsec-stat-vocab-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "population research question sample observational units sample size "
+},
+{
+  "id": "ex-stat-study-basics-1",
+  "level": "2",
+  "url": "subsec-stat-vocab.html#ex-stat-study-basics-1",
+  "type": "Example",
+  "number": "5.1.2",
+  "title": "",
+  "body": " Suppose your roommate regularly gets out of bed in the afternoon, but you are up early to have breakfast before your 8:00am class and you both like it this way. You may wonder, Which of us is more typical? A research question for a related study might be, What proportion of college students are morning people? The population you're studying is ALL college students. You decide to collect data from the residents of your dorm; that is the sample . The elements of these two sets are college students, so the observational unit of this study is a college student. If 100 students live in your dorm, that is the sample size , and we would write, .  "
+},
+{
+  "id": "subsec-stat-vocab-6",
+  "level": "2",
+  "url": "subsec-stat-vocab.html#subsec-stat-vocab-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "variable data "
+},
+{
+  "id": "ex-stat-study-basics-2",
+  "level": "2",
+  "url": "subsec-stat-vocab.html#ex-stat-study-basics-2",
+  "type": "Example",
+  "number": "5.1.3",
+  "title": "",
+  "body": " In , the observational unit is a college student. There are many attributes of colleges students that we might care about, and each of these could be considered a variable in this study. We should always have a variable that is directly related to the research question. Here that variable is whether or not the college student is a morning person. The yes\/no values for this variable for each student are the data for this study. You would very likely have more variables and collect more date. It may just be name or room number of the student to help keep the values of the main variable of interest organized. You may also be wanting to answer other research questions with this data, so you may also other variables: the student's GPA, how many morning classes they have, their major, etc.  It can help to imagine how you would actually keep track of all this should you conduct the study. You'd likely come up with a chart that's something like:     Name  Room #  Morning Person?  Morning Classes  GPA  Major    1  Silvia  101  Yes  3  3.21  Communications             100    Each row of this chart represents a particular observational unit , each column is a variable with the name of that variable across the top of the chart, and all the entries within the table make up the data . We can tell that the sample size is , since there are 100 rows of data in the table.  "
+},
+{
+  "id": "subsec-stat-vocab-8",
+  "level": "2",
+  "url": "subsec-stat-vocab.html#subsec-stat-vocab-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "population parameter sample statistic "
+},
+{
+  "id": "check-stat-study-basics",
+  "level": "2",
+  "url": "subsec-stat-vocab.html#check-stat-study-basics",
+  "type": "Check for Understanding",
+  "number": "5.1.4",
+  "title": "Statistical Study Vocabulary.",
+  "body": " Statistical Study Vocabulary    Suppose we were comparing the mean age of buyers of new domestic cars to the mean age of buyers of new imported cars.  What is the variable under consideration?   buyers of imported cars    age of buyers    buyers of domestic cars    None of the above    What are the two populations under consideration?   cars and buyers    buyers of new domestic cars and buyers of new imported cars    age of buyers of new domestic cars and age of buyers of new imported cars    None of the above         "
+},
+{
+  "id": "subsec-var-types",
+  "level": "1",
+  "url": "subsec-var-types.html",
+  "type": "Subsection",
+  "number": "5.1.2",
+  "title": "Variable Types",
+  "body": " Variable Types  Take a look back at the chart in . There are six different variables. Each of these variables falls into one of two main types:   A categorical variable categorical ( qualitative variable qualitative ) variable has possible values that can be categorized or described easily in words. The possible values of a categorical variable are called levels .    A numerical variable numerical ( quantitative variable quantitative ) variable takes values that can be represented by a number, AND it makes sense to add, subtract, or average the values.   Note that is also acceptable to use these terms to describe the data collected for each variable.    Sort the six variables in the chart from in categorical or numerical.    One is tricky...    We can further sort variables into subtypes. Numerical variables are either continuous variable numerical continuous or discrete variable numerical discrete . Continuous variables are those that come from measurement or computation and can have values that are not whole numbers. In our example, GPA is a continuous numerical variable. Discrete variables are those that result from counting and can only have whole number values. The number of morning classes is an example of a discrete numerical variable.  Categorical variables can be binary variable categorical binary , ordinal variable categorical ordinal , or nominal variable categorical nominal . The morning person variable is binary ; there are only two options for an value: yes or no. When the possible values (levels) of a categorical variable where a particular order is clear, that is an ordinal variable. This could be the case if we allowed the students to choose one of   Very Much    Somewhat    Rarely    Not At All   as responses to the question. In the example, the student's room number is an ordinal variable. If a categorical variable has more than two possible values and those values don't have a clear order, then that is a nominal variable. Both the student's name and their major are nominal variables.  "
+},
+{
+  "id": "subsec-var-types-2",
+  "level": "2",
+  "url": "subsec-var-types.html#subsec-var-types-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "categorical qualitative levels numerical quantitative "
+},
+{
+  "id": "ex-cat-num",
+  "level": "2",
+  "url": "subsec-var-types.html#ex-cat-num",
+  "type": "Example",
+  "number": "5.1.5",
+  "title": "",
+  "body": "  Sort the six variables in the chart from in categorical or numerical.    One is tricky...   "
+},
+{
+  "id": "subsec-var-types-4",
+  "level": "2",
+  "url": "subsec-var-types.html#subsec-var-types-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "continuous discrete "
+},
+{
+  "id": "subsec-var-types-5",
+  "level": "2",
+  "url": "subsec-var-types.html#subsec-var-types-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "binary ordinal nominal "
+},
+{
+  "id": "subsec-sampling-bias",
+  "level": "1",
+  "url": "subsec-sampling-bias.html",
+  "type": "Subsection",
+  "number": "5.1.3",
+  "title": "Sampling Methods and Bias",
+  "body": " Sampling Methods and Bias    "
 },
 {
   "id": "sec-area",
@@ -2269,11 +2566,20 @@ var ptx_lunr_docs = [
   "body": " Area  Text of section.  "
 },
 {
+  "id": "sec-prob-intro",
+  "level": "1",
+  "url": "sec-prob-intro.html",
+  "type": "Section",
+  "number": "7.1",
+  "title": "What is Probability?",
+  "body": " What is Probability?  Text of section.  "
+},
+{
   "id": "sec-savings",
   "level": "1",
   "url": "sec-savings.html",
   "type": "Section",
-  "number": "7.1",
+  "number": "8.1",
   "title": "Savings Accounts",
   "body": " Savings Accounts    "
 },
@@ -2282,7 +2588,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-loans.html",
   "type": "Section",
-  "number": "7.2",
+  "number": "8.2",
   "title": "Loans",
   "body": " Loans    "
 },
@@ -2291,7 +2597,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-formal.html",
   "type": "Section",
-  "number": "8.1",
+  "number": "9.1",
   "title": "Formal Logic",
   "body": " Formal Logic  Text of section.  "
 },
@@ -2300,7 +2606,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-verbal.html",
   "type": "Section",
-  "number": "8.2",
+  "number": "9.2",
   "title": "Verbal Logic",
   "body": " Verbal Logic  Text of section.  "
 },

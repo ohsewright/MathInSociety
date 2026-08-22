@@ -7,6 +7,24 @@
     <p>
       A lot of what mathematics aims to do is to describe situations with formulas and rules. That is essentially what modeling is.
     </p>
+    <p>
+      Very rarely will our model (the mathematical formula we determine) match the real world situation perfectly.
+      So, we should aim to remove the perfection goal from our brains, and focus on the best model for the situation.
+    </p>
+    <p>
+      Which model is the best very much depends on the situation as well of the goals of the model.
+      What do we want to prioritize?
+      Would we rather have a more complicated mathematical formula that is difficult to wrap our brains around if it means better accuracy?
+      Or, would we sacrifice a bit of accuracy in favor of something that is easier to use and understand?
+      And, what does <q>use the model</q> mean? Are we using it to predict future values of the quantity we're modeling?
+      Then, we might give up a little bit of accuracy of the model for data that happened long ago if it fits the more recent data better.
+    </p>
+    <p>
+      Successful modeling is more about understanding the premise and the goals, than any mathematical fanciness.
+    </p>
+    <p>
+      In this chapter we'll focus on two types of models, linear and exponential; the differences between them; and how to to use each of them.
+    </p>
   </introduction>
 
   <!-- include sections -->

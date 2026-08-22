@@ -1,6 +1,6 @@
-openDate          = 03/01/2026 at 12:00am
-dueDate           = 09/01/2026 at 10:00pm
-answerDate        = 09/01/2026 at 10:00pm
+openDate          = 08/22/2026 at 12:00am
+dueDate           = 02/22/2027 at 10:00pm
+answerDate        = 02/22/2027 at 10:00pm
 paperHeaderFile   = Mathematics_in_Society/header/Mathematics_in_Society.pg
 screenHeaderFile  = Mathematics_in_Society/header/Mathematics_in_Society.pg
 description       = Mathematics in Society
@@ -68,4 +68,16 @@ problem_end
 problem_start
 source_file = Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg
 problem_id = 11
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_01_05_ProblemSolvingAndFormulas/15IntAlg_04_ProblemSolve.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/ASU-topics/setLogarithmicFunctions/srw4_5_5.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/ASU-topics/setStat/gust67.pg
+problem_id = 4
 problem_end

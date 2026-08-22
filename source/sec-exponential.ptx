@@ -4,8 +4,173 @@
   <title>Exponential Models</title>
 
   <p>
-    Just like the section on linear models, this will have many more examples and much more discussion in the near future.
-    For now, we'll handle the three basic types of questions within one example.
+    In this section, we'll explore the same types of questions and approaches to answering those questions as we did in the previous section, <xref ref="sec-linear"/>, but this time with exponential relationships.
+    The techniques and formulas are only good if we're applying them in the correct situation.
+    So, as a review of what we saw in <xref ref="sec-types"/>, a relationship is exponential if the <alert>RELATIVE</alert> change is the same between consecutive stages, and we call this relative change the <em>common rate</em> and denote it with <m>r</m>.
+    In the explicit formula, this common rate is part of the base of the exponential, but just like linear relationships, we need some information about where to start, not just how the quantity in question changes.
+    We use the same notation for our generic formula as we did with linear, <m>y_0</m> is the starting or initial value, but you're encouraged to use a notation that works well for you and makes sense with the scenario.
+  </p>
+
+  <p>
+    As with linear relationships, determining the formula is the most straight forward when these two needed pieces of information are given to us directly.
+  </p>
+
+  <example xml:id="ex-basic-exp">
+    <statement>
+      <p>
+        We'll again consider Pete and his move into his house in July 2016.
+        When he moved in, there were three bunny rabbits living under the big tree.
+        He's noticed that that number of bunny rabbits appears to be doubling each year.
+        Determine a model for the bunny rabbit population.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        As always in a modeling problem, we start by defining our variables.
+        It is common to use <m>P</m> for a population variable and <m>t</m> for a time variable, so we'll do that.
+        Define <m>P</m> to be the number of rabbits living under the tree and <m>t</m> to be the number of years since July 2016.
+        The initial value of the population, when <m>t = 0</m> is three rabbits, so <m>P_0 = 3</m>.
+      </p>
+      <p>
+        The common rate sounds simple here, but dealing with percentages always has the potential to be tricky.
+        If a quantity doubles, it is increasing by 100%. So, the common rate, <m>r</m> is 100% and as a decimal that is <m>r = 1</m>.
+        In our general formula, the base of the exponential is <m>1 + r</m>, the <em>common multiplier</em>, and that here is equal to 2 <ellipsis></ellipsis> and that probably feels more correct than thinking about the rate being 100%.
+      </p>
+      <p>
+        Putting all that together gives a final formula of <md>
+          P = P_0(1 + r)^t = 3(1 + 1)^t = 3(2)^t.
+        </md>  
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    Again, we have found in <xref ref="ex-basic-exp"/> the explicit formula, but can also write down the recursive formula:
+    <md>
+      <mrow> P_0 \amp = 3</mrow>
+      <mrow> P_n \amp = (1 + r)P_{n-1} = 2P_{n-1}.</mrow>
+    </md>
+    This form can make the idea of <em>doubling</em> at each stage more clear than in the explicit formula.
+    But as before, the explicit form is often more practical when using the model formula to answer further questions about the scenario.
+  </p>
+
+  <example xml:id="ex-basic-exp-input-output">
+    <statement>
+      <p>
+        For the same scenario as <xref ref="ex-basic-exp"/>, 
+        <ol>
+          <li>
+            <p>
+              How many bunny rabbits will be under Pete's tree at the start of 2027? (Assume bunnieslive forever!)
+            </p>
+          </li>
+          <li>
+            <p>
+              When will there be 42 bunnies?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We'll follow the steps of <xref ref="heuristic-input-output-steps"/> to answer these two questions.
+      </p>
+      <p>
+        For (a), we've already done Step 1 in <xref ref="ex-basic-linear-input-output"/>, <m>t = 10.5</m>.
+        We substitute that value into the explicit formula from <xref ref="ex-basic-exp"/> and then evaluate:
+        <md>
+          <mrow>P \amp = 3(2)^t</mrow>
+          <mrow> \amp = 3(2)^{10.5}</mrow>
+          <mrow> \amp \approx 3(1448.155)</mrow>
+          <mrow> \amp \approx 4344.464</mrow>
+        </md>
+        Notice that we first evaluated the exponential (using a calculator) <alert>BEFORE</alert> multiplying by 3.
+        We've also indicated where we've rounded our result by using a <m>\approx</m> rather than an equal sign.
+        For the final step in the procedure, we translate this back into the meaning in the scenario.
+        Since we shouldn't have partial bunnies, we'll say that at the start of 2027, the model predicts there will be 4,344 bunny rabbits under Pete's tree.
+      </p>
+      <p>
+        <alert>PLEASE NOTICE</alert> that this scenario is completely bananas; bunnies do not live forever.
+        We'll see later that exponential models tend to lose their accuracy over time as well.
+      </p>
+      <p>
+        The procedure works just as well for part (b), but Step 3 involves using logarithms.
+        If you need a review, visit <xref ref="sec-logs"/> now.
+      </p>
+      <p>
+        The first two steps of the procedure give the following equation with the single unknown variable, <m>t</m>:
+        <md>
+          42 = 3(2)^t.
+        </md>
+        We follow the process of <xref ref="heuristic-solve-exp-eq"/> to solve the exponential equation; one where the unknown quantity is in the exponent.
+      </p>
+      <p>
+        <ol>
+          <li>
+            <p>
+              We isolate the exponential by dividing both sides of the equation by 3:
+              <md>
+                <mrow> \frac{42}{3} \amp = \frac{3(2)^t}{3}</mrow>
+                <mrow> 14 \amp = 2^t</mrow>
+              </md>
+            </p>
+          </li>
+          <li>
+            <p>
+              We make sure when we apply the logarithm it is to <alert>EVERYTHING</alert> on <alert>BOTH</alert> sides of the equation:
+              <md>
+                <mrow> \log(14) \amp = \log\left(2^t\right)</mrow>
+              </md>
+            </p>
+          </li>
+          <li>
+            <p>
+              We apply the exponent property of logs:
+              <md>
+                \log(14) = t \log(2)
+              </md>
+              
+            </p>
+          </li>
+          <li>
+            <p>
+              We solve for the variable by dividing both sides by <m>\log(2)</m>:
+              <md>
+                <mrow>\frac{log(14)}{\log(2)} \amp = \frac{t\log(2)}{\log(2)}</mrow>
+                <mrow>\frac{log(14)}{\log(2)} \amp = t</mrow>
+              </md>
+            </p>
+          </li>
+        </ol>
+        We use a calculator to do the final computation:
+        <md>
+          t = \frac{\log(14)}{\log(2)} \approx 3.8.
+        </md>
+      </p>
+      <p>
+        Lastly, we determine what this value means in our scenario.
+        Since we've found a non-whole number answer, we can choose how exact we want to get.
+        The answer of 3.8 is between 3 and 4, so sometime between July 2019 and July 2020 the <m>42^{\text{nd}}</m> bunny was born.
+        We could convert .8 years into a number of months using the skills from <xref ref="sec-proportions"/>:
+        <md>
+          0.8\text{yr} \cdot \frac{12\text{mo}}{1\text{yr}} = 9.6\text{mo}.
+        </md>
+        About 9 and a half months after July 1, 2019 is around mid-April in the year 2020. 
+        We could go further and convert 0.8 years into days to determine the exact date, but population models are rarely that accurate to begin with; especially when we're pretending bunnies live forever.
+      </p>
+    </solution>
+  </example>
+
+  <exercise xml:id="check-exp-basics">
+    <webwork source="Library/ASU-topics/setLogarithmicFunctions/srw4_5_5.pg" />
+  </exercise>
+
+  <p>
+    We won't always be given an initial value and consistant growth rate to simply put in the proper place in our formula.
+    The next problem is an example of that. We still work with the same format for an exponential relationship.
+    If we're careful with what each piece represents and the methods used to solve for variables in different places, we'll be just fine.
+    Hopefully we can see that this is most definitely a longer process, but not really any different from the more straightforward examples we've seen.
   </p>
 
   <example>
@@ -27,7 +192,7 @@
         Thus, <m>t</m> will represent the number of months since the site went public.
       </p>
       <p>
-        There are two things we need to figure out inorder to write an exponential formula to model any situation: an initial value and a consistent percentage change.
+        There are two things we need to figure out in order to write an exponential formula to model any situation: an initial value and a consistent percentage change.
         The initial value is the value of the output variable (in this case <m>U</m>) when the input variable (<m>t</m> here) is 0.
         When <m>t = 0</m>, we're talking about February when the site went public; there were 45,000 users, so <m>U_0=45</m>.
         (The subscript of 0 is how we indicate that this is the initial value and we're using 45 rather than 45,000 since we've made the units for the <m>U</m> variable thousands of people.)
@@ -36,11 +201,12 @@
         The rate is a little trickier in this example. It is not given to us directly in words and the two data points we have are separated by a time interval of 8 months.
         In October (of the same year the site went public), <m>t=8</m>, and the site has 60,000 users so <m>U = 60</m>.
         We can substitute these values into the general format of the formula:
-        <me>
+        <md>
           60 = 45(1 + r)^8.
-        </me>
+        </md>
         Now, we have an equation with only one unknown variable, so we can solve for <m>r</m>. Check out <xref ref="sec-roots"/> for a refresher if you need.
       </p>
+      <p>
       <md>
         <mrow>60 \amp = 45(1+r)^8</mrow>
         <mrow>\frac{60}{45} \amp = \frac{45(1+r)^8}{45}</mrow>
@@ -50,34 +216,38 @@
         <mrow>0.037 \amp = r</mrow>
         <mrow>3.7\% \amp = r</mrow>
       </md>
+    </p>
       <p>
-        This means that the number of users is growing at a rate of 3.7% each month, and the final explicit formula is: <me>
+        This means that the number of users is growing at a rate of 3.7% each month, and the final explicit formula is: <md>
           U = 45(1.037)^t.
-        </me>
+        </md>
       </p>
       <p>
-        We'll first answer the question of how many users the site has two years after going public.
+        We follow <xref ref="heuristic-input-output-steps"/> for both questions.
+        First we consider how many users the site has two years after going public.
         Since our input variable, <m>t</m>, is measured in months, we need to consider how many months two years later is.
-        There are 12 months in a year, so two years after going public, <m>t = 24</m>.
-        Now, we can substitute and evaluate:
+        There are 12 months in a year, so two years after going public, <m>t = 24</m>. (That's Step 1.)
+        Now, we can substitute and evaluate (Steps 2 and 3):
         <md>
           <mrow>U \amp = 45(1.037)^t</mrow>
           <mrow> \amp = 45(1.037)^{24}</mrow>
           <mrow> \amp = 45(2.392)</mrow>
           <mrow> \amp = 107.622</mrow>
         </md>
+        In Step 4, we translate our numeric answer back into words that connect to the scenario.
         Since the units for <m>U</m> are thousands of people, this means after two years of being public the cite has 107,622 users.
       </p>
       <p>
-        Answering how long it will take to reach one million users is a tougher question.
+        Answering how long it will take to reach one million users requires more work in Step 3, so it is trickier but the procedure is the same.
         We still convert the info given into values for our variables, if there are one million users then <m>U = 1000</m>, and substitute that value into our formula:
-        <me>
+        <md>
           1000 = 45(1.037)^t.
-        </me>
-        But, notice that this time, the unknown variable is not by itself on one side, so we need to sovle this equation for <m>t</m>.
+        </md>
+        But, notice that this time, the unknown variable is not by itself on one side, so we need to solve this equation for <m>t</m>.
         Since the unknown is in the exponent, we'll need logarithms to solve this equation. See <xref ref="sec-logs"/> for a refresher.
       </p>
-      <md>
+      <p>
+        <md>
         <mrow>1000 \amp = 45(1.037)^t</mrow>
         <mrow>\frac{1000}{45} \amp = \frac{45(1.037)^t}{45}</mrow>
         <mrow>\frac{200}{9} \amp = 1.037^t</mrow>
@@ -85,7 +255,8 @@
         <mrow>\log\left(\frac{200}{9}\right) \amp = t\log\left(1.037\right)</mrow>
         <mrow>\frac{\log\left(\frac{200}{9}\right)}{\log(1.037)} \amp = t</mrow>
         <mrow> 85.35 \amp \approx t</mrow>
-      </md>
+        </md>
+      </p>
       <p>
         Since <m>t</m> is measured in months, this means that sometime during the 85th month after going public, the number of users will cross the one million mark.
         We can get a better idea of what this means with some unit conversion.

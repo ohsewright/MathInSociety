@@ -18,9 +18,9 @@
     <xi:include href="./ch-models.ptx" />
     <xi:include href="./ch-stats.ptx" />
     <xi:include href="./ch-geometry.ptx" />
+    <xi:include href="./ch-probability.ptx" />
     <xi:include href="./ch-financial.ptx" />
     <xi:include href="./ch-logic.ptx" />
-  
 
 
     <!-- Include backmatter -->

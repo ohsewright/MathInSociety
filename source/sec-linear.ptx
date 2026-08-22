@@ -3,11 +3,240 @@
 <section xml:id="sec-linear" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Linear Models</title>
 
-  <p>When this section is complete there will be many more examples and discussion.
-    We'll tackle the basics with a single example for right now.
+  <p>
+    First, a recap of what we learned about linear relationships in the last section.
+    A linear relationship is one where the <alert>ABSOLUTE</alert> change is consistent between stages, and we call this consistent absolute change the <em>common difference</em>.
+    In a formula, the common difference is what ends up being the slope of the line. We used <m>d</m>, but you can use anything you want including the <m>m</m> we introduced in <xref ref="sec-lines"/>.
+    In order to generate formulas and answer questions about linear relationships, we need another piece of information, like a starting place; a value to sort of <q>anchor</q> our consistent relative change.
+    In the recursive relationship, we called this <m>P_0</m> in <xref ref="sec-types"/>, and in the explicit formula, we used the notation <m>y_0</m>.
+    This is the initial value or the <em>y-intercept</em>, so if you're more comfortable with using <m>b</m> as in <xref ref="def-y-intercept"/>, that's great.
   </p>
 
-  <example>
+  <p>
+    The simplest examples are those where these two quantities, the common difference and the starting value, are given and we only need to translate between the words to the mathematical symbols to build and use the model.
+    Scenarios 1 and 4 are exactly like this, but let's look at a new example.
+  </p>
+
+  <example xml:id="ex-basic-linear">
+   <statement>
+    <p>
+      When Pete moved into his house on July 1, 2016, the tree in the front yard was twelve feet tall.
+      It has grown eighteen inches taller each year.
+      Determine a model for the growth of the tree.
+    </p>
+   </statement> 
+   <hint> 
+    <p>
+      First define your variables; choose a time variable so that determining a starting point is straightforward.
+      What part of the description of the scenario tells you the common difference?
+      What part tells you an initial value?
+    </p>
+   </hint>
+   <solution>
+    <p>
+      We have two variables here, a time variable we'll call <m>t</m> and a height variable that we'll call <m>h</m>.
+      In order to make things easier, we'll say that <m>t</m> represents the number of years since July 1, 2016, when we have a known value for <m>h</m>.
+      So, on July 1, 2016, <m>t=0</m> and <m>h = 12</m>ft, which means our initial value is <m>h_0 = 12</m>, so long as we define <m>h</m> to be the height of the tree in feet.
+    </p>
+    <p>
+      The common difference is the other number given in the scenario; 18 inches each year.
+      This is just a bit trickier since the units do not already align with the units we've determined for our variables.
+      We need to know the common difference in feet (units for <m>h</m>) per year (units for <m>t</m>).
+      Check back to <xref ref="sec-proportions"/> if you need a refresher, but 18 inchesis equal to 1.5 feet.
+      So, the common difference, <m>d = 1.5</m>.
+    </p>
+    <p>
+      A final formula for the model is <md>
+        h = 12 + 1.5t.
+      </md>
+      We say <q><alert>A</alert> formula</q> rather than <q><alert>THE</alert> formula</q> on purpose.
+      Defining the variables differently would yield a different, but equally correct, formula.
+    </p>
+  </solution>
+  
+  </example>
+
+  <p>
+    In <xref ref="ex-basic-linear"/>, we determined an explicit formula for the height of the tree.
+    We can also write down the recursive formula:
+    <md>
+      <mrow>h_0 \amp = 12</mrow>
+      <mrow>h_t \amp = h_{t-1} +1.5.</mrow>
+    </md>
+    But, the explicit formula is more useful for questions like
+    <ol>
+      <li>
+        <p>
+          How tall will the tree be at the start of 2027?
+        </p>
+      </li>
+      <li>
+        <p>
+          When will the tree be 42 feet tall?
+        </p>
+      </li>
+    </ol>
+  </p>
+  <p>
+    The modeling formulas we'll work with have two variables. Given a value for one of them, we can determine the corresponding value of the other.
+    In the first question above, the input variable, <m>t</m> is given, and we're asked to find the output variable, <m>h</m>.
+    For the second question, these roles are reversed.
+  </p>
+
+  <example xml:id="ex-basic-linear-input-output">
+    <statement>
+      <p>
+        For the same scenario as <xref ref="ex-basic-linear"/>, 
+        <ol marker="(a)">
+          <li>
+            <p>
+              How tall will the tree be at the start of 2027?
+            </p>
+          </li>
+          <li>
+            <p>
+              When will the tree be 42 feet tall?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        For (a), we are given (indirectly) a value for the input variable <m>t</m>, <q>the start of 2027.</q>
+        We need to translate these words into a numerical value for <m>t</m>.
+        How many years is January 2027 from July 2016? When <m>t = 10</m>, it is July 1, 2026, which we get by adding 10 to 2016.
+        The start of 2027 is six months later, so we need to add a half of a year onto our value of <m>t</m>.
+      </p>
+      <p>
+        We substitute the value <m>t = 10.5</m> into our model formula:
+        <md>
+          <mrow> h \amp = 12 + 1.5t</mrow>
+          <mrow> \amp = 12 + (1.5)(10.5)</mrow>
+          <mrow> \amp = 12 + 15.75</mrow>
+          <mrow> \amp = 27.75</mrow>
+        </md>
+        So, in January 2027, the model predicts that the tree will be 27.75 feet tall.
+      </p>
+      <p>
+        For part (b), we are given a value, 42, for the output variable <m>h</m>, and need to findthe corresponding value of <m>t</m>.
+        Less thinking is required to translate the words into quantities, but algebra will be required to solve the equation.
+        The value <m>h = 42</m> is substituted into the formula and we use algebra to isolate the variable <m>t</m>:
+        <md>
+          <mrow> h \amp = 12 + 1.5t</mrow>
+          <mrow> 42 \amp = 12 + 1.5t</mrow>
+          <mrow> 42 - 12 \amp =12 + 1.5t - 12</mrow>
+          <mrow> 30 \amp = 1.5t</mrow>
+          <mrow> \frac{30}{1.5} \amp = \frac{1.5t}{1.5}</mrow>
+          <mrow> 20 \amp = t </mrow>
+        </md>
+      </p>
+      <p>
+        Finding <m>t = 20</m> means 20 years after July 1, 2016.
+        So, in July 2036, the tree will reach a height of 42 feet.
+      </p>
+    </solution>
+  </example>
+
+  <heuristic xml:id="heuristic-input-output-steps">
+    <title>Solving Input or Output Problems</title>
+    <statement>
+      <p>
+        Once you havea formula for the model, the process for answering a question about that model are always pretty much the same.
+        <ol>
+          <li>
+            <p>
+              Translate the words into a quantity for the appropriate variable using the definition of the variable.
+            </p>
+          </li>
+          <li>
+            <p>
+              Substitute this value into the model formula.
+            </p>
+          </li>
+          <li>
+            <p>
+              Determine the corresponding value of the other unknown variable.
+            </p>
+          </li>
+          <li>
+            <p>
+              Translate that quantity back into a meanigful answer using the definition of the variable; don't forget to include the units!
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </heuristic>
+
+  <p>
+    The amount of work involved in each of the steps above will vary across problems.
+    The one that is always simple is step 2: just replace the letter in the formula with the number!
+  </p>
+
+  <exercise xml:id="check-linear-basics">
+    <webwork source="Library/CollegeOfIdaho/setAlgebra_01_05_ProblemSolvingAndFormulas/15IntAlg_04_ProblemSolve.pg" />
+  </exercise>
+
+  <p>
+    Sometimes, we'll not be given the needed information quite so readily. 
+    One common way this could arise is to be given the common difference directly, but rather than given a starting value we would know a value at a different time.
+  </p>
+  
+  <example xml:id="ex-determine-intercept">
+    <statement>
+      <p>
+        Maggie wanted to drink her strawberry milkshake as quickly as possible; she's amazingly immune to the dreaded brain freeze!
+        She can drink a milkshake at a rate of 3.5 milliliters each second.
+        After drinking for 12 seconds, 178 milliliters remain in the cup.
+        Determine a formula to model the amount of milkshake in the cup with respect to time.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        First, we define our variables. We have a time variable we'll call <m>t</m> that will represent the number of seconds that Maggie has been drinking her milkshake.
+        The other variable represents the amount of milkshake. This is a volume, so we'll use <m>V</m> to represent the number of milliliters of milkshake in the cup.
+      </p>
+      <p>
+        The common difference (slope or rate of change) is given directly, <m>d = -3.5</m> milliliters per second.
+        (Notice how the units of the common difference corespond to the units of the variables themselves.)
+        This gives us a portion of our desired formula:
+        <md>
+          V = V_0 - 3.5t
+        </md>
+        It is easier to see why the value for the common difference in negative once it is in the formula; those 3.5 milliliters are being <alert>removed</alert> from the cup and going into Maggie's belly!
+      </p>
+      <p>  
+        If we were told how large the milkshake was to begin with, this would be initial value, <m>V_0</m>, but we are given a different value for <m>V</m>.
+        We can determine <m>V_0</m> following a similar procidure to the input or output problems.
+      </p>
+      <p>
+        We do know that after 12 seconds (so when <m>t= 12</m>) the amount of milkshake remaining, <m>V</m>, is 178 milliliters.
+        We substitute these values into our formula leasvingonly <m>V_0</m> as the unknown that we can solve for:
+        <md>
+          <mrow> V \amp = V_0 - 3.5t</mrow>
+          <mrow> 178 \amp = V_0 - (3.5)(12)</mrow>
+          <mrow> 178 \amp = V_0 - 42</mrow>
+          <mrow> 178 + 42 \amp = V_0 - 42 + 42</mrow>
+          <mrow> 220 \amp V_0</mrow>
+        </md>
+      </p>
+      <p>
+        Maggie started out with 220 milliliters of milkshakein her cup, and so the final formula is <md>
+          V = 220 - 3.5t.
+        </md>
+        
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    The examples so far have been perfectly linear; the difference in the quantity of interest at each stage is <alert>exactly</alert> the same.
+    This is unlikely to happen so perfectly in the real world.
+    The next example demonstrates that as well as shows us how to determine (or estimate) the common difference when it isn't explicitely stated.
+  </p>
+
+  <example xml:id="ex-linear-gasoline">
     <statement>
       <p>
         Gasoline consumption data for the US from 1992 to 2004 is shown below.
@@ -103,9 +332,9 @@
     </p>
     <p>
       This may look more familiar if we put the computations into the standard formula for computing slope.
-      <me>
+      <md>
         \text{slope} = \frac{\text{change in output}}{\text{change in input}} = \frac{136 - 110}{2004-1992} = \frac{26}{12} = 2.167
-      </me>
+      </md>
     </p>
     <p>
       The starting point for our data set is the year 1992 when consumption was 110 billion gallons.
@@ -129,9 +358,9 @@
       We might be bothered by the fact that it appears the line passes through three points exactly, but is above the others.
       Perhaps we'd like it to be closer to the middle, with a similar number of data points above and below.
       We can try using two differnt data points to estimate the average common difference, say 1993 and 2003:
-      <me>
+      <md>
         d = \frac{133 - 111}{2003 - 1993} = \frac{22}{10} = 2.2
-      </me>
+      </md>
       Changing the initial value to 111 billion gallons in 1993 and adjust <m>t</m> to represent years since 1993, gives <m>C = 111 + 2.2t</m> as another formula to describe the situation.
       That graph looks like:
     </p>
@@ -176,9 +405,12 @@
   </example>
   <p>
     It is worth noting that models like this are not always accurate far into the future.
-    This one in particular was not built from data that included the year 2020, when personal travel, driving, and commuting were significantly lower due to the COVID-19 pandemic.
+    This one in particular in <xref ref="ex-linear-gasoline"/> was not built from data that included the year 2020, when personal travel, driving, and commuting were significantly lower due to the COVID-19 pandemic.
     In addition to abrupt changes in amount of driving, this model also would not account for a sudden increase in the average gas millage of vehicles nor an increase in hybrid or electric vehicle production.
-    Models aren't perfect, especially when we limit ourselves to a specific very simple type of growth.
+  </p>
+  <p>  
+    Models aren't perfect, especially when we limit ourselves to a specific very simple type of growth or decline.
+    In the next section we'll explore exponential relationships. The overarching concepts and processes are the same as working with linear models.
     Researchers in all sorts of disciplines devote a lot of time to developing advanced techniques to more accurately model the quantities they study.
   </p>
 

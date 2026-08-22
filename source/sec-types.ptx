@@ -3,13 +3,222 @@
 <section xml:id="sec-types" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Two Types of Relationships</title>
 
-  <p> 
-    This section will eventually contain the activities we did in class on Febraury 19th and 20th as well as narrative based on those activities.
-    The purpose of those activities is to discover the two different types of formulas, recursive and explicit, and the two main types of relationships between quantities that we want to explore, linear and exponential. 
+  <p>
+    In this section, we'll explore four different sceanorios.
+    Through our work with these scenarios, we'll discover two different types of formulas, recursive and explicit, and the two main types of relationships between quantities that we want to explore, linear and exponential. 
+    <dl>
+      <li>
+        <title>Scenario 1:</title>
+        <p>
+          You wish to grow $1,000 of your savings.
+          You choose an option based on simple interest, which means the money you make will be a fixed amount each time period based on a percentage of the initial investment.
+          A payout of 40% of the initial investment per quarter, or $400 every 3 months.
+        </p>
+      </li>
+      <li>
+        <title>Scenario 2:</title>
+        <p>
+          Consider the same $1,000 investment, but this time you choose an option based on compound interest, which means the money made changes each time period based on the total accrued value of the initial investment.
+          Your investment will increase 10% per quarter (10% growth every 3 months).
+        </p>
+      </li>
+      <li>
+        <title>Scenario 3:</title>
+        <p>
+          You take an 800mg dose of ibuprofen.
+          Your body (kidneys and liver) metabolizes the drug reducing the amount in your bloodstream by half every two hours.
+        </p>
+      </li>
+      <li>
+        <title>Scenario 4:</title>
+        <p>
+          A certain scarf pattern calls for a 400 yard ball of yarn. Each row that is knitted uses 9 inches or ¼ of a yard of yarn.
+        </p>
+      </li>
+    </dl>
+  </p>
+  
+  <p>
+    The following activity uses all four scenarios.
+    This activity is best done in groups where the full group determines the general process for each task, and then the computations are split up to individuals, rotating through different scenarios for new tasks.
+    Whether working in a group or individually, the hints in this activity will describe a general process or have particular answers you can check.
   </p>
 
+  <activity xml:id="activity-four-scenarios">
+    <title>Exploring the Four Scenarios</title>
+    
+        <introduction>
+            <p>
+              Make a chart for each scenario with four columns and at least ten rows.
+              Label the columns with 
+              <dl>
+                <li>
+                  <title><m>n</m></title>
+                  <p>
+                    number of stages (quarters after initial investment, two-hour time increments since intitial dose, or number of rows knit);
+                  </p>
+                </li>
+              </dl>
+              <dl>
+                <li>
+                  <title><m>P_n</m></title>
+                  <p>
+                    the quantity (amount of money in the account, amount of drug present, amount of yarn remaining) at the <m>n^\text{th}</m> stage;
+                  </p>
+                </li>
+              </dl>
+              <dl>
+                <li>
+                  <title>Absolute Change</title>
+                  <p>
+                    will be the absolute change between the row and the previous row; and
+                  </p>
+                </li>
+              </dl>
+              <dl>
+                <li>
+                  <title>Relative Change</title>
+                  <p>
+                    will be the relative (percentage) change between the current row and previous row.
+                  </p>
+                </li>
+              </dl>
+            Fill in the first column with values of <m>n</m> starting with <m>n=0</m>.
+            In the <m>n=0</m> row and the <m>P_n</m> column, enter the initial amount of the quantity.
+            The chart for the first and second scenarios should look something like:
+            </p>
+            <image source="images/scenario_chart_ex.png" width="65%">
+              <shortdescription>example chart</shortdescription>
+              <description><p>
+                  A chart the matches the descriptions above.
+                  </p>
+              </description>
+          </image>
+
+        </introduction>
+
+        <task>
+          <title>Initial Stage</title>
+          <statement>
+            <p>
+              Determine the value of the quantity in question in each scenario after a single <q>stage</q>: 
+              the $1,000 investment after one quarter with each option, 
+              the amount of the drug in the body after two hours,
+              and the amount of yarn remaining in the ball after knitting one row.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              The amount of yarn left after knitting one row is 399.75 yards.
+            </p>
+          </hint>
+        </task>
+
+        <task>
+          <title>Future Stages</title>
+          <statement>
+            <p>
+              Once you're comfortable with how to get from one stage to the next, complete the second column (the one labeled <m>P_n</m>) for each scenario.
+              As long as you understand the process for each scenario, this is a good place to divide up the busy work if you're working with others.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              After one year (four quarters, so <m>n = 4</m>), the amount of money in the account in Scenario 2 with compound interest is $1,464.10.
+            </p>
+          </hint>
+        </task>
+
+        <task>
+          <title>Absolute Change</title>
+          <statement>
+            <p>
+              Recall how to compute absolute change and compute the absolute change between stage <m>n = 0</m> and <m>n = 1</m> for each scenario.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Use <xref ref="def-absoluterelativechange"/>.
+              The absolute change in the amount of money in the account in Scenario 1, with simple interest, is an increase of $400.
+            </p>
+          </hint>
+        </task>
+
+        <task>
+          <title>More Absolute Change</title>
+          <statement>
+            <p>
+              Complete the third column in the chart for each scenario by computing the absolute change between the previous stage and the stage in that row.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Remember to <alert>only go back one stage</alert> for each computation; NOT all the way back to the initial/starting value.
+              The absolute change from the <m>n = 4</m> stage (4 rows in) to the <m>n = 5</m> stage (5 rows knitted) in the amount of yand remaining is a decrease of 0.25 yards.
+            </p>
+          </hint>
+        </task>
+        <task>
+          <title>Relative Change</title>
+          <statement>
+            <p>
+              Recall how to compute relative change and compute the relative change between stage <m>n = 0</m> and <m>n = 1</m> for each scenario.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Use <xref ref="def-absoluterelativechange"/>.
+              The relative change in the amount of ibuprofen in the body is a decrease of 50%.
+            </p>
+          </hint>
+        </task>
+
+        <task>
+          <title>More Relative Change</title>
+          <statement>
+            <p>
+              Complete the fourth column in the chart for each scenario by computing the relative change between the previous stage and the stage in that row.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Remember to <alert>only go back one stage</alert> for each computation; NOT all the way back to the initial/starting value.
+              The relative change from the <m>n = 3</m> stage (3 quarters or 9 months since the initial investment) to the <m>n = 4</m> stage (one year later) in the amount of money in the compound interest account is an increase of 10%.
+            </p>
+          </hint>
+        </task>
+
+        <task>
+          <title>Noticing Similarities</title>
+          <statement>
+            <p>
+              What do you notice about...
+              <ol marker="(i)">
+                <li>
+                  <p>
+                    The second column (<m>P_n</m>) in Scenarios 1 and 2 vs Scenarios 3 and 4?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The third column (Absolute Change) in Scenarios 1 and 4 vs Scenarios 2 and 3?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The fourth column (Relative Change) in Scenarios 1 and 4 vs Scenarios 2 and 3?
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </statement>
+        </task>
+
+  </activity>  
+
   <p>
-    The conclusions are summarized below:
+    We'll use the data you generated and the patterns you noticed to discuss the two types of formulas we'll use (recursive and explicit) and the two main types of relationships we'll study (linear and exponential).
+    We'll dive more deeply into many examples in the next two sections, so while the information should make sense and align with your work in the activity, don't worry if you don't feel like a master of this material <ellipsis></ellipsis> yet.
   </p>
 
   <definition xml:id="def-recursive">
@@ -24,6 +233,10 @@
   <p>
     For example, the instructions for getting from the value of the investment in the simple interest scenario are <q>add $400 to the previous value.</q>
     As a formula, this can look like <m>P_n = P_{n-1} + 400</m>.
+    This <m>n</m> (or other small font symbol down low) is called a subscript, and we say <m>P_n</m> as <q>P sub n,</q> and it means the value of the variable <m>P</m> (in this case the amount of money in the account) at the <m>n^{\text{th}}</m> stage (in this case <m>n</m> quarters after the initial investment).
+  </p>
+
+  <p>
     If we want to know the value after 2 quarters, we'd be looking for <m>P_2</m>.
     We can follow the formula:
     <md>
@@ -35,11 +248,30 @@
       <mrow> \amp = 1800</mrow>
     </md>
   </p>
+
+  <exercise xml:id="check-recirsive-linear">
+    <title>Yarn!</title>
+    <statement>
+      <p>
+        Determine the recursive formula for the amount of yarn left after knitting <m>n</m> rows in Scenario 4.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        A good first step is to use the thinking from the activity, and aim to put the instructions into words.
+        <q>Each row uses 1/4 yard of yarn, so to get the amount of yarn left subtract 1/4 from the amount remaining after knitting the previous row.</q>
+      </p>
+      <p>
+        Putting this into a formula looks like <m>P_n = P_{n-1} - 1/4</m>.
+      </p>
+    </solution>
+  </exercise>
+
   <p>
     While the notation might get confusing, the thinking behind recursive formulas is usually pretty intuitive for folks.
     These types of formulas are exactly what we use in spreadsheets as well.
     They work great when one has some access to helpful technology that can do <alert>many</alert> computations <alert>very</alert> quickly.
-    In the simple interest example, if we wanted to know the value of the investment 50 years in the future, we'd need to compute <m>P_200</m>,
+    In the simple interest example, if we wanted to know the value of the investment 50 years in the future, we'd need to compute <m>P_{200}</m>,
     and that would take a very long time by hand! That's where explicit formulas come in handy.
   </p>
 
@@ -47,16 +279,19 @@
     <title>Explicit Formula</title>
     <statement>
       <p>
-        An <term>explicit formula</term> does not depend on prvious values; it gives mathematical instructions for finding any value.
+        An <term>explicit formula</term> does not depend on previous values; it gives mathematical instructions for finding any value.
       </p>
     </statement>
   </definition>
 
   <p>
     To get an explicit formula for the simple interest example, we can recall that the repeated addition of $400 can be simplified into multiplication:
-    <me>
+    <md>
       P = 1000 + 400n.
-    </me>
+    </md>
+    Phrased another way, <q>Adding 400 <m>n</m> times is the same as 400 times <m>n</m>.</q>
+  </p>
+  <p>  
     Now, if we want to compute the value, <m>P</m>, of the investment after 50 years, we need only determine the value of <m>n</m> that is equivalent to 50 years.
     Since there are four quarters in a year, the <m>n</m> we want is <m>n=4 \times 50 = 200</m>. The explicit formula then tells us
     <md>
@@ -66,11 +301,39 @@
     </md>
     After 50 years the investment will have grown to $81,000!
   </p>
+  <p>
+    We've dropped the use of the subscript here. You don't have to do that.
+    Often, in explicit formulas you'll see that input variable (<m>n</m> for us) in parentheses, <m>P(n)</m>, rather than a subscript.
+    This is known as <em>function notation</em> and <m>P(n)</m> is read as <q><m>P</m> <alert>of</alert> <m>n</m>.</q>
+  </p>
+
+  <exercise xml:id="check-explicit-linear">
+    <title>Explicit Yarn</title>
+    <statement>
+      <p>
+        Determine an explicit formula for the amount of yarn left after knitting <m>n</m> rows in Scenario 4.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Consider what is being repeated at each stage; we're subtracting off 1/4.
+        We could repeatedly subtract off 1/4 <m>n</m> times, or we could first multiply 1/4 by <m>n</m> and then subtract.
+        Multiplying 1/4 by <m>n</m> is written as <m>\frac{1}{4}n</m>, and we want to subtract that off from our starting amount of 400 yards.
+        That looks like <m>P = 400 - \frac{1}{4}n</m> when it is all put together.
+      </p>
+      <p>
+        Note that you can choose any variables or notation you like.
+        Using <m>r</m> for the number of rows and <m>L</m> for the length of yarn left makes sense.
+        Then the formula would look like <m>L_r = 400 - \frac{1}{4}r</m> using subscript notation, or <m>L(r) = 400 \frac{1}{4}r</m> in function notation, or just <m>L = 400 -\frac{1}{4}r</m>.
+      </p>
+    </solution>
+  </exercise>
 
   <p>
     We saw two different types of relationships in these four scenarios.
     The simple interest and knitting yarn examples are both <term>linear</term> relationships.
     The compound interest and ibuprofen examples are both <term>exponential</term> relationships. 
+    The distinction between the two should be what you noticed in the last part of the activity exercise.
   </p>
 
   <definition xml:id="def-linear">
@@ -103,7 +366,7 @@
     In the compound interest example, the percent change is 10% each quarter, so <m>r = 0.1</m>.
     In the ibuprofen example, the percent change is a decrease of <m>\frac{1}{2}</m> or 50% for each two-hour time interval, <m>r = -\frac{1}{2} = -0.5</m>.
     The value that appears in the formulas is not the growth/decay rate, but the <alert>multiplier</alert>, which is <m>1 + r</m> and is also consistent in exponential relationships.
-    The consistent multiplier appears as multiplication in the recursive formula and as the base of the exponential in teh explicit formula.
+    The consistent multiplier appears as multiplication in the recursive formula and as the base of the exponential in the explicit formula.
   </p>
 
   <note>
@@ -114,7 +377,7 @@
   </note>
 
   <p>
-    The general information about linear and exponential realtionships and the coresponding recursive and explicit formulas is summaraize here:
+    The general information about linear and exponential realtionships and the coresponding recursive and explicit formulas is summarized here:
   </p>
 
   <tabular>
@@ -125,8 +388,6 @@
       <cell>Linear Relationships</cell>
       <cell></cell>
       <cell>Exponential Relationships</cell>
-    </row>
-    <row>
     </row>
     <row>
       <cell>The <alert>ABSOLUTE</alert> change is consistent.</cell>
@@ -181,11 +442,13 @@
   </tabular>
 
   <p>
+    The last piece of the end of the activity asked you to notice the similarties between the first two scenarios and the second two.
+    The two financial accounts are growing over time where as the amount of drug and yarn remaining is decreasing.
     We organize the specific information for all four example scenarios below:
   </p>
 
   <tabular>
-    <col width="20%" header="yes" valign="middle"/>
+    <col width="20%" />
     <col width="40%" />
     <col width="40%" />
     <row header="yes" halign="center">
@@ -196,32 +459,56 @@
     <row>
       <cell><alert>GROWTH</alert></cell>
       <cell><p>
-        <line>Simple Interest</line>
-        <line><m>d = 400</m></line> 
-        <line><m>P_n = P_{n-1} + 400</m></line>
-        <line><m>y = 1000 + 400x</m></line> 
-      </p></cell>
+        Simple Interest</p>
+        <p>
+          <md>
+            <mrow>d \amp = 400</mrow>
+            <mrow>P_n \amp = P_{n-1} + 400</mrow>
+            <mrow>y \amp = 1000 + 400x</mrow>
+          </md>
+        </p>
+        </cell>
       <cell><p>
-        <line>Compound Interest</line>
-        <line><m>r = 0.1</m></line> 
-        <line><m>P_n = (1.1)P_{n-1}</m></line>
-        <line><m>y = 1000(1.1)^x</m></line> 
+        Compound Interest</p>
+        <p>
+          <md>
+            <mrow>r \amp = 0.1</mrow>
+            <mrow>P_n \amp = (1.1)P_{n-1}</mrow>
+            <mrow>y \amp = 1000(1.1)^x</mrow>
+          </md>  
+        </p>
+        </cell>
+    </row>
+    <row>
+      <cell></cell>
+      <cell><p>
+        
       </p></cell>
+      <cell></cell>
     </row>
     <row>
       <cell><alert>DECAY</alert></cell>
-      <cell><p>
-        <line>Knitting Yarn</line>
-        <line><m>d = -\frac{1}{4}</m></line> 
-        <line><m>P_n = P_{n-1} - \frac{1}{4}</m></line>
-        <line><m>y = 400 - \frac{1}{4}x</m></line> 
-      </p></cell>
-      <cell><p>
-        <line>Ibuprofen</line>
-        <line><m>r = -0.5</m></line> 
-        <line><m>P_n = (0.5)P_{n-1}</m></line>
-        <line><m>y = 800(0.5)^x</m></line> 
-      </p></cell>
+      <cell>
+        <p>
+          Knitting Yarn</p>
+          <p>
+            <md>
+              <mrow>d \amp = -1/4</mrow>
+              <mrow>P_n \amp = P_{n-1} - 1/4</mrow>
+              <mrow>y \amp = 400 - (1/4))x</mrow>
+            </md>  
+          </p></cell>
+      <cell>
+        <p>
+          Ibuprofen</p>
+          <p>
+            <md>
+              <mrow>r \amp = -0.5</mrow>
+              <mrow>P_n \amp = (0.5)P_{n-1}</mrow>
+              <mrow>y \amp = 800(0.5)^x</mrow>
+            </md>  
+          </p>
+        </cell>
     </row>
   </tabular>
 

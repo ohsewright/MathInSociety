@@ -1,0 +1,11 @@
+openDate          = 08/23/2026 at 12:00am
+dueDate           = 02/23/2027 at 10:00pm
+answerDate        = 02/23/2027 at 10:00pm
+paperHeaderFile   = Mathematics_in_Society/header/4_3-Exponential_Models.pg
+screenHeaderFile  = Mathematics_in_Society/header/4_3-Exponential_Models.pg
+description       = Exponential Models
+problemListV2
+problem_start
+source_file = Library/ASU-topics/setLogarithmicFunctions/srw4_5_5.pg
+problem_id = 3
+problem_end

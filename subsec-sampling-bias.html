@@ -156,7 +156,7 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction to Mathematics in Society</span></a></div>
@@ -224,14 +224,18 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-stats.html" class="internal"><span class="codenumber">5</span> <span class="title">Statistical Thinking</span></a></div>
-<ul class="structural toc-item-list contains-active"><li class="toc-item toc-section contains-active">
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-stat-intro.html" class="internal"><span class="codenumber">5.1</span> <span class="title">What is Statistics?</span></a></div>
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsec-stat-vocab.html" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Basic Vocabulary</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsec-var-types.html" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Variable Types</span></a></div></li>
 <li class="toc-item toc-subsection active"><div class="toc-title-box"><a href="subsec-sampling-bias.html" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Sampling Methods and Bias</span></a></div></li>
 </ul>
-</li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-categorical-data.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Categorical Data</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-numerical-data.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Numerical Data</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-geometry.html" class="internal"><span class="codenumber">6</span> <span class="title">Geometry</span></a></div>
@@ -266,7 +270,79 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="subsection" id="subsec-sampling-bias"><h2 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.1.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sampling Methods and Bias</span>
 </h2>
-<div class="para" id="subsec-sampling-bias-2"><div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="subsec-sampling-bias-2">The first thing we should do before conducting a survey is to identify the population that we want to study. Suppose we are hired by a politician to determine the amount of support she has among the electorate should she decide to run for another term. What population should we study?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-sampling-bias-3">Every person in the district? Not every person is eligible to vote, and regardless of how strongly someone likes or dislikes the candidate, they don’t have much to do with her being re-elected if they are not able to vote.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-sampling-bias-4">What about eligible voters in the district? That might be better, but if someone is eligible to vote but does not register by the deadline, they won’t have any say in the election either.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-sampling-bias-5">What about registered voters? Many people are registered but choose not to vote.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-sampling-bias-6">What about “likely voters?” This is the criteria used in much political polling, but it is sometimes difficult to define a “likely voter.” Is it someone who voted in the last election? In the last general election? In the last presidential election? Should we consider someone who just turned 18 a “likely voter?” They weren’t eligible to vote in the past, so how do we judge the likelihood that they will vote in the next election?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-sampling-bias-7">In November 1998, former professional wrestler Jesse “The Body” Ventura was elected governor of Minnesota. Up until right before the election, most polls showed that he had little chance of winning. There were several contributing factors to the polls not reflecting the actual intent of the electorate:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-sampling-bias-8">
+<ul class="disc" id="subsec-sampling-bias-8-1">
+<li id="subsec-sampling-bias-8-1-1">
+<div class="para" id="subsec-sampling-bias-8-1-1-1">Ventura was running on a third-party ticket and most polling methods are better suited to a two-candidate race.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-8-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-sampling-bias-8-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-sampling-bias-8-1-2">
+<div class="para" id="subsec-sampling-bias-8-1-2-1">Many respondents to polls may have been hesitant to tell pollsters that they were planning to vote for a professional wrestler.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-8-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-sampling-bias-8-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-sampling-bias-8-1-3">
+<div class="para" id="subsec-sampling-bias-8-1-3-1">The mere fact that the polls showed Ventura had little chance of winning might have prompted some people to vote for him in protest to send a message to the major-party candidates.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-8-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-sampling-bias-8-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-sampling-bias-9">But one of the major contributing factors was that Ventura recruited a substantial amount of support from young people, particularly college students, who had never voted before and who registered specifically to vote in the gubernatorial election. The polls did not deem these young people “likely voters” (since in most cases young people have a lower voter registration and turnout rate) and so the polling samples were subject to sampling bias; they omitted a portion of the electorate that was weighted in favor of the winning candidate.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def-sample-bias"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.1.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sampling Bias.</span>
+</h3>
+<div class="para" id="def-sample-bias-2-1">A sampling method is biased if every member of the population doesn’t have equal likelihood of being in the sample.<div class="autopermalink" data-description="Paragraph"><a href="#def-sample-bias-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 5.1.9: Sampling Bias"><a href="#def-sample-bias" title="Copy heading and permalink for Definition 5.1.9: Sampling Bias" aria-label="Copy heading and permalink for Definition 5.1.9: Sampling Bias">🔗</a></div></article><div class="para" id="subsec-sampling-bias-11">There are many ways to sample a population, but there is one goal we need to keep in mind: we would like the sample to be representative of the population. Returning to our hypothetical job as a political pollster, we would not anticipate very accurate results if we drew all of our samples from among the customers at a Starbucks, nor would we expect that a sample drawn entirely from the membership list of the local Elks Club would provide a useful picture of district-wide support for our candidate. One way to ensure that the sample has a reasonable chance of mirroring the population is to employ <em class="emphasis">randomness</em>. The most basic random method is simple random sampling.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def-simple-random-sample"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.1.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Simple Random Sample.</span>
+</h3>
+<div class="para" id="def-simple-random-sample-2-1">A <dfn class="terminology">simple random sample</dfn> is one in which each member of the population has an equal probability of being chosen.<div class="autopermalink" data-description="Paragraph"><a href="#def-simple-random-sample-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 5.1.10: Simple Random Sample"><a href="#def-simple-random-sample" title="Copy heading and permalink for Definition 5.1.10: Simple Random Sample" aria-label="Copy heading and permalink for Definition 5.1.10: Simple Random Sample">🔗</a></div></article><div class="para" id="subsec-sampling-bias-13">A simple random sample is exactly the same a rolling a die, drawing a raffle ticket out of hat, spinning a fair wheel, reading off the marker a rotating bingo drum spits out, etc. This is the most random way to select a sample from a population, and generally more randomness means less bias. But, physically this can be difficult to do with a large population; imagine the size ofthe hat you’d need to get a decent sized sample of likely US voters! In addition to making things more practical and providinga bit of structure, sometimes we may actually want to give up someof the randomness.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-sampling-bias-14">How one gets a sample from a population is called a <dfn class="terminology">sampling method</dfn>. As we go through these other methods, we’ll consider the population of Fitchburg State undergraduate students and we want to ask some questions about the General Education Program. For a simple random sample, we’d randomly choose the number of students we want in the sample from the whole population.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def-cluster-sample"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.1.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Cluster Sample.</span>
+</h3>
+<div class="para" id="def-cluster-sample-2-1">Divide the population into <dfn class="terminology">clusters</dfn> (groups) and then randomly select some of the clusters. All the members from these clusters are in the <dfn class="terminology">cluster sample</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#def-cluster-sample-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 5.1.11: Cluster Sample"><a href="#def-cluster-sample" title="Copy heading and permalink for Definition 5.1.11: Cluster Sample" aria-label="Copy heading and permalink for Definition 5.1.11: Cluster Sample">🔗</a></div></article><div class="para" id="subsec-sampling-bias-16">Clusters can be anything. In our example, making clusters something like academic departments could work. We’d number each department, then randomly choose some numbers, and every student in those departments would be part of the sample. In a cluster sample, entire groups are included and other entire groups are left out of the sample. We also may not know in advnace how many clusters we need to randomly select, since they can be different sizes. None of these are automatically negative features of a cluster sample, just important to keep in mind.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def-stratified-sample"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.1.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Stratified Sample.</span>
+</h3>
+<div class="para" id="def-stratified-sample-2-1">To choose a <dfn class="terminology">stratified sample</dfn>, divide the population into groups called strata and then take a sample from each stratum.<div class="autopermalink" data-description="Paragraph"><a href="#def-stratified-sample-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 5.1.12: Stratified Sample"><a href="#def-stratified-sample" title="Copy heading and permalink for Definition 5.1.12: Stratified Sample" aria-label="Copy heading and permalink for Definition 5.1.12: Stratified Sample">🔗</a></div></article><div class="para" id="subsec-sampling-bias-18">This time, we’ll choose our groups (strata) to be class year. We can choose the same number of students from each class, a proportional number from each class (so if 30% of the population are first-year students, then 30% of the sample will also be first-year students), or we can do something different. Choosing proportionally is probably the most traditional and most random, but this is a case where we may want a little bit of bias. If the survey addresses how the General Education Program supports a student’s learning within their major, we may want to have upper level students with more experience over-represented in our sample. If we’re more concerned with students’ perceptions of foundational courses, we might want to oversample from first-year students.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def-systematic-sample"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.1.13</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Systematic Sample.</span>
+</h3>
+<div class="para" id="def-systematic-sample-2-1">To choose a <dfn class="terminology">systematic sample</dfn>, randomly select a starting point and take every <span class="process-math">\(n^{\text{th}}\)</span> piece of data from a listing of the population.<div class="autopermalink" data-description="Paragraph"><a href="#def-systematic-sample-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 5.1.13: Systematic Sample"><a href="#def-systematic-sample" title="Copy heading and permalink for Definition 5.1.13: Systematic Sample" aria-label="Copy heading and permalink for Definition 5.1.13: Systematic Sample">🔗</a></div></article><div class="para" id="subsec-sampling-bias-20">For our Gen Ed survey, we might start with an alphabetical list of all undergraduate students and randomly flip to a page and point to a student on the list. Then, we go through the list in order counting up to five and starting over again, “1 - 2 - 3 - 4 - 5 - 1 - 2 - 3 - 4 - 5 - 1 - 2 - …”. Any student who gets a 4 is in the sample.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-sampling-bias-21">More on sampling and other sources of bias...<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sampling-bias-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="autopermalink" data-description="Subsection 5.1.3: Sampling Methods and Bias"><a href="#subsec-sampling-bias" title="Copy heading and permalink for Subsection 5.1.3: Sampling Methods and Bias" aria-label="Copy heading and permalink for Subsection 5.1.3: Sampling Methods and Bias">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="subsec-var-types.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>

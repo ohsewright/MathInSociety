@@ -1,0 +1,11 @@
+openDate          = 08/23/2026 at 12:00am
+dueDate           = 02/23/2027 at 10:00pm
+answerDate        = 02/23/2027 at 10:00pm
+paperHeaderFile   = Mathematics_in_Society/header/4_2-Linear_Models.pg
+screenHeaderFile  = Mathematics_in_Society/header/4_2-Linear_Models.pg
+description       = Linear Models
+problemListV2
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_01_05_ProblemSolvingAndFormulas/15IntAlg_04_ProblemSolve.pg
+problem_id = 4
+problem_end

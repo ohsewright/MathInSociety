@@ -1,0 +1,15 @@
+openDate          = 08/23/2026 at 12:00am
+dueDate           = 02/23/2027 at 10:00pm
+answerDate        = 02/23/2027 at 10:00pm
+paperHeaderFile   = Mathematics_in_Society/header/3_2-Proportions_and_Rates.pg
+screenHeaderFile  = Mathematics_in_Society/header/3_2-Proportions_and_Rates.pg
+description       = Proportions and Rates
+problemListV2
+problem_start
+source_file = Library/PCC/BasicMath/FractionsCalculation/EquivalentFraction20.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/NewHampshire/NECAP/grade6/gr6-2008/n6-2008-11rs.pg
+problem_id = 11
+problem_end

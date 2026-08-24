@@ -156,7 +156,7 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction to Mathematics in Society</span></a></div>
@@ -224,14 +224,18 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-stats.html" class="internal"><span class="codenumber">5</span> <span class="title">Statistical Thinking</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-stat-intro.html" class="internal"><span class="codenumber">5.1</span> <span class="title">What is Statistics?</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsec-stat-vocab.html" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Basic Vocabulary</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsec-var-types.html" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Variable Types</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsec-sampling-bias.html" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Sampling Methods and Bias</span></a></div></li>
 </ul>
-</li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-categorical-data.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Categorical Data</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-numerical-data.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Numerical Data</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-geometry.html" class="internal"><span class="codenumber">6</span> <span class="title">Geometry</span></a></div>
@@ -266,14 +270,14 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="subsection" id="subsec-images"><h2 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.4.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Image Imports</span>
 </h2>
-<div class="para" id="subsec-images-2">The last thing we’re going to practice in Desmos is importing our own images. Including an image as a background with the ability to plot equations and make measurements on the same grid, is a way we can study the underlying image. We’ll use this technique to evaluate maps of Congressional districts in <a href="ch-geometry.html" class="internal" title="Chapter 6: Geometry">Chapter 6</a>.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-images-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-images-2">The last thing we’re going to practice in Desmos is importing our own images. Including an image as a background with the ability to plot equations and make measurements on the same grid, is a way we can study the underlying image. We’ll use this technique to check our models of climate change factors in <a href="ch-models.html" class="internal" title="Chapter 4: Modeling">Chapter 4</a> and to evaluate maps of Congressional districts in <a href="ch-geometry.html" class="internal" title="Chapter 6: Geometry">Chapter 6</a>.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-images-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="subsec-images-3">To import an image into Desmos, use the drop-down menu shown to the left. Select “image” and browse your files to upload an image. For practice, let’s use an adorable puppy. Download the image linked <a class="external" href="https://drive.google.com/file/d/1ilsEoemwSlBksWOdcXaSAjoN1yt_4VAB/view?usp=drive_link" target="_blank"><code class="code-inline tex2jax_ignore">here</code></a>.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-images-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/DesmosImageImport.png" class="contained" alt="An adorable puppy imported onto the Desmos grid."></div>
-<div class="para" id="subsec-images-5">Once you upload the picture, you should see the following screen and data. This data includes the width and height of the picture (in Desmos, not the pixel height). Desmos will always center the image, keep the proportions, and scale the image to a width of 10 units. If you’re going to change the size, it is important to scale both the width and the height in the same manner.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-images-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-images-5">Once you upload the picture, you should see the above screen and data. This data includes the width and height of the picture (in Desmos, not the pixel height). Desmos will always center the image, keep the proportions, and scale the image to a width of 10 units. If you’re going to change the size, it is important to scale both the width and the height in the same manner.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-images-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="subsec-images-6">The original picture is 480 pixels by 480 pixels. See if you can find this info in the file from your machine. We’ll learn the tools needed to work with the pixel size, Desmos size, and real world representation in <a href="ch-prop-reasoning.html" class="internal" title="Chapter 3: Proportional Reasoning">Chapter 3</a>, and we’ll review before we need to apply those skills to the maps.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-images-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-images-6">The original picture is 480 pixels by 480 pixels. See if you can find this info in the file from your machine. We’ll learn the tools needed to work with the pixel size, Desmos size, and real world representation in <a href="ch-prop-reasoning.html" class="internal" title="Chapter 3: Proportional Reasoning">Chapter 3</a>, and we’ll review before we need to apply those skills to other graphs and maps.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-images-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Subsection 1.4.3: Image Imports"><a href="#subsec-images" title="Copy heading and permalink for Subsection 1.4.3: Image Imports" aria-label="Copy heading and permalink for Subsection 1.4.3: Image Imports">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">

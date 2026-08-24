@@ -1,0 +1,11 @@
+openDate          = 08/23/2026 at 12:00am
+dueDate           = 02/23/2027 at 10:00pm
+answerDate        = 02/23/2027 at 10:00pm
+paperHeaderFile   = Mathematics_in_Society/header/2_6-Logarithms_and_Solving_for_the_Exponent.pg
+screenHeaderFile  = Mathematics_in_Society/header/2_6-Logarithms_and_Solving_for_the_Exponent.pg
+description       = Logarithms and Solving for the Exponent
+problemListV2
+problem_start
+source_file = Contrib/RRCC/College_Algebra/MAT121/6.6/CCD_CCCS_Openstax_AlgTrig_AT-1-001-AS_6_6_15.pg
+problem_id = 10
+problem_end

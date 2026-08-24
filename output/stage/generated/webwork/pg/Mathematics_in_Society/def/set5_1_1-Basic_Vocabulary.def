@@ -1,0 +1,11 @@
+openDate          = 08/23/2026 at 12:00am
+dueDate           = 02/23/2027 at 10:00pm
+answerDate        = 02/23/2027 at 10:00pm
+paperHeaderFile   = Mathematics_in_Society/header/5_1_1-Basic_Vocabulary.pg
+screenHeaderFile  = Mathematics_in_Society/header/5_1_1-Basic_Vocabulary.pg
+description       = Basic Vocabulary
+problemListV2
+problem_start
+source_file = Library/ASU-topics/setStat/gust67.pg
+problem_id = 4
+problem_end

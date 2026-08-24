@@ -50,7 +50,7 @@
       Suppose your roommate regularly gets out of bed in the afternoon, but you are up early to have breakfast before your 8:00am class<ellipsis/> and you both like it this way.
       You may wonder, <q>Which of us is more typical?</q> A research question for a related study might be, <q><em>What proportion of college students are morning people?</em></q>
       The <term>population</term> you're studying is <alert>ALL</alert> college students. You decide to collect data from the residents of your dorm; that is the <alert>sample</alert>.
-      The elements of these two sets are college students, so the <term>observational unit</term> of this study is a college student. If 100 students live in your dorm, that is the <term>sample size</term>, and we would write, <m>n = 100</m>.
+      The elements of these two sets are college students, so the <term>observational unit</term> of this study is a college student. If 250 students live in your dorm, that is the <term>sample size</term>, and we would write, <m>n = 250</m>.
     </p>
   </example>
 
@@ -86,12 +86,12 @@
       </row>
       <row>
         <cell>1</cell>
-        <cell>Silvia</cell>
-        <cell>101</cell>
+        <cell>Daniela</cell>
+        <cell>112</cell>
         <cell>Yes</cell>
-        <cell>3</cell>
-        <cell>3.21</cell>
-        <cell>Communications</cell>
+        <cell>4</cell>
+        <cell>2.57</cell>
+        <cell>Nursing</cell>
       </row>
       <row>
         <cell><m>\vdots</m></cell>
@@ -103,15 +103,20 @@
         <cell><m>\vdots</m></cell>
       </row>
       <row>
-        <cell>100</cell>
-
+        <cell>250</cell>
+        <cell>Ronald</cell>
+        <cell>301</cell>
+        <cell>No</cell>
+        <cell>4</cell>
+        <cell>1.94</cell>
+        <cell>Game Design</cell>
       </row>
     </tabular>
     <p>
       Each row of this chart represents a particular <alert>observational unit</alert>,
       each column is a <alert>variable</alert> with the name of that variable across the top of the chart,
       and all the entries within the table make up the <alert>data</alert>.
-      We can tell that the sample size is <m>n = 100</m>, since there are 100 rows of data in the table.
+      We can tell that the sample size is <m>n = 250</m>, since there are 250 rows of data in the table.
     </p>
   </example>
 
@@ -121,7 +126,7 @@
     In our example scenario above, the population parameter, <m>p</m>, is the proportion of <alert>ALL</alert> college students who are morning people.
     We can't get that true value.
     What we can determine from our study is called the <term>sample statistic</term><idx><h>statistical study</h><h>statistic</h></idx>.
-    In our case, the statistic is a sample proportion, <m>\hat{p} = \frac{27}{100} = 0.27</m>.
+    In our case, the statistic is a sample proportion, <m>\hat{p} = \frac{94}{250} = 0.376</m>.
   </p>
 
   <exercise xml:id="check-stat-study-basics">
@@ -170,9 +175,18 @@
         Sort the six variables in the chart from <xref ref="ex-stat-study-basics-2"/> in categorical or numerical.
       </p>
     </statement>
+    <hint>
+      <p>
+        Be careful <ellipsis/> one variable is a bit tricky.
+        There are two numerical variables and four categorical variables.
+      </p>
+    </hint>
     <solution>
       <p>
-        One is tricky...
+        The two numerical variables: the number of morning classes and the GPA.
+        The remaining variables are categorical.
+        A student's room number is the tricky one. The data is recorded with a number, <alert>BUT</alert> it doesn't make sense to do any mathematics with those numbers.
+        The number just serves as a label; in some buildings rooms are labeled with letters or a combo of letters and numbers.
       </p>
     </solution>
   </example>
@@ -219,13 +233,208 @@
     If a categorical variable has more than two possible values and those values don't have a clear order, then that is a <alert>nominal</alert> variable.
     Both the student's name and their major are <alert>nominal</alert> variables.
   </p>
+
+  <observation>
+    <p>
+      One distinction between continuous and discrete numerical variables is in the set of possible values the associated data could have, whole numbers only rather than all the possibilities in between.
+      This can cause a mix-up of thinking any limit at all on the possible values must mean that the variable is discrete.
+      For example, there is a reasonable range on possible heights for an adult human. The values of these data will be at least 1ft and not more than 10ft (that's an extra safe interval).
+      Height is still a continuous variable! It is almost always safer to ask, <q>Do we get this number by counting (discrete) or measuring (continuous)?</q>
+    </p>
+  </observation>
+
+  <figure xml:id="var_type_cartoons">
+    <caption>Images by <url href="https://allisonhorst.com/allison-horst">Artwork by Allison Horst</url> to help visually remember the different types of variables.</caption>
+    <sidebyside widths="55% 45%">
+    <image source="images/categorical_variables.png">
+      <shortdescription>Visual representations of nominal, ordinal, and binary variables.</shortdescription>
+      <description><p>
+        Visual representations of nominal, ordinal, and binary variables.
+        Left: Nominal (ordered descriptions) with illustrations below of a turtle, snail, and butterfly.
+        Center: Ordinal (ordered descriptions) with illustrations below of three bees - one looks unhappy (saying <q>I am unhappy</q>), one looks ok (saying <q>I am OK</q>), and one looks very happy (saying <q>I am awesome!</q>).
+        Right: Binary (only 2 mutually exclusive outcomes), with below a T-rex saying <q>I am extinct</q> and a shark saying <q>HA.</q>
+      </p></description>
+    </image>
+    <image source="images/numerical_variables.png">
+      <shortdescription>Cartoon comparison of continuous versus discrete data.</shortdescription>
+      <description><p>
+        Cartoon comparison of continuous versus discrete data. 
+        On the left: <q>Continuous - measured data, can have infinite values within possible range.</q>
+        Below is an illustration of a chick, with text <q>I am 3.1" tall, I weight 34.16 grams.</q>
+        On the right: <q>Discrete - observations can only exist at limited values, often counts.</q>
+        Below is an illustration of an octopus with text <q>I have 8 legs and 4 spots!</q>
+      </p></description>
+    </image>
+  </sidebyside>
+  </figure>
+
+  <exercise>
+    <webwork source="Library/CollegeOfIdaho/setStatistics_Ch01PicturingDistributionsWithGraphs/01Stats_01_PictDistnsWGraphs.pg" />
+  </exercise>
 </subsection>
 
 <subsection xml:id="subsec-sampling-bias">
   <title>Sampling Methods and Bias</title>
   <p>
-    
+    The first thing we should do before conducting a survey is to identify the population that we want to study.
+    Suppose we are hired by a politician to determine the amount of support she has among the electorate should she decide to run for another term.
+    What population should we study?
+  </p>
+  <p>
+    Every person in the district? Not every person is eligible to vote,
+    and regardless of how strongly someone likes or dislikes the candidate,
+    they don't have much to do with her being re-elected if they are not able to vote.
+  </p>
+  <p>
+    What about eligible voters in the district? 
+    That might be better, but if someone is eligible to vote but does not register by the deadline, they won't have any say in the election either.
+  </p>
+  <p>
+    What about registered voters? Many people are registered but choose not to vote.
+  </p>
+  <p>
+    What about <q>likely voters?</q> This is the criteria used in much political polling, but it is sometimes difficult to define a <q>likely voter.</q> 
+    Is it someone who voted in the last election? In the last general election? In the last presidential election? 
+    Should we consider someone who just turned 18 a <q>likely voter?</q>
+    They weren't eligible to vote in the past, so how do we judge the likelihood that they will vote in the next election?
+  </p>
+  <p>
+    In November 1998, former professional wrestler Jesse <q>The Body</q> Ventura was elected governor of Minnesota.
+    Up until right before the election, most polls showed that he had little chance of winning.
+    There were several contributing factors to the polls not reflecting the actual intent of the electorate:
+  </p>
+  <p>
+    <ul>
+      <li>
+        <p>
+          Ventura was running on a third-party ticket and most polling methods are better suited to a two-candidate race.
+        </p>
+      </li>
+      <li>
+        <p>
+          Many respondents to polls may have been hesitant to tell pollsters that they were planning to vote for a professional wrestler.
+        </p>
+      </li>
+      <li>
+        <p>
+          The mere fact that the polls showed Ventura had little chance of winning might have prompted some people to vote for him in protest to send a message to the major-party candidates.
+        </p>
+      </li>
+    </ul>
+  </p>
+  <p>
+    But one of the major contributing factors was that Ventura recruited a substantial amount of support from young people, particularly college students, who had never voted before and who registered specifically to vote in the gubernatorial election.
+    The polls did not deem these young people <q>likely voters</q> (since in most cases young people have a lower voter registration and turnout rate) and so the polling samples were subject to sampling bias; 
+    they omitted a portion of the electorate that was weighted in favor of the winning candidate.
+  </p>
+  <definition xml:id="def-sample-bias">
+    <title>Sampling Bias</title> 
+    <statement>
+      <p>
+        A sampling method is biased<idx><h>sampling bias</h></idx> if every member of the population doesn't have equal likelihood of being in the sample.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    There are many ways to sample a population, but there is one goal we need to keep in mind:
+    we would like the sample to be representative of the population.
+    Returning to our hypothetical job as a political pollster, we would not anticipate very accurate results if we drew all of our samples from among the customers at a Starbucks,
+    nor would we expect that a sample drawn entirely from the membership list of the local Elks Club would provide a useful picture of district-wide support for our candidate.
+    One way to ensure that the sample has a reasonable chance of mirroring the population is to employ <em>randomness</em>.
+    The most basic random method is simple random sampling.
+  </p>
+  <definition xml:id="def-simple-random-sample">
+    <title>Simple Random Sample</title>
+    <statement>
+      <p>
+        A <term>simple random sample</term> is one in which each member of the population has an equal probability of being chosen.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    A simple random sample is exactly the same a rolling a die, drawing a raffle ticket out of hat, spinning a fair wheel, reading off the marker a rotating bingo drum spits out, etc.
+    This is the most random way to select a sample from a population, and generally more randomness means less bias.
+    But, physically this can be difficult to do with a large population; imagine the size ofthe hat you'd need to get a decent sized sample of likely US voters!
+    In addition to making things more practical and providinga bit of structure, sometimes we may actually want to give up someof the randomness.
+  </p>
+  <p>
+    How one gets a sample from a population is called a <term>sampling method</term><idx><h>sampling methods</h></idx>.
+    As we go through these other methods, we'll consider the population of Fitchburg State undergraduate students and we want to ask some questions about the General Education Program.
+    For a simple random sample, we'd randomly choose the number of students we want in the sample from the whole population.
+  </p>
+  <definition xml:id="def-cluster-sample">
+    <title>Cluster Sample</title>
+    <statement>
+      <p>
+        Divide the population into <term>clusters</term> (groups) and then randomly select some of the clusters.
+        All the members from these clusters are in the <term>cluster sample</term><idx><h>sampling methods</h><h>cluster sample</h></idx>.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    Clusters can be anything. In our example, making clusters something like academic departments could work.
+    We'd number each department, then randomly choose some numbers, and every student in those departments would be part of the sample.
+    In a cluster sample, entire groups are included and other entire groups are left out of the sample.
+    We also may not know in advnace how many clusters we need to randomly select, since they can be different sizes.
+    None of these are automatically negative features of a cluster sample, just important to keep in mind.
+  </p>
+  <definition xml:id="def-stratified-sample">
+    <title>Stratified Sample</title>
+    <statement>
+      <p>
+        To choose a <term>stratified sample</term><idx><h>sampling methods</h><h>stratified sample</h></idx>,
+        divide the population into groups called strata and then take a sample from each stratum.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    This time, we'll choose our groups (strata) to be class year.
+    We can choose the same number of students from each class, a proportional number from each class (so if 30% of the population are first-year students, then 30% of the sample will also be first-year students), or we can do something different.
+    Choosing proportionally is probably the most traditional and most random, but this is a case where we may want a little bit of bias.
+    If the survey addresses how the General Education Program supports a student's learning within their major, we may want to have upper level students with more experience over-represented in our sample.
+    If we're more concerned with students' perceptions of foundational courses, we might want to oversample from first-year students.
+  </p>
+  <definition xml:id="def-systematic-sample">
+    <title>Systematic Sample</title>
+    <statement>
+      <p>
+        To choose a <term>systematic sample</term><idx><h>sampling methods</h><h>systematic sample</h></idx>, randomly select a starting point and take every <m>n^{\text{th}}</m> piece of data from a listing of the population.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    For our Gen Ed survey, we might start with an alphabetical list of all undergraduate students and randomly flip to a page and point to a student on the list.
+    Then, we go through the list in order counting up to five and starting over again, <q>1 - 2 - 3 - 4 - 5 - 1 - 2 - 3 - 4 - 5 - 1 - 2 - <ellipsis></ellipsis></q>.
+    Any student who gets a 4 is in the sample.
+  </p>
+  <p>
+    More on sampling and other sources of bias...
   </p>
 </subsection>
+
+<conclusion>
+  <p>
+    Some words
+  </p>
+  <activity xml:id="survey_design">
+    <title>Design a Survey</title>
+    <introduction>
+      <p>
+        You are asked to conduct a survey to find out if there are racial/ethnic differences among the students at your school in the likelihood of 
+        having attended a private vs. public high school,
+        in having a parent who has a college education,
+        or in whether or not they had to take out student loans to pay for college.
+        How would you conduct this survey?
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          What are the population, observational units, and variables for this study?
+        </p>
+      </statement>
+    </task>
+  </activity>
+</conclusion>
 
 </section>

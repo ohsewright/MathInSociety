@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-categorical-data" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Categorical Data</title>
+
+  <p>
+    We said in <xref ref="sec-stat-intro"/>, that the methods of descriptive statistics allow us to summarize data.
+    Recall our question about if you (who gets up early) or your roommate (who sleeps until the afternoon) are more typical?
+    We considered how we'd keep track of the data in a survey to try to study this question; probably a chart.
+    In <xref ref="ex-stat-study-basics-2"/>, only a few rows of the chart are shown. We need to summarize!
+    In this section, we'll focus on the data for the categorical varibles.
+  </p>
+  <p>
+    This (completely made up) data is in a spreadsheet that you can generate your own copy of with <url href="https://docs.google.com/spreadsheets/d/1FaMNfe6uGnvFsW0dy-jpXOp3cAYSaHiHcdIimYPsuFk/copy">this link</url>.
+    You can use 
+  </p>
+  <p>
+    We'll start with the simplest thing, and the most relevant data to the initial question, <q>What proportion of college students are morning people?</q>
+  </p>
+  <example xml:id="ex-frequency">
+    <title>Frequency Table</title>
+    <p>
+      The following chart is called a <term>frequency table</term><idx><h>frequency table</h></idx>.
+    </p>
+    <tabular>
+      <col right="major"></col>
+      <col right="medium"></col>
+      <col right="minor"></col>
+      <row header="yes" bottom="medium">
+        <cell>Response</cell>
+        <cell>Frequency</cell>
+        <cell><line>Relative Frequency</line><line>Proportion</line></cell>
+        <cell><line>Relative Frequency</line><line>Percentage</line></cell>
+      </row>
+      <row bottom="minor">
+        <cell>Yes</cell>
+        <cell>94</cell>
+        <cell>0.376</cell>
+        <cell>37.6%</cell>
+      </row>
+      <row bottom="medium">
+        <cell>No</cell>
+        <cell>156</cell>
+        <cell>0.624</cell>
+        <cell>62.4%</cell>
+      </row>
+      <row>
+        <cell><alert>TOTAL</alert></cell>
+        <cell><alert>250</alert></cell>
+        <cell><alert>1</alert></cell>
+        <cell><alert>100%</alert></cell>
+      </row>
+    </tabular>
+    <p>
+      With a <alert>binary variable</alert>, the chart is small. If you were presenting this, you might rather just say,
+      <q>Out of the 250 students surveyed, 94 (or 37.6%) consider themselves a morning person.</q>
+      For another categorical variable with more options, a chart helps keep all the information organized.
+    </p>
+  </example>
+
+  <p>
+    The <term>frequency</term><idx><h>frequency</h></idx> column represents a count of how many times a particular response appears.
+    This should always be a whole number.
+    Both of the <term>relative frequency</term> columns put that count into the context of the whole.
+    It is a good idea to have both in your table.
+    You can revisit <xref ref="sec-percent"/> to review the details of the percentage formula and the pros and cons of both absolute and relative change.
+    The total of the frequency column should always be the sample size. The relative frequency column should total to 1 or 100%, but can sometimes be a little bit off because of rounding.
+  </p>
+
+  <example>
+    <statement>
+      <p>
+        Generate a frequency table for the various majors of the students in the sample.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        You can use the COUNTIF function in Google Sheets to get the frequency.
+        Typing <q>=countif(G2:G251,"Game Design")</q> into a cell and pressing enter will produce 17, the number of students in the sample with a Game Design major.
+        This particular function isn't covered in <xref ref="sec-spreadsheets"/>, but a review of that section will likely help you figure out how to modify this to count whatever you want.
+      </p>
+    </hint>
+    <solution>
+      <p>
+        We can use the COUNTIF function in the spreadsheet to give us the frequency for each response.
+        To compute the relative frequency, divide the frequency by 250.
+        TO write the relative frequency as a percentage, move to decimal to the right two places.
+      </p>
+      <tabular>
+        <col right="major"></col>
+        <col right="medium"></col>
+        <col right="minor"></col>
+        <row header="yes" bottom="medium">
+          <cell>Response</cell>
+          <cell>Frequency</cell>
+          <cell><line>Relative Frequency</line><line>Proportion</line></cell>
+          <cell><line>Relative Frequency</line><line>Percentage</line></cell>
+        </row>
+        <row bottom="minor">
+          <cell>Nursing</cell>
+          <cell>54</cell>
+          <cell>0.216</cell>
+          <cell>21.6%</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Business Administration</cell>
+          <cell>39</cell>
+          <cell>0.156</cell>
+          <cell>15.6%</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Communications Media</cell>
+          <cell>24</cell>
+          <cell>0.096</cell>
+          <cell>9.6%</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Criminal Justice</cell>
+          <cell>23</cell>
+          <cell>0.092</cell>
+          <cell>9.2%</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Psychology</cell>
+          <cell>21</cell>
+          <cell>0.084</cell>
+          <cell>8.4%</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Game Design</cell>
+          <cell>17</cell>
+          <cell>0.068</cell>
+          <cell>6.8%</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Biology</cell>
+          <cell>15</cell>
+          <cell>0.06</cell>
+          <cell>6%</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Interdisciplinary Studies</cell>
+          <cell>11</cell>
+          <cell>0.044</cell>
+          <cell>4.4%</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Exercise &amp; Sport Science</cell>
+          <cell>11</cell>
+          <cell>0.044</cell>
+          <cell>4.4%</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Engineering Technology</cell>
+          <cell>10</cell>
+          <cell>0.04</cell>
+          <cell>4%</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Human Services</cell>
+          <cell>10</cell>
+          <cell>0.04</cell>
+          <cell>4%</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Education</cell>
+          <cell>9</cell>
+          <cell>0.036</cell>
+          <cell>3.6%</cell>
+        </row>
+        <row bottom="medium">
+          <cell>Other</cell>
+          <cell>6</cell>
+          <cell>0.024</cell>
+          <cell>2.4%</cell>
+        </row>
+        <row>
+          <cell><alert>TOTAL</alert></cell>
+          <cell><alert>250</alert></cell>
+          <cell><alert>1</alert></cell>
+          <cell><alert>100%</alert></cell>
+        </row>
+      </tabular>
+      <p>
+        The last row, <q>Other</q>, groups together the four majors (Computer Science, English Studies, History, and Mathematics) that have particularly low frequencies.
+        This is a choice you can make. It hides a bit of information, but turns four rows in the chart into a single row.
+      </p>
+    </solution>
+  </example>
+
+  <exercise>
+    <webwork source="Library/ASU-topics/setStat/dueck2_1.pg" />
+  </exercise>
+
+  <p>
+    A frequency table can only be used to summarize the data for a single variable.
+    Often, we want to know something about how two variables are related.
+    In the case of two categorical variables, we can do this in a two-way table.
+  </p>
+
+  <example xml:id="ex-two-way-table">
+    <title>Two-Way Table</title>    
+    <p>
+      The following <term>two-way table</term><idx><h>two-way-table</h></idx> compares the whether a student considers themselves a morning person with the number of morning classes they are taking.
+      The number in a box counts the number of responses that match the value of both the row and column variable.
+    </p>
+    <tabular>
+      <col right="medium"></col>
+      <col right="minor"></col>
+      <col right="medium"></col>
+      <row header="yes" bottom="medium">
+        <cell></cell>
+        <cell>Not a Morning Person</cell>
+        <cell>Morning Person</cell>
+        <cell>Row Totals</cell>
+      </row>
+      <row bottom="minor">
+        <cell>0 Morning Classes</cell>
+        <cell>28</cell>
+        <cell>17</cell>
+        <cell>45</cell>
+      </row>
+      <row bottom="minor">
+        <cell>1 Morning Class</cell>
+        <cell>29</cell>
+        <cell>21</cell>
+        <cell>50</cell>
+      </row>
+      <row bottom="minor">
+        <cell>2 Morning Classes</cell>
+        <cell>29</cell>
+        <cell>27</cell>
+        <cell>56</cell>
+      </row>
+      <row bottom="minor">
+        <cell>3 Morning Classes</cell>
+        <cell>36</cell>
+        <cell>21</cell>
+        <cell>57</cell>
+      </row>
+      <row bottom="medium">
+        <cell>4 Morning Classes</cell>
+        <cell>34</cell>
+        <cell>8</cell>
+        <cell>42</cell>
+      </row>
+      <row>
+        <cell><alert>Column Totals</alert></cell>
+        <cell><alert>156</alert></cell>
+        <cell><alert>94</alert></cell>
+        <cell><alert>250</alert></cell>
+      </row>
+    </tabular>
+    <p>
+      In this case, we're treating discrete numerical data as ordinal categorical data.
+      We can always do this, but it may not always be a great idea.
+      If there are too many options, so that a resulting table would have too many rows or columns, we can group values together.
+    </p>
+  </example>
+
+  <p>
+    
+  </p>
+
+  
+</section>

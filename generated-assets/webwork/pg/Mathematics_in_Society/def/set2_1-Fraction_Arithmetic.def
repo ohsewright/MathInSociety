@@ -1,0 +1,35 @@
+openDate          = 08/23/2026 at 12:00am
+dueDate           = 02/23/2027 at 10:00pm
+answerDate        = 02/23/2027 at 10:00pm
+paperHeaderFile   = Mathematics_in_Society/header/2_1-Fraction_Arithmetic.pg
+screenHeaderFile  = Mathematics_in_Society/header/2_1-Fraction_Arithmetic.pg
+description       = Fraction Arithmetic
+problemListV2
+problem_start
+source_file = Library/PCC/BasicMath/FractionsCalculation/WriteFractionByGraph30.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/MC/PreAlgebra/setPreAlgebraC05S02/ConvertMixed2Fractionl01.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/NewHampshire/unh_schoolib/Fractions/frasrs101.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Library/NewHampshire/unh_schoolib/Fractions/frasrs102.pg
+problem_id = 20
+problem_end
+problem_start
+source_file = Library/ma112DB/set1_2/add_fractions.pg
+problem_id = 23
+problem_end
+problem_start
+source_file = Library/MC/PreAlgebra/setPreAlgebraC05S04/MultiplyingFractions01.pg
+problem_id = 26
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/FractionArithmetic/DivideFractions20.pg
+problem_id = 32
+problem_end

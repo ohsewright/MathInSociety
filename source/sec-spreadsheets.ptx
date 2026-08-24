@@ -33,9 +33,9 @@
   <p>
     In order to use spreadsheets for computations, the most important thing to understand is how to reference cells (the little boxes).
     You'll write formulas and the values that are plugged in to those formulas are those in particular cells.
-    Rather than typing hte value yourself, you reference the cell with its column letter and row number.
+    Rather than typing the value yourself, you reference the cell with its column letter and row number.
     The cell outlined in blue above is A1. The Friday math class is cell F3. The Wednesday lab occupies cells D6:D8, (the colon is used to indicate a range).
-    While the options for labels will vary, this is similar to naming the squares on a chess board, or calling out a shot in the game Battleship, for finding your seat in a theater by the row and seat.
+    While the options for labels will vary, this is similar to naming the squares on a chess board, or calling out a shot in the game Battleship, or finding your seat in a theater by the row and seat.
   </p>
   <p>
     For our working example, we'll set up a spreadsheet to track grades in a made up course.
@@ -48,6 +48,7 @@
     Highlight the two cells, click and hold on the blue dot in the lower right corner, and drag that down until 10 total cells are highlighted.
     When you release, you should see Student 1 through Student 10 in cells A2:A11.
   </p>
+
   <figure>
     <caption>Dragging a start to a list to follow a pattern.</caption>
     <sidebyside widths="35% 45%" margins="auto" valign="middle">
@@ -85,7 +86,7 @@
   You can do this and simply use a spreadsheet like you might use a calculator.
   Click in cell G12, type <q>=(5+6+7+8+9)/5</q>, and hit enter.
   The entry in the cell should look like 7, and if you click on the cell again, you'll see the formula you used in the formula bar near the top.
-  This computed the quiz average of Student 1.
+  This computed the quiz average of Student 1. (You are not expected to be an expert in averages, but if a bit more information would help you follow along with this example, the concept of a <term>mean</term> (another word for this type of average) is covered in <xref ref="ch-stats"/>.)
 </p>
 <p>
   If instead of typing in the numbers we want to average directly, we reference the cells where those scores live, then we can drag to copy the formula similar to what we did for the Student names.
@@ -94,7 +95,7 @@
   Once you're a bit more comfortable with what's going on, that can be a big time saver.
 </p>
 <image source="images/FirstAverage.png">
-  <shortdescription>The formula <q>=(B2+C2+D2+E2+F2)/5</q> entered into cell G2.</shortdescription>
+  <shortdescription>The formula =(B2+C2+D2+E2+F2)/5 entered into cell G2.</shortdescription>
 </image>
 <p>
   One of those suggestions may have seen is <q>SUM</q>. Try typing <q>=SUM(B2:F2)/5</q> into cell G2.
@@ -104,7 +105,7 @@
 <p>
   Now, let's try dragging this formula down to compute the quiz average for all ten students.
   Click on cell G2, grab the blue dot in the lower right corner, and drag that down to cell G11.
-  If you've used the same data as here, you should see all 7s in cells G2:G11, which might make you think that this is copied the same result rather than the formula.
+  If you've used the same data as here, you should see all 7s in cells G2:G11, which might make you think that this has copied the same result rather than extended the formula.
   If you click on cell G6 however, you should see the formula <q>=SUM(B6:F6)/5</q> to compute the quiz average for Student 5.
   You can also change the entries in cells and see how that changes the result of the formula.
 </p>
@@ -121,6 +122,7 @@
 </image>
 <p>
 This is called a <term>weighted average</term>. Here, the weights are 10%, 20%, 30%, and 40%, and we multiply each of the quiz scores by that weight (as a decimal) before adding.
+(Again, if any confusion about the math behind the formulas is getting in the way of your brain following along with the spreadsheet work, check out <xref ref="sec-percent"/> for some more info about percentages.)
 This is great for the five quizzes we have, but remember how <q>SUM</q> would save us a lot of keystrokes if we had 100 quizzes?
 We can make use of that again! For this we need to add a row of weights.
 In Row 14, type <q>Weights</q> in cell A14, and then enter the five weights across the row: 0, .1, .2, .3, and .4.
@@ -128,7 +130,7 @@ In Row 14, type <q>Weights</q> in cell A14, and then enter the five weights acro
 <p>
   In cell I2, type <q>=SUMPRODUCT(B2:F2, B14:F14)</q>.
   This multiplies the first number in the first list by the first number of the second list, and so on, before then adding them up.
-  This should give the same result as column H, 8 for Student 1 with this data.
+  This should give the same result as column H: 8 for Student 1 with this data.
   Try dragging this formula down for all ten students.
 </p>
 <p>
@@ -159,7 +161,7 @@ In Row 14, type <q>Weights</q> in cell A14, and then enter the five weights acro
 <p>
   Another benefit of this formatting is that we can adjust the weights without rewriting a whole formula.
   Simply type in new weights into cells B14:F14.
-  Just make sure your weights add up to 1, 100%.
+  Just make sure your weights add up to 1, the decimal representation of 100%.
   You can try making all of the same 0.2; this should produce the average, same as column G.
   You can make four of them 0 and one equal to 1; this should copy the column with weight 1.
 </p>
@@ -189,7 +191,7 @@ In Row 14, type <q>Weights</q> in cell A14, and then enter the five weights acro
   </statement>
 </exercise>
 <p>
-  The last thing we'll do, which nowhere near an exhaustive list of the functions of a spreadsheet, is sort our data.
+  The last thing we'll do, which is nowhere near an exhaustive list of the functions of a spreadsheet, is sort our data.
   Highlight all the data you have, A1 through K11 if you tried the check above.
   On the Data menu (across the top), choose <q>Sort range</q>, and then <q>Advanced range sorting options.</q>
   Check the box to say that your data has header rows.

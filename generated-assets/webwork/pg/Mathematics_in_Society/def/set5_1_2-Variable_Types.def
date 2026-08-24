@@ -1,0 +1,11 @@
+openDate          = 08/23/2026 at 12:00am
+dueDate           = 02/23/2027 at 10:00pm
+answerDate        = 02/23/2027 at 10:00pm
+paperHeaderFile   = Mathematics_in_Society/header/5_1_2-Variable_Types.pg
+screenHeaderFile  = Mathematics_in_Society/header/5_1_2-Variable_Types.pg
+description       = Variable Types
+problemListV2
+problem_start
+source_file = Library/CollegeOfIdaho/setStatistics_Ch01PicturingDistributionsWithGraphs/01Stats_01_PictDistnsWGraphs.pg
+problem_id = 8
+problem_end

@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "What is Quantitative Reasoning?",
-  "body": " What is Quantitative Reasoning?  Text of section.  "
+  "body": " What is Quantitative Reasoning?  The temporary version of this section is short and sweet. According to Fitchburg State student, Liv Welch,   Quantitative reasoning means the ability to understand the world through numerical interpretations. This is extremely important in today's age of AI slop and fake news. Gaining quantitative reasoning skills helps us to learn our own conclusions about info we are presented with, rather than relying on some unreliable source to tell us what it means.   You are encouraged to think about your own definition of quantitative reasoning as you work through this book.  Fitchburg State students are also encouraged to read more about how quantitative reasoning fits into their General Education curriculum in Part IV of  Why Do I Have to Take This Course?  by Dr. Kisha Tracy.  "
 },
 {
   "id": "sec-prob",
@@ -24,8 +24,8 @@ var ptx_lunr_docs = [
   "url": "sec-prob.html",
   "type": "Section",
   "number": "1.2",
-  "title": "? Problem Solving Strategies",
-  "body": " ? Problem Solving Strategies  Maybe Problem Solving Strategies isn't the right thing here...  To start, think about what number the following complicated fractional expression is equal to.   Why this? It is equal to 67. Students can figure out the denominator (maybe with some coaching)... Can provide the formula for the numerator and do a lot of discussion on how to process that and why formulas are helpful formula notation Too many numbers to type yourself into a calculator or computer... maybe a spreadsheet is a good choice? maybe AI is an okay choice? What would you ask? Arithmetic and algebraic ideas  "
+  "title": "Problem Solving Strategies",
+  "body": " Problem Solving Strategies  To start, think about what number the following complicated fractional expression is equal to. This maybe isn't something you'd need a numerical value for in everyday life out in the real world, but it does bring up some interesting things to consider.  You could certainly use a calculator or the calculator app on your phone but that requires punching in a lot of numbers. Maybe a computer could work or you could ask an AI chat bot? What would you type in to Google or your AI of choice? How do you handle those ?  There is a pretty good chance you'll end up with the correct final answer if you can ask the right question, but you'd miss some useful things along the way. Figuring out what to ask also involves some abstract thinking about symbols and formulas. One way you could evaluate this is to use a spreadsheet. If that sounds fun, look ahead to and give it a try.  The thing that makes this problem tricky is how high up those dots go. We can make the problem easier by making that final value smaller. Will that give us any helpful info? We will do the computation ending with a few different small numbers and keep track of our results. You should check these, but feel free to use a calculator.    Ending Value  Numerator  Denominator  Final Answer    1  1  1  1    2       3       4       5        "
 },
 {
   "id": "sec-graphs",
@@ -34,7 +34,70 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Intepreting Graphs",
-  "body": " Intepreting Graphs  Just braining needed stuff: x and y vs independent and dependent variables functional and equation notation scales for axes (proportional reasoning) types of graphs  "
+  "body": " Intepreting Graphs  Just braining needed stuff: x and y vs independent and dependent variables functional and equation notation scales for axes (proportional reasoning) types of graphs  A graph is a visual display of information. There are many types of graphs and methods of displays. Our focus in this section will be on two-dimensional line graphs. These are the types of graphs we discuss in and . We'll do a deeper dive on specific statistical data displays in , but all the same basics discussed here will still apply.  With any type of two-dimensional display of data, the most important thing is to remember the underlying grid; especially if it is only underlying and not visible. The grid has horizontal lines (for a graph, or rows in chart) and vertical lines (called caolumns in a chart). Horizontal horizontal elements are side-to-side (like the hori zon) and vertical elements are up and down. Table tops, floors, and ceilings are all horizontal, and walls and doors are vertical.  The underlying grid for a line graph is also called the Cartesian plane Cartesian plane , named after the French philosopher and mathematician René Descartes. Legend says Descartes invented this system while lying in bed and watching a fly crawl on the ceiling. He realized he could describe the insect's exact spot by measuring its horizontal and vertical distance from a corner of the room.   The horizontal axis (the bold line with arrows on both ends) is often called the -axis and the veritcal axis is typically the -axis.   A Caresian plane.  A cartesian plane with bold axes and three plotted points: in blue, in red, and in green.    We describe and label a point with these two distances. The first coordinate in a point tells us the horizontal distance from the vertical axis; positive distances are to the right, and negative to the left. The first coordinate for the red and green points in is 3. Notice that these two points are on the same vertical line, three units to the right of the -axis. Similarly, the second coordinate measures the vertical distance from the -axis. The number 4 is the second coordinate for the blue and red points; they lie on the same horizontal line. The underlying grid helps us count across and up or down. There are no rules for which grid lines are labeled or how thick those lines are drawn. However, it is very important that the scale in a single direction remains consistent! In , each square we can see on the grid is 1 unit wide and 1 unit tall. The distance between 0 and 5 on either axis is the same as the distance between 5 and 10. Each axis is like its own ruler; it must have the same scale throughout, but the scale for one may be different from the other. The idea of a consistent scale and proportion will be discussed in more detail in .  In , we created the plot below from the provided data. Notice that the axes are not bolded with arrows like our graph above, but they are are labeled with untis and each have the same scale throughout. The horizontal direction is meansured in years and every five years has a slightly thicker line and a label. The vertical axis measures the consumption in billions of gallons. The rightmost and highest green dot tells us that in the year 2004 (the horizontal component) the US used 136 billion gallons of gasoline.   A plot of US gasoline consumption by year.   The graph above is called a dot plot or a scatterplot , and is generated from a chart of data. Line graphs are intepreted the same way. You can think of putting your pencil tip anywhere on the line, and consider that point just like one that appears in a dot plot. Additionally, if the graph has an associated algebraic equation or function rule, then the coordinates of the point at the end of your pencil follow that rule.  In the graph below, we see a purple curve with four gray dots.   A graph of a parabola.     Determine the coordinates of the gray dots.    Moving from the left to right, the four dots have coordinates: , , , and .    When a graph has a corresponding algebraic formula, every point on that line or curve has coordinates that satisfy the formula (make it true). In the graph above, that algebraic equation is .   We can see that a particular point is a part of the curve by substituting the first coordinate in for in the equation and verifying that it evaluates to the second coordinate. Consider the third point in our list, . The first coordinate is 1 and we'll substitute that in for : This matches the second coordinate, so it makes sense that the dot is on the purple curve.     Suppose we mark another dot on the purple curve defined by that has a horizontal coordinate of 2. What the -coordinate of that point?    We know the two coordinates of a point on the curve must make the equation true. We can determine the value of the right side of the equation by substituting in . This tells us that the second coordinate of the point must be equal to 3 if it lies on the purple curve. Indeed, if we count along the grid across 2 and up 3, it appears that the purple curve passes through that point.    This was a very brief review of the basics of two dimensional graphs. You'll see charts and graphs throughout this book. If you can determine the coordinates of a point on a grid, and use the labels to put meaning to those numbers, then you're all set.  "
+},
+{
+  "id": "sec-graphs-4",
+  "level": "2",
+  "url": "sec-graphs.html#sec-graphs-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Horizontal "
+},
+{
+  "id": "sec-graphs-5",
+  "level": "2",
+  "url": "sec-graphs.html#sec-graphs-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Cartesian plane "
+},
+{
+  "id": "fig-cartesian_plane",
+  "level": "2",
+  "url": "sec-graphs.html#fig-cartesian_plane",
+  "type": "Figure",
+  "number": "1.3.1",
+  "title": "",
+  "body": " The horizontal axis (the bold line with arrows on both ends) is often called the -axis and the veritcal axis is typically the -axis.   A Caresian plane.  A cartesian plane with bold axes and three plotted points: in blue, in red, and in green.   "
+},
+{
+  "id": "sec-graphs-10",
+  "level": "2",
+  "url": "sec-graphs.html#sec-graphs-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "dot plot scatterplot "
+},
+{
+  "id": "sec-graphs-13",
+  "level": "2",
+  "url": "sec-graphs.html#sec-graphs-13",
+  "type": "Check for Understanding",
+  "number": "1.3.2",
+  "title": "",
+  "body": "  Determine the coordinates of the gray dots.    Moving from the left to right, the four dots have coordinates: , , , and .   "
+},
+{
+  "id": "sec-graphs-15",
+  "level": "2",
+  "url": "sec-graphs.html#sec-graphs-15",
+  "type": "Example",
+  "number": "1.3.3",
+  "title": "",
+  "body": " We can see that a particular point is a part of the curve by substituting the first coordinate in for in the equation and verifying that it evaluates to the second coordinate. Consider the third point in our list, . The first coordinate is 1 and we'll substitute that in for : This matches the second coordinate, so it makes sense that the dot is on the purple curve.  "
+},
+{
+  "id": "sec-graphs-16",
+  "level": "2",
+  "url": "sec-graphs.html#sec-graphs-16",
+  "type": "Check for Understanding",
+  "number": "1.3.4",
+  "title": "",
+  "body": "  Suppose we mark another dot on the purple curve defined by that has a horizontal coordinate of 2. What the -coordinate of that point?    We know the two coordinates of a point on the curve must make the equation true. We can determine the value of the right side of the equation by substituting in . This tells us that the second coordinate of the point must be equal to 3 if it lies on the purple curve. Indeed, if we count along the grid across 2 and up 3, it appears that the purple curve passes through that point.   "
 },
 {
   "id": "subsec-computations",
@@ -2374,7 +2437,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "4.4",
   "title": "Modeling Practice Exercises",
-  "body": " Modeling Practice Exercises   Linear vs Exponential   For each relationship described, determine if is (approximately) linear, exponential, or not close enough to either. It is also good practice to determine if the quantity is growing or declining. Additionally, if you want more practice determining formulas, go for it!     The population of the world in 1987 was 5 billion and the annual growth rate was estimated at 2 percent per year.      A store's sales (in thousands of dollars) grow according to the recursive rule , with initial amount .       An image of a graph of a straight.  An image of a graph of a straight, red line with two grid points and markedin blue and green, respectively. The horizontal axis is labeled Time (months since Jan 2020) and the vertical axis is labeled Street Lights in Town.       The Consumer Price Index (CPI) is calculated by the Department of Labor. The percentage increase in the CPI from one year to the next gives the annual inflation rate. The table shows the CPI in December of the indicated year.      Year  2013  2014  2015  2016  2017  2018  2019  2020    CPI  233.0  234.8  236.5  241.4  246.5  251.2  257.0  260.5         Graph of a curve  An image of graph of a red curve on a grid. The horizontal axis is labeled Thousands of Years and the vertical axis is labeled Remaining Plutonium-239 (grams). The curve passes through the points and .       The number of whiteboard markers in the supply closet on the Monday morning of each week during the semester is given below.     Week  0  1  2  3  4  5  6  7  8    Markers  500  376  279  211  157  120  90  66  51       "
+  "body": " Modeling Practice Exercises   Linear vs Exponential   For each relationship described, determine if is (approximately) linear, exponential, or not close enough to either. It is also good practice to determine if the quantity is growing or declining. Additionally, if you want more practice determining formulas, go for it!     The population of the world in 1987 was 5 billion and the annual growth rate was estimated at 2 percent per year.      A store's sales (in thousands of dollars) grow according to the recursive rule , with initial amount .       An image of a graph of a straight.  An image of a graph of a straight, red line with two grid points and markedin blue and green, respectively. The horizontal axis is labeled Time (months since Jan 2020) and the vertical axis is labeled Street Lights in Town.       The Consumer Price Index (CPI) is calculated by the Department of Labor. The percentage increase in the CPI from one year to the next gives the annual inflation rate. The table shows the CPI in December of the indicated year.      Year  2013  2014  2015  2016  2017  2018  2019  2020    CPI  233.0  234.8  236.5  241.4  246.5  251.2  257.0  260.5         Graph of a curve  An image of graph of a red curve on a grid. The horizontal axis is labeled Thousands of Years and the vertical axis is labeled Remaining Plutonium-239 (grams). The curve passes through the points and .       The number of whiteboard markers in the supply closet on the Monday morning of each week during the semester is given below.     Week  0  1  2  3  4  5  6  7  8    Markers  500  376  279  211  157  120  90  66  51       More exercises coming soon!    "
 },
 {
   "id": "exercises-modeling-2-3",
@@ -2437,7 +2500,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.5",
   "title": "Modeling Projects",
-  "body": " Modeling Projects  "
+  "body": " Modeling Projects  A selection of modeling projects about climate change coming soon.  "
 },
 {
   "id": "subsec-stat-vocab",
@@ -2710,13 +2773,58 @@ var ptx_lunr_docs = [
   "body": " Numerical Data    "
 },
 {
-  "id": "sec-area",
+  "id": "exercises-stats",
   "level": "1",
-  "url": "sec-area.html",
+  "url": "exercises-stats.html",
+  "type": "Exercises",
+  "number": "5.4",
+  "title": "Statistical Thinking Practice Exercises",
+  "body": " Statistical Thinking Practice Exercises    Statistics practice problems coming soon.    "
+},
+{
+  "id": "exercises-stats-2",
+  "level": "2",
+  "url": "exercises-stats.html#exercises-stats-2",
+  "type": "Exercise",
+  "number": "5.4.1",
+  "title": "",
+  "body": "  Statistics practice problems coming soon.   "
+},
+{
+  "id": "sec-stats-proj",
+  "level": "1",
+  "url": "sec-stats-proj.html",
   "type": "Section",
+  "number": "5.5",
+  "title": "Statistics Projects",
+  "body": " Statistics Projects  A project about data coming soon.  "
+},
+{
+  "id": "exercises-geo",
+  "level": "1",
+  "url": "exercises-geo.html",
+  "type": "Exercises",
   "number": "6.1",
-  "title": "Area",
-  "body": " Area  Text of section.  "
+  "title": "Geometry Practice Exercises",
+  "body": " Geometry Practice Exercises    Geometry practice problems coming soon.    "
+},
+{
+  "id": "exercises-geo-2",
+  "level": "2",
+  "url": "exercises-geo.html#exercises-geo-2",
+  "type": "Exercise",
+  "number": "6.1.1",
+  "title": "",
+  "body": "  Geometry practice problems coming soon.   "
+},
+{
+  "id": "sec-geo-proj",
+  "level": "1",
+  "url": "sec-geo-proj.html",
+  "type": "Section",
+  "number": "6.2",
+  "title": "Geometry Projects",
+  "body": " Geometry Projects  A gerrymandering project coming soon.  "
 },
 {
   "id": "sec-prob-intro",
@@ -2725,7 +2833,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.1",
   "title": "What is Probability?",
-  "body": " What is Probability?  Text of section.  "
+  "body": " What is Probability?  Probability is the study of chance.  "
 },
 {
   "id": "sec-savings",
@@ -2752,7 +2860,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.1",
   "title": "Formal Logic",
-  "body": " Formal Logic  Text of section.  "
+  "body": " Formal Logic  This section will introduce the building blocks of logic through the world of Mindcraft!  "
 },
 {
   "id": "sec-verbal",
@@ -2761,7 +2869,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.2",
   "title": "Verbal Logic",
-  "body": " Verbal Logic  Text of section.  "
+  "body": " Verbal Logic  This section will cover how logic can be used in regular life.  "
 },
 {
   "id": "backmatter-2",

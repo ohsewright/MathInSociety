@@ -7,7 +7,55 @@
     <p> What is Mathematics? What is Society? How does this book work? </p>
 
       <p>
-        
+        According to the Oxford English Dictionary, <term>mathematics</term> was
+      </p>
+      <blockquote>
+        <p>
+          Originally, the collective name for geometry, arithmetic, and certain physical sciences (as astronomy and optics) involving geometrical reasoning.
+          In modern use, applied (a) in a strict sense to the abstract science which investigates deductively the conclusions implicit in the elementary conceptions of spatial and numerical realtions,
+          and which includes as its main divisions geometry, arithmetics, and algebra; and (b) in a wider sense, so as to include those branches of physical or other research which consist in the application of this abstract science to concrete data.
+        </p>
+      </blockquote>
+      <p>
+        In the same source, one of the many definitions of <term>society</term> is an
+      </p>
+      <blockquote>
+        <p>
+          Association with one's fellow men, especially in a friendly or intimate manner; companionship or fellowship.
+        </p>
+      </blockquote>
+      <p>
+        Putting these two definitions together to try to describe the subject of this text, mathematics in society describes the application of abstract numerical and spacial thinking to the world around us and the interactions between the humans in that world.
+      </p>
+      <p>
+        This book does not aim to prepare the reader for any particular future study of any type of mathematics nor any other subject.
+        The goal is to equip the student with skills, tools, and experiences to be an informed citizen of the world.
+        We don't want anyone being fooled by the way some folks are using mathematics to influence society.
+      </p>
+      <p>
+        You can work through the chapters in this book in order. You can also jump around.
+        When a past Definition, Procedure, or Example is referenced in a future section, you'll see that appear in a different color font.
+        Clicking on it will open up that bit of info right there where you're reading, and if you want to see more you can click where it says <q>in-context</q> in the bottom right.
+        There is an Index in <xref ref="backmatter"/> and linked to under the title at the top.
+        This will show the definitions (or other occurences in the text) of these terms and also link you back to that particular location in the text if you'd like to learn more.
+      </p>
+      <p>
+        The word <q><alert>work</alert></q> was used above on purpose. Don't <alert>just</alert> read it.
+        The Examples all have answers/solutions that are initially hidden. It is a great idea to try them yourself.
+        There are also Check for Understanding problems. Many of these have a button that says <q>Activate</q>.
+        This will open a specific version of the problem and provide a place to enter your answers and check the correctness of your response.
+        If you'd like to try a similar problem for more practice, click <q>Randomize</q> to generate a new problem.
+      </p>
+      <p>
+        This Intro chapter and <xref ref="ch-foundations"/> on Foundations can be worked through first or as needed.
+        The other chapters all have a section of practice exercises and a section of applied projects.
+        You can navigate through the text with the Table of Contents on the left or the Prev, Next, and Top arrows.
+      </p>
+      <p>
+        This text if very much a work in progress and your author appreciates any and all constructive feedback!
+        Currently (September 2026) the last three chapters are empty.
+        If you're taking this class at Fitchburg State, you should have all the material for your particular version of the course in advance of covering it in class.
+        Please contact the author at swright8@fitchburgstate.edu with any questions, typos, or suggestions.
       </p>
 
    </introduction>

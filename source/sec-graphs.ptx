@@ -11,4 +11,126 @@
     types of graphs
   </p>
 
+  <p>
+    A graph is a visual display of information. There are many types of graphs and methods of displays.
+    Our focus in this section will be on two-dimensional line graphs. These are the types of graphs we discuss in <xref ref="sec-lines"/> and <xref ref="ch-models"/>.
+    We'll do a deeper dive on specific statistical data displays in <xref ref="ch-stats"/>, but all the same basics discussed here will still apply.
+  </p>
+
+  <p>
+    With any type of two-dimensional display of data, the most important thing is to remember the underlying grid; especially if it is <alert>only</alert> underlying and not visible.
+    The grid has horizontal lines (for a graph, or rows in chart) and vertical lines (called caolumns in a chart).
+    <term>Horizontal</term><idx><h>horizontal</h></idx> elements are side-to-side (like the <em>hori</em>zon) and vertical elements are up and down.
+    Table tops, floors, and ceilings are all horizontal, and walls and doors are vertical.
+  </p>
+
+  <p>
+    The underlying grid for a line graph is also called the <term>Cartesian plane</term><idx><h>Cartesian plane</h></idx>, named after the French philosopher and mathematician René Descartes.
+    Legend says Descartes invented this system while lying in bed and watching a fly crawl on the ceiling.
+    He realized he could describe the insect's exact spot by measuring its horizontal and vertical distance from a corner of the room.
+  </p>
+  
+  <figure xml:id="fig-cartesian_plane">
+    <caption>The horizontal axis (the bold line with arrows on both ends) is often called <q>the <m>x</m>-axis</q> and the veritcal axis is typically the <q><m>y</m>-axis.</q></caption>
+    <image source="images/cartesian-grid.png" width="50%">
+      <shortdescription>A Caresian plane.</shortdescription>
+      <description><p>A cartesian plane with bold axes and three plotted points: <m>(-2, 4)</m> in blue, <m>(3, 4)</m> in red, and <m>(3, -2)</m> in green.</p></description>
+    </image>
+  </figure>
+
+  <p>
+    We describe and label a point with these two distances. The first coordinate in a point tells us the horizontal distance from the vertical axis; positive distances are to the right, and negative to the left.
+    The first coordinate for the red and green points in <xref ref="fig-cartesian_plane"/> is 3. Notice that these two points are on the same vertical line, three units to the right of the <m>y</m>-axis.
+    Similarly, the second coordinate measures the vertical distance from the <m>x</m>-axis. The number 4 is the second coordinate for the blue and red points; they lie on the same horizontal line.
+    The underlying grid helps us count across and up or down. There are no rules for which grid lines are labeled or how thick those lines are drawn.
+    However, <alert>it is very important that the scale in a single direction remains consistent!</alert>
+    In <xref ref="fig-cartesian_plane"/>, each square we can see on the grid is 1 unit wide and 1 unit tall. The distance between 0 and 5 on either axis is the same as the distance between 5 and 10.
+    Each axis is like its own ruler; it must have the same scale throughout, but the scale for one may be different from the other.
+    The idea of a consistent scale and proportion will be discussed in more detail in <xref ref="ch-prop-reasoning"/>.
+  </p>
+
+  <p>
+    In <xref ref="ex-linear-gasoline"/>, we created the plot below from the provided data.
+    Notice that the axes are not bolded with arrows like our graph above, but they are are labeled with untis and each have the same scale throughout.
+    The horizontal direction is meansured in years and every five years has a slightly thicker line and a label.
+    The vertical axis measures the consumption in billions of gallons.
+    The rightmost and highest green dot tells us that in the year 2004 (the horizontal component) the US used 136 billion gallons of gasoline.
+  </p>
+
+  <image source="images/gas_plot.png" width="65%">
+    <shortdescription>A plot of US gasoline consumption by year.</shortdescription>
+  </image>
+
+  <p>
+    The graph above is called a <term>dot plot</term> or a <term>scatterplot</term>, and is generated from a chart of data.
+    Line graphs are intepreted the same way. You can think of putting your pencil tip anywhere on the line, and consider that point just like one that appears in a dot plot.
+    Additionally, if the graph has an associated algebraic equation or function rule, then the coordinates of the point at the end of your pencil follow that rule.
+  </p>
+  <p>
+    In the graph below, we see a purple curve with four gray dots.
+  </p>
+
+  <image source="images/equation_plot.png" width="65%">
+    <shortdescription>A graph of a parabola.</shortdescription>
+  </image>
+
+  <exercise>
+    <statement>
+      <p>
+        Determine the coordinates of the gray dots.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Moving from the left to right, the four dots have coordinates: <m>(-1, 0)</m>, <m>(0,3)</m>, <m>(1,4)</m>, and <m>(3,0)</m>.
+      </p>
+    </solution>
+  </exercise>
+
+  <p>
+    When a graph has a corresponding algebraic formula, every point on that line or curve has coordinates that satisfy the formula (make it true).
+    In the graph above, that algebraic equation is <m>y = 3 + 2x - x^2</m>.
+  </p>
+
+  <example>
+    <p>
+      We can see that a particular point is a part of the curve by substituting the first coordinate in for <m>x</m> in the equation and verifying that it evaluates to the second coordinate.
+      Consider the third point in our list, <m>(1, 4)</m>. The first coordinate is 1 and we'll substitute that in for <m>x</m>:
+      <md>
+        <mrow>3 + 2x - x^2 \amp = 3 + 2(1) - (1^2)</mrow>
+        <mrow> \amp = 3 + 2 - 1</mrow>
+        <mrow> \amp = 4</mrow>
+      </md>
+      This matches the second coordinate, so it makes sense that the dot is on the purple curve.
+    </p>
+  </example>
+
+  <exercise>
+    <statement>
+      <p>
+        Suppose we mark another dot on the purple curve defined by <m>y = 3 + 2x - x^2</m> that has a horizontal coordinate of 2.
+        What the <m>y</m>-coordinate of that point?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We know the two coordinates of a point on the curve must make the equation true.
+        We can determine the value of the right side of the equation by substituting in <m>x = 2</m>.
+        <md>
+          <mrow> 3 + 2x - x^2 \amp = 3 + 2(2) - (2)^2</mrow>
+          <mrow> \amp = 3 + 4 - 4</mrow>
+          <mrow> \amp = 3.</mrow>
+        </md>
+        This tells us that the second coordinate of the point must be equal to 3 if it lies on the purple curve.
+        Indeed, if we count along the grid across 2 and up 3, it appears that the purple curve passes through that point.
+      </p>
+    </solution>
+  </exercise>
+
+  <p>
+    This was a very brief review of the basics of two dimensional graphs.
+    You'll see charts and graphs throughout this book.
+    If you can determine the coordinates of a point on a grid, and use the labels to put meaning to those numbers, then you're all set.
+  </p>
+
 </section>

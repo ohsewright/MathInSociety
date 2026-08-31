@@ -4,15 +4,12 @@
   <title>Geometry</title>
 
   <introduction>
-    <p> Text before the first section. </p>
-
-      <p>
-        Here's another paragraph.
-      </p>
+    <p> Soon this chapter will have material on area, perimeter, and volume and applications of those concepts to quantify gerrymandering</p>
 
    </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-area.ptx" />
+  <xi:include href="exercises-geo.ptx" />
+  <xi:include href="sec-geo_proj.ptx" />
 
 </chapter>

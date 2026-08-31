@@ -33,5 +33,7 @@
   <xi:include href="sec-stat-intro.ptx" />
   <xi:include href="sec-categorical-data.ptx" />
   <xi:include href="sec-numerical-data.ptx" />
+  <xi:include href="exercises-stats.ptx" />
+  <xi:include href="sec-stats_proj.ptx" />
 
 </chapter>

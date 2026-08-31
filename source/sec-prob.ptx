@@ -1,16 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-prob" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>? Problem Solving Strategies</title>
-
-  <p> Maybe Problem Solving Strategies isn't the right thing here...</p>
+  <title>Problem Solving Strategies</title>
 
   <p>
     To start, think about what number the following complicated fractional expression is equal to.<md>
       \frac{1^2 + 2^2 + 3^2 + \cdots + 99^2 + 100^2}{1 + 2 + 3 + \cdots + 99 + 100}
     </md>
+    This maybe isn't something you'd need a numerical value for in everyday life out in the real world, but it does bring up some interesting things to consider.
   </p>
 
+  <p>
+    You could certainly use a calculator or the calculator app on your phone <ellipsis></ellipsis> but that requires punching in a lot of numbers.
+    Maybe a computer could work or you could ask an AI chat bot? 
+    What would you type in to Google or your AI of choice?
+    How do you handle those <ellipsis></ellipsis>?
+  </p>
+
+  <p>
+    There is a pretty good chance you'll end up with the correct final answer if you can ask the right question, but you'd miss some useful things along the way.
+    Figuring out what to ask also involves some abstract thinking about symbols and formulas.
+    One way you could evaluate this is to use a spreadsheet. If that sounds fun, look ahead to <xref ref="sec-spreadsheets"/> and give it a try.
+  </p>
+
+  <p>
+    The thing that makes this problem tricky is how high up those dots go.
+    We can make the problem easier by making that final value smaller.
+    Will that give us any helpful info?
+    We will do the computation ending with a few different small numbers and keep track of our results.
+    You should check these, but feel free to use a calculator.
+  </p>
+
+  <tabular>
+    <row header="yes" bottom="medium">
+      <cell>Ending Value</cell>
+      <cell>Numerator</cell>
+      <cell>Denominator</cell>
+      <cell>Final Answer</cell>
+    </row>
+    <row>
+      <cell>1</cell>
+      <cell>1</cell>
+      <cell>1</cell>
+      <cell>1</cell>
+    </row>
+    <row>
+      <cell>2</cell>
+      <cell><m>1^2 + 2^2 = 1 + 4 = 5</m></cell>
+      <cell><m>1 + 2 = 3</m></cell>
+      <cell><m>1.66...</m></cell>
+    </row>
+    <row>
+      <cell>3</cell>
+      <cell><m>1^2 + 2^2 + 3^2 = 1 + 4 + 9 = 14</m></cell>
+      <cell><m>1 + 2 + 3 = 6</m></cell>
+      <cell><m>2.33...</m></cell>
+    </row>
+    <row>
+      <cell>4</cell>
+      <cell><m>1^2 + 2^2 + 3^2 + 4^2 = 1 + 4 + 9 + 16 = 30</m></cell>
+      <cell><m>1 + 2 + 3 + 4 = 10</m></cell>
+      <cell><m>3</m></cell>
+    </row>
+    <row>
+      <cell>5</cell>
+      <cell><m>1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 1 + 4 + 9 + 16 + 25= 55</m></cell>
+      <cell><m>1 + 2 + 3 + 4 + 5 = 15</m></cell>
+      <cell><m>3.66...</m></cell>
+    </row>
+  </tabular>
+
+  <!--
   <p>
     Why this? It is equal to 67.
     Students can figure out the denominator (maybe with some coaching)... 
@@ -18,5 +78,6 @@
     Too many numbers to type yourself into a calculator or computer... maybe a spreadsheet is a good choice? maybe AI is an okay choice? What would you ask?
     Arithmetic and algebraic ideas
   </p>
+  -->
 
 </section>
